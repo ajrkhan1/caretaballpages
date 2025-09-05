@@ -38,7 +38,7 @@ export default function Header() {
             <nav class="navbar navbar-expand-lg">
                 <div class="container position-relative">
                     <a class="navbar-brand" href="/">
-                        <img src="assets/img/logo/logo.png" alt="logo"/>
+                        <img src="/assets/img/logo/logo.png" alt="logo"/>
                     </a>
                     <div class="mobile-menu-right">
                         {/* <div class="mobile-menu-btn">
@@ -57,7 +57,7 @@ export default function Header() {
                         aria-labelledby="offcanvasNavbarLabel">
                         <div class="offcanvas-header">
                             <a href="index-2.html" class="offcanvas-brand" id="offcanvasNavbarLabel">
-                                <img src="assets/img/logo/logo.png" alt=""/>
+                                <img src="/assets/img/logo/logo.png" alt=""/>
                             </a>
                             <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"><i
                                     class="far fa-xmark"></i></button>
@@ -69,7 +69,10 @@ export default function Header() {
                                 </li>
                                 
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link" href="/#our-services">Services</a>                                    
+                                    <a class="nav-link dropdown-toggle" href="/#our-services">Services</a>
+                                     <ul class="dropdown-menu fade-down">
+                                        <li><a class="dropdown-item" href="/service/nursing-care-at-home">Nursing Care at Home</a></li>
+                                    </ul>
                                 </li>
 
 
@@ -112,7 +115,7 @@ export default function Header() {
     <div class="sidebar-popup offcanvas offcanvas-end" tabindex="-1" id="sidebarPopup">
         <div class="offcanvas-header">
             <a href="index-2.html" class="sidebar-popup-logo">
-                <img src="assets/img/logo/logo.png" alt=""/>
+                <img src="/assets/img/logo/logo.png" alt=""/>
             </a>
             <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close">
                 <i class="far fa-xmark"></i>

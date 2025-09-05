@@ -351,7 +351,7 @@ export default function Home() {
                         </div>
                         <div class="col-lg-5">
                             <div class="contact-img">
-                                <img src="assets/img/contact/01.jpg" alt=""/>
+                                <img src="/assets/img/contact/01.jpg" alt=""/>
                             </div>
                         </div>
                     </div>

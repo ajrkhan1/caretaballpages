@@ -13,7 +13,7 @@ export default function Footer() {
                         <div class="col-lg-5">
                             <div class="footer-widget-box about-us">
                                 <a href="#" class="footer-logo">
-                                    <img src="assets/img/logo/footerlogo1.png" alt=""/>
+                                    <img src="/assets/img/logo/footerlogo1.png" alt=""/>
                                 </a>
                                 <p class="mb-4">
                                     Care[T.A.B.].ai is built and managed by a team of experienced doctors and nurses. Using all-round healthcare technology, we deliver reliable, efficient & high-quality medical care, right where you are.
@@ -106,7 +106,7 @@ export default function Footer() {
                 <div class="row">
                     <div class="col-md-6 align-self-center">
                         <p class="copyright-text">
-                             <a href="#">  <img width="300px" src="assets/img/logo/caretabx.png" alt=""/> </a>
+                             <a href="#">  <img width="300px" src="/assets/img/logo/caretabx.png" alt=""/> </a>
                         </p>
                     </div>
                     <div class="col-md-5 align-self-center">

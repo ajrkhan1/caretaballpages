@@ -1,0 +1,72 @@
+.zindexxx{
+    z-index: 1000;
+}
+
+.nursingcarebanner{
+  background-image: url(/assets/img/nursingcare/nursing-care-banner-1.jpg);
+  background-position: center top !important;
+}
+.text-justify{text-align: justify;}
+.nursingcarebanner::before {
+    background: linear-gradient(to bottom right, rgb(0 141 210 / 44%) 5%, rgb(67 74 74 / 51%) 70%) !important;
+}
+
+.nursingbg1{
+    background-image: url(/assets/img/nursingcare/nursin-h-1.jpg);
+}
+
+.ddbb{
+    background-image: url(/assets/img/service/bg.jpg);
+}
+.nursingiconbox .choose-item{
+padding: 5px;
+min-height: 150px;
+box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.nursingiconbox .choose-item img{
+    width: 60%;
+}
+
+.nursingiconbox .choose-item-info h4{font-size: 15px;}
+.nursingxd {
+    min-height: 300px;
+    background-image: url(/assets/img/nursingcare/nursing-3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    border-radius: 30px;
+}
+
+.typesofnursing{
+    background-image: url(/assets/img/nursingcare/sercalbg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 0px;
+}
+
+.imgdest{
+    position: absolute;
+    --e-transform-flipX: -1;
+    left: -15%;
+    bottom: -30px;
+    z-index: -1;    
+    transform: perspective(var(--e-transform-perspective, 0)) rotate(var(--e-transform-rotateZ, 0)) rotateX(var(--e-transform-rotateX, 0)) rotateY(var(--e-transform-rotateY, 0)) translate(var(--e-transform-translate, 0)) translateX(var(--e-transform-translateX, 0)) translateY(var(--e-transform-translateY, 0)) scaleX(calc(var(--e-transform-flipX, 1) * var(--e-transform-scaleX, var(--e-transform-scale, 1)))) scaleY(calc(var(--e-transform-flipY, 1) * var(--e-transform-scaleY, var(--e-transform-scale, 1)))) skewX(var(--e-transform-skewX, 0)) skewY(var(--e-transform-skewY, 0));
+    transform-origin: var(--e-transform-origin-y) var(--e-transform-origin-x);
+}
+.listicon li{
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+}
+.listicon li img{
+    width: 20px;
+    margin-top: 7px;
+    padding-right:5px;
+}
+
+.listicon li p{
+    font-size: 15px;
+    margin: 0px;
+    padding: 0px;
+}

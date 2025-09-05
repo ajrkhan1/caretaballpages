@@ -24,7 +24,7 @@ export default function Document() {
           />
 
 <meta name="google-site-verification" content="ixATtSIQfTx5tz4p94pKoukNK5y480ak4wmsRJzAkiA" />
-    <link rel="icon" type="image/x-icon" href="assets/img/logo/favicon.png"/>
+    <link rel="icon" type="image/x-icon" href="/assets/img/logo/favicon.png"/>
     <link rel="stylesheet" href="/assets/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="/assets/css/all-fontawesome.min.css"/>
     <link rel="stylesheet" href="/assets/css/animate.min.css"/>

@@ -306,7 +306,7 @@ export default function Home() {
                                 <div className="hero-content ajcx hideinmobile">
                                     <br></br>
                                      <h6 className="hero-sub-title wow fadeInUp" data-delay=".25s">
-                                        <i><img className="brandiconw" src="assets/img/icon/brandicon.png" alt=""/></i> Your health partner for life
+                                        <i><img className="brandiconw" src="/assets/img/icon/brandicon.png" alt=""/></i> Your health partner for life
                                     </h6>
                                     <div className="fxit">
                                        
@@ -327,7 +327,7 @@ export default function Home() {
 
                              <div className="hero-content hideindestop">
                                      <h6 className="hero-sub-title wow fadeInUp" data-delay=".25s">
-                                        <i><img className="brandiconw" src="assets/img/icon/brandicon.png" alt=""/></i> Your health partner for life
+                                        <i><img className="brandiconw" src="/assets/img/icon/brandicon.png" alt=""/></i> Your health partner for life
                                     </h6>
 
                                      <div className="hero-btn wow fadeInUp" data-delay="1s">
@@ -359,7 +359,7 @@ export default function Home() {
                                             <div class="sbox" onClick={() => {  setModalOpen(!modalOpen); setSelectedService('Doctor Consultations'); }}>                                        
                                             
                                                 <div class="sicon" >
-                                                    <img src="assets/img/icon/doctor-consultation.png" alt=""/>
+                                                    <img src="/assets/img/icon/doctor-consultation.png" alt=""/>
                                                 </div>
                                                 <div class="servicetitle">
                                                     <h4>
@@ -374,7 +374,7 @@ export default function Home() {
                                         <div class="wow fadeInUp" data-wow-delay=".25s">
                                             <div class="sbox" onClick={() => {  setModalOpen(!modalOpen); setSelectedService('Nursing Care'); }}>
                                                 <div class="sicon">
-                                                    <img src="assets/img/icon/medical-teamx.png" alt=""/>
+                                                    <img src="/assets/img/icon/medical-teamx.png" alt=""/>
                                                 </div>
                                                 <div class="servicetitle">
                                                     <h4>
@@ -389,7 +389,7 @@ export default function Home() {
                                         <div class="wow fadeInUp" data-wow-delay=".25s">
                                             <div class="sbox" onClick={() => {  setModalOpen(!modalOpen); setSelectedService('ICU Setup at Home'); }}>
                                                 <div class="sicon">
-                                                    <img src="assets/img/icon/icu.png" alt=""/>
+                                                    <img src="/assets/img/icon/icu.png" alt=""/>
                                                 </div>
                                                 <div class="servicetitle">
                                                     <h4>
@@ -404,7 +404,7 @@ export default function Home() {
                                         <div class="wow fadeInUp" data-wow-delay=".25s">
                                             <div class="sbox" onClick={() => {  setModalOpen(!modalOpen); setSelectedService('Home Physiotherapy'); }}>
                                                 <div class="sicon">
-                                                    <img src="assets/img/icon/people.png" alt=""/>
+                                                    <img src="/assets/img/icon/people.png" alt=""/>
                                                 </div>
                                                 <div class="servicetitle">
                                                     <h4>
@@ -419,7 +419,7 @@ export default function Home() {
                                         <div class="wow fadeInUp" data-wow-delay=".25s">
                                             <div class="sbox" onClick={() => {  setModalOpen(!modalOpen); setSelectedService('Diagnostics'); }}>
                                                 <div class="sicon">
-                                                    <img src="assets/img/icon/wellness.png" alt=""/>
+                                                    <img src="/assets/img/icon/wellness.png" alt=""/>
                                                 </div>
                                                 <div class="servicetitle">
                                                     <h4>
@@ -434,7 +434,7 @@ export default function Home() {
                                         <div class="wow fadeInUp" data-wow-delay=".25s">
                                             <div class="sbox" onClick={() => {  setModalOpen(!modalOpen); setSelectedService('Medical Equipment'); }}>
                                                 <div class="sicon">
-                                                    <img src="assets/img/icon/ventilation.png" alt=""/>
+                                                    <img src="/assets/img/icon/ventilation.png" alt=""/>
                                                 </div>
                                                 <div class="servicetitle">
                                                     <h4>
@@ -473,7 +473,7 @@ export default function Home() {
                                             <div class="sbox" onClick={() => {  setModalOpen(!modalOpen); setSelectedService('Doctor Consultations'); }}>                                        
                                             
                                                 <div class="sicon" >
-                                                    <img src="assets/img/icon/doctor-consultation.png" alt=""/>
+                                                    <img src="/assets/img/icon/doctor-consultation.png" alt=""/>
                                                 </div>
                                                 <div class="servicetitle">
                                                     <h4>
@@ -488,7 +488,7 @@ export default function Home() {
                                         <div class="wow fadeInUp" data-wow-delay=".25s">
                                             <div class="sbox" onClick={() => {  setModalOpen(!modalOpen); setSelectedService('Nursing Care'); }}>
                                                 <div class="sicon">
-                                                    <img src="assets/img/icon/medical-teamx.png" alt=""/>
+                                                    <img src="/assets/img/icon/medical-teamx.png" alt=""/>
                                                 </div>
                                                 <div class="servicetitle">
                                                     <h4>
@@ -503,7 +503,7 @@ export default function Home() {
                                         <div class="wow fadeInUp" data-wow-delay=".25s">
                                             <div class="sbox" onClick={() => {  setModalOpen(!modalOpen); setSelectedService('ICU Setup at Home'); }}>
                                                 <div class="sicon">
-                                                    <img src="assets/img/icon/icu.png" alt=""/>
+                                                    <img src="/assets/img/icon/icu.png" alt=""/>
                                                 </div>
                                                 <div class="servicetitle">
                                                     <h4>
@@ -518,7 +518,7 @@ export default function Home() {
                                         <div class="wow fadeInUp" data-wow-delay=".25s">
                                             <div class="sbox" onClick={() => {  setModalOpen(!modalOpen); setSelectedService('Home Physiotherapy'); }}>
                                                 <div class="sicon">
-                                                    <img src="assets/img/icon/people.png" alt=""/>
+                                                    <img src="/assets/img/icon/people.png" alt=""/>
                                                 </div>
                                                 <div class="servicetitle">
                                                     <h4>
@@ -533,7 +533,7 @@ export default function Home() {
                                         <div class="wow fadeInUp" data-wow-delay=".25s">
                                             <div class="sbox" onClick={() => {  setModalOpen(!modalOpen); setSelectedService('Diagnostics'); }}>
                                                 <div class="sicon">
-                                                    <img src="assets/img/icon/wellness.png" alt=""/>
+                                                    <img src="/assets/img/icon/wellness.png" alt=""/>
                                                 </div>
                                                 <div class="servicetitle">
                                                     <h4>
@@ -548,7 +548,7 @@ export default function Home() {
                                         <div class="wow fadeInUp" data-wow-delay=".25s">
                                             <div class="sbox" onClick={() => {  setModalOpen(!modalOpen); setSelectedService('Medical Equipment'); }}>
                                                 <div class="sicon">
-                                                    <img src="assets/img/icon/ventilation.png" alt=""/>
+                                                    <img src="/assets/img/icon/ventilation.png" alt=""/>
                                                 </div>
                                                 <div class="servicetitle">
                                                     <h4>
@@ -580,7 +580,7 @@ export default function Home() {
                 <div class="row">
                     <div class="col-lg-8 mx-auto">
                         <div class="site-heading text-center pt-30">
-                            <span class="site-title-tagline"><i class="far"><img className="brandiconw" src="assets/img/icon/brandicon.png" alt=""/></i>Our Care Services</span>
+                            <span class="site-title-tagline"><i class="far"><img className="brandiconw" src="/assets/img/icon/brandicon.png" alt=""/></i>Our Care Services</span>
                             <h2 class="site-title">We don’t just treat patients, <br className="dnmob"></br><span>We support families</span></h2>
                         </div>
                     </div>
@@ -590,11 +590,11 @@ export default function Home() {
                         <div class="service-item wow fadeInUp" data-wow-delay=".25s">
                             <span class="count">01</span>
                             <div class="service-img">
-                                <img src="assets/img/service/doctor-consultations.jpg" alt=""/>
+                                <img src="/assets/img/service/doctor-consultations.jpg" alt=""/>
                             </div>
                             <div class="service-info">
                                 <div class="service-icon">
-                                    <img src="assets/img/icon/doctor-consultation.png" alt=""/>
+                                    <img src="/assets/img/icon/doctor-consultation.png" alt=""/>
                                 </div>
                                 <div class="service-content">
                                     <h4 class="service-title">
@@ -612,11 +612,11 @@ export default function Home() {
                         <div class="service-item wow fadeInUp" data-wow-delay=".50s">
                             <span class="count">02</span>
                             <div class="service-img">
-                                <img src="assets/img/service/nursing-care.jpg" alt=""/>
+                                <img src="/assets/img/service/nursing-care.jpg" alt=""/>
                             </div>
                             <div class="service-info">
                                 <div class="service-icon">
-                                    <img src="assets/img/icon/nurse.svg" alt=""/>
+                                    <img src="/assets/img/icon/nurse.svg" alt=""/>
                                 </div>
                                 <div class="service-content">
                                     <h4 class="service-title">
@@ -634,11 +634,11 @@ export default function Home() {
                         <div class="service-item wow fadeInUp" data-wow-delay=".75s">
                             <span class="count">03</span>
                             <div class="service-img">
-                                <img src="assets/img/service/icu.jpg" alt=""/>
+                                <img src="/assets/img/service/icu.jpg" alt=""/>
                             </div>
                             <div class="service-info">
                                 <div class="service-icon">
-                                    <img src="assets/img/icon/icu.png" alt=""/>
+                                    <img src="/assets/img/icon/icu.png" alt=""/>
                                 </div>
                                 <div class="service-content">
                                     <h4 class="service-title">
@@ -656,11 +656,11 @@ export default function Home() {
                         <div class="service-item wow fadeInUp" data-wow-delay=".25s">
                             <span class="count">04</span>
                             <div class="service-img">
-                                <img src="assets/img/service/physiotherapy.jpg" alt=""/>
+                                <img src="/assets/img/service/physiotherapy.jpg" alt=""/>
                             </div>
                             <div class="service-info">
                                 <div class="service-icon">
-                                    <img src="assets/img/icon/people.png" alt=""/>
+                                    <img src="/assets/img/icon/people.png" alt=""/>
                                 </div>
                                 <div class="service-content">
                                     <h4 class="service-title">
@@ -682,7 +682,7 @@ export default function Home() {
                             </div>
                             <div class="service-info">
                                 <div class="service-icon">
-                                    <img src="assets/img/icon/wellness.png" alt=""/>
+                                    <img src="/assets/img/icon/wellness.png" alt=""/>
                                 </div>
                                 <div class="service-content">
                                     <h4 class="service-title">
@@ -700,11 +700,11 @@ export default function Home() {
                         <div class="service-item wow fadeInUp" data-wow-delay=".75s">
                             <span class="count">06</span>
                             <div class="service-img">
-                                <img src="assets/img/service/medical-equipment.jpg" alt=""/>
+                                <img src="/assets/img/service/medical-equipment.jpg" alt=""/>
                             </div>
                             <div class="service-info">
                                 <div class="service-icon">
-                                    <img src="assets/img/icon/ventilation.png" alt=""/>
+                                    <img src="/assets/img/icon/ventilation.png" alt=""/>
                                 </div>
                                 <div class="service-content">
                                     <h4 class="service-title">
@@ -729,7 +729,7 @@ export default function Home() {
                 <div class="row g-4 align-items-center justify-content-between wow fadeInDown" data-wow-delay=".25s">
                     <div class="col-lg-6">
                         <div class="site-heading mb-0">
-                            <span class="site-title-tagline"><i class="far"><img className="brandiconw" src="assets/img/icon/brandicon.png" alt=""/></i> Why Care[T.A.B]?</span>
+                            <span class="site-title-tagline"><i class="far"><img className="brandiconw" src="/assets/img/icon/brandicon.png" alt=""/></i> Why Care[T.A.B]?</span>
                             <h2 class="site-title colorwhite">Because healing is more than <br className="dnmob"></br><span className="colororange">just medicine</span></h2>
                             <br></br>
                         </div>
@@ -746,7 +746,7 @@ export default function Home() {
                                     <div class="col-md-6">
                                         <div class="about-item align-items-center">
                                             <div class="icon">
-                                                <img src="assets/img/icon/citizen.png" alt=""/>
+                                                <img src="/assets/img/icon/citizen.png" alt=""/>
                                             </div>
                                             <div class="choose-item-info">
                                                 <h4 className="margobb0">Endorsed by Leading Hospitals & Clinicians</h4>
@@ -757,7 +757,7 @@ export default function Home() {
                                     <div class="col-md-6">
                                        <div class="about-item align-items-center">
                                             <div class="icon">
-                                                <img src="assets/img/icon/help.png" alt=""/>
+                                                <img src="/assets/img/icon/help.png" alt=""/>
                                             </div>
                                             <div class="choose-item-info">
                                                 <h4 className="margobb0">Managed & Run by Expert Doctors</h4>
@@ -768,7 +768,7 @@ export default function Home() {
                                     <div class="col-md-6">
                                        <div class="about-item align-items-center">
                                             <div class="icon">
-                                                <img src="assets/img/icon/protocol.png" alt=""/>
+                                                <img src="/assets/img/icon/protocol.png" alt=""/>
                                             </div>
                                             <div class="choose-item-info">
                                                 <h4 className="margobb0">Follows Global Standard Medical Protocols</h4>
@@ -779,7 +779,7 @@ export default function Home() {
                                     <div class="col-md-6">
                                        <div class="about-item align-items-center">
                                             <div class="icon">
-                                                <img src="assets/img/icon/medical-team.png" alt=""/>
+                                                <img src="/assets/img/icon/medical-team.png" alt=""/>
                                             </div>
                                             <div class="choose-item-info">
                                                 <h4 className="margobb0">Qualified & Verified Medical Staff</h4>
@@ -791,7 +791,7 @@ export default function Home() {
                                     <div class="col-md-6">
                                         <div class="about-item align-items-center about-iteml">
                                             <div class="icon">
-                                                <img src="assets/img/icon/support-2.svg" alt=""/>
+                                                <img src="/assets/img/icon/support-2.svg" alt=""/>
                                             </div>
                                             <div class="choose-item-info">
                                                 <h4 className="margobb0">24/7 Patient Monitoring & Support</h4>
@@ -803,7 +803,7 @@ export default function Home() {
                                     <div class="col-md-6">
                                        <div class="about-item align-items-center about-iteml">
                                             <div class="icon">
-                                                <img src="assets/img/icon/certified.svg" alt=""/>
+                                                <img src="/assets/img/icon/certified.svg" alt=""/>
                                             </div>
                                             <div class="choose-item-info">
                                                 <h4 className="margobb0">Al-Enabled 360° Personalized Healthcare</h4>
@@ -818,7 +818,7 @@ export default function Home() {
                     </div>
                     <div class="col-lg-5 whycaretab">
                         <div class="choose-img wow fadeInRight" data-wow-delay=".25s">
-                            {/* <img src="assets/img/choose/01.jpg" alt=""/> */}
+                            {/* <img src="/assets/img/choose/01.jpg" alt=""/> */}
                         </div>
                            <span id="about-us"></span>
                     </div>
@@ -838,14 +838,14 @@ export default function Home() {
                             <div class="about-img">
                                 <div class="row">
                                     <div class="col-6">
-                                        <img class="img-1" src="assets/img/about/01.jpg" alt=""/>                                        
+                                        <img class="img-1" src="/assets/img/about/01.jpg" alt=""/>                                        
                                     </div>
                                     <div class="col-6">
                                         <div class="img-2">
-                                            <img src="assets/img/about/02.jpg" alt=""/>
+                                            <img src="/assets/img/about/02.jpg" alt=""/>
                                         </div>
                                         <div class="img-3">
-                                            <img src="assets/img/about/03.jpg" alt=""/>
+                                            <img src="/assets/img/about/03.jpg" alt=""/>
                                         </div>
                                     </div>
                                 </div>
@@ -855,7 +855,7 @@ export default function Home() {
                     <div class="col-lg-6">
                         <div class="about-right wow fadeInUp" data-wow-delay=".25s">
                             <div class="site-heading mb-3">
-                                <span class="site-title-tagline"><i class="far"><img className="brandiconw" src="assets/img/icon/brandicon.png" alt=""/></i> About Us</span>
+                                <span class="site-title-tagline"><i class="far"><img className="brandiconw" src="/assets/img/icon/brandicon.png" alt=""/></i> About Us</span>
                                 <h2 class="site-title">Hospital-quality care <br></br><span >to your home</span> </h2>
                             </div>
                             <p class="about-text">Care[T.A.B].ai envisions building a quality-driven, outcome-focused, and tech-enabled ecosystem for healthcare delivery beyond hospital walls. 
@@ -867,7 +867,7 @@ export default function Home() {
                                    <div class="col-lg-6 col-sm-6">
                                         <div class="counter-box">
                                             <div class="icon">
-                                                <img src="assets/img/icon/experience.png" alt=""/>
+                                                <img src="/assets/img/icon/experience.png" alt=""/>
                                             </div>
                                             <div>
                                                 <span class="counterx" data-count="+" data-to="6560" data-speed="3000">4+</span>
@@ -879,7 +879,7 @@ export default function Home() {
                                     <div class="col-lg-6 col-sm-6">
                                         <div class="counter-box">
                                             <div class="icon">
-                                                <img src="assets/img/icon/customer-service.png" alt=""/>
+                                                <img src="/assets/img/icon/customer-service.png" alt=""/>
                                             </div>
                                             <div>
                                                 <span class="counterx" data-count="+" data-to="7320" data-speed="3000">10200+</span>
@@ -891,7 +891,7 @@ export default function Home() {
                                     <div class="col-lg-6 col-sm-6">
                                         <div class="counter-box">
                                             <div class="icon">
-                                                <img src="assets/img/icon/teamwork.png" alt=""/>
+                                                <img src="/assets/img/icon/teamwork.png" alt=""/>
                                             </div>
                                             <div>
                                                 <span class="counterx" data-count="+" data-to="1500" data-speed="3000">300+</span>
@@ -903,7 +903,7 @@ export default function Home() {
                                     <div class="col-lg-6 col-sm-6">
                                         <div class="counter-box">
                                             <div class="icon">
-                                                <img src="assets/img/icon/deal.png" alt=""/>
+                                                <img src="/assets/img/icon/deal.png" alt=""/>
                                             </div>
                                             <div>
                                                 <span class="counterx" data-count="+" data-to="50" data-speed="3000">12+</span>
@@ -932,7 +932,7 @@ export default function Home() {
                         <div class="site-heading text-center wow fadeInDown" data-wow-delay=".25s">
                             <h2 class="site-title">Exclusive Home Health Care Partner of <img width="130px" src="/assets/img/logo/aakash-healthcare-logo.png"/></h2>
                             <br></br>
-                            <span class="site-title-tagline"><i class="far"><img className="brandiconw" src="assets/img/icon/brandicon.png" alt=""/></i>24X7 Medical Command Center</span>
+                            <span class="site-title-tagline"><i class="far"><img className="brandiconw" src="/assets/img/icon/brandicon.png" alt=""/></i>24X7 Medical Command Center</span>
                             <br></br>
                             <h2 class="site-title">Leading Healthcare <span>Professionals</span></h2>
                         </div>
@@ -942,7 +942,7 @@ export default function Home() {
                     <div class="col-md-6 col-lg-3">
                         <div class="team-item wow fadeInUp" data-wow-delay=".25s">
                             <div class="team-img">
-                                <img src="assets/img/team/dr-tarang-bhatia.jpg" alt="thumb"/>
+                                <img src="/assets/img/team/dr-tarang-bhatia.jpg" alt="thumb"/>
                                 <div class="team-social-wrap">
                                     <div class="team-social-btn">
                                         <a href="#"><button type="button"><i class="fab fa-linkedin-in"></i></button></a>
@@ -964,7 +964,7 @@ export default function Home() {
                     <div class="col-md-6 col-lg-3">
                         <div class="team-item wow fadeInUp" data-wow-delay=".50s">
                             <div class="team-img">
-                                <img src="assets/img/team/dr-megha-yadav.jpg" alt="thumb"/>
+                                <img src="/assets/img/team/dr-megha-yadav.jpg" alt="thumb"/>
                                <div class="team-social-wrap">
                                     <div class="team-social-btn">
                                         <a href="#"><button type="button"><i class="fab fa-linkedin-in"></i></button></a>
@@ -986,7 +986,7 @@ export default function Home() {
                     <div class="col-md-6 col-lg-3">
                         <div class="team-item wow fadeInUp" data-wow-delay=".75s">
                             <div class="team-img">
-                                <img src="assets/img/team/khushboo-kumari-n.jpg" alt="thumb"/>
+                                <img src="/assets/img/team/khushboo-kumari-n.jpg" alt="thumb"/>
                                 <div class="team-social-wrap">
                                     <div class="team-social-btn">
                                         <a href="#"><button type="button"><i class="fab fa-linkedin-in"></i></button></a>
@@ -1008,7 +1008,7 @@ export default function Home() {
                     <div class="col-md-6 col-lg-3">
                         <div class="team-item wow fadeInUp" data-wow-delay="1s">
                             <div class="team-img">
-                                <img src="assets/img/team/kapil-dalal-n.jpg" alt="thumb"/>
+                                <img src="/assets/img/team/kapil-dalal-n.jpg" alt="thumb"/>
                                 <div class="team-social-wrap">
                                     <div class="team-social-btn">
                                         <a href="#"><button type="button"><i class="fab fa-linkedin-in"></i></button></a>
@@ -1106,7 +1106,7 @@ export default function Home() {
                         </div>
                         <div class="col-lg-5">
                             <div class="quote-img">
-                                <img src="assets/img/quote/01.jpg" alt=""/>
+                                <img src="/assets/img/quote/01.jpg" alt=""/>
                             </div>
                         </div>
                     </div>
@@ -1120,7 +1120,7 @@ export default function Home() {
                 <div class="row align-items-center">
                     <div class="col-lg-3">
                         <div class="wow fadeInDown" data-wow-delay=".25s">
-                            <span class="site-title-tagline"><i class="far"><img className="brandiconw" src="assets/img/icon/brandicon.png" alt=""/></i> Testimonials</span>
+                            <span class="site-title-tagline"><i class="far"><img className="brandiconw" src="/assets/img/icon/brandicon.png" alt=""/></i> Testimonials</span>
                             <h2 class="site-title text-white">Voices of Care</h2>
                             <p class="text-white text-whitex">
                                 Every family we serve has a story of trust, healing, and comfort. These real experiences reflect how Care[T.A.B].ai brings
@@ -1136,7 +1136,7 @@ export default function Home() {
                                 <div class="testimonial-quote">
                                     <span class="testimonial-quote-icon"><i class="fal fa-quote-right"></i></span>
                                     <div class="testimonial-shadow-icon">
-                                        <img src="assets/img/icon/quote.svg" alt=""/>
+                                        <img src="/assets/img/icon/quote.svg" alt=""/>
                                     </div>
                                     <p>
                                         “As ICU Incharge, I have seen many patients who need continued care after discharge. CareTAB has been a reliable partner in ensuring this transition is smooth and safe. Their trained nursing staff, timely response, and professional approach give us the confidence that our patients are in good hands once they return home.”
@@ -1151,7 +1151,7 @@ export default function Home() {
                                 </div>
                                 <div class="testimonial-content">
                                     <div class="testimonial-author-img">
-                                        <img src="assets/img/testimonial/01.jpg" alt=""/>
+                                        <img src="/assets/img/testimonial/01.jpg" alt=""/>
                                     </div>
                                     <div class="testimonial-author-info">
                                         <h4>Dr.Ajit</h4>
@@ -1164,7 +1164,7 @@ export default function Home() {
                                 <div class="testimonial-quote">
                                     <span class="testimonial-quote-icon"><i class="fal fa-quote-right"></i></span>
                                     <div class="testimonial-shadow-icon">
-                                        <img src="assets/img/icon/quote.svg" alt=""/>
+                                        <img src="/assets/img/icon/quote.svg" alt=""/>
                                     </div>
                                     <p>
                                         Care[T.A.B].ai Team responded promptly when I needed urgent help at home. Their expert treatment restored my mobility and comfort in just few sessions. Care[T.A.B].ai has shown how healthcare can be both professional and deeply caring"
@@ -1179,7 +1179,7 @@ export default function Home() {
                                 </div>
                                 <div class="testimonial-content">
                                     <div class="testimonial-author-img">
-                                        <img src="assets/img/testimonial/02.jpg" alt=""/>
+                                        <img src="/assets/img/testimonial/02.jpg" alt=""/>
                                     </div>
                                     <div class="testimonial-author-info">
                                         <h4>Avinash Chander Vadhera</h4>
@@ -1196,7 +1196,7 @@ export default function Home() {
                                 <div class="testimonial-quote">
                                     <span class="testimonial-quote-icon"><i class="fal fa-quote-right"></i></span>
                                     <div class="testimonial-shadow-icon">
-                                        <img src="assets/img/icon/quote.svg" alt=""/>
+                                        <img src="/assets/img/icon/quote.svg" alt=""/>
                                     </div>
                                     <p>
                                         “As ICU Incharge, I have seen many patients who need continued care after discharge. CareTAB has been a reliable partner in ensuring this transition is smooth and safe. Their trained nursing staff, timely response, and professional approach give us the confidence that our patients are in good hands once they return home.”
@@ -1211,7 +1211,7 @@ export default function Home() {
                                 </div>
                                 <div class="testimonial-content">
                                     <div class="testimonial-author-img">
-                                        <img src="assets/img/testimonial/01.jpg" alt=""/>
+                                        <img src="/assets/img/testimonial/01.jpg" alt=""/>
                                     </div>
                                     <div class="testimonial-author-info">
                                         <h4>Dr.Ajit</h4>
@@ -1224,7 +1224,7 @@ export default function Home() {
                                 <div class="testimonial-quote">
                                     <span class="testimonial-quote-icon"><i class="fal fa-quote-right"></i></span>
                                     <div class="testimonial-shadow-icon">
-                                        <img src="assets/img/icon/quote.svg" alt=""/>
+                                        <img src="/assets/img/icon/quote.svg" alt=""/>
                                     </div>
                                     <p>
                                         Care[T.A.B].ai Team responded promptly when I needed urgent help at home. Their expert treatment restored my mobility and comfort in just few sessions. Care[T.A.B].ai has shown how healthcare can be both professional and deeply caring"
@@ -1239,7 +1239,7 @@ export default function Home() {
                                 </div>
                                 <div class="testimonial-content">
                                     <div class="testimonial-author-img">
-                                        <img src="assets/img/testimonial/02.jpg" alt=""/>
+                                        <img src="/assets/img/testimonial/02.jpg" alt=""/>
                                     </div>
                                     <div class="testimonial-author-info">
                                         <h4>Avinash Chander Vadhera</h4>
