@@ -426,7 +426,7 @@ export default function Physiotherapy() {
                                                                         </div>
                                                                         <div class="choose-item-info">
                                                                             <h4 className="margobb0">Orthopedic Rehabilitation</h4>
-                                                                            {/* <p>Trusted hospital backing. Reliable care at home.</p> */}
+                                                                            
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -439,7 +439,7 @@ export default function Physiotherapy() {
                                                                         </div>
                                                                         <div class="choose-item-info">
                                                                             <h4 className="margobb0">Neurological Rehabilitation</h4>
-                                                                            {/* <p>Doctors lead your care, not just approve it.</p> */}
+                                                                            
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -452,7 +452,7 @@ export default function Physiotherapy() {
                                                                         </div>
                                                                         <div class="choose-item-info">
                                                                             <h4 className="margobb0">Pediatric Rehabilitation</h4>
-                                                                            {/* <p>We follow the same standards as hospitals.</p> */}
+                                                                            
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -465,7 +465,7 @@ export default function Physiotherapy() {
                                                                         </div>
                                                                         <div class="choose-item-info">
                                                                             <h4 className="margobb0">Geriatric Rehabilitation</h4>
-                                                                            {/* <p>Trained, certified nurses and caregivers.</p> */}
+                                                                           
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -479,7 +479,7 @@ export default function Physiotherapy() {
                                                                         </div>
                                                                         <div class="choose-item-info">
                                                                             <h4 className="margobb0">Post Surgical Rehabilitation</h4>
-                                                                            {/* <p>Trained, certified nurses and caregivers.</p> */}
+                                                                        
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -493,7 +493,7 @@ export default function Physiotherapy() {
                                                                         </div>
                                                                         <div class="choose-item-info">
                                                                             <h4 className="margobb0">Musculoskeletal Physiotherapy</h4>
-                                                                            {/* <p>Trained, certified nurses and caregivers.</p> */}
+                                                                         
                                                                         </div>
                                                                     </div>
                                                                 </div>

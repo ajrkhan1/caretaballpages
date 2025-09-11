@@ -322,7 +322,7 @@ export default function ICUSetupatHome() {
                             </div>
                         </div>
                         <div class="col-lg-6">
-                            <div class="video-content wow fadeInRight nursingbg1" data-wow-delay=".25s">
+                            <div class="video-content wow fadeInRight icusetupi1" data-wow-delay=".25s">
                                 <a class="play-btn" href="#">
                                     <i class="fas fa-play"></i>
                                 </a>
@@ -463,7 +463,7 @@ export default function ICUSetupatHome() {
 
 
            
-            <div class="choose-area pt-50 pb-50 planebg">
+            {/* <div class="choose-area pt-50 pb-50 planebg">
                 <div class="container">
                     <div className="row">
                         <div className="col">
@@ -492,7 +492,7 @@ export default function ICUSetupatHome() {
                                                             </div>
                                                             <div class="choose-item-info">
                                                                 <h4 className="margobb0">Post-Surgical & Recovery Care</h4>
-                                                                {/* <p>Trusted hospital backing. Reliable care at home.</p> */}
+                                                                
                                                             </div>
                                                         </div>
                                                     </div>
@@ -505,7 +505,7 @@ export default function ICUSetupatHome() {
                                                             </div>
                                                             <div class="choose-item-info">
                                                                 <h4 className="margobb0">Chronic & Long-Term Illness Care </h4>
-                                                                {/* <p>Doctors lead your care, not just approve it.</p> */}
+                                                                
                                                             </div>
                                                         </div>
                                                     </div>
@@ -518,7 +518,7 @@ export default function ICUSetupatHome() {
                                                             </div>
                                                             <div class="choose-item-info">
                                                                 <h4 className="margobb0">Palliative & End-of-Life Care</h4>
-                                                                {/* <p>We follow the same standards as hospitals.</p> */}
+                                                                
                                                             </div>
                                                         </div>
                                                     </div>
@@ -531,7 +531,7 @@ export default function ICUSetupatHome() {
                                                             </div>
                                                             <div class="choose-item-info">
                                                                 <h4 className="margobb0">Specialised Medical Care  Package</h4>
-                                                                {/* <p>Trained, certified nurses and caregivers.</p> */}
+                                                                
                                                             </div>
                                                         </div>
                                                     </div>
@@ -756,7 +756,7 @@ export default function ICUSetupatHome() {
                         </div>
                     </Tabs>
                 </div>
-            </div>
+            </div> */}
           
 
 
