@@ -69,7 +69,7 @@ export default function Header() {
                                 </li>
                                 
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="/#our-services">Services</a>
+                                    <a class="nav-link dropdown-toggle" href="/#our-services" data-bs-toggle="dropdown">Services</a>
                                      <ul class="dropdown-menu fade-down">
                                         <li><a class="dropdown-item" href="/service/nursing-care-at-home">Nursing Care at Home</a></li>
                                         <li><a class="dropdown-item" href="/service/doctor-consultation-at-home">Doctor Consultation at Home</a></li>
