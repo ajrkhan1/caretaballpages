@@ -2,13 +2,13 @@
     z-index: 1000;
 }
 
-.nursingcarebanner{
-  background-image: url(/assets/img/nursingcare/nursing-care-banner-1.jpg);
+.doctorcarebanner{
+  background-image: url(/assets/img/nursingcare/doctor-care-banner-1.jpg);
   background-position: center top !important;
   background-size: cover;
 }
 .text-justify{text-align: justify;}
-.nursingcarebanner::before {
+.doctorcarebanner::before {
     background: linear-gradient(to bottom right, rgb(0 141 210 / 44%) 5%, rgb(67 74 74 / 51%) 70%) !important;
 }
 
@@ -29,9 +29,9 @@ box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 
 .nursingiconbox .choose-item-info h4{font-size: 15px;}
-.nursingxd {
+.nursingxddrx {
     min-height: 300px;
-    background-image: url(/assets/img/nursingcare/nursing-3.jpg);
+    background-image: url(/assets/img/nursingcare/doctor-consulting.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center top;
@@ -120,5 +120,5 @@ box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
 }
-
+.bredius{border-radius: 20px;}
 

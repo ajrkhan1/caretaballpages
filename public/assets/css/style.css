@@ -104,7 +104,7 @@ body h6{
 }
 body p{
   font-family: "Cambria W01 Regular" !important;
-  font-size: 18px;
+  font-size: 17px;
 }
 body span{
   font-family: "Cambria W01 Regular" !important;
@@ -793,6 +793,7 @@ label {
   text-align: center;
   border-radius: 50px;
   margin-right: 5px;
+  display: inline-block;
 }
 
 .site-title {
@@ -3564,8 +3565,10 @@ label {
 }
 
 .living-option-content h4 a{
-  color: var(--color-dark);
-  margin-bottom: 5px;
+   color: var(--theme-color2);
+    margin-bottom: 5px;
+    font-weight: 400;
+    font-size: 20px;
 }
 
 .living-option-content h4 a:hover{

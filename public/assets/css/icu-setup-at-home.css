@@ -2,8 +2,8 @@
     z-index: 1000;
 }
 
-.nursingcarebanner{
-  background-image: url(/assets/img/nursingcare/nursing-care-banner-1.jpg);
+.icusetupbanner{
+  background-image: url(/assets/img/icu-setup-at-home/icusetup.jpg);
   background-position: center top !important;
   background-size: cover;
 }

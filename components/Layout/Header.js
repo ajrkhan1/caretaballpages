@@ -72,6 +72,9 @@ export default function Header() {
                                     <a class="nav-link dropdown-toggle" href="/#our-services">Services</a>
                                      <ul class="dropdown-menu fade-down">
                                         <li><a class="dropdown-item" href="/service/nursing-care-at-home">Nursing Care at Home</a></li>
+                                        <li><a class="dropdown-item" href="/service/doctor-consultation-at-home">Doctor Consultation at Home</a></li>
+                                        <li><a class="dropdown-item" href="/service/physiotherapy-at-home">Physiotherapy at Home</a></li>
+                                        <li><a class="dropdown-item" href="/service/icu-setup-at-home">ICU Setup at Home</a></li>
                                     </ul>
                                 </li>
 
