@@ -54,12 +54,12 @@ export default function Footer() {
                             <div class="footer-widget-box list">
                                 <h4 class="footer-widget-title">Services</h4>
                                 <ul class="footer-list">
-                                    <li><a href="#"><i class="far fa-angle-double-right"></i>Doctor Consultations</a></li>
-                                    <li><a href="#"><i class="far fa-angle-double-right"></i>Nursing Care</a></li>
-                                    <li><a href="#"><i class="far fa-angle-double-right"></i>ICU Setup at Home</a></li>
-                                    <li><a href="#"><i class="far fa-angle-double-right"></i>Physiotherapy</a></li>
-                                    <li><a href="#"><i class="far fa-angle-double-right"></i>Wellness Programs</a></li>
-                                    <li><a href="#"><i class="far fa-angle-double-right"></i>Equipment on Rent</a></li>
+                                    <li><a href="/service/doctor-consultation-at-home"><i class="far fa-angle-double-right"></i>Doctor Consultations</a></li>
+                                    <li><a href="/service/nursing-care-at-home"><i class="far fa-angle-double-right"></i>Nursing Care</a></li>
+                                    <li><a href="/service/icu-setup-at-home"><i class="far fa-angle-double-right"></i>ICU Setup at Home</a></li>
+                                    <li><a href="/service/physiotherapy-at-home"><i class="far fa-angle-double-right"></i>Physiotherapy</a></li>
+                                    <li><a href="/service/diagnostics"><i class="far fa-angle-double-right"></i>Diagnostics</a></li>
+                                    <li><a href="/service/medical-equipment"><i class="far fa-angle-double-right"></i>Medical Equipment</a></li>
                                 </ul>
                             </div>
                         </div>

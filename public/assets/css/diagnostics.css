@@ -2,22 +2,25 @@
     z-index: 1000;
 }
 
-.icusetupbanner{
-  background-image: url(/assets/img/icu-setup-at-home/icusetup.jpg);
+.diagnosticsbanner{
+  background-image: url(/assets/img/diagnostics/diagnostics-banner.jpg);
   background-position: center top !important;
   background-size: cover;
 }
 .text-justify{text-align: justify;}
-.nursingcarebanner::before {
+.doctorcarebanner::before {
     background: linear-gradient(to bottom right, rgb(0 141 210 / 44%) 5%, rgb(67 74 74 / 51%) 70%) !important;
 }
 
-.icusetupi1{
-    background-image: url(/assets/img/icu-setup-at-home/icu1.jpg);
+.nursingbg1{
+    background-image: url(/assets/img/nursingcare/nursin-h-1.jpg);
 }
 
 .ddbb{
     background-image: url(/assets/img/service/bg.jpg);
+}
+.diagnostics1{
+    background-image: url(/assets/img/diagnostics/dignosticsi1.jpg);
 }
 .nursingiconbox .choose-item{
 padding: 5px;
@@ -29,9 +32,9 @@ box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 
 .nursingiconbox .choose-item-info h4{font-size: 15px;}
-.nursingxd {
+.nursingxddrx {
     min-height: 300px;
-    background-image: url(/assets/img/nursingcare/nursing-3.jpg);
+    background-image: url(/assets/img/nursingcare/doctor-consulting.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center top;
@@ -120,7 +123,6 @@ box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
 }
-
+.bredius{border-radius: 20px;}
 .allboxx .react-tabs__tab .about-item{margin-bottom: 16px; padding: 10px !important;}
-
 

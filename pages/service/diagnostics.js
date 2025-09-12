@@ -13,7 +13,7 @@ import Link from 'next/link'
 
 
 
-export default function Physiotherapy() {
+export default function Diagnostics() {
     const [selectedService, setSelectedService] = useState(''); // Initial empty selection
 
     const registerUser = async event => {
@@ -56,94 +56,13 @@ export default function Physiotherapy() {
 
     }
 
-    const registerUser2 = async event => {
-        event.preventDefault()
-
-        document.getElementById("submitbuttonform2").value = "Submitting form...."
-
-        const xhttp = new XMLHttpRequest();
-        xhttp.onload = function () {
-            // console.log(this.responseText.status);
-        }
-        xhttp.open("Post", 'https://phpstack-1457894-5753298.cloudwaysapps.com/wp-json/contact-form-7/v1/contact-forms/6/feedback');
-        xhttp.setRequestHeader("Content-Type", "application/x-www-form-urlencoded;");
-        xhttp.onreadystatechange = function () {
-            if (xhttp.readyState == 4) {
-                var res = JSON.parse(xhttp.responseText);
-                console.log(res)
-                if (res.status == "mail_sent") {
-                    document.getElementById("contactForm2").reset();
-
-                    document.getElementById("showlabel2").innerHTML = "Your submission has been received and we will contact you soon";
-
-                    document.getElementById("showlabel2").style.display = "block";
-                    window.setTimeout(function () {
-                        window.location.href = "/thankyou"
-                    }, 10);
-
-                } else {
-                    document.getElementById("showlabel2").innerHTML = "There was a problem with the request.";
-                    document.getElementById("showlabel2").style.display = "block";
-
-                }
-            }
-        };
-        xhttp.send("your-name=" + event.target.name.value +
-            "&your-email=" + event.target.email.value +
-            "&phone=" + event.target.phone.value +
-            "&service=" + event.target.service.value +
-            "&your-message=" + event.target.message.value)
-
-    }
-
-    const registerUser3 = async event => {
-        event.preventDefault()
-
-        document.getElementById("submitbuttonform3").value = "Submitting form...."
-
-        const xhttp = new XMLHttpRequest();
-        xhttp.onload = function () {
-            // console.log(this.responseText.status);
-        }
-        xhttp.open("Post", 'https://phpstack-1457894-5753298.cloudwaysapps.com/wp-json/contact-form-7/v1/contact-forms/6/feedback');
-        xhttp.setRequestHeader("Content-Type", "application/x-www-form-urlencoded;");
-        xhttp.onreadystatechange = function () {
-            if (xhttp.readyState == 4) {
-                var res = JSON.parse(xhttp.responseText);
-                console.log(res)
-                if (res.status == "mail_sent") {
-                    document.getElementById("contactForm3").reset();
-
-                    document.getElementById("showlabel3").innerHTML = "Your submission has been received and we will contact you soon";
-
-                    document.getElementById("showlabel3").style.display = "block";
-                    window.setTimeout(function () {
-                        window.location.href = "/thankyou"
-                    }, 10);
-
-                } else {
-                    document.getElementById("showlabel3").innerHTML = "There was a problem with the request.";
-                    document.getElementById("showlabel3").style.display = "block";
-
-                }
-            }
-        };
-        xhttp.send("your-name=" + event.target.name.value +
-            "&your-email=" + event.target.email.value +
-            "&phone=" + event.target.phone.value +
-            "&service=" + event.target.service.value +
-            "&your-message=" + event.target.message.value)
-
-    }
-
     const [modalOpen, setModalOpen] = React.useState(false);
 
     var settings = {
         dots: true,
-        arrows: true,
-        infinite: false,
-        speed: 500,
-        slidesToShow: 4,
+        infinite: true,
+        speed: 1000,
+        slidesToShow: 3,
         slidesToScroll: 1,
         initialSlide: 0,
         responsive: [
@@ -174,58 +93,37 @@ export default function Physiotherapy() {
         ]
     };
 
-    var settings2 = {
-        dots: true,
-        arrows: false,
-        infinite: true,
-        speed: 500,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        initialSlide: 0,
-        autoplay: true,
-        autoplaySpeed: 3000,
-        responsive: [
-            {
-                breakpoint: 1024,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
-                    infinite: true,
-                    dots: true
-                }
-            }
-        ]
-    };
+
 
     return (
         <>
             <Head>
-                <title>Care Tab </title>
+                <title>Diagnostics - Care Tab </title>
                 <meta name="description" content="Generated by create next App" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
-                <link rel="icon" href="/favicon.ico" />       
-                <link rel="stylesheet" href="/assets/css/physiotherapy-at-home.css" />
+                <link rel="icon" href="/favicon.ico" />
+                <link rel="stylesheet" href="/assets/css/diagnostics.css" />
             </Head>
 
 
             <div className="hero-section" id="inquirenow">
                 <div className="">
-                    <div className="hero-single physiotherapybanner bannerpad">
+                    <div className="hero-single diagnosticsbanner bannerpad">
                         <div className="container">
                             <div className="row align-items-center">
                                 <div className="col-md-12 col-lg-5">
                                     <div className="hero-content">
                                         <br></br>
                                         <h6 className="hero-sub-title wow fadeInUp" data-delay=".25s">
-                                            <i><img className="brandiconw" src="/assets/img/icon/brandicon.png" alt="" /></i> Physiotherapy at Home
+                                            <i><img className="brandiconw" src="/assets/img/icon/brandicon.png" alt="" /></i> Diagnostics at Home
                                         </h6>
 
                                         <h1 className="hero-title wow fadeInRight" data-delay=".50s">
-                                            Regain Strength, <br></br>Mobility & Confidence
+                                            Diagnostics & Wellness <br></br>at Home
                                         </h1>
-                                        <p className="text-justify">Physiotherapy plays a vital role in recovery, pain management, and improving quality of life. At Care[T.A.B], our certified physiotherapists provide personalized therapy sessions at your home, using evidence-based techniques to help you recover faster and move better.</p>
+
                                         <div className="hero-btn wow fadeInUp" data-delay="1s">
-                                            <a href="tel:+91-7891-444-333" className="theme-btn btnc">Call for Physiotherapy <i
+                                            <a href="tel:+91-7891-444-333" className="theme-btn btnc">Call for Consultation <i
                                                 className="fas fa-arrow-right"></i></a>
                                         </div>
                                     </div>
@@ -307,120 +205,39 @@ export default function Physiotherapy() {
                 </div>
             </div>
 
-            <div class="living-option pt-60 pb-60">
+            <div class="video-area pb-100 pt-50">
                 <div class="container">
-                    <div class="row">
-                        <div class="col-lg-6 mx-auto">
-                            <div class="site-heading text-center">
-                                {/* <span class="site-title-tagline"><i class="far fa-house-chimney-heart"></i> Living Options</span> */}
-                                <h2 class="site-title">Benefits of Home <span>Physiotherapy</span></h2>
+                    <div class="row align-items-center">
+                        <div class="col-lg-6">
+                            <div class="video-info wow fadeInUp" data-wow-delay=".25s">
+                                <div class="site-heading mb-0">
+                                    <h2 class="site-title">Accurate Tests, <span>Hassle-Free Experience</span></h2>
+                                    <p className="text-justify">
+                                        When a loved one requires intensive monitoring and advanced medical support, hospital stays can be stressful and overwhelming. At Care[T.A.B], we provide ICU set-ups at home, designed to deliver hospital-quality critical care in a safe, familiar environment. With advanced technology, skilled nurses, and doctor supervision, we ensure safe, continuous, and compassionate care for critically ill patients.
+                                    </p>
+                                </div>
+                                <a href="tel:+91-7891-444-333" class="theme-btn mt-30">Call Now <i class="fas fa-arrow-right"></i></a>
                             </div>
                         </div>
-                    </div>
-                    <div class="row g-4 slpadding">
-                        <Slider {...settings}>
-                            <div class="blog-item wow fadeInUp" data-wow-delay=".25s">
-                                <div class="blog-item-img">
-                                    <img src="/assets/img/physiotherapy-at-home/s1.jpg" alt="" />
-                                </div>
-                                <div class="blog-item-info">
-                                    <div class="blog-item-meta">
-                                        <h4 class="blog-title">
-                                            <a href="#">Care in the Comfort of Home</a>
-                                        </h4>
-                                    </div>
-                                    <p>
-                                        Receive expert therapy without the stress of travel.
-                                    </p>
-                                </div>
+                        <div class="col-lg-6">
+                            <div class="video-content wow fadeInRight diagnostics1" data-wow-delay=".25s">
+                                <a class="play-btn" href="#">
+                                    <i class="fas fa-play"></i>
+                                </a>
                             </div>
-                            <div class="blog-item wow fadeInUp" data-wow-delay=".25s">
-                                <div class="blog-item-img">
-                                    <img src="/assets/img/physiotherapy-at-home/s2.jpg" alt="" />
-                                </div>
-                                <div class="blog-item-info">
-                                    <div class="blog-item-meta">
-                                        <h4 class="blog-title">
-                                            <a href="#">Personalized Attention</a>
-                                        </h4>
-                                    </div>
-                                    <p>
-                                        One-on-one care designed around your condition and lifestyle.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="blog-item wow fadeInUp" data-wow-delay=".25s">
-                                <div class="blog-item-img">
-                                    <img src="/assets/img/physiotherapy-at-home/s3.jpg" alt="" />
-                                </div>
-                                <div class="blog-item-info">
-                                    <div class="blog-item-meta">
-                                        <h4 class="blog-title">
-                                            <a href="#">Faster Recovery</a>
-                                        </h4>
-                                    </div>
-                                    <p>
-                                        Regular, consistent sessions speed up healing and improve outcomes.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="blog-item wow fadeInUp" data-wow-delay=".25s">
-                                <div class="blog-item-img">
-                                    <img src="/assets/img/physiotherapy-at-home/s4.jpg" alt="" />
-                                </div>
-                                <div class="blog-item-info">
-                                    <div class="blog-item-meta">
-                                        <h4 class="blog-title">
-                                            <a href="#">Pain & Mobility Management</a>
-                                        </h4>
-                                    </div>
-                                    <p>
-                                        Helps reduce pain, improve flexibility, and restore strength.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="blog-item wow fadeInUp" data-wow-delay=".25s">
-                                <div class="blog-item-img">
-                                    <img src="/assets/img/physiotherapy-at-home/s5.jpg" alt="" />
-                                </div>
-                                <div class="blog-item-info">
-                                    <div class="blog-item-meta">
-                                        <h4 class="blog-title">
-                                            <a href="#">Holistic Support</a>
-                                        </h4>
-                                    </div>
-                                    <p>
-                                        Focuses on physical, emotional, and functional well-being.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="blog-item wow fadeInUp" data-wow-delay=".25s">
-                                <div class="blog-item-img">
-                                    <img src="/assets/img/physiotherapy-at-home/s6.jpg" alt="" />
-                                </div>
-                                <div class="blog-item-info">
-                                    <div class="blog-item-meta">
-                                        <h4 class="blog-title">
-                                            <a href="#">Prevents Complications</a>
-                                        </h4>
-                                    </div>
-                                    <p>
-                                        Reduces chances of stiffness, contractures, or re-injury.
-                                    </p>
-                                </div>
-                            </div>
-                        </Slider>
+                        </div>
                     </div>
                 </div>
             </div>
 
-
+            {/* <!-- choose area --> */}
             <div class="choose-area pt-50 pb-50 planebg">
                 <div class="container">
                     <div className="row">
-                        <div className="col">
+                        <div className="col-sm-6">
                             <div class="site-heading mb-0">
-                                <h2 class="site-title">Our Physiotherapy <span>Services</span></h2>
+                                <h2 class="site-title">Diagnostic <span>at Home</span></h2>
+
                             </div>
                         </div>
                     </div>
@@ -429,10 +246,10 @@ export default function Physiotherapy() {
                         <div class="row zindexxx">
 
                             <div class="col-lg-6 allboxx">
-                                <div class="choose-content wow fadeInUp" data-wow-delay=".25s">
+                                <div class="choose-content wow fadeInUp margint0" data-wow-delay=".25s">
                                     <div class="choose-content-wrap">
                                         <div class="row g-4 ajrow">
-                                            <TabList className="lefttab lefttabphysiotheapy">
+                                            <TabList className="lefttab">
                                                 <Tab>
                                                     <div class="col-md-12">
                                                         <div class="about-item align-items-center">
@@ -440,8 +257,8 @@ export default function Physiotherapy() {
                                                                 <img src="/assets/img/icon/citizen.png" alt="" />
                                                             </div>
                                                             <div class="choose-item-info">
-                                                                <h4 className="margobb0">Orthopedic Rehabilitation</h4>
-
+                                                                <h4 className="margobb0">Critical Care Test</h4>
+                                                                {/* <p>Trusted hospital backing. Reliable care at home.</p> */}
                                                             </div>
                                                         </div>
                                                     </div>
@@ -453,8 +270,8 @@ export default function Physiotherapy() {
                                                                 <img src="/assets/img/icon/help.png" alt="" />
                                                             </div>
                                                             <div class="choose-item-info">
-                                                                <h4 className="margobb0">Neurological Rehabilitation</h4>
-
+                                                                <h4 className="margobb0">Cardiac & Neurological Tests</h4>
+                                                                {/* <p>Doctors lead your care, not just approve it.</p> */}
                                                             </div>
                                                         </div>
                                                     </div>
@@ -466,8 +283,8 @@ export default function Physiotherapy() {
                                                                 <img src="/assets/img/icon/protocol.png" alt="" />
                                                             </div>
                                                             <div class="choose-item-info">
-                                                                <h4 className="margobb0">Pediatric Rehabilitation</h4>
-
+                                                                <h4 className="margobb0">Respiratory & Metabolic Tests</h4>
+                                                                {/* <p>We follow the same standards as hospitals.</p> */}
                                                             </div>
                                                         </div>
                                                     </div>
@@ -479,42 +296,12 @@ export default function Physiotherapy() {
                                                                 <img src="/assets/img/icon/medical-team.png" alt="" />
                                                             </div>
                                                             <div class="choose-item-info">
-                                                                <h4 className="margobb0">Geriatric Rehabilitation</h4>
-
+                                                                <h4 className="margobb0">Imaging & Radiology</h4>
+                                                                {/* <p>Trained, certified nurses and caregivers.</p> */}
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </Tab>
-
-                                                <Tab>
-                                                    <div class="col-md-12">
-                                                        <div class="about-item align-items-center">
-                                                            <div class="icon">
-                                                                <img src="/assets/img/icon/medical-team.png" alt="" />
-                                                            </div>
-                                                            <div class="choose-item-info">
-                                                                <h4 className="margobb0">Post Surgical Rehabilitation</h4>
-
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </Tab>
-
-                                                <Tab>
-                                                    <div class="col-md-12">
-                                                        <div class="about-item align-items-center">
-                                                            <div class="icon">
-                                                                <img src="/assets/img/icon/medical-team.png" alt="" />
-                                                            </div>
-                                                            <div class="choose-item-info">
-                                                                <h4 className="margobb0">Musculoskeletal Physiotherapy</h4>
-
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </Tab>
-
-
                                             </TabList>
                                         </div>
                                     </div>
@@ -531,7 +318,27 @@ export default function Physiotherapy() {
                                                             <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
                                                         </div>
                                                         <div class="choose-item-info">
-                                                            <h4>Knee Pain</h4>
+                                                            <h4>ABG test</h4>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </TabPanel>
+
+                                <TabPanel className="tabdetails">
+                                    <div class="choose-content wow fadeInUp" data-wow-delay=".25s">
+                                        <div class="choose-content-wrap">
+                                            <div class="row g-3 row-cols-5 nursingiconbox">
+                                                <div class="col-sm-4">
+                                                    <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
+                                                        <div class="nursing-icon">
+                                                            <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
+                                                        </div>
+                                                        <div class="choose-item-info">
+                                                            <h4>ECG Test</h4>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -541,7 +348,7 @@ export default function Physiotherapy() {
                                                             <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
                                                         </div>
                                                         <div class="choose-item-info">
-                                                            <h4>Back Pain</h4>
+                                                            <h4>Holter Monitoring</h4>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -551,7 +358,7 @@ export default function Physiotherapy() {
                                                             <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
                                                         </div>
                                                         <div class="choose-item-info">
-                                                            <h4>Shoulder Pain</h4>
+                                                            <h4>ABPM (Ambulatory Blood Pressure Monitoring)</h4>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -561,7 +368,89 @@ export default function Physiotherapy() {
                                                             <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
                                                         </div>
                                                         <div class="choose-item-info">
-                                                            <h4>Hip Pain</h4>
+                                                            <h4>ELR (Event Loop Recorder)</h4>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-4">
+                                                    <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
+                                                        <div class="nursing-icon">
+                                                            <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
+                                                        </div>
+                                                        <div class="choose-item-info">
+                                                            <h4>EEG Test</h4>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-4">
+                                                    <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
+                                                        <div class="nursing-icon">
+                                                            <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
+                                                        </div>
+                                                        <div class="choose-item-info">
+                                                            <h4>NCV Test</h4>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-sm-4">
+                                                    <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
+                                                        <div class="nursing-icon">
+                                                            <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
+                                                        </div>
+                                                        <div class="choose-item-info">
+                                                            <h4>EMG Test</h4>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-4">
+                                                    <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
+                                                        <div class="nursing-icon">
+                                                            <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
+                                                        </div>
+                                                        <div class="choose-item-info">
+                                                            <h4>BERA & VEP Test</h4>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </TabPanel>
+
+                                <TabPanel className="tabdetails">
+                                    <div class="choose-content wow fadeInUp" data-wow-delay=".25s">
+                                        <div class="choose-content-wrap">
+                                            <div class="row g-3 row-cols-5 nursingiconbox">
+                                                <div class="col-sm-4">
+                                                    <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
+                                                        <div class="nursing-icon">
+                                                            <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
+                                                        </div>
+                                                        <div class="choose-item-info">
+                                                            <h4>Pulmonary Function Test (PFT)</h4>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-4">
+                                                    <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
+                                                        <div class="nursing-icon">
+                                                            <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
+                                                        </div>
+                                                        <div class="choose-item-info">
+                                                            <h4>Continuous Glucose Monitoring (CGM)</h4>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-4">
+                                                    <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
+                                                        <div class="nursing-icon">
+                                                            <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
+                                                        </div>
+                                                        <div class="choose-item-info">
+                                                            <h4>Sleep Study</h4>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -580,17 +469,7 @@ export default function Physiotherapy() {
                                                             <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
                                                         </div>
                                                         <div class="choose-item-info">
-                                                            <h4>Post-Stroke Recovery</h4>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-sm-4">
-                                                    <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
-                                                        <div class="nursing-icon">
-                                                            <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
-                                                        </div>
-                                                        <div class="choose-item-info">
-                                                            <h4>Parkinson’s Care</h4>
+                                                            <h4>Home X-Ray</h4>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -598,110 +477,206 @@ export default function Physiotherapy() {
                                         </div>
                                     </div>
                                 </TabPanel>
-
-                                <TabPanel className="tabdetails">
-                                    <div class="choose-content wow fadeInUp" data-wow-delay=".25s">
-                                        <div class="choose-content-wrap">
-                                            <div class="row g-3 row-cols-5 nursingiconbox">
-                                                <div class="col-sm-4">
-                                                    <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
-                                                        <div class="nursing-icon">
-                                                            <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
-                                                        </div>
-                                                        <div class="choose-item-info">
-                                                            <h4>Cerebral Palsy</h4>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </TabPanel>
-
-                                <TabPanel className="tabdetails">
-                                    <div class="choose-content wow fadeInUp" data-wow-delay=".25s">
-                                        <div class="choose-content-wrap">
-                                            <div class="row g-3 row-cols-5 nursingiconbox">
-
-                                                <div class="col-sm-4">
-                                                    <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
-                                                        <div class="nursing-icon">
-                                                            <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
-                                                        </div>
-                                                        <div class="choose-item-info">
-                                                            <h4>ActiveAge</h4>
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                </TabPanel>
-
-                                <TabPanel className="tabdetails">
-                                    <div class="choose-content wow fadeInUp" data-wow-delay=".25s">
-                                        <div class="choose-content-wrap">
-                                            <div class="row g-3 row-cols-5 nursingiconbox">
-
-                                                <div class="col-sm-4">
-                                                    <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
-                                                        <div class="nursing-icon">
-                                                            <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
-                                                        </div>
-                                                        <div class="choose-item-info">
-                                                            <h4>Total Knee Replacement (TKR) Recovery</h4>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-sm-4">
-                                                    <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
-                                                        <div class="nursing-icon">
-                                                            <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
-                                                        </div>
-                                                        <div class="choose-item-info">
-                                                            <h4>Total Hip Replacement (THR) Recovery</h4>
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                </TabPanel>
-
-                                <TabPanel className="tabdetails">
-                                    <div class="choose-content wow fadeInUp" data-wow-delay=".25s">
-                                        <div class="choose-content-wrap">
-                                            <div class="row g-3 row-cols-5 nursingiconbox">
-
-                                                <div class="col-sm-4">
-                                                    <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
-                                                        <div class="nursing-icon">
-                                                            <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
-                                                        </div>
-                                                        <div class="choose-item-info">
-                                                            <h4>Muscular pain & recovery</h4>
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                </TabPanel>
-
                             </div>
 
                         </div>
                     </Tabs>
                 </div>
             </div>
+            {/* <!-- choose area end --> */}
 
+            <div class="living-option pt-60 pb-60">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 mx-auto">
+                            <div class="site-heading text-center">
+                                {/* <span class="site-title-tagline"><i class="far fa-house-chimney-heart"></i> Living Options</span> */}
+                                <h2 class="site-title">Diagnostics  <span>@ Lab</span></h2>                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row g-4 slpadding ">
+                        <Slider {...settings}>
+                            <div class="blog-item wow fadeInUp" data-wow-delay=".25s">
+                                <div class="blog-item-img">
+                                    <img src="/assets/img/living/01.jpg" alt="" />
+                                </div>
+                                <div class="blog-item-info">
+                                    <div class="blog-item-meta">
+                                        <h4 class="blog-title">
+                                            <a href="#">Comprehensive Health Check-Ups & Specialized Lab Tests</a>
+                                        </h4>
+                                    </div>
+                                    <p>
+                                        From basic health screenings to advanced diagnostic panels, we offer customized lab packages and a wide range of specialized tests with free doctor review as per the reports.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="blog-item wow fadeInUp" data-wow-delay=".25s">
+                                <div class="blog-item-img">
+                                    <img src="/assets/img/living/02.jpg" alt="" />
+                                </div>
+                                <div class="blog-item-info">
+                                    <div class="blog-item-meta">
+                                        <h4 class="blog-title">
+                                            <a href="#">Free Sample Collection from Home</a>
+                                        </h4>
+                                    </div>
+                                    <p>
+                                        Get blood, urine, and swab samples collected by trained technicians at your preferred time
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="blog-item wow fadeInUp" data-wow-delay=".25s">
+                                <div class="blog-item-img">
+                                    <img src="/assets/img/living/03.jpg" alt="" />
+                                </div>
+                                <div class="blog-item-info">
+                                    <div class="blog-item-meta">
+                                        <h4 class="blog-title">
+                                            <a href="#">Priority Radiology Test booking with Free Home Pickup</a>
+                                        </h4>
+                                    </div>
+                                    <p>
+                                        At Care[T.A.B], we ensure hassle-free access to CT, MRI, and USG scans through our trusted radiology partners.
+                                    </p>
+                                    <ul class="listicon">
+                                        <li>
+                                            <img src="/assets/img/icon/listicon.png" />
+                                            <p>Free Home Pickup</p>
+                                        </li>
+                                        <li>
+                                            <img src="/assets/img/icon/listicon.png" />
+                                            <p>Priority Booking Without Endless Waiting. Special Discounts on CT/MRI scans booked during off-hours (5 PM – 9 AM).</p>
+                                        </li>                                    
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="blog-item wow fadeInUp" data-wow-delay=".25s">
+                                <div class="blog-item-img">
+                                    <img src="/assets/img/living/01.jpg" alt="" />
+                                </div>
+                                <div class="blog-item-info">
+                                    <div class="blog-item-meta">
+                                        <h4 class="blog-title">
+                                            <a href="#">Express Medicine Delivery @ Home </a>
+                                        </h4>
+                                    </div>
+                                    <p>
+                                        Why step out when medicines can come to you? With pharmacy-certified formulas, express delivery, and special discount offers, Care[T.A.B] ensures you never miss a dose. Simply share your valid prescription, and our team will arrange doorstep delivery, anytime, anywhere!
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="blog-item wow fadeInUp" data-wow-delay=".25s">
+                                <div class="blog-item-img">
+                                    <img src="/assets/img/living/02.jpg" alt="" />
+                                </div>
+                                <div class="blog-item-info">
+                                    <div class="blog-item-meta">
+                                        <h4 class="blog-title">
+                                            <a href="#">Wellness Services</a>
+                                        </h4>
+                                    </div>
+                                    <p>
+                                        True care truly goes beyond the treatment. At Care[T.A.B], we focus on holistic wellness with supportive programs designed for long-term health.
+                                    </p>
+                                    <ul class="listicon">
+                                        <li>
+                                            <img src="/assets/img/icon/listicon.png" />
+                                            <p>Mental Health</p>
+                                        </li>
+                                        <li>
+                                            <img src="/assets/img/icon/listicon.png" />
+                                            <p>Nutritional Support and Diet Plans</p>
+                                        </li>                                    
+                                    </ul>
+                                </div>
+                            </div>
 
+                        </Slider>
 
+                    </div>
+                </div>
+            </div>
 
-            <div class="video-area pb-100 pt-50">
+            <div class="choose-area pt-70 pb-50 typesofnursing">
+            <div class="container">
+                <div class="row g-4 align-items-center justify-content-between wow fadeInDown" data-wow-delay=".25s">
+                    <div class="col-lg-6">
+                        <div class="site-heading mb-0">
+                            <span class="site-title-tagline"><i class="far fa-house-chimney-heart"></i> Why Choose Us</span>
+                            <h2 class="site-title">Benefits of  <span>Diagnostics & Wellness </span> at Home </h2>
+                        </div>
+                    </div>                   
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="choose-content wow fadeInUp" data-wow-delay=".25s">
+                            <div class="choose-content-wrap">
+                                <div class="row g-4">
+                                    <div class="col-md-6">
+                                        <div class="choose-item">
+                                            <span class="count">01</span>
+                                            <div class="choose-item-icon">
+                                                <img src="/assets/img/icon/money.svg" alt=""/>
+                                            </div>
+                                            <div class="choose-item-info">
+                                                <h4>Convenience</h4>
+                                                <p>No travel, no waiting—tests done at home.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="choose-item">
+                                            <span class="count">02</span>
+                                            <div class="choose-item-icon">
+                                                <img src="/assets/img/icon/team.svg" alt=""/>
+                                            </div>
+                                            <div class="choose-item-info">
+                                                <h4>Time-Saving</h4>
+                                                <p>Flexible scheduling at your convenience.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="choose-item">
+                                            <span class="count">03</span>
+                                            <div class="choose-item-icon">
+                                                <img src="/assets/img/icon/care.svg" alt=""/>
+                                            </div>
+                                            <div class="choose-item-info">
+                                                <h4>Digital Reports</h4>
+                                                <p>Get accurate results directly on your phone.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="choose-item">
+                                            <span class="count">04</span>
+                                            <div class="choose-item-icon">
+                                                <img src="/assets/img/icon/certified.svg" alt=""/>
+                                            </div>
+                                            <div class="choose-item-info">
+                                                <h4>Doctor Supervision</h4>
+                                                <p>Tests prescribed and reviewed by specialists.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="choose-img wow fadeInRight" data-wow-delay=".25s">
+                            <img src="/assets/img/diagnostics/dignosefront1.jpg" alt=""/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    
+            <div class="video-area pb-50 pt-50">
                 <div class="container">
                     <div class="row align-items-center">
                         <div class="col-lg-6">
@@ -711,31 +686,38 @@ export default function Physiotherapy() {
                         <div class="col-lg-6">
                             <div class="video-info wow fadeInUp insidep" data-wow-delay=".25s">
                                 <div class="site-heading mb-0">
-                                    <h2 class="site-title">Why Choose <span>Care[T.A.B]</span> <br></br>Physiotherapy?</h2>
+                                    <h2 class="site-title">Why Choose Care[T.A.B]  <span>Diagnostics & Wellness Program?</span></h2>
                                     <br></br>
                                 </div>
                                 <div class="feature-content">
                                     <ul class="listicon">
                                         <li>
                                             <img src="/assets/img/icon/listicon.png" />
-                                            <p>Clinically-certified, expert physiotherapists</p>
-                                        </li>
-
-                                        <li>
-                                            <img src="/assets/img/icon/listicon.png" />
-                                            <p>Bespoke physiotherapy plans</p>
+                                            <p>NABL & NABH accredited labs with accurate & reliable results</p>
                                         </li>
                                         <li>
                                             <img src="/assets/img/icon/listicon.png" />
-                                            <p>Evidence-based techniques and advanced equipment</p>
+                                            <p>Trained phlebotomists & technicians for safe, hygienic testing</p>
                                         </li>
                                         <li>
                                             <img src="/assets/img/icon/listicon.png" />
-                                            <p>Supervised care with doctor guidance</p>
+                                            <p>Doctor-reviewed reports for correct interpretation & guidance</p>
                                         </li>
                                         <li>
                                             <img src="/assets/img/icon/listicon.png" />
-                                            <p>Convenient & flexible scheduling at home</p>
+                                            <p>Convenient scheduling at your place, your time</p>
+                                        </li>
+                                        <li>
+                                            <img src="/assets/img/icon/listicon.png" />
+                                            <p>Bespoke packages for preventive and wellness check-ups</p>
+                                        </li>
+                                        <li>
+                                            <img src="/assets/img/icon/listicon.png" />
+                                            <p>Special rate for radiology test with home pickup facility</p>
+                                        </li>
+                                        <li>
+                                            <img src="/assets/img/icon/listicon.png" />
+                                            <p>Free doctor consultation after report</p>
                                         </li>
                                     </ul>
                                 </div>
@@ -750,114 +732,17 @@ export default function Physiotherapy() {
                     <div class="cta-wrap rounded-5 w-100">
                         <div class="col-lg-7 mx-auto">
                             <div class="cta-content">
-                                <h1>Rebuild strength with expert guidance</h1>
+                                <h1>Skip the lab, not the test</h1>
                                 <p>
-                                    Take the first step toward recovery and better mobility. With Care[T.A.B], expert physiotherapy is just a call away.
+                                    Don’t delay important health checks. With Care[T.A.B], trusted diagnostics come home to you.
                                 </p>
-                                <a href="#" class="theme-btn">Book Your Rehabilitation Session Now<i class="fas fa-arrow-right"></i></a>
+                                <a href="#" class="theme-btn">Book Home Sample Collection Now!<i class="fas fa-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-
-            {/* <!-- faq area --> */}
-            <div class="faq-area pt-100 pb-80">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <div class="faq-content wow fadeInUp text-center" data-wow-delay=".25s">
-                                <div class="site-heading mb-3">
-                                    <span class="site-title-tagline"><i><img className="brandiconw" src="/assets/img/icon/brandicon.png" alt="" /></i> FAQs</span>
-                                    <h2 class="site-title my-3 pb-20">Frequently Asked <span>Questions</span> (FAQs)</h2>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-12">
-                            <div class="accordion wow fadeInRight" data-wow-delay=".25s" id="accordionExample">
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header" id="headingOne">
-                                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                            <span><i class="far fa-question"></i></span> How do I book a Care[T.A.B] service?
-                                        </button>
-                                    </h2>
-                                    <div id="collapseOne" class="accordion-collapse collapse show"
-                                        aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                        <div class="accordion-body">
-                                            You can call our helpline or book directly through our website. Our care coordinator will guide you in choosing the right service and schedule.
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header" id="headingTwo">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                            <span><i class="far fa-question"></i></span> Are Care[T.A.B] services available 24/7?
-                                        </button>
-                                    </h2>
-                                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                                        data-bs-parent="#accordionExample">
-                                        <div class="accordion-body">
-                                            <p>Yes. We provide round-the-clock support. Emergency doctor consultations and urgent nursing care are available at all times.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header" id="headingThree">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                            data-bs-target="#collapseThree" aria-expanded="false"
-                                            aria-controls="collapseThree">
-                                            <span><i class="far fa-question"></i></span> Who are the doctors and nurses at Care[T.A.B]?
-                                        </button>
-                                    </h2>
-                                    <div id="collapseThree" class="accordion-collapse collapse"
-                                        aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                                        <div class="accordion-body">
-                                            <p>Our team is made up of qualified doctors, registered nurses, and certified physiotherapists. Each professional undergoes rigorous training, verification, and is supervised by senior specialists.</p>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header" id="headingFour">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                            data-bs-target="#collapseFour" aria-expanded="false"
-                                            aria-controls="collapseFour">
-                                            <span><i class="far fa-question"></i></span> What conditions can physiotherapy at home help with?
-                                        </button>
-                                    </h2>
-                                    <div id="collapseFour" class="accordion-collapse collapse"
-                                        aria-labelledby="headingFour" data-bs-parent="#accordionExample">
-                                        <div class="accordion-body">
-                                            <p>Our physiotherapists specialize in post-surgery rehab, neuro rehabilitation, cardiac rehab, and orthopedic rehab, as well as pain management, mobility training, and strengthening exercises.</p>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header" id="headingFive">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                            data-bs-target="#collapseFive" aria-expanded="false"
-                                            aria-controls="collapseFive">
-                                            <span><i class="far fa-question"></i></span> Can Care[T.A.B] coordinate with my hospital/doctor?
-                                        </button>
-                                    </h2>
-                                    <div id="collapseFive" class="accordion-collapse collapse"
-                                        aria-labelledby="headingFive" data-bs-parent="#accordionExample">
-                                        <div class="accordion-body">
-                                            <p>Yes. We work alongside your hospital doctors and provide continuity of care at home, ensuring smooth communication and better outcomes.</p>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            {/* <!-- faq area end --> */}
+            <br></br><br></br>
 
 
 

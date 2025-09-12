@@ -345,7 +345,7 @@ export default function Home() {
                                     Ideal for patients who require temporary medical support, typically lasting from a few Visits to Hours This includes:
                                 </p>
                             </div>
-                            <div class="choose-content wow fadeInUp" data-wow-delay=".25s">
+                            <div class="choose-content wow fadeInUp ee" data-wow-delay=".25s">
                                 <div class="choose-content-wrap">
                                     <div class="row g-3 row-cols-5 nursingiconbox">
                                         <div class="col">
@@ -467,7 +467,7 @@ export default function Home() {
             <div class="choose-area pt-50 pb-50 planebg">
                 <div class="container">
                     <div className="row">
-                        <div className="col">
+                        <div className="col-sm-6">
                             <div class="site-heading mb-0">                                
                                 <h2 class="site-title">Residential Nursing Care <span>(12/24 hours)</span> under the Supervision of Doctors</h2>
                                 <p>
@@ -481,7 +481,7 @@ export default function Home() {
                         <div class="row zindexxx">
 
                             <div class="col-lg-6 allboxx">
-                                <div class="choose-content wow fadeInUp" data-wow-delay=".25s">
+                                <div class="choose-content wow fadeInUp margint0" data-wow-delay=".25s">
                                     <div class="choose-content-wrap">
                                         <div class="row g-4 ajrow">
                                             <TabList className="lefttab">

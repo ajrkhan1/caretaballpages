@@ -193,6 +193,7 @@ h6 {
 p {
   margin: 0px;
 }
+.margint0{margin-top: 0px !important;}
 
 .img,
 img {
@@ -799,12 +800,12 @@ label {
 .site-title {
   font-weight: 700;
   font-size: 36px;
-  color: var(--color-dark);
+  color: var(--theme-color2);
   margin-bottom: 0;
 }
 
 .site-title span{
-  color: #008dd2;
+  color: var(--theme-color);
   /* -webkit-text-stroke: 2px var(--theme-color); */
 }
 
@@ -4410,7 +4411,7 @@ label {
 }
 
 .cta-wrap{
-  background: var(--theme-color2);
+      background: linear-gradient(to bottom right, rgb(0 0 0) 5%, rgb(1 142 210 / 88%) 70%);
   width: 89%;
   padding: 30px 50px 35px 50px;
   border-radius: 0 20px 20px 0;
@@ -4819,6 +4820,9 @@ label {
   border-radius: 20px;
   box-shadow: var(--box-shadow);
   z-index: -1;
+    --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
 .blog-item-img{
@@ -6625,9 +6629,12 @@ label {
 }
 
 .bannerform{
-  background: linear-gradient(to bottom right, rgb(255 255 255) 5%, rgb(66 119 124 / 43%) 70%);
-  padding: 20px;
-  border-radius: 15px;
+    background: linear-gradient(to bottom right, rgb(255 255 255) 5%, rgb(3 142 210 / 64%) 70%);
+    padding: 20px;
+    border-radius: 15px;
+    --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 .servicesl select{
 border: 1px solid #dee2e6;
@@ -6762,6 +6769,13 @@ position: relative;
 .servicebg .service-content h4 a {
     font-weight: 500;
     font-size: 20px;
+}
+.slpadding .slick-slide{ padding: 10px;}
+.slpadding .slick-slide .blog-title{border-bottom: 1px solid var(--border-info-color); margin-bottom: 4px; padding-bottom: 10px;}
+.slpadding .slick-slide .blog-title a{color: #008dd2; font-weight: 500;}
+.slpadding .slick-slide .blog-item-info p {
+    margin-bottom: 0px;
+        line-height: 24px;
 }
 
 

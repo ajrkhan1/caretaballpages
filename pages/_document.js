@@ -32,6 +32,8 @@ export default function Document() {
     <link rel="stylesheet" href="/assets/css/owl.carousel.min.css"/>
     <link rel="stylesheet" href="/assets/css/nice-select.min.css"/>
     <link rel="stylesheet" href="/assets/css/style.css"/>
+    <link rel="stylesheet" href="/assets/css/slick.min.css"/>
+    <link rel="stylesheet" href="/assets/css/slick-theme.min.css"/>
     </Head>
       <body>
         <Main />

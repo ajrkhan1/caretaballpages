@@ -121,4 +121,5 @@ box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     border-bottom-left-radius: 20px;
 }
 .bredius{border-radius: 20px;}
+.allboxx .react-tabs__tab .about-item{margin-bottom: 16px; padding: 10px !important;}
 
