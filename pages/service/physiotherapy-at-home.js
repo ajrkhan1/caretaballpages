@@ -504,7 +504,7 @@ export default function Physiotherapy() {
                                 <TabPanel className="tabdetails">
                                     <div class="choose-content wow fadeInUp" data-wow-delay=".25s">
                                         <div class="choose-content-wrap">
-                                            <div class="row g-3 row-cols-5 nursingiconbox">
+                                            <div class="row g-3 nursingiconbox">
                                                 <div class="col-sm-6">
                                                     <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
                                                         <div class="nursing-icon">
@@ -533,7 +533,7 @@ export default function Physiotherapy() {
                                 <TabPanel className="tabdetails">
                                     <div class="choose-content wow fadeInUp" data-wow-delay=".25s">
                                         <div class="choose-content-wrap">
-                                            <div class="row g-3 row-cols-5 nursingiconbox">
+                                            <div class="row g-3 nursingiconbox">
                                                 <div class="col-sm-6">
                                                     <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
                                                         <div class="nursing-icon">
@@ -562,7 +562,7 @@ export default function Physiotherapy() {
                                 <TabPanel className="tabdetails">
                                     <div class="choose-content wow fadeInUp" data-wow-delay=".25s">
                                         <div class="choose-content-wrap">
-                                            <div class="row g-3 row-cols-5 nursingiconbox">
+                                            <div class="row g-3 nursingiconbox">
 
                                                 {/* <div class="col-sm-4">
                                                     <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
@@ -583,7 +583,7 @@ export default function Physiotherapy() {
                                 <TabPanel className="tabdetails">
                                     <div class="choose-content wow fadeInUp" data-wow-delay=".25s">
                                         <div class="choose-content-wrap">
-                                            <div class="row g-3 row-cols-5 nursingiconbox">
+                                            <div class="row g-3 nursingiconbox">
 
                                                 <div class="col-sm-4">
                                                     <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">

@@ -301,7 +301,7 @@ export default function Diagnostics() {
                                 <TabPanel className="tabdetails">
                                     <div class="choose-content wow fadeInUp" data-wow-delay=".25s">
                                         <div class="choose-content-wrap">
-                                            <div class="row g-3 row-cols-5 nursingiconbox">
+                                            <div class="row g-3 nursingiconbox">
                                                 <div class="col-sm-4">
                                                     <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
                                                         <div class="nursing-icon">
@@ -341,7 +341,7 @@ export default function Diagnostics() {
                                 <TabPanel className="tabdetails">
                                     <div class="choose-content wow fadeInUp" data-wow-delay=".25s">
                                         <div class="choose-content-wrap">
-                                            <div class="row g-3 row-cols-5 nursingiconbox">
+                                            <div class="row g-3 nursingiconbox">
                                                 <div class="col-sm-4">
                                                     <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
                                                         <div class="nursing-icon">
@@ -380,7 +380,7 @@ export default function Diagnostics() {
                                 <TabPanel className="tabdetails">
                                     <div class="choose-content wow fadeInUp" data-wow-delay=".25s">
                                         <div class="choose-content-wrap">
-                                            <div class="row g-3 row-cols-5 nursingiconbox">
+                                            <div class="row g-3 nursingiconbox">
                                                 <div class="col-sm-4">
                                                     <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
                                                         <div class="nursing-icon">
@@ -498,7 +498,7 @@ export default function Diagnostics() {
                 </div>
             </div>
 
-            <div class="choose-area pt-70 pb-50 typesofnursing">
+            <div class="choose-area pt-70 pb-50 typesofnursing box5inmo">
             <div class="container">
                 <div class="row g-4 align-items-center justify-content-between wow fadeInDown" data-wow-delay=".25s">
                     <div class="col-lg-12">

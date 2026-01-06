@@ -314,8 +314,7 @@ export default function Home() {
                         <div class="col-lg-6">
                             <div class="video-info wow fadeInUp" data-wow-delay=".25s">
                                 <div class="site-heading mb-0">
-                                    {/* <h2 class="site-title">4 Million+ Minor <span>Procedures</span> Can Be Done at Home Today</h2> */}
-                                    <p className="text-justify">
+                                    <h2 class="site-title">Heal Better at Home with <span>Skilled Nursing</span> Support</h2>                                    <p className="text-justify">
                                         Why spend hours in the hospital when expert nursing care can come to you at home? At Care[T.A.B], our certified and compassionate nurses deliver hospital-quality support in the comfort of your home, helping you to heal faster, manage conditions better, and live with dignity. 
                                     </p>
                                 </div>
@@ -347,7 +346,7 @@ export default function Home() {
                             </div>
                             <div class="choose-content wow fadeInUp ee" data-wow-delay=".25s">
                                 <div class="choose-content-wrap">
-                                    <div class="row g-3 row-cols-5 nursingiconbox">
+                                    <div class="row g-3 nursingiconbox">
                                         <div class="col-sm-3">
                                             <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
                                                 <div class="nursing-icon">
@@ -487,7 +486,7 @@ export default function Home() {
                                 <TabPanel className="tabdetails">
                                     <div class="choose-content wow fadeInUp" data-wow-delay=".25s">
                                         <div class="choose-content-wrap">
-                                            <div class="row g-3 row-cols-5 nursingiconbox">
+                                            <div class="row g-3 nursingiconbox">
                                                 <div class="col-sm-4">
                                                     <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
                                                         <div class="nursing-icon">
@@ -506,7 +505,7 @@ export default function Home() {
                                 <TabPanel className="tabdetails">
                                     <div class="choose-content wow fadeInUp" data-wow-delay=".25s">
                                         <div class="choose-content-wrap">
-                                            <div class="row g-3 row-cols-5 nursingiconbox">
+                                            <div class="row g-3 nursingiconbox">
                                                 <div class="col-sm-4">
                                                     <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
                                                         <div class="nursing-icon">
@@ -526,7 +525,7 @@ export default function Home() {
                                 <TabPanel className="tabdetails">
                                     <div class="choose-content wow fadeInUp" data-wow-delay=".25s">
                                         <div class="choose-content-wrap">
-                                            <div class="row g-3 row-cols-5 nursingiconbox">
+                                            <div class="row g-3 nursingiconbox">
                                                 <div class="col-sm-4">
                                                     <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
                                                         <div class="nursing-icon">
@@ -565,7 +564,7 @@ export default function Home() {
                                 <TabPanel className="tabdetails">
                                     <div class="choose-content wow fadeInUp" data-wow-delay=".25s">
                                         <div class="choose-content-wrap">
-                                            <div class="row g-3 row-cols-5 nursingiconbox">
+                                            <div class="row g-3 nursingiconbox">
                                                 <div class="col-sm-4">
                                                     <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
                                                         <div class="nursing-icon">

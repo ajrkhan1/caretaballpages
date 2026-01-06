@@ -372,7 +372,7 @@ export default function ICUSetupatHome() {
             </div>
 
            
-        <div class="feature-area pt-100">
+        <div class="feature-area pt-100 box5inmo">
             <div class="container">
                 <div class="feature-wrapper">
                     <div class="row g-4 slpadding">

@@ -418,7 +418,7 @@ export default function ICUSetupatHome() {
                                             <TabPanel className="tabdetails">
                                                 <div class="choose-content wow fadeInUp" data-wow-delay=".25s">
                                                     <div class="choose-content-wrap">
-                                                        <div class="row g-3 row-cols-5 nursingiconbox">
+                                                        <div class="row g-3 nursingiconbox">
                                                             <div class="col-sm-4">
                                                                 <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
                                                                     <div class="nursing-icon">
@@ -527,7 +527,7 @@ export default function ICUSetupatHome() {
                                             <TabPanel className="tabdetails">
                                                 <div class="choose-content wow fadeInUp" data-wow-delay=".25s">
                                                     <div class="choose-content-wrap">
-                                                        <div class="row g-3 row-cols-5 nursingiconbox">
+                                                        <div class="row g-3 nursingiconbox">
                                                             <div class="col-sm-12">
                                                                 <img className="imgborderwi" src="/assets/img/icu-setup-at-home/ICU Nurses.jpg" alt="ICU Nurses" />
                                                             </div>
@@ -539,7 +539,7 @@ export default function ICUSetupatHome() {
                                             <TabPanel className="tabdetails">
                                                 <div class="choose-content wow fadeInUp" data-wow-delay=".25s">
                                                     <div class="choose-content-wrap">
-                                                        <div class="row g-3 row-cols-5 nursingiconbox">
+                                                        <div class="row g-3 nursingiconbox">
                                                             <div class="col-sm-12">
                                                                 <img className="imgborderwi" src="/assets/img/icu-setup-at-home/Specialist Doctor Supervision.jpg" alt="Specialist Doctor Supervision" />                                                                
                                                             </div>
@@ -551,7 +551,7 @@ export default function ICUSetupatHome() {
                                             <TabPanel className="tabdetails">
                                                 <div class="choose-content wow fadeInUp" data-wow-delay=".25s">
                                                     <div class="choose-content-wrap">
-                                                        <div class="row g-3 row-cols-5 nursingiconbox">
+                                                        <div class="row g-3 nursingiconbox">
                                                             <div class="col-sm-12">
                                                                 <img className="imgborderwi" src="/assets/img/icu-setup-at-home/Home Health Care Attendant.jpg" alt="Home Health Care Attendant" />                                                                
                                                             </div>
@@ -563,7 +563,7 @@ export default function ICUSetupatHome() {
                                             <TabPanel className="tabdetails">
                                                 <div class="choose-content wow fadeInUp" data-wow-delay=".25s">
                                                     <div class="choose-content-wrap">
-                                                        <div class="row g-3 row-cols-5 nursingiconbox">
+                                                        <div class="row g-3 nursingiconbox">
                                                             <div class="col-sm-12">
                                                                 <img className="imgborderwi" src="/assets/img/icu-setup-at-home/Physiotherapy Visit.jpg" alt="Physiotherapy Visit" />                                                                
                                                             </div>
@@ -575,7 +575,7 @@ export default function ICUSetupatHome() {
                                             <TabPanel className="tabdetails">
                                                 <div class="choose-content wow fadeInUp" data-wow-delay=".25s">
                                                     <div class="choose-content-wrap">
-                                                        <div class="row g-3 row-cols-5 nursingiconbox">
+                                                        <div class="row g-3 nursingiconbox">
                                                             <div class="col-sm-12">
                                                                 <img className="imgborderwi" src="/assets/img/icu-setup-at-home/Medical Investigations.jpg" alt="Medical Investigations" />                                                                
                                                             </div>
@@ -657,7 +657,7 @@ export default function ICUSetupatHome() {
                             </div>
                             <div class="choose-content wow fadeInUp" data-wow-delay=".25s">
                                 <div class="choose-content-wrap">
-                                    <div class="row g-3 row-cols-5 nursingiconbox">
+                                    <div class="row g-3 nursingiconbox">
                                         <div class="col">
                                             <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
                                                 <div class="nursing-icon">
@@ -856,7 +856,7 @@ export default function ICUSetupatHome() {
                                 <TabPanel className="tabdetails">
                                     <div class="choose-content wow fadeInUp" data-wow-delay=".25s">
                                         <div class="choose-content-wrap">
-                                            <div class="row g-3 row-cols-5 nursingiconbox">
+                                            <div class="row g-3 nursingiconbox">
                                                 <div class="col-sm-4">
                                                     <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
                                                         <div class="nursing-icon">
@@ -917,7 +917,7 @@ export default function ICUSetupatHome() {
                                 <TabPanel className="tabdetails">
                                     <div class="choose-content wow fadeInUp" data-wow-delay=".25s">
                                         <div class="choose-content-wrap">
-                                            <div class="row g-3 row-cols-5 nursingiconbox">
+                                            <div class="row g-3 nursingiconbox">
                                                 <div class="col-sm-4">
                                                     <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
                                                         <div class="nursing-icon">
@@ -988,7 +988,7 @@ export default function ICUSetupatHome() {
                                 <TabPanel className="tabdetails">
                                     <div class="choose-content wow fadeInUp" data-wow-delay=".25s">
                                         <div class="choose-content-wrap">
-                                            <div class="row g-3 row-cols-5 nursingiconbox">
+                                            <div class="row g-3 nursingiconbox">
                                                 <div class="col-sm-4">
                                                     <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
                                                         <div class="nursing-icon">
@@ -1027,7 +1027,7 @@ export default function ICUSetupatHome() {
                                 <TabPanel className="tabdetails">
                                     <div class="choose-content wow fadeInUp" data-wow-delay=".25s">
                                         <div class="choose-content-wrap">
-                                            <div class="row g-3 row-cols-5 nursingiconbox">
+                                            <div class="row g-3 nursingiconbox">
                                                 <div class="col-sm-4">
                                                     <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
                                                         <div class="nursing-icon">

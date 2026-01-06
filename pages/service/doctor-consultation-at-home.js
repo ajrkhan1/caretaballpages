@@ -201,7 +201,7 @@ export default function DoctorConsultationatHome() {
                                         <h1 className="hero-title wow fadeInRight" data-delay=".50s">
                                             Expert Doctors Always Within Your Reach
                                         </h1>
-                                        <p>At Care[T.A.B], we believe healthcare doesn’t always need a hospital visit. With our team of experienced doctors and nurses, supported by advanced technology, we bring quality medical care to your doorstep. </p>
+                                        
                                         <div className="hero-btn wow fadeInUp" data-delay="1s">
                                             <a href="tel:+91-7891-444-333" className="theme-btn btnc">Call for Consultation <i
                                                 className="fas fa-arrow-right"></i></a>
@@ -279,6 +279,31 @@ export default function DoctorConsultationatHome() {
                                     </div>
                                 </div>
 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-area pb-100 pt-50">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6">
+                            <div class="video-info wow fadeInUp" data-wow-delay=".25s">
+                                <div class="site-heading mb-0">
+                                    <h2 class="site-title">Get Quality <span>Medical Care,</span> Without the Hospital Visit </h2>
+                                    <p className="text-justify">
+                                        At Care[T.A.B], we believe healthcare doesn’t always need a hospital visit. With our team of experienced doctors and nurses, supported by advanced technology, we bring quality medical care to your doorstep.
+                                    </p>
+                                </div>
+                                <a href="tel:+91-7891-444-333" class="theme-btn mt-30">Call for Care <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="video-content wow fadeInRight nursingbg1" data-wow-delay=".25s">
+                                <a class="play-btn" href="#">
+                                    <i class="fas fa-play"></i>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -413,7 +438,7 @@ export default function DoctorConsultationatHome() {
                             </div>
                             <div class="choose-content wow fadeInUp" data-wow-delay=".25s">
                                 <div class="choose-content-wrap">
-                                    <div class="row g-3 row-cols-5 nursingiconbox">
+                                    <div class="row g-3 nursingiconbox">
                                         <div class="col-sm-6">
                                             <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
                                                 <div class="nursing-icon">
