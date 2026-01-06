@@ -291,23 +291,13 @@ export default function DoctorConsultationatHome() {
                         <div class="col-lg-6 mx-auto">
                             <div class="site-heading text-center">
                                 {/* <span class="site-title-tagline"><i class="far fa-house-chimney-heart"></i> Living Options</span> */}
-                                <h2 class="site-title">Did you know?</h2>                               
-                                <p>3 in 4 Indians already prefer home consultations. So, why step out, when expert doctors can come to you, at your home? At Care[T.A.B], we give you choice of</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-lg-6 mx-auto">
-                            <div class="site-heading text-center">
-                                {/* <span class="site-title-tagline"><i class="far fa-house-chimney-heart"></i> Living Options</span> */}
                                 <h2 class="site-title">Our <span>Services</span></h2>                                
                             </div>
                         </div>
                     </div>
 
                     <div class="row g-4 slpadding ">
-                        <Slider {...settings}>
+                         <div className="col-sm-6">
                             <div class="blog-item wow fadeInUp" data-wow-delay=".25s">
                                 <div class="blog-item-img">
                                     <img src="/assets/img/living/01.jpg" alt=""/>
@@ -319,9 +309,10 @@ export default function DoctorConsultationatHome() {
                                         </h4>
                                     </div>
                                     <p>
-                                        Speak with expert doctors from the comfort of your home. Schedule an appointment-based online doctor consultation to discuss symptoms, review reports, and get prescriptions without stepping out. 
+                                       Schedule an appointment-based online doctor consultation to discuss symptoms, review reports, and get prescriptions without stepping out. 
                                     </p>
                                 </div>
+                            </div>
                             </div>
                             {/* <div class="blog-item wow fadeInUp" data-wow-delay=".25s">
                                 <div class="blog-item-img">
@@ -338,6 +329,7 @@ export default function DoctorConsultationatHome() {
                                     </p>
                                 </div>
                             </div> */}
+                            <div className="col-sm-6">
                             <div class="blog-item wow fadeInUp" data-wow-delay=".25s">
                                 <div class="blog-item-img">
                                     <img src="/assets/img/living/03.jpg" alt=""/>
@@ -352,6 +344,7 @@ export default function DoctorConsultationatHome() {
                                         Whether it’s routine check-ups, follow-ups, or personal medical attention, our doctors can come directly to your home, on your schedule.
                                     </p>
                                 </div>
+                            </div>
                             </div>
                             {/* <div class="blog-item wow fadeInUp" data-wow-delay=".25s">
                                 <div class="blog-item-img">
@@ -399,7 +392,7 @@ export default function DoctorConsultationatHome() {
                                 </div>
                             </div> */}
                            
-                        </Slider>
+                  
                 
                     </div>
                 </div>

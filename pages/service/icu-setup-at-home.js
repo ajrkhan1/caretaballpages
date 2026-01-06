@@ -1307,14 +1307,14 @@ export default function ICUSetupatHome() {
                                 <h2 class="accordion-header" id="headingTwo">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                        <span><i class="far fa-question"></i></span> Who can benefit from ICU at home?
+                                        <span><i class="far fa-question"></i></span> Who can benefit from Home ICU Set up? 
                                     </button>
                                 </h2>
                                 <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                                     data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
                                         <p>
-                                            Patients who need long-term ICU care, ventilator support, stroke or neurological rehabilitation, chronic respiratory support, cardiac instability management, or palliative intensive care can benefit from ICU at home.
+                                            Patients who need long-term ICU care, ventilator support, stroke or neuro rehabilitation, chronic respiratory support, cardiac instability management, or palliative intensive care can benefit from ICU at home. 
                                         </p>                                       
                                     </div>
                                 </div>
@@ -1324,14 +1324,14 @@ export default function ICUSetupatHome() {
                                 <h2 class="accordion-header" id="headingFour">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                        <span><i class="far fa-question"></i></span> Will a doctor be available in the ICU at home?
+                                        <span><i class="far fa-question"></i></span> Will a doctor be available in the ICU at home? 
                                     </button>
                                 </h2>
                                 <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
                                     data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
                                         <p>
-                                            Yes. Each ICU setup is monitored and supervised by a senior doctor, while critical care nurses provide 12-hour or 24-hour bedside support. Doctors also review reports and make home visits on a regular interval and also more frequently if required.
+                                            Yes. Each home ICU setup is monitored and supervised by a senior doctor, while critical care nurses provide 12-hour or 24-hour bedside support. Doctors also review reports and make home visits on a regular interval, and also more frequently if required.  
                                         </p>                                       
                                     </div>
                                 </div>
@@ -1340,14 +1340,14 @@ export default function ICUSetupatHome() {
                                 <h2 class="accordion-header" id="headingFive">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                        <span><i class="far fa-question"></i></span> Is ICU at home more affordable than hospital ICU?
+                                        <span><i class="far fa-question"></i></span> Is ICU at home more affordable than hospital ICU? 
                                     </button>
                                 </h2>
                                 <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
                                     data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
                                         <p>
-                                            Yes. Home ICU is typically 40–60% more cost-effective than hospital ICU while providing the same level of monitoring and nursing care, along with the comfort of being at home.
+                                            Yes. Home ICU Setup is typically 40–60% more cost-effective than hospital ICU setup while providing the same level of monitoring and nursing care, along with the comfort of being at home. 
                                         </p>                                       
                                     </div>
                                 </div>
