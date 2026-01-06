@@ -142,7 +142,7 @@ export default function DoctorConsultationatHome() {
         dots: true,
         infinite: true,
         speed: 1000,
-        slidesToShow: 3,
+        slidesToShow: 2,
         slidesToScroll: 1,
         initialSlide: 0,
         responsive: [
@@ -291,12 +291,21 @@ export default function DoctorConsultationatHome() {
                         <div class="col-lg-6 mx-auto">
                             <div class="site-heading text-center">
                                 {/* <span class="site-title-tagline"><i class="far fa-house-chimney-heart"></i> Living Options</span> */}
-                                <h2 class="site-title">Our <span>Services</span></h2>
-                                <h3>Did you know? </h3>
+                                <h2 class="site-title">Did you know?</h2>                               
                                 <p>3 in 4 Indians already prefer home consultations. So, why step out, when expert doctors can come to you, at your home? At Care[T.A.B], we give you choice of</p>
                             </div>
                         </div>
                     </div>
+
+                    <div class="row">
+                        <div class="col-lg-6 mx-auto">
+                            <div class="site-heading text-center">
+                                {/* <span class="site-title-tagline"><i class="far fa-house-chimney-heart"></i> Living Options</span> */}
+                                <h2 class="site-title">Our <span>Services</span></h2>                                
+                            </div>
+                        </div>
+                    </div>
+
                     <div class="row g-4 slpadding ">
                         <Slider {...settings}>
                             <div class="blog-item wow fadeInUp" data-wow-delay=".25s">
@@ -306,15 +315,15 @@ export default function DoctorConsultationatHome() {
                                 <div class="blog-item-info">
                                     <div class="blog-item-meta">
                                         <h4 class="blog-title">
-                                            <a href="#">Book. Connect. Consult. All from home.</a>
+                                            <a href="#">Appointment-Based Online Doctor Consultation</a>
                                         </h4>
                                     </div>
                                     <p>
-                                        Consult expert doctors from home—book a tele or video appointment to discuss symptoms, review reports, and get prescriptions, all without stepping out.
+                                        Speak with expert doctors from the comfort of your home. Schedule an appointment-based online doctor consultation to discuss symptoms, review reports, and get prescriptions without stepping out. 
                                     </p>
                                 </div>
                             </div>
-                            <div class="blog-item wow fadeInUp" data-wow-delay=".25s">
+                            {/* <div class="blog-item wow fadeInUp" data-wow-delay=".25s">
                                 <div class="blog-item-img">
                                     <img src="/assets/img/living/02.jpg" alt=""/>
                                 </div>
@@ -328,7 +337,7 @@ export default function DoctorConsultationatHome() {
                                         Health issues don’t wait, and neither do we. Our doctors are available round the clock to provide immediate medical guidance in emergencies.
                                     </p>
                                 </div>
-                            </div>
+                            </div> */}
                             <div class="blog-item wow fadeInUp" data-wow-delay=".25s">
                                 <div class="blog-item-img">
                                     <img src="/assets/img/living/03.jpg" alt=""/>
@@ -344,7 +353,7 @@ export default function DoctorConsultationatHome() {
                                     </p>
                                 </div>
                             </div>
-                            <div class="blog-item wow fadeInUp" data-wow-delay=".25s">
+                            {/* <div class="blog-item wow fadeInUp" data-wow-delay=".25s">
                                 <div class="blog-item-img">
                                     <img src="/assets/img/living/01.jpg" alt=""/>
                                 </div>
@@ -388,7 +397,7 @@ export default function DoctorConsultationatHome() {
                                         Whether it’s routine check-ups, follow-ups, or personal medical attention, our doctors can come directly to your home, on your schedule.
                                     </p>
                                 </div>
-                            </div>
+                            </div> */}
                            
                         </Slider>
                 
@@ -412,7 +421,7 @@ export default function DoctorConsultationatHome() {
                             <div class="choose-content wow fadeInUp" data-wow-delay=".25s">
                                 <div class="choose-content-wrap">
                                     <div class="row g-3 row-cols-5 nursingiconbox">
-                                        <div class="col">
+                                        <div class="col-sm-6">
                                             <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
                                                 <div class="nursing-icon">
                                                     <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
@@ -422,136 +431,17 @@ export default function DoctorConsultationatHome() {
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col">
+                                        <div class="col-sm-6">
                                             <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
                                                 <div class="nursing-icon">
                                                     <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
                                                 </div>
                                                 <div class="choose-item-info">
-                                                    <h4>Diabetes Care</h4>
+                                                    <h4>Critical Care </h4>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col">
-                                            <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
-                                                <div class="nursing-icon">
-                                                    <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
-                                                </div>
-                                                <div class="choose-item-info">
-                                                    <h4>Gynecology </h4>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col">
-                                            <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
-                                                <div class="nursing-icon">
-                                                    <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
-                                                </div>
-                                                <div class="choose-item-info">
-                                                    <h4>Paediatrics</h4>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col">
-                                            <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
-                                                <div class="nursing-icon">
-                                                    <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
-                                                </div>
-                                                <div class="choose-item-info">
-                                                    <h4>Pulmonology</h4>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col">
-                                            <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
-                                                <div class="nursing-icon">
-                                                    <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
-                                                </div>
-                                                <div class="choose-item-info">
-                                                    <h4>ENT</h4>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col">
-                                            <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
-                                                <div class="nursing-icon">
-                                                    <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
-                                                </div>
-                                                <div class="choose-item-info">
-                                                    <h4>Orthopedics</h4>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col">
-                                            <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
-                                                <div class="nursing-icon">
-                                                    <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
-                                                </div>
-                                                <div class="choose-item-info">
-                                                    <h4>Gastroenterology</h4>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col">
-                                            <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
-                                                <div class="nursing-icon">
-                                                    <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
-                                                </div>
-                                                <div class="choose-item-info">
-                                                    <h4>General Surgery</h4>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col">
-                                            <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
-                                                <div class="nursing-icon">
-                                                    <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
-                                                </div>
-                                                <div class="choose-item-info">
-                                                    <h4>Psychology</h4>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col">
-                                            <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
-                                                <div class="nursing-icon">
-                                                    <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
-                                                </div>
-                                                <div class="choose-item-info">
-                                                    <h4>Cardiology</h4>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col">
-                                            <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
-                                                <div class="nursing-icon">
-                                                    <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
-                                                </div>
-                                                <div class="choose-item-info">
-                                                    <h4>Oncology</h4>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col">
-                                            <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
-                                                <div class="nursing-icon">
-                                                    <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
-                                                </div>
-                                                <div class="choose-item-info">
-                                                    <h4>Neurology</h4>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col">
-                                            <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
-                                                <div class="nursing-icon">
-                                                    <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
-                                                </div>
-                                                <div class="choose-item-info">
-                                                    <h4>Nephro & Urology</h4>
-                                                </div>
-                                            </div>
-                                        </div>
+                                 
                                     </div>
                                 </div>
                             </div>
@@ -578,7 +468,7 @@ export default function DoctorConsultationatHome() {
                         <div class="col-lg-6">
                             <div class="video-info wow fadeInUp insidep" data-wow-delay=".25s">
                                 <div class="site-heading mb-0">
-                                    <h2 class="site-title">Why Choose <span>Care[T.A.B]</span> <br></br>Doctor Consultation?</h2>
+                                    <h2 class="site-title">Why Choose <span>Care[T.A.B]?</span></h2>
                                     <br></br>
                                 </div>
                                 <div class="feature-content">                                        
@@ -597,7 +487,7 @@ export default function DoctorConsultationatHome() {
                                             </li>
                                             <li>
                                                 <img src="/assets/img/icon/listicon.png" />
-                                                <p>Doctors available on demand</p>
+                                                <p>Online doctor consultation available on demand</p>
                                             </li>
                                             <li>
                                                 <img src="/assets/img/icon/listicon.png" />
@@ -646,13 +536,13 @@ export default function DoctorConsultationatHome() {
                                 <h2 class="accordion-header" id="headingOne">
                                     <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                        <span><i class="far fa-question"></i></span> How do I book a doctor consultation at home?
+                                        <span><i class="far fa-question"></i></span> How do I book an online doctor consultation at home? 
                                     </button>
                                 </h2>
                                 <div id="collapseOne" class="accordion-collapse collapse show"
                                     aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                       You can book a consultation by simply calling our helpline or filling out the online request form. Our team will connect you with the right doctor as per your needs.
+                                       You can book online doctor consultation by simply calling our helpline or filling out the online request form. Our team will connect you with the right doctor as per your needs.
                                     </div>
                                 </div>
                             </div>
@@ -666,7 +556,7 @@ export default function DoctorConsultationatHome() {
                                 <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                                     data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        <p>Yes. We offer secure tele/video consultations for convenience, and if required, our doctors can also visit your home for emergencies or in-person assessments.</p>
+                                        <p>Yes. We offer secure online doctor consultations for convenience, and if required, our doctors can also visit your home for emergencies or in-person assessments.</p>
                                     </div>
                                 </div>
                             </div>
@@ -675,33 +565,16 @@ export default function DoctorConsultationatHome() {
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseThree" aria-expanded="false"
                                         aria-controls="collapseThree">
-                                        <span><i class="far fa-question"></i></span> Are your services available 24/7?
+                                        <span><i class="far fa-question"></i></span> Are online doctor consultation services available 24/7?
                                     </button>
                                 </h2>
                                 <div id="collapseThree" class="accordion-collapse collapse"
                                     aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        <p>Absolutely. We provide round-the-clock emergency consultations and home visits to ensure you receive timely care whenever needed.</p>
+                                        <p>Absolutely. We provide round-the-clock online doctor consultation and home visits to ensure you receive timely care whenever needed.</p>
                                     </div>
                                 </div>
-                            </div>
-
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="headingFour">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapseFour" aria-expanded="false"
-                                        aria-controls="collapseFour">
-                                        <span><i class="far fa-question"></i></span> What kind of doctors are available for consultation?
-                                    </button>
-                                </h2>
-                                <div id="collapseFour" class="accordion-collapse collapse"
-                                    aria-labelledby="headingFour" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        <p>We have specialists across multiple fields, including Orthopedics, Gastroenterology, General Surgery, Diabetes Care, Gynecology, Psychology, Cardiology, ENT, Pulmonology, and Neurology.</p>
-                                    </div>
-                                </div>
-                            </div>
-                    
+                            </div>                    
                         </div>
                     </div>
                 </div>

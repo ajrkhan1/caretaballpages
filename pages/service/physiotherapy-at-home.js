@@ -217,13 +217,13 @@ export default function Physiotherapy() {
                                     <div className="hero-content">
                                         <br></br>
                                         <h6 className="hero-sub-title wow fadeInUp" data-delay=".25s">
-                                            <i><img className="brandiconw" src="/assets/img/icon/brandicon.png" alt="" /></i> Physiotherapy at Home
+                                            <i><img className="brandiconw" src="/assets/img/icon/brandicon.png" alt="" /></i> Physiotherapy at Home | Care[T.A.B] 
                                         </h6>
 
                                         <h1 className="hero-title wow fadeInRight" data-delay=".50s">
                                             Regain Strength, <br></br>Mobility & Confidence
                                         </h1>
-                                        <p className="text-justify">Physiotherapy plays a vital role in recovery, pain management, and improving quality of life. At Care[T.A.B], our certified physiotherapists provide personalized therapy sessions at your home, using evidence-based techniques to help you recover faster and move better.</p>
+                                        <p className="text-justify">Physiotherapy plays a vital role in recovery, pain management, and improving quality of life. At Care[T.A.B], our certified physiotherapists provide personalized physiotherapy treatment at home, using evidence-based techniques to help you recover faster and move better.</p>
                                         <div className="hero-btn wow fadeInUp" data-delay="1s">
                                             <a href="tel:+91-7891-444-333" className="theme-btn btnc">Call for Physiotherapy <i
                                                 className="fas fa-arrow-right"></i></a>
@@ -433,59 +433,7 @@ export default function Physiotherapy() {
                                     <div class="choose-content-wrap">
                                         <div class="row g-4 ajrow">
                                             <TabList className="lefttab lefttabphysiotheapy">
-                                                <Tab>
-                                                    <div class="col-md-12">
-                                                        <div class="about-item align-items-center">
-                                                            <div class="icon">
-                                                                <img src="/assets/img/icon/citizen.png" alt="" />
-                                                            </div>
-                                                            <div class="choose-item-info">
-                                                                <h4 className="margobb0">Orthopedic Rehabilitation</h4>
-
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </Tab>
-                                                <Tab>
-                                                    <div class="col-md-12">
-                                                        <div class="about-item align-items-center">
-                                                            <div class="icon">
-                                                                <img src="/assets/img/icon/help.png" alt="" />
-                                                            </div>
-                                                            <div class="choose-item-info">
-                                                                <h4 className="margobb0">Neurological Rehabilitation</h4>
-
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </Tab>
-                                                <Tab>
-                                                    <div class="col-md-12">
-                                                        <div class="about-item align-items-center">
-                                                            <div class="icon">
-                                                                <img src="/assets/img/icon/protocol.png" alt="" />
-                                                            </div>
-                                                            <div class="choose-item-info">
-                                                                <h4 className="margobb0">Pediatric Rehabilitation</h4>
-
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </Tab>
-                                                <Tab>
-                                                    <div class="col-md-12">
-                                                        <div class="about-item align-items-center">
-                                                            <div class="icon">
-                                                                <img src="/assets/img/icon/medical-team.png" alt="" />
-                                                            </div>
-                                                            <div class="choose-item-info">
-                                                                <h4 className="margobb0">Geriatric Rehabilitation</h4>
-
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </Tab>
-
+                                             
                                                 <Tab>
                                                     <div class="col-md-12">
                                                         <div class="about-item align-items-center">
@@ -504,15 +452,46 @@ export default function Physiotherapy() {
                                                     <div class="col-md-12">
                                                         <div class="about-item align-items-center">
                                                             <div class="icon">
-                                                                <img src="/assets/img/icon/medical-team.png" alt="" />
+                                                                <img src="/assets/img/icon/help.png" alt="" />
                                                             </div>
                                                             <div class="choose-item-info">
-                                                                <h4 className="margobb0">Musculoskeletal Physiotherapy</h4>
+                                                                <h4 className="margobb0">Neurological Rehabilitation</h4>
 
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </Tab>
+
+                                                <Tab>
+                                                    <div class="col-md-12">
+                                                        <div class="about-item align-items-center">
+                                                            <div class="icon">
+                                                                <img src="/assets/img/icon/protocol.png" alt="" />
+                                                            </div>
+                                                            <div class="choose-item-info">
+                                                                <h4 className="margobb0">Cardiac Rehabilitation </h4>
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </Tab>
+                                                <Tab>
+                                                    <div class="col-md-12">
+                                                        <div class="about-item align-items-center">
+                                                            <div class="icon">
+                                                                <img src="/assets/img/icon/medical-team.png" alt="" />
+                                                            </div>
+                                                            <div class="choose-item-info">
+                                                                <h4 className="margobb0">Pain management</h4>
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </Tab>
+
+                                                
+
+                                                
 
 
                                             </TabList>
@@ -520,131 +499,13 @@ export default function Physiotherapy() {
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-6">
-                                <TabPanel className="tabdetails">
-                                    <div class="choose-content wow fadeInUp" data-wow-delay=".25s">
-                                        <div class="choose-content-wrap">
-                                            <div class="row g-3 row-cols-5 nursingiconbox">
-                                                <div class="col-sm-4">
-                                                    <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
-                                                        <div class="nursing-icon">
-                                                            <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
-                                                        </div>
-                                                        <div class="choose-item-info">
-                                                            <h4>Knee Pain</h4>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-sm-4">
-                                                    <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
-                                                        <div class="nursing-icon">
-                                                            <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
-                                                        </div>
-                                                        <div class="choose-item-info">
-                                                            <h4>Back Pain</h4>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-sm-4">
-                                                    <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
-                                                        <div class="nursing-icon">
-                                                            <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
-                                                        </div>
-                                                        <div class="choose-item-info">
-                                                            <h4>Shoulder Pain</h4>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-sm-4">
-                                                    <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
-                                                        <div class="nursing-icon">
-                                                            <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
-                                                        </div>
-                                                        <div class="choose-item-info">
-                                                            <h4>Hip Pain</h4>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </TabPanel>
+                            <div class="col-lg-6">                        
 
                                 <TabPanel className="tabdetails">
                                     <div class="choose-content wow fadeInUp" data-wow-delay=".25s">
                                         <div class="choose-content-wrap">
                                             <div class="row g-3 row-cols-5 nursingiconbox">
-                                                <div class="col-sm-4">
-                                                    <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
-                                                        <div class="nursing-icon">
-                                                            <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
-                                                        </div>
-                                                        <div class="choose-item-info">
-                                                            <h4>Post-Stroke Recovery</h4>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-sm-4">
-                                                    <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
-                                                        <div class="nursing-icon">
-                                                            <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
-                                                        </div>
-                                                        <div class="choose-item-info">
-                                                            <h4>Parkinson’s Care</h4>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </TabPanel>
-
-                                <TabPanel className="tabdetails">
-                                    <div class="choose-content wow fadeInUp" data-wow-delay=".25s">
-                                        <div class="choose-content-wrap">
-                                            <div class="row g-3 row-cols-5 nursingiconbox">
-                                                <div class="col-sm-4">
-                                                    <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
-                                                        <div class="nursing-icon">
-                                                            <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
-                                                        </div>
-                                                        <div class="choose-item-info">
-                                                            <h4>Cerebral Palsy</h4>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </TabPanel>
-
-                                <TabPanel className="tabdetails">
-                                    <div class="choose-content wow fadeInUp" data-wow-delay=".25s">
-                                        <div class="choose-content-wrap">
-                                            <div class="row g-3 row-cols-5 nursingiconbox">
-
-                                                <div class="col-sm-4">
-                                                    <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
-                                                        <div class="nursing-icon">
-                                                            <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
-                                                        </div>
-                                                        <div class="choose-item-info">
-                                                            <h4>ActiveAge</h4>
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                </TabPanel>
-
-                                <TabPanel className="tabdetails">
-                                    <div class="choose-content wow fadeInUp" data-wow-delay=".25s">
-                                        <div class="choose-content-wrap">
-                                            <div class="row g-3 row-cols-5 nursingiconbox">
-
-                                                <div class="col-sm-4">
+                                                <div class="col-sm-6">
                                                     <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
                                                         <div class="nursing-icon">
                                                             <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
@@ -654,7 +515,7 @@ export default function Physiotherapy() {
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-sm-4">
+                                                <div class="col-sm-6">
                                                     <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
                                                         <div class="nursing-icon">
                                                             <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
@@ -664,6 +525,55 @@ export default function Physiotherapy() {
                                                         </div>
                                                     </div>
                                                 </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </TabPanel>
+
+                                <TabPanel className="tabdetails">
+                                    <div class="choose-content wow fadeInUp" data-wow-delay=".25s">
+                                        <div class="choose-content-wrap">
+                                            <div class="row g-3 row-cols-5 nursingiconbox">
+                                                <div class="col-sm-6">
+                                                    <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
+                                                        <div class="nursing-icon">
+                                                            <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
+                                                        </div>
+                                                        <div class="choose-item-info">
+                                                            <h4>Physiotherapy for stroke patients at home</h4>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-6">
+                                                    <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
+                                                        <div class="nursing-icon">
+                                                            <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
+                                                        </div>
+                                                        <div class="choose-item-info">
+                                                            <h4>Parkinson’s Care </h4>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </TabPanel>
+
+                                <TabPanel className="tabdetails">
+                                    <div class="choose-content wow fadeInUp" data-wow-delay=".25s">
+                                        <div class="choose-content-wrap">
+                                            <div class="row g-3 row-cols-5 nursingiconbox">
+
+                                                {/* <div class="col-sm-4">
+                                                    <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
+                                                        <div class="nursing-icon">
+                                                            <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
+                                                        </div>
+                                                        <div class="choose-item-info">
+                                                            <h4>ActiveAge</h4>
+                                                        </div>
+                                                    </div>
+                                                </div> */}
 
                                             </div>
                                         </div>
@@ -681,7 +591,39 @@ export default function Physiotherapy() {
                                                             <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
                                                         </div>
                                                         <div class="choose-item-info">
-                                                            <h4>Muscular pain & recovery</h4>
+                                                            <h4>Physiotherapy for knee <br></br>pain at home</h4>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-4">
+                                                    <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
+                                                        <div class="nursing-icon">
+                                                            <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
+                                                        </div>
+                                                        <div class="choose-item-info">
+                                                            <h4>Physiotherapy <br></br>for body pain</h4>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-sm-4">
+                                                    <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
+                                                        <div class="nursing-icon">
+                                                            <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
+                                                        </div>
+                                                        <div class="choose-item-info">
+                                                            <h4>Physiotherapy for <br></br>mobility</h4>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-sm-4">
+                                                    <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
+                                                        <div class="nursing-icon">
+                                                            <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
+                                                        </div>
+                                                        <div class="choose-item-info">
+                                                            <h4>Back pain physiotherapy treatment at home</h4>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -690,6 +632,7 @@ export default function Physiotherapy() {
                                         </div>
                                     </div>
                                 </TabPanel>
+
 
                             </div>
 
@@ -752,7 +695,7 @@ export default function Physiotherapy() {
                             <div class="cta-content">
                                 <h1>Rebuild strength with expert guidance</h1>
                                 <p>
-                                    Take the first step toward recovery and better mobility. With Care[T.A.B], expert physiotherapy is just a call away.
+                                    Take the first step toward recovery and better mobility. With Care[T.A.B], best physiotherapy at home services, care is just a call away.
                                 </p>
                                 <a href="#" class="theme-btn">Book Your Rehabilitation Session Now<i class="fas fa-arrow-right"></i></a>
                             </div>
@@ -780,7 +723,7 @@ export default function Physiotherapy() {
                                     <h2 class="accordion-header" id="headingOne">
                                         <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                             data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                            <span><i class="far fa-question"></i></span> How do I book a Care[T.A.B] service?
+                                            <span><i class="far fa-question"></i></span> How do I book a Care[T.A.B] physiotherapy at home? 
                                         </button>
                                     </h2>
                                     <div id="collapseOne" class="accordion-collapse collapse show"
@@ -794,13 +737,13 @@ export default function Physiotherapy() {
                                     <h2 class="accordion-header" id="headingTwo">
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                             data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                            <span><i class="far fa-question"></i></span> Are Care[T.A.B] services available 24/7?
+                                            <span><i class="far fa-question"></i></span> Who are the doctors and nurses at Care[T.A.B]?
                                         </button>
                                     </h2>
                                     <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                                         data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
-                                            <p>Yes. We provide round-the-clock support. Emergency doctor consultations and urgent nursing care are available at all times.</p>
+                                            <p>Our team is made up of qualified doctors, registered nurses, and certified physiotherapists. Each professional undergoes rigorous training, verification, and is supervised by senior specialists.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -809,13 +752,13 @@ export default function Physiotherapy() {
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                             data-bs-target="#collapseThree" aria-expanded="false"
                                             aria-controls="collapseThree">
-                                            <span><i class="far fa-question"></i></span> Who are the doctors and nurses at Care[T.A.B]?
+                                            <span><i class="far fa-question"></i></span> What conditions can physiotherapy at home help with? 
                                         </button>
                                     </h2>
                                     <div id="collapseThree" class="accordion-collapse collapse"
                                         aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
-                                            <p>Our team is made up of qualified doctors, registered nurses, and certified physiotherapists. Each professional undergoes rigorous training, verification, and is supervised by senior specialists.</p>
+                                            <p>Our physiotherapists specialize in post-surgery rehab, neuro rehabilitation, cardiac rehab, and orthopedic rehab, as well as pain management, mobility training, and strengthening exercises.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -825,27 +768,11 @@ export default function Physiotherapy() {
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                             data-bs-target="#collapseFour" aria-expanded="false"
                                             aria-controls="collapseFour">
-                                            <span><i class="far fa-question"></i></span> What conditions can physiotherapy at home help with?
+                                            <span><i class="far fa-question"></i></span> Can Care[T.A.B] coordinate with my hospital/doctor? 
                                         </button>
                                     </h2>
                                     <div id="collapseFour" class="accordion-collapse collapse"
                                         aria-labelledby="headingFour" data-bs-parent="#accordionExample">
-                                        <div class="accordion-body">
-                                            <p>Our physiotherapists specialize in post-surgery rehab, neuro rehabilitation, cardiac rehab, and orthopedic rehab, as well as pain management, mobility training, and strengthening exercises.</p>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header" id="headingFive">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                            data-bs-target="#collapseFive" aria-expanded="false"
-                                            aria-controls="collapseFive">
-                                            <span><i class="far fa-question"></i></span> Can Care[T.A.B] coordinate with my hospital/doctor?
-                                        </button>
-                                    </h2>
-                                    <div id="collapseFive" class="accordion-collapse collapse"
-                                        aria-labelledby="headingFive" data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
                                             <p>Yes. We work alongside your hospital doctors and provide continuity of care at home, ensuring smooth communication and better outcomes.</p>
                                         </div>

@@ -257,7 +257,7 @@ export default function Diagnostics() {
                                                                 <img src="/assets/img/icon/citizen.png" alt="" />
                                                             </div>
                                                             <div class="choose-item-info">
-                                                                <h4 className="margobb0">Critical Care Test</h4>
+                                                                <h4 className="margobb0">Cardiac & Neurological Tests</h4>
                                                                 {/* <p>Trusted hospital backing. Reliable care at home.</p> */}
                                                             </div>
                                                         </div>
@@ -270,7 +270,7 @@ export default function Diagnostics() {
                                                                 <img src="/assets/img/icon/help.png" alt="" />
                                                             </div>
                                                             <div class="choose-item-info">
-                                                                <h4 className="margobb0">Cardiac & Neurological Tests</h4>
+                                                                <h4 className="margobb0">Respiratory & Metabolic Tests</h4>
                                                                 {/* <p>Doctors lead your care, not just approve it.</p> */}
                                                             </div>
                                                         </div>
@@ -283,50 +283,20 @@ export default function Diagnostics() {
                                                                 <img src="/assets/img/icon/protocol.png" alt="" />
                                                             </div>
                                                             <div class="choose-item-info">
-                                                                <h4 className="margobb0">Respiratory & Metabolic Tests</h4>
+                                                                <h4 className="margobb0">Imaging & Radiology</h4>
                                                                 {/* <p>We follow the same standards as hospitals.</p> */}
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </Tab>
-                                                <Tab>
-                                                    <div class="col-md-12">
-                                                        <div class="about-item align-items-center">
-                                                            <div class="icon">
-                                                                <img src="/assets/img/icon/medical-team.png" alt="" />
-                                                            </div>
-                                                            <div class="choose-item-info">
-                                                                <h4 className="margobb0">Imaging & Radiology</h4>
-                                                                {/* <p>Trained, certified nurses and caregivers.</p> */}
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </Tab>
+                                                
                                             </TabList>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-6">
-                                <TabPanel className="tabdetails">
-                                    <div class="choose-content wow fadeInUp" data-wow-delay=".25s">
-                                        <div class="choose-content-wrap">
-                                            <div class="row g-3 row-cols-5 nursingiconbox">
-                                                <div class="col-sm-4">
-                                                    <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
-                                                        <div class="nursing-icon">
-                                                            <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
-                                                        </div>
-                                                        <div class="choose-item-info">
-                                                            <h4>ABG test</h4>
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                </TabPanel>
+                            
 
                                 <TabPanel className="tabdetails">
                                     <div class="choose-content wow fadeInUp" data-wow-delay=".25s">
@@ -358,63 +328,11 @@ export default function Diagnostics() {
                                                             <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
                                                         </div>
                                                         <div class="choose-item-info">
-                                                            <h4>ABPM (Ambulatory Blood Pressure Monitoring)</h4>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-sm-4">
-                                                    <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
-                                                        <div class="nursing-icon">
-                                                            <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
-                                                        </div>
-                                                        <div class="choose-item-info">
-                                                            <h4>ELR (Event Loop Recorder)</h4>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-sm-4">
-                                                    <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
-                                                        <div class="nursing-icon">
-                                                            <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
-                                                        </div>
-                                                        <div class="choose-item-info">
                                                             <h4>EEG Test</h4>
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-sm-4">
-                                                    <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
-                                                        <div class="nursing-icon">
-                                                            <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
-                                                        </div>
-                                                        <div class="choose-item-info">
-                                                            <h4>NCV Test</h4>
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-                                                <div class="col-sm-4">
-                                                    <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
-                                                        <div class="nursing-icon">
-                                                            <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
-                                                        </div>
-                                                        <div class="choose-item-info">
-                                                            <h4>EMG Test</h4>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-sm-4">
-                                                    <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
-                                                        <div class="nursing-icon">
-                                                            <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
-                                                        </div>
-                                                        <div class="choose-item-info">
-                                                            <h4>BERA & VEP Test</h4>
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-
+                                               
                                             </div>
                                         </div>
                                     </div>
@@ -469,14 +387,16 @@ export default function Diagnostics() {
                                                             <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
                                                         </div>
                                                         <div class="choose-item-info">
-                                                            <h4>Home X-Ray</h4>
+                                                            <h4>Home X-Ray </h4>
                                                         </div>
                                                     </div>
-                                                </div>
+                                                </div>                                              
                                             </div>
                                         </div>
                                     </div>
                                 </TabPanel>
+
+                               
                             </div>
 
                         </div>
@@ -487,14 +407,7 @@ export default function Diagnostics() {
 
             <div class="living-option pt-60 pb-60">
                 <div class="container">
-                    <div class="row">
-                        <div class="col-lg-6 mx-auto">
-                            <div class="site-heading text-center">
-                                {/* <span class="site-title-tagline"><i class="far fa-house-chimney-heart"></i> Living Options</span> */}
-                                <h2 class="site-title">Diagnostics  <span>@ Lab</span></h2>                                
-                            </div>
-                        </div>
-                    </div>
+                 
                     <div class="row g-4 slpadding ">
                         <Slider {...settings}>
                             <div class="blog-item wow fadeInUp" data-wow-delay=".25s">
@@ -504,12 +417,38 @@ export default function Diagnostics() {
                                 <div class="blog-item-info">
                                     <div class="blog-item-meta">
                                         <h4 class="blog-title">
-                                            <a href="#">Comprehensive Health Check-Ups & Specialized Lab Tests</a>
+                                            <a href="#">Comprehensive Health Check-Up Packages</a>
                                         </h4>
                                     </div>
                                     <p>
                                         From basic health screenings to advanced diagnostic panels, we offer customized lab packages and a wide range of specialized tests with free doctor review as per the reports.
                                     </p>
+                                    <ul class="listicon">
+                                        <li>
+                                            <img src="/assets/img/icon/listicon.png" />
+                                            <p>Basic Health Check up packages</p>
+                                        </li>
+                                        <li>
+                                            <img src="/assets/img/icon/listicon.png" />
+                                            <p>Advanced Health Check up packages</p>
+                                        </li>
+                                        <li>
+                                            <img src="/assets/img/icon/listicon.png" />
+                                            <p>Premium Health Check up packages</p>
+                                        </li>
+                                        <li>
+                                            <img src="/assets/img/icon/listicon.png" />
+                                            <p>Comprehensive Check up packages </p>
+                                        </li>
+                                        <li>
+                                            <img src="/assets/img/icon/listicon.png" />
+                                            <p>Heart Health Check up packages</p>
+                                        </li>
+                                        <li>
+                                            <img src="/assets/img/icon/listicon.png" />
+                                            <p>Diabetic Health Check up packages</p>
+                                        </li>
+                                    </ul>
                                 </div>
                             </div>
                             <div class="blog-item wow fadeInUp" data-wow-delay=".25s">
@@ -552,47 +491,7 @@ export default function Diagnostics() {
                                     </ul>
                                 </div>
                             </div>
-                            <div class="blog-item wow fadeInUp" data-wow-delay=".25s">
-                                <div class="blog-item-img">
-                                    <img src="/assets/img/living/01.jpg" alt="" />
-                                </div>
-                                <div class="blog-item-info">
-                                    <div class="blog-item-meta">
-                                        <h4 class="blog-title">
-                                            <a href="#">Express Medicine Delivery @ Home </a>
-                                        </h4>
-                                    </div>
-                                    <p>
-                                        Why step out when medicines can come to you? With pharmacy-certified formulas, express delivery, and special discount offers, Care[T.A.B] ensures you never miss a dose. Simply share your valid prescription, and our team will arrange doorstep delivery, anytime, anywhere!
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="blog-item wow fadeInUp" data-wow-delay=".25s">
-                                <div class="blog-item-img">
-                                    <img src="/assets/img/living/02.jpg" alt="" />
-                                </div>
-                                <div class="blog-item-info">
-                                    <div class="blog-item-meta">
-                                        <h4 class="blog-title">
-                                            <a href="#">Wellness Services</a>
-                                        </h4>
-                                    </div>
-                                    <p>
-                                        True care truly goes beyond the treatment. At Care[T.A.B], we focus on holistic wellness with supportive programs designed for long-term health.
-                                    </p>
-                                    <ul class="listicon">
-                                        <li>
-                                            <img src="/assets/img/icon/listicon.png" />
-                                            <p>Mental Health</p>
-                                        </li>
-                                        <li>
-                                            <img src="/assets/img/icon/listicon.png" />
-                                            <p>Nutritional Support and Diet Plans</p>
-                                        </li>                                    
-                                    </ul>
-                                </div>
-                            </div>
-
+                             
                         </Slider>
 
                     </div>
@@ -602,19 +501,19 @@ export default function Diagnostics() {
             <div class="choose-area pt-70 pb-50 typesofnursing">
             <div class="container">
                 <div class="row g-4 align-items-center justify-content-between wow fadeInDown" data-wow-delay=".25s">
-                    <div class="col-lg-6">
-                        <div class="site-heading mb-0">
+                    <div class="col-lg-12">
+                        <div class="site-heading mb-0 text-center">
                             <span class="site-title-tagline"><i class="far fa-house-chimney-heart"></i> Why Choose Us</span>
                             <h2 class="site-title">Benefits of  <span>Diagnostics & Wellness </span> at Home </h2>
                         </div>
                     </div>                   
                 </div>
                 <div class="row">
-                    <div class="col-lg-6">
+                    <div class="col-lg-12">
                         <div class="choose-content wow fadeInUp" data-wow-delay=".25s">
                             <div class="choose-content-wrap">
                                 <div class="row g-4">
-                                    <div class="col-md-6">
+                                    <div class="col">
                                         <div class="choose-item">
                                             <span class="count">01</span>
                                             <div class="choose-item-icon">
@@ -626,11 +525,23 @@ export default function Diagnostics() {
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-6">
+                                    <div class="col">
                                         <div class="choose-item">
                                             <span class="count">02</span>
                                             <div class="choose-item-icon">
                                                 <img src="/assets/img/icon/team.svg" alt=""/>
+                                            </div>
+                                            <div class="choose-item-info">
+                                                <h4>Safe & Hygienic</h4>
+                                                <p>Trained phlebotomists follow strict protocols.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="choose-item">
+                                            <span class="count">03</span>
+                                            <div class="choose-item-icon">
+                                                <img src="/assets/img/icon/care.svg" alt=""/>
                                             </div>
                                             <div class="choose-item-info">
                                                 <h4>Time-Saving</h4>
@@ -638,11 +549,11 @@ export default function Diagnostics() {
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-6">
+                                    <div class="col">
                                         <div class="choose-item">
-                                            <span class="count">03</span>
+                                            <span class="count">04</span>
                                             <div class="choose-item-icon">
-                                                <img src="/assets/img/icon/care.svg" alt=""/>
+                                                <img src="/assets/img/icon/certified.svg" alt=""/>
                                             </div>
                                             <div class="choose-item-info">
                                                 <h4>Digital Reports</h4>
@@ -650,9 +561,9 @@ export default function Diagnostics() {
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-6">
+                                    <div class="col">
                                         <div class="choose-item">
-                                            <span class="count">04</span>
+                                            <span class="count">05</span>
                                             <div class="choose-item-icon">
                                                 <img src="/assets/img/icon/certified.svg" alt=""/>
                                             </div>
@@ -666,11 +577,11 @@ export default function Diagnostics() {
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    {/* <div class="col-lg-6">
                         <div class="choose-img wow fadeInRight" data-wow-delay=".25s">
                             <img src="/assets/img/diagnostics/dignosefront1.jpg" alt=""/>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </div>

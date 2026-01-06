@@ -282,6 +282,8 @@ export default function ICUSetupatHome() {
                 </div>
             </div>
 
+            
+
             <div class="video-area pb-100 pt-50">
                 <div class="container">
                     <div class="row align-items-center">
@@ -301,6 +303,340 @@ export default function ICUSetupatHome() {
                                 <a class="play-btn" href="#">
                                     <i class="fas fa-play"></i>
                                 </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="choose-area pt-50 pb-50 planebg">
+                            <div class="container">
+                                <div className="row">
+                                    <div className="col-sm-6">
+                                        <div class="site-heading mb-0">                                
+                                            <h2 class="site-title">Long Term <span>Nursing Care</span> @ Home</h2>
+                                            <p>
+                                                Designed for patients who require continuous medical assistance and monitoring over an extended period. This includes: 
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <br></br>
+                                <Tabs>
+                                    <div class="row zindexxx">
+            
+                                        <div class="col-lg-6 allboxx">
+                                            <div class="choose-content wow fadeInUp margint0" data-wow-delay=".25s">
+                                                <div class="choose-content-wrap">
+                                                    <div class="row g-4 ajrow">
+                                                        <TabList className="lefttab">
+                                                            <Tab>
+                                                                <div class="col-md-12">
+                                                                    <div class="about-item align-items-center">
+                                                                        <div class="icon">
+                                                                            <img src="/assets/img/icon/citizen.png" alt="" />
+                                                                        </div>
+                                                                        <div class="choose-item-info">
+                                                                            <h4 className="margobb0">Complete Critical Care Medical Equipment,</h4>
+                                                                            {/* <p>Trusted hospital backing. Reliable care at home.</p> */}
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </Tab>
+                                                            <Tab>
+                                                                <div class="col-md-12">
+                                                                    <div class="about-item align-items-center">
+                                                                        <div class="icon">
+                                                                            <img src="/assets/img/icon/help.png" alt="" />
+                                                                        </div>
+                                                                        <div class="choose-item-info">
+                                                                            <h4 className="margobb0">ICU Nurses</h4>
+                                                                            {/* <p>Doctors lead your care, not just approve it.</p> */}
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </Tab>
+                                                            <Tab>
+                                                                <div class="col-md-12">
+                                                                    <div class="about-item align-items-center">
+                                                                        <div class="icon">
+                                                                            <img src="/assets/img/icon/protocol.png" alt="" />
+                                                                        </div>
+                                                                        <div class="choose-item-info">
+                                                                            <h4 className="margobb0">Specialist Doctor Supervision</h4>
+                                                                            {/* <p>We follow the same standards as hospitals.</p> */}
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </Tab>
+                                                            <Tab>
+                                                                <div class="col-md-12">
+                                                                    <div class="about-item align-items-center">
+                                                                        <div class="icon">
+                                                                            <img src="/assets/img/icon/medical-team.png" alt="" />
+                                                                        </div>
+                                                                        <div class="choose-item-info">
+                                                                            <h4 className="margobb0">Home Health Care Attendant</h4>
+                                                                            {/* <p>Trained, certified nurses and caregivers.</p> */}
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </Tab>
+                                                            <Tab>
+                                                                <div class="col-md-12">
+                                                                    <div class="about-item align-items-center">
+                                                                        <div class="icon">
+                                                                            <img src="/assets/img/icon/medical-team.png" alt="" />
+                                                                        </div>
+                                                                        <div class="choose-item-info">
+                                                                            <h4 className="margobb0">Physiotherapy Visit</h4>
+                                                                            {/* <p>Trained, certified nurses and caregivers.</p> */}
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </Tab>
+                                                            <Tab>
+                                                                <div class="col-md-12">
+                                                                    <div class="about-item align-items-center">
+                                                                        <div class="icon">
+                                                                            <img src="/assets/img/icon/medical-team.png" alt="" />
+                                                                        </div>
+                                                                        <div class="choose-item-info">
+                                                                            <h4 className="margobb0">Medical Investigations, etc.</h4>
+                                                                            {/* <p>Trained, certified nurses and caregivers.</p> */}
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </Tab>
+                                                        </TabList>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">                                            
+            
+                                            <TabPanel className="tabdetails">
+                                                <div class="choose-content wow fadeInUp" data-wow-delay=".25s">
+                                                    <div class="choose-content-wrap">
+                                                        <div class="row g-3 row-cols-5 nursingiconbox">
+                                                            <div class="col-sm-4">
+                                                                <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
+                                                                    <div class="nursing-icon">
+                                                                        <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
+                                                                    </div>
+                                                                    <div class="choose-item-info">
+                                                                        <h4>Multipara monitors </h4>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="col-sm-4">
+                                                                <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
+                                                                    <div class="nursing-icon">
+                                                                        <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
+                                                                    </div>
+                                                                    <div class="choose-item-info">
+                                                                        <h4>Oxygen concentrators/cylinders</h4>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="col-sm-4">
+                                                                <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
+                                                                    <div class="nursing-icon">
+                                                                        <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
+                                                                    </div>
+                                                                    <div class="choose-item-info">
+                                                                        <h4>Suction machines </h4>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="col-sm-4">
+                                                                <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
+                                                                    <div class="nursing-icon">
+                                                                        <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
+                                                                    </div>
+                                                                    <div class="choose-item-info">
+                                                                        <h4>BiPAP</h4>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="col-sm-4">
+                                                                <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
+                                                                    <div class="nursing-icon">
+                                                                        <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
+                                                                    </div>
+                                                                    <div class="choose-item-info">
+                                                                        <h4>CPAP</h4>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="col-sm-4">
+                                                                <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
+                                                                    <div class="nursing-icon">
+                                                                        <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
+                                                                    </div>
+                                                                    <div class="choose-item-info">
+                                                                        <h4>Ventilators</h4>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="col-sm-4">
+                                                                <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
+                                                                    <div class="nursing-icon">
+                                                                        <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
+                                                                    </div>
+                                                                    <div class="choose-item-info">
+                                                                        <h4>Syringe & infusion pumps</h4>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="col-sm-4">
+                                                                <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
+                                                                    <div class="nursing-icon">
+                                                                        <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
+                                                                    </div>
+                                                                    <div class="choose-item-info">
+                                                                        <h4>Nebulizers</h4>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="col-sm-4">
+                                                                <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
+                                                                    <div class="nursing-icon">
+                                                                        <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
+                                                                    </div>
+                                                                    <div class="choose-item-info">
+                                                                        <h4>Hospital beds with air mattress</h4>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                           
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </TabPanel>
+            
+                                            <TabPanel className="tabdetails">
+                                                <div class="choose-content wow fadeInUp" data-wow-delay=".25s">
+                                                    <div class="choose-content-wrap">
+                                                        <div class="row g-3 row-cols-5 nursingiconbox">
+                                                            <div class="col-sm-12">
+                                                                <img className="imgborderwi" src="/assets/img/icu-setup-at-home/ICU Nurses.jpg" alt="ICU Nurses" />
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </TabPanel>
+
+                                            <TabPanel className="tabdetails">
+                                                <div class="choose-content wow fadeInUp" data-wow-delay=".25s">
+                                                    <div class="choose-content-wrap">
+                                                        <div class="row g-3 row-cols-5 nursingiconbox">
+                                                            <div class="col-sm-12">
+                                                                <img className="imgborderwi" src="/assets/img/icu-setup-at-home/Specialist Doctor Supervision.jpg" alt="Specialist Doctor Supervision" />                                                                
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </TabPanel>
+
+                                            <TabPanel className="tabdetails">
+                                                <div class="choose-content wow fadeInUp" data-wow-delay=".25s">
+                                                    <div class="choose-content-wrap">
+                                                        <div class="row g-3 row-cols-5 nursingiconbox">
+                                                            <div class="col-sm-12">
+                                                                <img className="imgborderwi" src="/assets/img/icu-setup-at-home/Home Health Care Attendant.jpg" alt="Home Health Care Attendant" />                                                                
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </TabPanel>
+
+                                            <TabPanel className="tabdetails">
+                                                <div class="choose-content wow fadeInUp" data-wow-delay=".25s">
+                                                    <div class="choose-content-wrap">
+                                                        <div class="row g-3 row-cols-5 nursingiconbox">
+                                                            <div class="col-sm-12">
+                                                                <img className="imgborderwi" src="/assets/img/icu-setup-at-home/Physiotherapy Visit.jpg" alt="Physiotherapy Visit" />                                                                
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </TabPanel>
+
+                                            <TabPanel className="tabdetails">
+                                                <div class="choose-content wow fadeInUp" data-wow-delay=".25s">
+                                                    <div class="choose-content-wrap">
+                                                        <div class="row g-3 row-cols-5 nursingiconbox">
+                                                            <div class="col-sm-12">
+                                                                <img className="imgborderwi" src="/assets/img/icu-setup-at-home/Medical Investigations.jpg" alt="Medical Investigations" />                                                                
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </TabPanel>
+                                        </div>
+            
+                                    </div>
+                                </Tabs>
+                            </div>
+            </div>
+
+            <div class="pb-100 pt-50">
+                <div class="container">
+                    <div class="row">
+                        
+                        <div class="col-lg-6">
+                            <img className="imgborderwi" src="/assets/img/icu-setup-at-home/Who Needs an ICU at Home.jpg" alt="ICU Nurses" />
+                           
+                        </div>
+
+                        <div class="col-lg-6 whycaretb pt-50 pb-50">
+                            <div class="video-info wow fadeInUp insidep" data-wow-delay=".25s">
+                                <div class="site-heading mb-0">
+                                    <h2 class="site-title">Who Needs an ICU at Home? <span></span></h2>
+                                    <p>Home ICU setup is ideal for patients who require long-term critical care or prefer recovery in a familiar environment. Common situations include: </p>
+                                </div>
+                                <div class="feature-content">                                        
+                                        <ul class="listicon">
+                                            <li>
+                                                <img src="/assets/img/icon/listicon.png" />
+                                                <p>Post-ICU patients were shifted home for continued monitoring </p>
+                                            </li>
+                                            <li>
+                                                <img src="/assets/img/icon/listicon.png" />
+                                                <p>Patients with chronic respiratory conditions (COPD, severe asthma)</p>
+                                            </li>
+                                            <li>
+                                                <img src="/assets/img/icon/listicon.png" />
+                                                <p>Patients requiring ventilator support with or without tracheostomy</p>
+                                            </li>
+                                            <li>
+                                                <img src="/assets/img/icon/listicon.png" />
+                                                <p>Stroke or neurological patients needing round-the-clock monitoring</p>
+                                            </li>
+                                            <li>
+                                                <img src="/assets/img/icon/listicon.png" />
+                                                <p>Patients with cardiac instability or heart failure or unstable blood pressure</p>
+                                            </li>
+                                            <li>
+                                                <img src="/assets/img/icon/listicon.png" />
+                                                <p>Cancer patients needing palliative intensive care </p>
+                                            </li>
+                                            <li>
+                                                <img src="/assets/img/icon/listicon.png" />
+                                                <p>End of life care requires dignity and comfort at home </p>
+                                            </li>                                       
+                                        </ul>
+                                    </div>
                             </div>
                         </div>
                     </div>
@@ -734,7 +1070,7 @@ export default function ICUSetupatHome() {
             </div> */}
 
            {/* <!-- Benefits --> */}
-        <div class="feature-area pt-100">
+        <div class="feature-area pt-100 ajboxx">
             <div class="container">
                 <div class="feature-wrapper">
                     <div class="row g-4 slpadding">
@@ -753,8 +1089,7 @@ export default function ICUSetupatHome() {
                                 </div>
                                 <div class="feature-content">
                                     <h4>Comfort & Familiarity</h4>
-                                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
-                                        excepturi words of voluptatum deleniti.</p>
+                                    <p>Healing in a home environment surrounded by loved ones </p>
                                 </div>
                             </div>
                         </div>
@@ -766,8 +1101,7 @@ export default function ICUSetupatHome() {
                                 </div>
                                 <div class="feature-content">
                                     <h4>Dedicated Critical Care Team</h4>
-                                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
-                                        excepturi words of voluptatum deleniti.</p>
+                                    <p>Skilled ICU nurses and doctors</p>
                                 </div>
                             </div>
                         </div>
@@ -779,8 +1113,7 @@ export default function ICUSetupatHome() {
                                 </div>
                                 <div class="feature-content">
                                     <h4>Personalized Attention</h4>
-                                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
-                                        excepturi words of voluptatum.</p>
+                                    <p>One-on-one monitoring and care</p>
                                 </div>
                             </div>
                         </div>
@@ -792,8 +1125,7 @@ export default function ICUSetupatHome() {
                                 </div>
                                 <div class="feature-content">
                                     <h4>Continuity of Care</h4>
-                                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
-                                        excepturi words of voluptatum.</p>
+                                    <p>Smooth transition from hospital ICU to home ICU setup</p>
                                 </div>
                             </div>
                         </div>
@@ -804,38 +1136,13 @@ export default function ICUSetupatHome() {
                                     <img src="/assets/img/icon/support.svg" alt=""/>
                                 </div>
                                 <div class="feature-content">
-                                    <h4>Safe & Reliable</h4>
-                                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
-                                        excepturi words of voluptatum.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-3">
-                            <div class="feature-item bg-2 wow fadeInUp" data-wow-delay="1s">
-                                <span class="count">06</span>
-                                <div class="feature-icon">
-                                    <img src="/assets/img/icon/support.svg" alt=""/>
-                                </div>
-                                <div class="feature-content">
                                     <h4>Reduce infection exposure</h4>
-                                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
-                                        excepturi words of voluptatum.</p>
+                                    <p>Professional-grade medical equipment and strict hygiene protocols</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6 col-lg-3">
-                            <div class="feature-item bg-3 wow fadeInUp" data-wow-delay="1s">
-                                <span class="count">07</span>
-                                <div class="feature-icon">
-                                    <img src="/assets/img/icon/support.svg" alt=""/>
-                                </div>
-                                <div class="feature-content">
-                                    <h4>Cost effective & Affordable</h4>
-                                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
-                                        excepturi words of voluptatum.</p>
-                                </div>
-                            </div>
-                        </div>
+                      
+                      
                         </Slider>
                     </div>
                 </div>
@@ -935,13 +1242,13 @@ export default function ICUSetupatHome() {
                                 <h2 class="accordion-header" id="headingOne">
                                     <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                        <span><i class="far fa-question"></i></span> Who provides the nursing care?
+                                        <span><i class="far fa-question"></i></span> Is ICU at home as safe as hospital ICU? 
                                     </button>
                                 </h2>
                                 <div id="collapseOne" class="accordion-collapse collapse show"
                                     aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                       All nursing services at Care[T.A.B] are provided by qualified, registered nurses and experienced GDAs who have undergone rigorous training, skill assessment, and background verification. They work under the supervision of senior doctors, ensuring hospital-quality care at home.
+                                       Yes. Care[T.A.B] provides hospital-grade home ICU setup, ICU-trained nurses, and doctor supervision at home. While hospitals are essential for emergency surgeries and procedures, home ICU is equally safe for patients needing long-term monitoring and critical care. 
                                     </div>
                                 </div>
                             </div>
@@ -951,7 +1258,7 @@ export default function ICUSetupatHome() {
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseThree" aria-expanded="false"
                                         aria-controls="collapseThree">
-                                        <span><i class="far fa-question"></i></span> What equipment is included in a home ICU setup?
+                                        <span><i class="far fa-question"></i></span> What medical equipment is included in a home ICU set up? 
                                     </button>
                                 </h2>
                                 <div id="collapseThree" class="accordion-collapse collapse"
@@ -961,17 +1268,21 @@ export default function ICUSetupatHome() {
                                         <ul class="listicon">
                                             <li>
                                                 <img src="/assets/img/icon/listicon.png" />
-                                                <p>Ventilators (BiPAP/CPAP)</p>
+                                                <p>BiPAP</p>
+                                            </li>
+                                            <li>
+                                                <img src="/assets/img/icon/listicon.png" />
+                                                <p>CPAP</p>
                                             </li>
                                             <li>
                                                 <img src="/assets/img/icon/listicon.png" />
                                                 <p>Oxygen concentrators/cylinders</p>
                                             </li>
-                                            <li>
+                                             <li>
                                                 <img src="/assets/img/icon/listicon.png" />
                                                 <p>Multipara monitors</p>
                                             </li>
-                                             <li>
+                                            <li>
                                                 <img src="/assets/img/icon/listicon.png" />
                                                 <p>Suction machines</p>
                                             </li>

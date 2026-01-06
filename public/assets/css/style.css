@@ -6777,6 +6777,11 @@ position: relative;
     margin-bottom: 0px;
         line-height: 24px;
 }
+.imgborderwi{
+      border-radius: 10px;
+    width: 100%;
+}
+.ajboxx .feature-item{min-height: 235px;}
 
 
 

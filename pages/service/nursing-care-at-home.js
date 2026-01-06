@@ -218,11 +218,11 @@ export default function Home() {
                                     <div className="hero-content">
                                         <br></br>
                                         <h6 className="hero-sub-title wow fadeInUp" data-delay=".25s">
-                                            <i><img className="brandiconw" src="/assets/img/icon/brandicon.png" alt="" /></i> Nursing Care at Home
+                                            <i><img className="brandiconw" src="/assets/img/icon/brandicon.png" alt="" /></i> Nursing Care at Home | Care[T.A.B]
                                         </h6>
 
                                         <h1 className="hero-title wow fadeInRight" data-delay=".50s">
-                                            Skilled Nursing, <br></br>Right at Your Doorstep
+                                             Skilled Nursing, <br></br>Right at Your Doorstep 
                                         </h1>
 
                                         <div className="hero-btn wow fadeInUp" data-delay="1s">
@@ -316,7 +316,7 @@ export default function Home() {
                                 <div class="site-heading mb-0">
                                     <h2 class="site-title">4 Million+ Minor <span>Procedures</span> Can Be Done at Home Today</h2>
                                     <p className="text-justify">
-                                        So, why spend hours in the hospital when expert nursing care can come to you at home? At Care[T.A.B], our certified and compassionate nurses deliver hospital-quality support in the comfort of your home, helping you to heal faster, manage conditions better, and live with dignity.
+                                        Why spend hours in the hospital when expert nursing care can come to you at home? At Care[T.A.B], our certified and compassionate nurses deliver hospital-quality support in the comfort of your home, helping you to heal faster, manage conditions better, and live with dignity. 
                                     </p>
                                 </div>
                                 <a href="tel:+91-7891-444-333" class="theme-btn mt-30">Call for Care <i class="fas fa-arrow-right"></i></a>
@@ -340,15 +340,15 @@ export default function Home() {
                         <div class="col-lg-7">
                             <div class="site-heading mb-0">
                                 <span class="site-title-tagline"><i class=""><img class="brandiconw" src="/assets/img/icon/brandicon.png" alt="" /></i> Types of Nursing Care We Provide</span>
-                                <h2 class="site-title">Day Care Nursing  <span>on Demand</span></h2>
+                                <h2 class="site-title">Short Term Nursing Care <span>@ Home</span></h2>
                                 <p>
-                                    Ideal for patients who require temporary medical support, typically lasting from a few Visits to Hours This includes:
+                                    Ideal for patients who require temporary home nursing care services, typically lasting from a few minutes to hours. This includes:
                                 </p>
                             </div>
                             <div class="choose-content wow fadeInUp ee" data-wow-delay=".25s">
                                 <div class="choose-content-wrap">
                                     <div class="row g-3 row-cols-5 nursingiconbox">
-                                        <div class="col">
+                                        <div class="col-sm-3">
                                             <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
                                                 <div class="nursing-icon">
                                                     <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
@@ -358,96 +358,37 @@ export default function Home() {
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col">
+                                        <div class="col-sm-3">
                                             <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
                                                 <div class="nursing-icon">
                                                     <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
                                                 </div>
                                                 <div class="choose-item-info">
-                                                    <h4>Urinary catheter <br></br>insertion</h4>
+                                                    <h4>Routine vital  <br></br>monitoring</h4>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col">
+                                        <div class="col-sm-3">
                                             <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
                                                 <div class="nursing-icon">
                                                     <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
                                                 </div>
                                                 <div class="choose-item-info">
-                                                    <h4>Enema</h4>
+                                                    <h4>Blood sugar <br></br>check-up </h4>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col">
+                                        <div class="col-sm-3">
                                             <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
                                                 <div class="nursing-icon">
                                                     <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
                                                 </div>
                                                 <div class="choose-item-info">
-                                                    <h4>Ryle’s tube <br></br>insertion</h4>
+                                                    <h4>Wound dressing & <br></br>suture removal </h4>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col">
-                                            <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
-                                                <div class="nursing-icon">
-                                                    <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
-                                                </div>
-                                                <div class="choose-item-info">
-                                                    <h4>Vaccination</h4>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col">
-                                            <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
-                                                <div class="nursing-icon">
-                                                    <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
-                                                </div>
-                                                <div class="choose-item-info">
-                                                    <h4>Breathing <br></br>analysis</h4>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col">
-                                            <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
-                                                <div class="nursing-icon">
-                                                    <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
-                                                </div>
-                                                <div class="choose-item-info">
-                                                    <h4>Routine vital <br></br>monitoring</h4>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col">
-                                            <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
-                                                <div class="nursing-icon">
-                                                    <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
-                                                </div>
-                                                <div class="choose-item-info">
-                                                    <h4>Blood sugar <br></br>check-up</h4>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col">
-                                            <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
-                                                <div class="nursing-icon">
-                                                    <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
-                                                </div>
-                                                <div class="choose-item-info">
-                                                    <h4>Wound dressing <br></br>& suture removal</h4>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col">
-                                            <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
-                                                <div class="nursing-icon">
-                                                    <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
-                                                </div>
-                                                <div class="choose-item-info">
-                                                    <h4>Short Nursing aid <br></br>(up to 4hrs)</h4>
-                                                </div>
-                                            </div>
-                                        </div>
+                                        
 
                                     </div>
                                 </div>
@@ -469,9 +410,9 @@ export default function Home() {
                     <div className="row">
                         <div className="col-sm-6">
                             <div class="site-heading mb-0">                                
-                                <h2 class="site-title">Residential Nursing Care <span>(12/24 hours)</span> under the Supervision of Doctors</h2>
+                                <h2 class="site-title">Long Term <span>Nursing Care</span> @ Home</h2>
                                 <p>
-                                    Designed for patients who require continuous medical assistance and monitoring over an extended period. This includes:
+                                    Designed for patients who require continuous medical assistance and monitoring over an extended period. This includes: 
                                 </p>
                             </div>
                         </div>
@@ -492,7 +433,7 @@ export default function Home() {
                                                                 <img src="/assets/img/icon/citizen.png" alt="" />
                                                             </div>
                                                             <div class="choose-item-info">
-                                                                <h4 className="margobb0">Post-Surgical & Recovery Care</h4>
+                                                                <h4 className="margobb0">Post-Surgical & Discharge Nursing Care </h4>
                                                                 {/* <p>Trusted hospital backing. Reliable care at home.</p> */}
                                                             </div>
                                                         </div>
@@ -505,7 +446,7 @@ export default function Home() {
                                                                 <img src="/assets/img/icon/help.png" alt="" />
                                                             </div>
                                                             <div class="choose-item-info">
-                                                                <h4 className="margobb0">Chronic & Long-Term Illness Care </h4>
+                                                                <h4 className="margobb0">Chronic & Long-Term Illness Nursing Care</h4>
                                                                 {/* <p>Doctors lead your care, not just approve it.</p> */}
                                                             </div>
                                                         </div>
@@ -518,7 +459,7 @@ export default function Home() {
                                                                 <img src="/assets/img/icon/protocol.png" alt="" />
                                                             </div>
                                                             <div class="choose-item-info">
-                                                                <h4 className="margobb0">Palliative & End-of-Life Care</h4>
+                                                                <h4 className="margobb0">Palliative and End of Life Nursing Care</h4>
                                                                 {/* <p>We follow the same standards as hospitals.</p> */}
                                                             </div>
                                                         </div>
@@ -531,7 +472,7 @@ export default function Home() {
                                                                 <img src="/assets/img/icon/medical-team.png" alt="" />
                                                             </div>
                                                             <div class="choose-item-info">
-                                                                <h4 className="margobb0">Specialised Medical Care  Package</h4>
+                                                                <h4 className="margobb0">Specialised Nursing Care Plan</h4>
                                                                 {/* <p>Trained, certified nurses and caregivers.</p> */}
                                                             </div>
                                                         </div>
@@ -553,52 +494,10 @@ export default function Home() {
                                                             <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
                                                         </div>
                                                         <div class="choose-item-info">
-                                                            <h4>IV/IM <br></br>injection</h4>
+                                                            <h4>Post-Surgical & Discharge Nursing Care </h4>
                                                         </div>
                                                     </div>
-                                                </div>
-                                                <div class="col-sm-4">
-                                                    <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
-                                                        <div class="nursing-icon">
-                                                            <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
-                                                        </div>
-                                                        <div class="choose-item-info">
-                                                            <h4>Urinary catheter <br></br>insertion</h4>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-sm-4">
-                                                    <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
-                                                        <div class="nursing-icon">
-                                                            <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
-                                                        </div>
-                                                        <div class="choose-item-info">
-                                                            <h4>Enema</h4>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-sm-6">
-                                                    <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
-                                                        <div class="nursing-icon">
-                                                            <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
-                                                        </div>
-                                                        <div class="choose-item-info">
-                                                            <h4>Ryle’s tube insertion</h4>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-sm-6">
-                                                    <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
-                                                        <div class="nursing-icon">
-                                                            <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
-                                                        </div>
-                                                        <div class="choose-item-info">
-                                                            <h4>Vaccination</h4>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                              
-
+                                                </div>                                                
                                             </div>
                                         </div>
                                     </div>
@@ -614,62 +513,11 @@ export default function Home() {
                                                             <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
                                                         </div>
                                                         <div class="choose-item-info">
-                                                            <h4>Diabetes</h4>
+                                                            <h4>Chronic & Long-Term Illness Nursing Care </h4>
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-sm-4">
-                                                    <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
-                                                        <div class="nursing-icon">
-                                                            <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
-                                                        </div>
-                                                        <div class="choose-item-info">
-                                                            <h4>Hypertension</h4>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-sm-4">
-                                                    <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
-                                                        <div class="nursing-icon">
-                                                            <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
-                                                        </div>
-                                                        <div class="choose-item-info">
-                                                            <h4>Stroke</h4>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-sm-4">
-                                                    <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
-                                                        <div class="nursing-icon">
-                                                            <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
-                                                        </div>
-                                                        <div class="choose-item-info">
-                                                            <h4>Oncology</h4>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-sm-4">
-                                                    <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
-                                                        <div class="nursing-icon">
-                                                            <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
-                                                        </div>
-                                                        <div class="choose-item-info">
-                                                            <h4>Kidney conditions </h4>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-sm-4">
-                                                    <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
-                                                        <div class="nursing-icon">
-                                                            <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
-                                                        </div>
-                                                        <div class="choose-item-info">
-                                                            <h4>Cardiac conditions</h4>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                              
-
+                                                
                                             </div>
                                         </div>
                                     </div>
@@ -685,7 +533,7 @@ export default function Home() {
                                                             <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
                                                         </div>
                                                         <div class="choose-item-info">
-                                                            <h4>Diabetes</h4>
+                                                            <h4>Comfort-focused support </h4>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -695,7 +543,7 @@ export default function Home() {
                                                             <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
                                                         </div>
                                                         <div class="choose-item-info">
-                                                            <h4>Hypertension</h4>
+                                                            <h4>Symptomatic relief</h4>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -705,7 +553,7 @@ export default function Home() {
                                                             <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
                                                         </div>
                                                         <div class="choose-item-info">
-                                                            <h4>Stroke</h4>
+                                                            <h4>Dignity and emotional care for patients and families. </h4>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -724,7 +572,7 @@ export default function Home() {
                                                             <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
                                                         </div>
                                                         <div class="choose-item-info">
-                                                            <h4>Diabetes</h4>
+                                                            <h4>Rehabilitation nursing (stroke, trauma, spinal injury) </h4>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -734,20 +582,11 @@ export default function Home() {
                                                             <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
                                                         </div>
                                                         <div class="choose-item-info">
-                                                            <h4>Hypertension</h4>
+                                                            <h4>Psychiatric home nursing care </h4>
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-sm-4">
-                                                    <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
-                                                        <div class="nursing-icon">
-                                                            <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
-                                                        </div>
-                                                        <div class="choose-item-info">
-                                                            <h4>Stroke</h4>
-                                                        </div>
-                                                    </div>
-                                                </div>
+                                       
                                             </div>
                                         </div>
                                     </div>
@@ -982,13 +821,13 @@ export default function Home() {
                                 <h2 class="accordion-header" id="headingOne">
                                     <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                        <span><i class="far fa-question"></i></span> Who provides the nursing care?
+                                        <span><i class="far fa-question"></i></span> Who provides the home care nursing services? 
                                     </button>
                                 </h2>
                                 <div id="collapseOne" class="accordion-collapse collapse show"
                                     aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                       All nursing services at Care[T.A.B] are provided by qualified, registered nurses and experienced GDAs who have undergone rigorous training, skill assessment, and background verification. They work under the supervision of senior doctors, ensuring hospital-quality care at home.
+                                       All home nursing care services at Care[T.A.B] are provided by qualified, registered nurses and experienced GDAs who have undergone rigorous training, skill assessment, and background verification. They work under the supervision of senior doctors, ensuring hospital-quality care at home.
                                     </div>
                                 </div>
                             </div>
@@ -1055,12 +894,9 @@ export default function Home() {
                                             </li>
                                             <li>
                                                 <img src="/assets/img/icon/listicon.png" />
-                                                <p>12-hour care (day or night shifts)</p>
+                                                <p>Round-the-clock nursing care </p>
                                             </li>
-                                            <li>
-                                                <img src="/assets/img/icon/listicon.png" />
-                                                <p>24-hour care (round-the-clock nursing)</p>
-                                            </li>                                                                                                          
+                                                                                                                                         
                                         </ul>
                                     </div>
                                 </div>
