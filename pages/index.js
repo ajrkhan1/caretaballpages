@@ -864,29 +864,31 @@ export default function Home() {
                             <div class="counter-wrap">
                                 <div class="row g-3 expt">
 
-                                   <div class="col-lg-6 col-sm-6">
-                                        <div class="counter-box">
-                                            <div class="icon">
-                                                <img src="/assets/img/icon/experience.png" alt=""/>
-                                            </div>
-                                            <div>
-                                                <span class="counterx" data-count="+" data-to="6560" data-speed="3000">4+</span>
-                                                <h6 class="title">Years of Experience</h6>
-                                            </div>
-                                        </div>
-                                    </div>
-
                                     <div class="col-lg-6 col-sm-6">
                                         <div class="counter-box">
                                             <div class="icon">
                                                 <img src="/assets/img/icon/customer-service.png" alt=""/>
                                             </div>
                                             <div>
-                                                <span class="counterx" data-count="+" data-to="7320" data-speed="3000">10200+</span>
-                                                <h6 class="title">Happy Clients</h6>
+                                                <span class="counterx" data-count="+" data-to="7320" data-speed="3000">5000+</span>
+                                                <h6 class="title">Home Visits Completed</h6>
                                             </div>
                                         </div>
                                     </div>
+
+                                   <div class="col-lg-6 col-sm-6">
+                                        <div class="counter-box">
+                                            <div class="icon">
+                                                <img src="/assets/img/icon/experience.png" alt=""/>
+                                            </div>
+                                            <div>
+                                                <span class="counterx" data-count="+" data-to="6560" data-speed="3000">100%</span>
+                                                <h6 class="title">Patient Satisfaction</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    
 
                                     <div class="col-lg-6 col-sm-6">
                                         <div class="counter-box">
@@ -894,8 +896,8 @@ export default function Home() {
                                                 <img src="/assets/img/icon/teamwork.png" alt=""/>
                                             </div>
                                             <div>
-                                                <span class="counterx" data-count="+" data-to="1500" data-speed="3000">300+</span>
-                                                <h6 class="title"> Our Staff</h6>
+                                                <span class="counterx" data-count="+" data-to="1500" data-speed="3000">100+</span>
+                                                <h6 class="title"> ICU Setups at Home</h6>
                                             </div>
                                         </div>
                                     </div>
@@ -906,8 +908,8 @@ export default function Home() {
                                                 <img src="/assets/img/icon/deal.png" alt=""/>
                                             </div>
                                             <div>
-                                                <span class="counterx" data-count="+" data-to="50" data-speed="3000">12+</span>
-                                                <h6 class="title">Partner hospitals</h6>
+                                                <span class="counterx" data-count="+" data-to="50" data-speed="3000">25+</span>
+                                                <h6 class="title">Specialist Doctors on Panel</h6>
                                             </div>
                                         </div>
                                     </div>
