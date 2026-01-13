@@ -729,7 +729,7 @@ export default function Home() {
                 <div class="row g-4 align-items-center justify-content-between wow fadeInDown" data-wow-delay=".25s">
                     <div class="col-lg-6">
                         <div class="site-heading mb-0">
-                            <span class="site-title-tagline"><i class="far"><img className="brandiconw" src="/assets/img/icon/brandicon.png" alt=""/></i> Why Care[T.A.B]?</span>
+                            <span class="site-title-tagline"><i class="far"><img className="brandiconw" src="/assets/img/icon/brandicon.png" alt=""/></i> Why Care(T.A.B)?</span>
                             <h2 class="site-title colorwhite">Because healing is more than <br className="dnmob"></br><span className="colororange">just medicine</span></h2>
                             <br></br>
                         </div>
@@ -858,7 +858,7 @@ export default function Home() {
                                 <span class="site-title-tagline"><i class="far"><img className="brandiconw" src="/assets/img/icon/brandicon.png" alt=""/></i> About Us</span>
                                 <h2 class="site-title">Hospital-quality care <br></br><span >to your home</span> </h2>
                             </div>
-                            <p class="about-text">Care[T.A.B].ai envisions building a quality-driven, outcome-focused, and tech-enabled ecosystem for healthcare delivery beyond hospital walls. 
+                            <p class="about-text">Care(T.A.B).ai envisions building a quality-driven, outcome-focused, and tech-enabled ecosystem for healthcare delivery beyond hospital walls. 
                                 We aim to be India’s leading home-based care provider, combining clinical excellence with AI-powered decision support, thereby improving accessibility, convenience, and patient satisfaction.</p>
                             <br></br>
                             <div class="counter-wrap">
@@ -1104,7 +1104,7 @@ export default function Home() {
                             <span class="site-title-tagline"><i class="far"><img className="brandiconw" src="/assets/img/icon/brandicon.png" alt=""/></i> Testimonials</span>
                             <h2 class="site-title text-white">Voices of Care</h2>
                             <p class="text-white text-whitex">
-                                Every family we serve has a story of trust, healing, and comfort. These real experiences reflect how Care[T.A.B].ai brings
+                                Every family we serve has a story of trust, healing, and comfort. These real experiences reflect how Care(T.A.B).ai brings
                                  professional medical care home, making recovery safe and personal.
                             </p>
                             {/* <a href="contact.html" class="theme-btn mt-30">Know More <i class="fas fa-arrow-right"></i></a> */}
@@ -1148,7 +1148,7 @@ export default function Home() {
                                         <img src="/assets/img/icon/quote.svg" alt=""/>
                                     </div>
                                     <p>
-                                        Care[T.A.B].ai Team responded promptly when I needed urgent help at home. Their expert treatment restored my mobility and comfort in just few sessions. Care[T.A.B].ai has shown how healthcare can be both professional and deeply caring"
+                                        Care(T.A.B).ai Team responded promptly when I needed urgent help at home. Their expert treatment restored my mobility and comfort in just few sessions. Care(T.A.B).ai has shown how healthcare can be both professional and deeply caring"
                                     </p>
                                     <div class="testimonial-rate">
                                         <i class="fas fa-star"></i>
@@ -1208,7 +1208,7 @@ export default function Home() {
                                         <img src="/assets/img/icon/quote.svg" alt=""/>
                                     </div>
                                     <p>
-                                        Care[T.A.B].ai Team responded promptly when I needed urgent help at home. Their expert treatment restored my mobility and comfort in just few sessions. Care[T.A.B].ai has shown how healthcare can be both professional and deeply caring"
+                                        Care(T.A.B).ai Team responded promptly when I needed urgent help at home. Their expert treatment restored my mobility and comfort in just few sessions. Care(T.A.B).ai has shown how healthcare can be both professional and deeply caring"
                                     </p>
                                     <div class="testimonial-rate">
                                         <i class="fas fa-star"></i>

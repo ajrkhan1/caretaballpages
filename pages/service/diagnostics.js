@@ -213,7 +213,7 @@ export default function Diagnostics() {
                                 <div class="site-heading mb-0">
                                     <h2 class="site-title">Accurate Tests, <span>Hassle-Free Experience</span></h2>
                                     <p className="text-justify">
-                                        When a loved one requires intensive monitoring and advanced medical support, hospital stays can be stressful and overwhelming. At Care[T.A.B], we provide ICU set-ups at home, designed to deliver hospital-quality critical care in a safe, familiar environment. With advanced technology, skilled nurses, and doctor supervision, we ensure safe, continuous, and compassionate care for critically ill patients.
+                                        When a loved one requires intensive monitoring and advanced medical support, hospital stays can be stressful and overwhelming. At Care(T.A.B), we provide ICU set-ups at home, designed to deliver hospital-quality critical care in a safe, familiar environment. With advanced technology, skilled nurses, and doctor supervision, we ensure safe, continuous, and compassionate care for critically ill patients.
                                     </p>
                                 </div>
                                 <a href="tel:+91-7891-444-333" class="theme-btn mt-30">Call Now <i class="fas fa-arrow-right"></i></a>
@@ -305,7 +305,7 @@ export default function Diagnostics() {
                                                 <div class="col-sm-4">
                                                     <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
                                                         <div class="nursing-icon">
-                                                            <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
+                                                            <img src="/assets/img/nursingcare/icon/ECG Test.svg" alt="ECG Test" />
                                                         </div>
                                                         <div class="choose-item-info">
                                                             <h4>ECG Test</h4>
@@ -315,7 +315,7 @@ export default function Diagnostics() {
                                                 <div class="col-sm-4">
                                                     <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
                                                         <div class="nursing-icon">
-                                                            <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
+                                                            <img src="/assets/img/nursingcare/icon/Holter Monitoring.svg" alt="Holter Monitoring" />
                                                         </div>
                                                         <div class="choose-item-info">
                                                             <h4>Holter Monitoring</h4>
@@ -325,7 +325,7 @@ export default function Diagnostics() {
                                                 <div class="col-sm-4">
                                                     <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
                                                         <div class="nursing-icon">
-                                                            <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
+                                                            <img src="/assets/img/nursingcare/icon/EEG Test.svg" alt="EEG Test" />
                                                         </div>
                                                         <div class="choose-item-info">
                                                             <h4>EEG Test</h4>
@@ -345,7 +345,7 @@ export default function Diagnostics() {
                                                 <div class="col-sm-4">
                                                     <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
                                                         <div class="nursing-icon">
-                                                            <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
+                                                            <img src="/assets/img/nursingcare/icon/Pulmonary Function Test.svg" alt="Pulmonary Function Test" />
                                                         </div>
                                                         <div class="choose-item-info">
                                                             <h4>Pulmonary Function Test (PFT)</h4>
@@ -355,7 +355,7 @@ export default function Diagnostics() {
                                                 <div class="col-sm-4">
                                                     <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
                                                         <div class="nursing-icon">
-                                                            <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
+                                                            <img src="/assets/img/nursingcare/icon/Continuous Glucose Monitoring.svg" alt="" />
                                                         </div>
                                                         <div class="choose-item-info">
                                                             <h4>Continuous Glucose Monitoring (CGM)</h4>
@@ -365,7 +365,7 @@ export default function Diagnostics() {
                                                 <div class="col-sm-4">
                                                     <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
                                                         <div class="nursing-icon">
-                                                            <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
+                                                            <img src="/assets/img/nursingcare/icon/Sleep Study.svg" alt="" />
                                                         </div>
                                                         <div class="choose-item-info">
                                                             <h4>Sleep Study</h4>
@@ -384,7 +384,7 @@ export default function Diagnostics() {
                                                 <div class="col-sm-4">
                                                     <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
                                                         <div class="nursing-icon">
-                                                            <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
+                                                            <img src="/assets/img/nursingcare/icon/Home X-Ray.svg" alt="Home X-Ray" />
                                                         </div>
                                                         <div class="choose-item-info">
                                                             <h4>Home X-Ray </h4>
@@ -477,7 +477,7 @@ export default function Diagnostics() {
                                         </h4>
                                     </div>
                                     <p>
-                                        At Care[T.A.B], we ensure hassle-free access to CT, MRI, and USG scans through our trusted radiology partners.
+                                        At Care(T.A.B), we ensure hassle-free access to CT, MRI, and USG scans through our trusted radiology partners.
                                     </p>
                                     <ul class="listicon">
                                         <li>
@@ -597,7 +597,7 @@ export default function Diagnostics() {
                         <div class="col-lg-6">
                             <div class="video-info wow fadeInUp insidep" data-wow-delay=".25s">
                                 <div class="site-heading mb-0">
-                                    <h2 class="site-title">Why Choose Care[T.A.B]  <span>Diagnostics & Wellness Program?</span></h2>
+                                    <h2 class="site-title">Why Choose Care(T.A.B)  <span>Diagnostics & Wellness Program?</span></h2>
                                     <br></br>
                                 </div>
                                 <div class="feature-content">
@@ -645,7 +645,7 @@ export default function Diagnostics() {
                             <div class="cta-content">
                                 <h1>Skip the lab, not the test</h1>
                                 <p>
-                                    Don’t delay important health checks. With Care[T.A.B], trusted diagnostics come home to you.
+                                    Don’t delay important health checks. With Care(T.A.B), trusted diagnostics come home to you.
                                 </p>
                                 <a href="#" class="theme-btn">Book Home Sample Collection Now!<i class="fas fa-arrow-right"></i></a>
                             </div>

@@ -292,7 +292,7 @@ export default function ICUSetupatHome() {
                                 <div class="site-heading mb-0">
                                     <h2 class="site-title">Critical Care, Beyond <span>the Hospital</span></h2>
                                     <p className="text-justify">
-                                        When a loved one requires intensive monitoring and advanced medical support, hospital stays can be stressful and overwhelming. At Care[T.A.B], we provide ICU set-ups at home, designed to deliver hospital-quality critical care in a safe, familiar environment. With advanced technology, skilled nurses, and doctor supervision, we ensure safe, continuous, and compassionate care for critically ill patients.
+                                        When a loved one requires intensive monitoring and advanced medical support, hospital stays can be stressful and overwhelming. At Care(T.A.B), we provide ICU set-ups at home, designed to deliver hospital-quality critical care in a safe, familiar environment. With advanced technology, skilled nurses, and doctor supervision, we ensure safe, continuous, and compassionate care for critically ill patients.
                                     </p>
                                 </div>
                                 <a href="tel:+91-7891-444-333" class="theme-btn mt-30">Call for Care <i class="fas fa-arrow-right"></i></a>
@@ -422,7 +422,7 @@ export default function ICUSetupatHome() {
                                                             <div class="col-sm-4">
                                                                 <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
                                                                     <div class="nursing-icon">
-                                                                        <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
+                                                                        <img src="/assets/img/nursingcare/icon/Multipara monitors.svg" alt="Multipara monitors" />
                                                                     </div>
                                                                     <div class="choose-item-info">
                                                                         <h4>Multipara monitors </h4>
@@ -433,7 +433,7 @@ export default function ICUSetupatHome() {
                                                             <div class="col-sm-4">
                                                                 <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
                                                                     <div class="nursing-icon">
-                                                                        <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
+                                                                        <img src="/assets/img/nursingcare/icon/Oxygen concentratorscylinders.svg" alt="Oxygen concentratorscylinders" />
                                                                     </div>
                                                                     <div class="choose-item-info">
                                                                         <h4>Oxygen concentrators/cylinders</h4>
@@ -444,7 +444,7 @@ export default function ICUSetupatHome() {
                                                             <div class="col-sm-4">
                                                                 <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
                                                                     <div class="nursing-icon">
-                                                                        <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
+                                                                        <img src="/assets/img/nursingcare/icon/Suction machines.svg" alt="Suction machines" />
                                                                     </div>
                                                                     <div class="choose-item-info">
                                                                         <h4>Suction machines </h4>
@@ -455,7 +455,7 @@ export default function ICUSetupatHome() {
                                                             <div class="col-sm-4">
                                                                 <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
                                                                     <div class="nursing-icon">
-                                                                        <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
+                                                                        <img src="/assets/img/nursingcare/icon/BiPAP.svg" alt="BiPAP" />
                                                                     </div>
                                                                     <div class="choose-item-info">
                                                                         <h4>BiPAP</h4>
@@ -466,7 +466,7 @@ export default function ICUSetupatHome() {
                                                             <div class="col-sm-4">
                                                                 <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
                                                                     <div class="nursing-icon">
-                                                                        <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
+                                                                        <img src="/assets/img/nursingcare/icon/CPAP.svg" alt="CPAP" />
                                                                     </div>
                                                                     <div class="choose-item-info">
                                                                         <h4>CPAP</h4>
@@ -477,7 +477,7 @@ export default function ICUSetupatHome() {
                                                             <div class="col-sm-4">
                                                                 <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
                                                                     <div class="nursing-icon">
-                                                                        <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
+                                                                        <img src="/assets/img/nursingcare/icon/Ventilators.svg" alt="Ventilators" />
                                                                     </div>
                                                                     <div class="choose-item-info">
                                                                         <h4>Ventilators</h4>
@@ -488,7 +488,7 @@ export default function ICUSetupatHome() {
                                                             <div class="col-sm-4">
                                                                 <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
                                                                     <div class="nursing-icon">
-                                                                        <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
+                                                                        <img src="/assets/img/nursingcare/icon/Syringe & infusion pumps.svg" alt="Syringe & infusion pumps" />
                                                                     </div>
                                                                     <div class="choose-item-info">
                                                                         <h4>Syringe & infusion pumps</h4>
@@ -499,7 +499,7 @@ export default function ICUSetupatHome() {
                                                             <div class="col-sm-4">
                                                                 <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
                                                                     <div class="nursing-icon">
-                                                                        <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
+                                                                        <img src="/assets/img/nursingcare/icon/Nebulizers.svg" alt="Nebulizers" />
                                                                     </div>
                                                                     <div class="choose-item-info">
                                                                         <h4>Nebulizers</h4>
@@ -510,7 +510,7 @@ export default function ICUSetupatHome() {
                                                             <div class="col-sm-4">
                                                                 <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
                                                                     <div class="nursing-icon">
-                                                                        <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
+                                                                        <img src="/assets/img/nursingcare/icon/Hospital beds with air mattress.svg" alt="Hospital beds with air mattress" />
                                                                     </div>
                                                                     <div class="choose-item-info">
                                                                         <h4>Hospital beds with air mattress</h4>
@@ -1163,7 +1163,7 @@ export default function ICUSetupatHome() {
                         <div class="col-lg-6 whycaretb pt-50 pb-50">
                             <div class="video-info wow fadeInUp insidep" data-wow-delay=".25s">
                                 <div class="site-heading mb-0">
-                                    <h2 class="site-title">Why Choose <span>Care[T.A.B]</span> ICU Setup</h2>                                  
+                                    <h2 class="site-title">Why Choose <span>Care(T.A.B)</span> ICU Setup</h2>                                  
                                 </div>
                                 <div class="feature-content">                                        
                                         <ul class="listicon">
@@ -1214,7 +1214,7 @@ export default function ICUSetupatHome() {
                         <div class="cta-content">
                             <h1>Because comfort matters, even in crisis…</h1>
                             <p>
-                                When critical care is needed, you shouldn’t have to choose between a hospital stay and home comfort. With Care[T.A.B], you can have both.
+                                When critical care is needed, you shouldn’t have to choose between a hospital stay and home comfort. With Care(T.A.B), you can have both.
                             </p>
                             <a href="#" class="theme-btn">Call us now to set up ICU care at home<i class="fas fa-arrow-right"></i></a>
                         </div>
@@ -1248,7 +1248,7 @@ export default function ICUSetupatHome() {
                                 <div id="collapseOne" class="accordion-collapse collapse show"
                                     aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                       Yes. Care[T.A.B] provides hospital-grade home ICU setup, ICU-trained nurses, and doctor supervision at home. While hospitals are essential for emergency surgeries and procedures, home ICU is equally safe for patients needing long-term monitoring and critical care. 
+                                       Yes. Care(T.A.B) provides hospital-grade home ICU setup, ICU-trained nurses, and doctor supervision at home. While hospitals are essential for emergency surgeries and procedures, home ICU is equally safe for patients needing long-term monitoring and critical care. 
                                     </div>
                                 </div>
                             </div>

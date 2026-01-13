@@ -217,13 +217,13 @@ export default function Physiotherapy() {
                                     <div className="hero-content">
                                         <br></br>
                                         <h6 className="hero-sub-title wow fadeInUp" data-delay=".25s">
-                                            <i><img className="brandiconw" src="/assets/img/icon/brandicon.png" alt="" /></i> Physiotherapy at Home | Care[T.A.B] 
+                                            <i><img className="brandiconw" src="/assets/img/icon/brandicon.png" alt="" /></i> Physiotherapy at Home | Care(T.A.B) 
                                         </h6>
 
                                         <h1 className="hero-title wow fadeInRight" data-delay=".50s">
                                             Regain Strength, <br></br>Mobility & Confidence
                                         </h1>
-                                        <p className="text-justify">Physiotherapy plays a vital role in recovery, pain management, and improving quality of life. At Care[T.A.B], our certified physiotherapists provide personalized physiotherapy treatment at home, using evidence-based techniques to help you recover faster and move better.</p>
+                                        <p className="text-justify">Physiotherapy plays a vital role in recovery, pain management, and improving quality of life. At Care(T.A.B), our certified physiotherapists provide personalized physiotherapy treatment at home, using evidence-based techniques to help you recover faster and move better.</p>
                                         <div className="hero-btn wow fadeInUp" data-delay="1s">
                                             <a href="tel:+91-7891-444-333" className="theme-btn btnc">Call for Physiotherapy <i
                                                 className="fas fa-arrow-right"></i></a>
@@ -508,7 +508,7 @@ export default function Physiotherapy() {
                                                 <div class="col-sm-6">
                                                     <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
                                                         <div class="nursing-icon">
-                                                            <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
+                                                            <img src="/assets/img/nursingcare/icon/Total Knee Replacement (TKR) Recovery.svg" alt="Total Knee Replacement (TKR) Recovery" />
                                                         </div>
                                                         <div class="choose-item-info">
                                                             <h4>Total Knee Replacement (TKR) Recovery</h4>
@@ -518,7 +518,7 @@ export default function Physiotherapy() {
                                                 <div class="col-sm-6">
                                                     <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
                                                         <div class="nursing-icon">
-                                                            <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
+                                                            <img src="/assets/img/nursingcare/icon/Total Hip Replacement (THR) Recovery.svg" alt="Total Hip Replacement (THR) Recovery" />
                                                         </div>
                                                         <div class="choose-item-info">
                                                             <h4>Total Hip Replacement (THR) Recovery</h4>
@@ -537,7 +537,7 @@ export default function Physiotherapy() {
                                                 <div class="col-sm-6">
                                                     <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
                                                         <div class="nursing-icon">
-                                                            <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
+                                                            <img src="/assets/img/nursingcare/icon/Physiotherapy for stroke patients at home.svg" alt="Physiotherapy for stroke patients at home" />
                                                         </div>
                                                         <div class="choose-item-info">
                                                             <h4>Physiotherapy for stroke patients at home</h4>
@@ -547,7 +547,7 @@ export default function Physiotherapy() {
                                                 <div class="col-sm-6">
                                                     <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
                                                         <div class="nursing-icon">
-                                                            <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
+                                                            <img src="/assets/img/nursingcare/icon/Parkinson Care.svg" alt="" />
                                                         </div>
                                                         <div class="choose-item-info">
                                                             <h4>Parkinson’s Care </h4>
@@ -588,7 +588,7 @@ export default function Physiotherapy() {
                                                 <div class="col-sm-4">
                                                     <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
                                                         <div class="nursing-icon">
-                                                            <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
+                                                            <img src="/assets/img/nursingcare/icon/Physiotherapy for knee pain at home.svg" alt="Physiotherapy for knee pain at home" />
                                                         </div>
                                                         <div class="choose-item-info">
                                                             <h4>Physiotherapy for knee <br></br>pain at home</h4>
@@ -598,7 +598,7 @@ export default function Physiotherapy() {
                                                 <div class="col-sm-4">
                                                     <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
                                                         <div class="nursing-icon">
-                                                            <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
+                                                            <img src="/assets/img/nursingcare/icon/Physiotherapy for body pain.svg" alt="Physiotherapy for body pain" />
                                                         </div>
                                                         <div class="choose-item-info">
                                                             <h4>Physiotherapy <br></br>for body pain</h4>
@@ -609,7 +609,7 @@ export default function Physiotherapy() {
                                                 <div class="col-sm-4">
                                                     <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
                                                         <div class="nursing-icon">
-                                                            <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
+                                                            <img src="/assets/img/nursingcare/icon/Physiotherapy for mobility.svg" alt="Physiotherapy for mobility" />
                                                         </div>
                                                         <div class="choose-item-info">
                                                             <h4>Physiotherapy for <br></br>mobility</h4>
@@ -620,7 +620,7 @@ export default function Physiotherapy() {
                                                 <div class="col-sm-4">
                                                     <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
                                                         <div class="nursing-icon">
-                                                            <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
+                                                            <img src="/assets/img/nursingcare/icon/Back pain physiotherapy treatment at home.svg" alt="Back pain physiotherapy treatment at home" />
                                                         </div>
                                                         <div class="choose-item-info">
                                                             <h4>Back pain physiotherapy treatment at home</h4>
@@ -654,7 +654,7 @@ export default function Physiotherapy() {
                         <div class="col-lg-6">
                             <div class="video-info wow fadeInUp insidep" data-wow-delay=".25s">
                                 <div class="site-heading mb-0">
-                                    <h2 class="site-title">Why Choose <span>Care[T.A.B]</span> <br></br>Physiotherapy?</h2>
+                                    <h2 class="site-title">Why Choose <span>Care(T.A.B)</span> <br></br>Physiotherapy?</h2>
                                     <br></br>
                                 </div>
                                 <div class="feature-content">
@@ -695,7 +695,7 @@ export default function Physiotherapy() {
                             <div class="cta-content">
                                 <h1>Rebuild strength with expert guidance</h1>
                                 <p>
-                                    Take the first step toward recovery and better mobility. With Care[T.A.B], best physiotherapy at home services, care is just a call away.
+                                    Take the first step toward recovery and better mobility. With Care(T.A.B), best physiotherapy at home services, care is just a call away.
                                 </p>
                                 <a href="#" class="theme-btn">Book Your Rehabilitation Session Now<i class="fas fa-arrow-right"></i></a>
                             </div>
@@ -723,7 +723,7 @@ export default function Physiotherapy() {
                                     <h2 class="accordion-header" id="headingOne">
                                         <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                             data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                            <span><i class="far fa-question"></i></span> How do I book a Care[T.A.B] physiotherapy at home? 
+                                            <span><i class="far fa-question"></i></span> How do I book a Care(T.A.B) physiotherapy at home? 
                                         </button>
                                     </h2>
                                     <div id="collapseOne" class="accordion-collapse collapse show"
@@ -737,7 +737,7 @@ export default function Physiotherapy() {
                                     <h2 class="accordion-header" id="headingTwo">
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                             data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                            <span><i class="far fa-question"></i></span> Who are the doctors and nurses at Care[T.A.B]?
+                                            <span><i class="far fa-question"></i></span> Who are the doctors and nurses at Care(T.A.B)?
                                         </button>
                                     </h2>
                                     <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
@@ -768,7 +768,7 @@ export default function Physiotherapy() {
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                             data-bs-target="#collapseFour" aria-expanded="false"
                                             aria-controls="collapseFour">
-                                            <span><i class="far fa-question"></i></span> Can Care[T.A.B] coordinate with my hospital/doctor? 
+                                            <span><i class="far fa-question"></i></span> Can Care(T.A.B) coordinate with my hospital/doctor? 
                                         </button>
                                     </h2>
                                     <div id="collapseFour" class="accordion-collapse collapse"

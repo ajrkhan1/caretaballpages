@@ -218,7 +218,7 @@ export default function Home() {
                                     <div className="hero-content">
                                         <br></br>
                                         <h6 className="hero-sub-title wow fadeInUp" data-delay=".25s">
-                                            <i><img className="brandiconw" src="/assets/img/icon/brandicon.png" alt="" /></i> Nursing Care at Home | Care[T.A.B]
+                                            <i><img className="brandiconw" src="/assets/img/icon/brandicon.png" alt="" /></i> Nursing Care at Home | Care(T.A.B)
                                         </h6>
 
                                         <h1 className="hero-title wow fadeInRight" data-delay=".50s">
@@ -315,7 +315,7 @@ export default function Home() {
                             <div class="video-info wow fadeInUp" data-wow-delay=".25s">
                                 <div class="site-heading mb-0">
                                     <h2 class="site-title">Heal Better at Home with <span>Skilled Nursing</span> Support</h2>                                    <p className="text-justify">
-                                        Why spend hours in the hospital when expert nursing care can come to you at home? At Care[T.A.B], our certified and compassionate nurses deliver hospital-quality support in the comfort of your home, helping you to heal faster, manage conditions better, and live with dignity. 
+                                        Why spend hours in the hospital when expert nursing care can come to you at home? At Care(T.A.B), our certified and compassionate nurses deliver hospital-quality support in the comfort of your home, helping you to heal faster, manage conditions better, and live with dignity. 
                                     </p>
                                 </div>
                                 <a href="tel:+91-7891-444-333" class="theme-btn mt-30">Call for Care <i class="fas fa-arrow-right"></i></a>
@@ -350,7 +350,7 @@ export default function Home() {
                                         <div class="col-sm-3">
                                             <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
                                                 <div class="nursing-icon">
-                                                    <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
+                                                    <img src="/assets/img/nursingcare/icon/IVIM injection.svg" alt="" />
                                                 </div>
                                                 <div class="choose-item-info">
                                                     <h4>IV/IM <br></br>injection</h4>
@@ -360,7 +360,7 @@ export default function Home() {
                                         <div class="col-sm-3">
                                             <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
                                                 <div class="nursing-icon">
-                                                    <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
+                                                    <img src="/assets/img/nursingcare/icon/Routine vital monitoring.svg" alt="" />
                                                 </div>
                                                 <div class="choose-item-info">
                                                     <h4>Routine vital  <br></br>monitoring</h4>
@@ -370,7 +370,7 @@ export default function Home() {
                                         <div class="col-sm-3">
                                             <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
                                                 <div class="nursing-icon">
-                                                    <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
+                                                    <img src="/assets/img/nursingcare/icon/Blood sugar check-up.svg" alt="Blood sugar check-up" />
                                                 </div>
                                                 <div class="choose-item-info">
                                                     <h4>Blood sugar <br></br>check-up </h4>
@@ -380,15 +380,13 @@ export default function Home() {
                                         <div class="col-sm-3">
                                             <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
                                                 <div class="nursing-icon">
-                                                    <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
+                                                    <img src="/assets/img/nursingcare/icon/Wound dressing & suture removal.svg" alt="Wound dressing & suture removal" />
                                                 </div>
                                                 <div class="choose-item-info">
                                                     <h4>Wound dressing & <br></br>suture removal </h4>
                                                 </div>
                                             </div>
                                         </div>
-                                        
-
                                     </div>
                                 </div>
                             </div>
@@ -490,10 +488,10 @@ export default function Home() {
                                                 <div class="col-sm-4">
                                                     <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
                                                         <div class="nursing-icon">
-                                                            <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
+                                                            <img src="/assets/img/nursingcare/icon/Post-Surgical & Discharge Nursing Care.svg" alt="" />
                                                         </div>
                                                         <div class="choose-item-info">
-                                                            <h4>Post-Surgical & Discharge Nursing Care </h4>
+                                                            <h4>Post-Surgical & Discharge <br></br>Nursing Care </h4>
                                                         </div>
                                                     </div>
                                                 </div>                                                
@@ -509,7 +507,7 @@ export default function Home() {
                                                 <div class="col-sm-4">
                                                     <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
                                                         <div class="nursing-icon">
-                                                            <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
+                                                            <img src="/assets/img/nursingcare/icon/Chronic & Long-Term Illness Nursing Care.svg" alt="" />
                                                         </div>
                                                         <div class="choose-item-info">
                                                             <h4>Chronic & Long-Term Illness Nursing Care </h4>
@@ -529,7 +527,7 @@ export default function Home() {
                                                 <div class="col-sm-4">
                                                     <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
                                                         <div class="nursing-icon">
-                                                            <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
+                                                            <img src="/assets/img/nursingcare/icon/Comfort-focused support.svg" alt="" />
                                                         </div>
                                                         <div class="choose-item-info">
                                                             <h4>Comfort-focused support </h4>
@@ -539,7 +537,7 @@ export default function Home() {
                                                 <div class="col-sm-4">
                                                     <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
                                                         <div class="nursing-icon">
-                                                            <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
+                                                            <img src="/assets/img/nursingcare/icon/Symptomatic relief.svg" alt="" />
                                                         </div>
                                                         <div class="choose-item-info">
                                                             <h4>Symptomatic relief</h4>
@@ -549,7 +547,7 @@ export default function Home() {
                                                 <div class="col-sm-4">
                                                     <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
                                                         <div class="nursing-icon">
-                                                            <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
+                                                            <img src="/assets/img/nursingcare/icon/Dignity and emotional care for patients and families.svg" alt="" />
                                                         </div>
                                                         <div class="choose-item-info">
                                                             <h4>Dignity and emotional care for patients and families. </h4>
@@ -568,7 +566,7 @@ export default function Home() {
                                                 <div class="col-sm-4">
                                                     <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
                                                         <div class="nursing-icon">
-                                                            <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
+                                                            <img src="/assets/img/nursingcare/icon/Rehabilitation nursing.svg" alt="" />
                                                         </div>
                                                         <div class="choose-item-info">
                                                             <h4>Rehabilitation nursing (stroke, trauma, spinal injury) </h4>
@@ -578,7 +576,7 @@ export default function Home() {
                                                 <div class="col-sm-4">
                                                     <div class="choose-item text-center wow fadeInUp" data-wow-delay=".25s">
                                                         <div class="nursing-icon">
-                                                            <img src="/assets/img/nursingcare/icon/demo.svg" alt="" />
+                                                            <img src="/assets/img/nursingcare/icon/Psychiatric home nursing care.svg" alt="Psychiatric home nursing care" />
                                                         </div>
                                                         <div class="choose-item-info">
                                                             <h4>Psychiatric home nursing care </h4>
@@ -734,9 +732,9 @@ export default function Home() {
                         <div class="col-lg-6 whycaretb">
                             <div class="video-info wow fadeInUp insidep" data-wow-delay=".25s">
                                 <div class="site-heading mb-0">
-                                    <h2 class="site-title">Why Choose <span>Care[T.A.B]</span> Nursing Services?</h2>
+                                    <h2 class="site-title">Why Choose <span>Care(T.A.B)</span> Nursing Services?</h2>
                                     <p className="text-justify">
-                                        At Care[T.A.B], our nurses and Caregivers are more than healthcare providers—they are trusted companions in your recovery journey. Each nurse undergoes:
+                                        At Care(T.A.B), our nurses and Caregivers are more than healthcare providers—they are trusted companions in your recovery journey. Each nurse undergoes:
                                     </p>
                                 </div>
                                 <div class="feature-content">                                        
@@ -794,7 +792,7 @@ export default function Home() {
                             <p>
                                 Get the right care, at the right time, in the right place, your home.
                             </p>
-                            <a href="#" class="theme-btn">Book online to schedule a Care[T.A.B]<i class="fas fa-arrow-right"></i></a>
+                            <a href="#" class="theme-btn">Book online to schedule a Care(T.A.B)<i class="fas fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -826,7 +824,7 @@ export default function Home() {
                                 <div id="collapseOne" class="accordion-collapse collapse show"
                                     aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                       All home nursing care services at Care[T.A.B] are provided by qualified, registered nurses and experienced GDAs who have undergone rigorous training, skill assessment, and background verification. They work under the supervision of senior doctors, ensuring hospital-quality care at home.
+                                       All home nursing care services at Care(T.A.B) are provided by qualified, registered nurses and experienced GDAs who have undergone rigorous training, skill assessment, and background verification. They work under the supervision of senior doctors, ensuring hospital-quality care at home.
                                     </div>
                                 </div>
                             </div>
@@ -885,7 +883,7 @@ export default function Home() {
                                 <div id="collapseThree" class="accordion-collapse collapse"
                                     aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        <p>Care[T.A.B] offers flexible plans:</p>
+                                        <p>Care(T.A.B) offers flexible plans:</p>
                                         <ul class="listicon">
                                             <li>
                                                 <img src="/assets/img/icon/listicon.png" />

@@ -290,7 +290,7 @@ export default function ICUSetupatHome() {
                                 <div class="site-heading mb-0">
                                     <h2 class="site-title">Reliable Equipment, Right When <span>You Need It</span></h2>
                                     <p className="text-justify">
-                                        Healthcare at home often requires the right tools. At Care[T.A.B], we make it easy to rent or buy high-quality medical equipment, ensuring that patients receive safe and seamless care without the stress of hospital dependency. Whether it’s short-term recovery support or long-term use, we’ve got you covered.
+                                        Healthcare at home often requires the right tools. At Care(T.A.B), we make it easy to rent or buy high-quality medical equipment, ensuring that patients receive safe and seamless care without the stress of hospital dependency. Whether it’s short-term recovery support or long-term use, we’ve got you covered.
                                     </p>
                                 </div>
                                 <a href="tel:+91-7891-444-333" class="theme-btn mt-30">Call for Care <i class="fas fa-arrow-right"></i></a>
@@ -378,7 +378,7 @@ export default function ICUSetupatHome() {
                     <div class="row g-4 slpadding">
                         <div className="col-sm-12">
                             <div class="site-heading mb-0">
-                                    <h2 class="site-title">How To Buy/Rent Medical Equipment at <span> Care[T.A.B]?</span></h2>
+                                    <h2 class="site-title">How To Buy/Rent Medical Equipment at <span> Care(T.A.B)?</span></h2>
                                 </div>
                         </div>                     
                         <div class="col">
@@ -462,7 +462,7 @@ export default function ICUSetupatHome() {
                         <div class="col-lg-6 whycaretb pt-50 pb-50">
                             <div class="video-info wow fadeInUp insidep" data-wow-delay=".25s">
                                 <div class="site-heading mb-0">
-                                    <h2 class="site-title">Why Choose Care[T.A.B] <br></br><span>Equipment Services?</span></h2>                                  
+                                    <h2 class="site-title">Why Choose Care(T.A.B) <br></br><span>Equipment Services?</span></h2>                                  
                                 </div>
                                 <div class="feature-content">                                        
                                         <ul class="listicon">
@@ -505,7 +505,7 @@ export default function ICUSetupatHome() {
                         <div class="cta-content">
                             <h1>Make Recovery Comfortable & Stress-free</h1>
                             <p>
-                                Whether you need to rent for a few weeks or buy for long-term use, Care[T.A.B] ensures you get the right equipment without hassle.
+                                Whether you need to rent for a few weeks or buy for long-term use, Care(T.A.B) ensures you get the right equipment without hassle.
                             </p>
                             <a href="#" class="theme-btn">Buy & Rent now!<i class="fas fa-arrow-right"></i></a>
                         </div>
@@ -539,7 +539,7 @@ export default function ICUSetupatHome() {
                                 <div id="collapseOne" class="accordion-collapse collapse show"
                                     aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                       Yes. Care[T.A.B] offers flexible rental plans for patients who need equipment for short durations such as post-surgery recovery or temporary rehabilitation.
+                                       Yes. Care(T.A.B) offers flexible rental plans for patients who need equipment for short durations such as post-surgery recovery or temporary rehabilitation.
                                     </div>
                                 </div>
                             </div>
