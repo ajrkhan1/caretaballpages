@@ -4832,6 +4832,7 @@ label {
 
 .blog-item-img img {
   border-radius: 20px;
+  width: 100%;
 }
 
 .blog-date{
@@ -6787,5 +6788,5 @@ position: relative;
 @media (max-width:767px) {
     .box5inmo .col{ flex: auto;}
 }
-
+.img100{width: 100%;}
 

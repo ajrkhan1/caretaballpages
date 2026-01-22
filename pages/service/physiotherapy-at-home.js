@@ -321,7 +321,7 @@ export default function Physiotherapy() {
                         <Slider {...settings}>
                             <div class="blog-item wow fadeInUp" data-wow-delay=".25s">
                                 <div class="blog-item-img">
-                                    <img src="/assets/img/physiotherapy-at-home/s1.jpg" alt="" />
+                                    <img src="/assets/img/physiotherapy-at-home/Care in the Comfort of Home.jpg" alt="Care in the Comfort of Home" />
                                 </div>
                                 <div class="blog-item-info">
                                     <div class="blog-item-meta">
@@ -336,7 +336,7 @@ export default function Physiotherapy() {
                             </div>
                             <div class="blog-item wow fadeInUp" data-wow-delay=".25s">
                                 <div class="blog-item-img">
-                                    <img src="/assets/img/physiotherapy-at-home/s2.jpg" alt="" />
+                                    <img src="/assets/img/physiotherapy-at-home/Personalized Attention.jpg" alt="Personalized Attention" />
                                 </div>
                                 <div class="blog-item-info">
                                     <div class="blog-item-meta">
@@ -351,7 +351,7 @@ export default function Physiotherapy() {
                             </div>
                             <div class="blog-item wow fadeInUp" data-wow-delay=".25s">
                                 <div class="blog-item-img">
-                                    <img src="/assets/img/physiotherapy-at-home/s3.jpg" alt="" />
+                                    <img src="/assets/img/physiotherapy-at-home/Faster Recovery.jpg" alt="" />
                                 </div>
                                 <div class="blog-item-info">
                                     <div class="blog-item-meta">
@@ -366,7 +366,7 @@ export default function Physiotherapy() {
                             </div>
                             <div class="blog-item wow fadeInUp" data-wow-delay=".25s">
                                 <div class="blog-item-img">
-                                    <img src="/assets/img/physiotherapy-at-home/s4.jpg" alt="" />
+                                    <img src="/assets/img/physiotherapy-at-home/Pain & Mobility Management.jpg" alt="Pain & Mobility Management" />
                                 </div>
                                 <div class="blog-item-info">
                                     <div class="blog-item-meta">
@@ -381,7 +381,7 @@ export default function Physiotherapy() {
                             </div>
                             <div class="blog-item wow fadeInUp" data-wow-delay=".25s">
                                 <div class="blog-item-img">
-                                    <img src="/assets/img/physiotherapy-at-home/s5.jpg" alt="" />
+                                    <img src="/assets/img/physiotherapy-at-home/holistic support.jpg" alt="holistic support" />
                                 </div>
                                 <div class="blog-item-info">
                                     <div class="blog-item-meta">
@@ -396,7 +396,7 @@ export default function Physiotherapy() {
                             </div>
                             <div class="blog-item wow fadeInUp" data-wow-delay=".25s">
                                 <div class="blog-item-img">
-                                    <img src="/assets/img/physiotherapy-at-home/s6.jpg" alt="" />
+                                    <img src="/assets/img/physiotherapy-at-home/Prevents Complications.jpg" alt="Prevents Complications" />
                                 </div>
                                 <div class="blog-item-info">
                                     <div class="blog-item-meta">
@@ -648,7 +648,7 @@ export default function Physiotherapy() {
                 <div class="container">
                     <div class="row align-items-center">
                         <div class="col-lg-6">
-                            <img className="bredius" src="/assets/img/nursingcare/whycaretabdrcon.jpg" alt="" />
+                            <img className="bredius img100" src="/assets/img/physiotherapy-at-home/Why Choose Care Tab Physiotherapy.jpg" alt="" />
                         </div>
 
                         <div class="col-lg-6">

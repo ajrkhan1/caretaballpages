@@ -325,7 +325,7 @@ export default function DoctorConsultationatHome() {
                          <div className="col-sm-6">
                             <div class="blog-item wow fadeInUp" data-wow-delay=".25s">
                                 <div class="blog-item-img">
-                                    <img src="/assets/img/living/01.jpg" alt=""/>
+                                    <img src="/assets/img/doctors/Appointment-Based-Online-Doctor.jpg" alt=""/>
                                 </div>
                                 <div class="blog-item-info">
                                     <div class="blog-item-meta">
@@ -357,7 +357,7 @@ export default function DoctorConsultationatHome() {
                             <div className="col-sm-6">
                             <div class="blog-item wow fadeInUp" data-wow-delay=".25s">
                                 <div class="blog-item-img">
-                                    <img src="/assets/img/living/03.jpg" alt=""/>
+                                    <img src="/assets/img/doctors/Home-Visit-by-Doctors.jpg" alt=""/>
                                 </div>
                                 <div class="blog-item-info">
                                     <div class="blog-item-meta">
@@ -464,9 +464,9 @@ export default function DoctorConsultationatHome() {
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-5 nursingxddrx">
+                        <div class="col-lg-5">
                             <div class="choose-img wow fadeInRight" data-wow-delay=".25s">
-
+                                <img src="/assets/img/doctors/Specializations-available.jpg"/>
                             </div>
                         </div>
                     </div>
@@ -480,7 +480,7 @@ export default function DoctorConsultationatHome() {
                 <div class="container">
                     <div class="row align-items-center">                        
                         <div class="col-lg-6">
-                            <img className="bredius" src="/assets/img/nursingcare/whycaretabdrcon.jpg" alt="" />
+                            <img className="bredius img100" src="/assets/img/doctors/Why-Choose-Care-Tab.jpg" alt="" />
                         </div>
 
                         <div class="col-lg-6">
