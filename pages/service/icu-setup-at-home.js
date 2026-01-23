@@ -595,8 +595,7 @@ export default function ICUSetupatHome() {
                     <div class="row">
                         
                         <div class="col-lg-6">
-                            <img className="imgborderwi" src="/assets/img/icu-setup-at-home/Who Needs an ICU at Home.jpg" alt="ICU Nurses" />
-                           
+                            <img className="imgborderwi" src="/assets/img/icu-setup-at-home/who-needs-an-ICU-at-Home.webp" alt="ICU Nurses" />                           
                         </div>
 
                         <div class="col-lg-6 whycaretb pt-50 pb-50">
@@ -1156,8 +1155,8 @@ export default function ICUSetupatHome() {
                 <div class="container">
                     <div class="row">
                         
-                        <div class="col-lg-6 whycaretbx">
-                           
+                        <div class="col-lg-6">
+                           <img className="imgborderwi" src="/assets/img/icu-setup-at-home/Why Choose Care Tab.webp" alt="ICU Nurses" />
                         </div>
 
                         <div class="col-lg-6 whycaretb pt-50 pb-50">

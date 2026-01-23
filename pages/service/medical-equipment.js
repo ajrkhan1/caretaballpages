@@ -322,7 +322,7 @@ export default function ICUSetupatHome() {
                             <div className="col-sm-4">
                                 <div class="blog-item wow fadeInUp" data-wow-delay=".25s">
                                 <div class="blog-item-img">
-                                    <img src="/assets/img/physiotherapy-at-home/s1.jpg" alt="" />
+                                    <img src="/assets/img/medical-equipment/Medical Equipment & Furniture.webp" alt="" />
                                 </div>
                                 <div class="blog-item-info">
                                     <div class="blog-item-meta">
@@ -338,7 +338,7 @@ export default function ICUSetupatHome() {
                             <div className="col-sm-4">
                                 <div class="blog-item wow fadeInUp" data-wow-delay=".25s">
                                 <div class="blog-item-img">
-                                    <img src="/assets/img/physiotherapy-at-home/s1.jpg" alt="" />
+                                    <img src="/assets/img/medical-equipment/Medical Aids.webp" alt="Medical Aids" />
                                 </div>
                                 <div class="blog-item-info">
                                     <div class="blog-item-meta">
@@ -354,7 +354,7 @@ export default function ICUSetupatHome() {
                             <div className="col-sm-4">
                                 <div class="blog-item wow fadeInUp" data-wow-delay=".25s">
                                 <div class="blog-item-img">
-                                    <img src="/assets/img/physiotherapy-at-home/s1.jpg" alt="" />
+                                    <img src="/assets/img/medical-equipment/Medical Equipment & Furniture.webp" alt="Medical Equipment & Furniture" />
                                 </div>
                                 <div class="blog-item-info">
                                     <div class="blog-item-meta">
@@ -455,8 +455,8 @@ export default function ICUSetupatHome() {
                 <div class="container">
                     <div class="row">
                         
-                        <div class="col-lg-6 whycaretbx">
-                           
+                        <div class="col-lg-6">
+                           <img className="bredius" src="/assets/img/medical-equipment/Why Choose Care T.A.B Equipment Services.webp" alt="Why Choose Care Tab" />
                         </div>
 
                         <div class="col-lg-6 whycaretb pt-50 pb-50">

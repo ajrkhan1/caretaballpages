@@ -632,10 +632,7 @@ export default function Physiotherapy() {
                                         </div>
                                     </div>
                                 </TabPanel>
-
-
                             </div>
-
                         </div>
                     </Tabs>
                 </div>

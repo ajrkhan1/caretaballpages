@@ -408,11 +408,11 @@ export default function Diagnostics() {
             <div class="living-option pt-60 pb-60">
                 <div class="container">
                  
-                    <div class="row g-4 slpadding ">
+                    <div class="row g-4 slpadding">
                         <Slider {...settings}>
                             <div class="blog-item wow fadeInUp" data-wow-delay=".25s">
                                 <div class="blog-item-img">
-                                    <img src="/assets/img/living/01.jpg" alt="" />
+                                    <img src="/assets/img/diagnostics/Comprehensive Health Check-Up Packages.webp" alt="" />
                                 </div>
                                 <div class="blog-item-info">
                                     <div class="blog-item-meta">
@@ -453,7 +453,7 @@ export default function Diagnostics() {
                             </div>
                             <div class="blog-item wow fadeInUp" data-wow-delay=".25s">
                                 <div class="blog-item-img">
-                                    <img src="/assets/img/living/02.jpg" alt="" />
+                                    <img src="/assets/img/diagnostics/Free Sample Collection from Home.webp" alt="" />
                                 </div>
                                 <div class="blog-item-info">
                                     <div class="blog-item-meta">
@@ -468,7 +468,7 @@ export default function Diagnostics() {
                             </div>
                             <div class="blog-item wow fadeInUp" data-wow-delay=".25s">
                                 <div class="blog-item-img">
-                                    <img src="/assets/img/living/03.jpg" alt="" />
+                                    <img src="/assets/img/diagnostics/Priority Radiology Test booking with Free Home Pickup.webp" alt="" />
                                 </div>
                                 <div class="blog-item-info">
                                     <div class="blog-item-meta">
@@ -487,11 +487,10 @@ export default function Diagnostics() {
                                         <li>
                                             <img src="/assets/img/icon/listicon.png" />
                                             <p>Priority Booking Without Endless Waiting. Special Discounts on CT/MRI scans booked during off-hours (5 PM – 9 AM).</p>
-                                        </li>                                    
+                                        </li>
                                     </ul>
                                 </div>
-                            </div>
-                             
+                            </div>                             
                         </Slider>
 
                     </div>
@@ -591,7 +590,7 @@ export default function Diagnostics() {
                 <div class="container">
                     <div class="row align-items-center">
                         <div class="col-lg-6">
-                            <img className="bredius" src="/assets/img/nursingcare/whycaretabdrcon.jpg" alt="" />
+                            <img className="bredius" src="/assets/img/diagnostics/Why Choose Care Tab.webp" alt="Why Choose Care Tab" />
                         </div>
 
                         <div class="col-lg-6">
