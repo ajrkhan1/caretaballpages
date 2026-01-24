@@ -590,7 +590,7 @@ export default function Home() {
                         <div class="service-item wow fadeInUp" data-wow-delay=".25s">
                             <span class="count">01</span>
                             <div class="service-img">
-                                <img src="/assets/img/service/doctor-consultations.jpg" alt=""/>
+                                <a href="/service/doctor-consultation-at-home"><img src="/assets/img/service/doctor-consultations.jpg" alt=""/></a>
                             </div>
                             <div class="service-info">
                                 <div class="service-icon">
@@ -598,7 +598,7 @@ export default function Home() {
                                 </div>
                                 <div class="service-content">
                                     <h4 class="service-title">
-                                        <a href="#inquirenow">Doctor Consultations</a>
+                                        <a href="/service/doctor-consultation-at-home">Doctor Consultations</a>
                                     </h4>
                                     <p class="service-text">
                                         From tele-consultations to emergency visits, expert care is just one call away.
@@ -612,7 +612,7 @@ export default function Home() {
                         <div class="service-item wow fadeInUp" data-wow-delay=".50s">
                             <span class="count">02</span>
                             <div class="service-img">
-                                <img src="/assets/img/service/nursing-care.jpg" alt=""/>
+                                <a href="/service/nursing-care-at-home"><img src="/assets/img/service/nursing-care.jpg" alt=""/></a>
                             </div>
                             <div class="service-info">
                                 <div class="service-icon">
@@ -620,7 +620,7 @@ export default function Home() {
                                 </div>
                                 <div class="service-content">
                                     <h4 class="service-title">
-                                        <a href="#inquirenow">Nursing Care</a>
+                                        <a href="/service/nursing-care-at-home">Nursing Care</a>
                                     </h4>
                                     <p class="service-text">
                                         Short & long-term nursing care including <br className="dnmob"></br>post-op, palliative & respiratory care.
@@ -634,7 +634,7 @@ export default function Home() {
                         <div class="service-item wow fadeInUp" data-wow-delay=".75s">
                             <span class="count">03</span>
                             <div class="service-img">
-                                <img src="/assets/img/service/icu.jpg" alt=""/>
+                                <a href="/service/icu-setup-at-home"><img src="/assets/img/service/icu.jpg" alt=""/></a>
                             </div>
                             <div class="service-info">
                                 <div class="service-icon">
@@ -642,7 +642,7 @@ export default function Home() {
                                 </div>
                                 <div class="service-content">
                                     <h4 class="service-title">
-                                        <a href="#inquirenow">ICU Setup at Home</a>
+                                        <a href="/service/icu-setup-at-home">ICU Setup at Home</a>
                                     </h4>
                                     <p class="service-text">
                                         Complete intensive care environment setup with ventilators, monitors, & skilled staff.
@@ -656,7 +656,7 @@ export default function Home() {
                         <div class="service-item wow fadeInUp" data-wow-delay=".25s">
                             <span class="count">04</span>
                             <div class="service-img">
-                                <img src="/assets/img/service/physiotherapy.jpg" alt=""/>
+                                <a href="/service/physiotherapy-at-home"><img src="/assets/img/service/physiotherapy.jpg" alt=""/></a>
                             </div>
                             <div class="service-info">
                                 <div class="service-icon">
@@ -664,7 +664,7 @@ export default function Home() {
                                 </div>
                                 <div class="service-content">
                                     <h4 class="service-title">
-                                        <a href="#inquirenow">Home Physiotherapy</a>
+                                        <a href="/service/physiotherapy-at-home">Home Physiotherapy</a>
                                     </h4>
                                     <p class="service-text">
                                         Rehabilitation & recovery-focused sessions tailored to neuro, cardiac, & orthopedic needs.
@@ -678,7 +678,7 @@ export default function Home() {
                         <div class="service-item wow fadeInUp" data-wow-delay=".50s">
                             <span class="count">05</span>
                             <div class="service-img">
-                                <img src="/assets/img/service/wellness-programs.png" alt=""/>
+                                <a href="/service/diagnostics"><img src="/assets/img/service/wellness-programs.png" alt=""/></a>
                             </div>
                             <div class="service-info">
                                 <div class="service-icon">
@@ -686,7 +686,7 @@ export default function Home() {
                                 </div>
                                 <div class="service-content">
                                     <h4 class="service-title">
-                                        <a href="#inquirenow">Diagnostics @ Home</a>
+                                        <a href="/service/diagnostics">Diagnostics @ Home</a>
                                     </h4>
                                     <p class="service-text">                                        
                                         Sample collection to ECG, EEG, & sleep studies at home, get priority booking for Xray, CT, & MRI
@@ -700,7 +700,7 @@ export default function Home() {
                         <div class="service-item wow fadeInUp" data-wow-delay=".75s">
                             <span class="count">06</span>
                             <div class="service-img">
-                                <img src="/assets/img/service/medical-equipment.jpg" alt=""/>
+                                <a href="/service/medical-equipment"><img src="/assets/img/service/medical-equipment.jpg" alt=""/></a>
                             </div>
                             <div class="service-info">
                                 <div class="service-icon">
@@ -708,7 +708,7 @@ export default function Home() {
                                 </div>
                                 <div class="service-content">
                                     <h4 class="service-title">
-                                        <a href="#inquirenow">Medical Equipment (Sale & Rent)</a>
+                                        <a href="/service/medical-equipment">Medical Equipment (Sale & Rent)</a>
                                     </h4>
                                     <p class="service-text">
                                         Access to beds, monitors, oxygen cylinders, and more delivered to your home.
