@@ -942,28 +942,7 @@ export default function Home() {
                 </div>
                 <div class="row g-4">
                    
-                    <div class="col-md-6 col-lg-4">
-                        <div class="team-item wow fadeInUp" data-wow-delay=".50s">
-                            <div class="team-img">
-                                <img src="/assets/img/team/dr-megha-yadav.jpg" alt="thumb"/>
-                               <div class="team-social-wrap">
-                                    <div class="team-social-btn">
-                                        <a href="#"><button type="button"><i class="fab fa-linkedin-in"></i></button></a>
-                                    </div>
-                                    {/* <div class="team-social">
-                                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                        <a href="#"><i class="fab fa-x-twitter"></i></a>
-                                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                                        <a href="#"><i class="fab fa-youtube"></i></a>
-                                    </div> */}
-                                </div>
-                            </div>
-                            <div class="team-content">
-                                <h4>Dr Megha Yadav</h4>
-                                <span>Physiotherapist</span>
-                            </div>
-                        </div>
-                    </div>
+                   <div class="col-md-2 col-lg-2"></div>            
                     <div class="col-md-6 col-lg-4">
                         <div class="team-item wow fadeInUp" data-wow-delay=".75s">
                             <div class="team-img">
