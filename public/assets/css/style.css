@@ -83,6 +83,8 @@ body {
   font-weight: normal;
   color: var(--body-text-color);
   line-height: 1.8;
+  background-color: #fff !important;
+  background: #fff !important;
 }
 
 body h1{
