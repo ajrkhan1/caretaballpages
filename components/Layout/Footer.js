@@ -72,8 +72,17 @@ export default function Footer() {
                                             <i class="far fa-location-dot"></i>
                                         </div>
                                         <div class="content">
-                                            <h6>Our Address</h6>
+                                            <h6>Delhi Office:</h6>
                                             <p>Plot No. 1, Basement Karuna Kunj, Sector-3, Dwarka, New Delhi</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="icon">
+                                            <i class="far fa-location-dot"></i>
+                                        </div>
+                                        <div class="content">
+                                            <h6>Gurugram Office:</h6>
+                                            <p>Plot No. 231, Phase IV, Udyog Vihar, Sector 18, Gurugram, Haryana 122001</p>
                                         </div>
                                     </li>
                                     <li>
@@ -105,8 +114,8 @@ export default function Footer() {
             <div class="pb-20">
                 <div class="row">
                     <div class="col-md-6 align-self-center">
-                        <p class="copyright-text">
-                             <a href="#">  <img width="300px" src="/assets/img/logo/caretabx.png" alt=""/> </a>
+                        <p class="copyright-text textww">
+                             © 2026 CareTAB. All rights reserved.
                         </p>
                     </div>
                     <div class="col-md-5 align-self-center">

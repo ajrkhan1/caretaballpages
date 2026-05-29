@@ -6787,6 +6787,7 @@ position: relative;
 }
 .ajboxx .feature-item{min-height: 235px;}
 
+.textww{color: #fff;}
 @media (max-width:767px) {
     .box5inmo .col{ flex: auto;}
 }

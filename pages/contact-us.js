@@ -238,8 +238,19 @@ export default function Home() {
                                     <i class="fal fa-map-location-dot"></i>
                                 </div>
                                 <div class="content">
-                                    <h5>Office Address</h5>
-                                    <p>Plot No. 1, Basement Karuna Kunj, Sector-3, Dwarka, New Delhi</p>
+                                    <h5>Delhi Office</h5>
+                                    <p>Plot No. 1, Basement Karuna Kunj, Sector-3, Dwarka, New Delhi</p>                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="contact-info">
+                                <div class="icon">
+                                    <i class="fal fa-map-location-dot"></i>
+                                </div>
+                                <div class="content">
+                                    <h5>Gurugram Office</h5>
+                                    <p>Plot No. 231, Phase IV, Udyog Vihar, Sector 18, Gurugram, Haryana 122001</p>                                    
                                 </div>
                             </div>
                         </div>
@@ -265,7 +276,7 @@ export default function Home() {
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-3">
+                        {/* <div class="col-md-3">
                             <div class="contact-info">
                                 <div class="icon">
                                     <i class="fal fa-alarm-clock"></i>
@@ -275,7 +286,7 @@ export default function Home() {
                                     <p>Mon - Sat</p>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
                 <div class="contact-form-wrap">
