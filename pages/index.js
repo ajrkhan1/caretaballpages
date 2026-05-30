@@ -700,7 +700,7 @@ export default function Home() {
                         <div class="service-item wow fadeInUp" data-wow-delay=".75s">
                             <span class="count">06</span>
                             <div class="service-img">
-                                <a href="/service/medical-equipment-at-home"><img src="/assets/img/service/medical-equipment-at-home.jpg" alt=""/></a>
+                                <a href="/service/medical-equipment-at-home"><img src="/assets/img/service/medical-equipment.jpg" alt=""/></a>
                             </div>
                             <div class="service-info">
                                 <div class="service-icon">
@@ -708,7 +708,7 @@ export default function Home() {
                                 </div>
                                 <div class="service-content">
                                     <h4 class="service-title">
-                                        <a href="/service/medical-equipment">Medical Equipment (Sale & Rent)</a>
+                                        <a href="/service/medical-equipment-at-home">Medical Equipment (Sale & Rent)</a>
                                     </h4>
                                     <p class="service-text">
                                         Access to beds, monitors, oxygen cylinders, and more delivered to your home.

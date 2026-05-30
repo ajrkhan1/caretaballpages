@@ -68,15 +68,14 @@ export default function Header() {
                                     <a class="nav-link active" href="/">Home</a>                                    
                                 </li>
 
-                                {/* <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="/#our-services" data-bs-toggle="dropdown">Diagnostics</a>
-                                     <ul class="dropdown-menu fade-down">                                        
-                                        <li><a class="dropdown-item" href="/service/doctor-consultation-at-home">ECG at Home</a></li>
-                                        <li><a class="dropdown-item" href="/service/doctor-consultation-at-home">ECG at Home </a></li>
-                                        <li><a class="dropdown-item" href="/service/doctor-consultation-at-home">fffffffffff</a></li>
-                                        <li><a class="dropdown-item" href="/service/doctor-consultation-at-home">fffffffffff</a></li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="/diagnostics" data-bs-toggle="dropdown">Diagnostics</a>
+                                     <ul class="dropdown-menu fade-down">    
+                                        <li><a class="dropdown-item" href="/diagnostics/x-ray-at-home">X-Ray at Home</a></li>
+                                        <li><a class="dropdown-item" href="/diagnostics/sleep-study-at-home">Sleep Study at Home</a></li>
+                                        <li><a class="dropdown-item" href="/diagnostics/ecg-at-home">ECG at Home</a></li>                                        
                                     </ul>
-                                </li> */}
+                                </li>
                                 
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="/#our-services" data-bs-toggle="dropdown">Services</a>
@@ -87,8 +86,8 @@ export default function Header() {
                                         <li><a class="dropdown-item" href="/service/icu-setup-at-home">ICU Setup at Home</a></li>
                                         <li><a class="dropdown-item" href="/service/diagnostics">Diagnostics at Home</a></li>
                                         <li><a class="dropdown-item" href="/service/medical-equipment-at-home">Medical Equipment at Home</a></li>
-                                        <li><a class="dropdown-item" href="/service/x-ray-at-home">X-Ray at Home</a></li>
-                                        <li><a class="dropdown-item" href="/service/sleep-study-at-home">Sleep Study at Home</a></li>
+                                        <li><a class="dropdown-item" href="/service/cgm-at-home">CGM at Home </a></li>
+                                        <li><a class="dropdown-item" href="/service/pft-lft-at-home">PFT / LFT at Home</a></li>
                                     </ul>
                                 </li>
 
