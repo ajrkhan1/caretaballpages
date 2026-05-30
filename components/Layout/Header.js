@@ -86,7 +86,7 @@ export default function Header() {
                                         <li><a class="dropdown-item" href="/service/physiotherapy-at-home">Physiotherapy at Home</a></li>
                                         <li><a class="dropdown-item" href="/service/icu-setup-at-home">ICU Setup at Home</a></li>
                                         <li><a class="dropdown-item" href="/service/diagnostics">Diagnostics at Home</a></li>
-                                        <li><a class="dropdown-item" href="/service/medical-equipment">Medical Equipment</a></li>
+                                        <li><a class="dropdown-item" href="/service/medical-equipment-at-home">Medical Equipment at Home</a></li>
                                         <li><a class="dropdown-item" href="#">X-Ray at Home</a></li>
                                         <li><a class="dropdown-item" href="#">Sleep Study at Home</a></li>
                                     </ul>

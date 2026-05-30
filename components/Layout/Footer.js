@@ -59,7 +59,7 @@ export default function Footer() {
                                     <li><a href="/service/icu-setup-at-home"><i class="far fa-angle-double-right"></i>ICU Setup at Home</a></li>
                                     <li><a href="/service/physiotherapy-at-home"><i class="far fa-angle-double-right"></i>Physiotherapy</a></li>
                                     <li><a href="/service/diagnostics"><i class="far fa-angle-double-right"></i>Diagnostics</a></li>
-                                    <li><a href="/service/medical-equipment"><i class="far fa-angle-double-right"></i>Medical Equipment</a></li>
+                                    <li><a href="/service/medical-equipment-at-home"><i class="far fa-angle-double-right"></i>Medical Equipment</a></li>
                                 </ul>
                             </div>
                         </div>
