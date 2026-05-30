@@ -708,7 +708,7 @@ export default function Home() {
                                 </div>
                                 <div class="service-content">
                                     <h4 class="service-title">
-                                        <a href="/service/medical-equipment-at-home">Medical Equipment (Sale & Rent)</a>
+                                        <a href="/service/medical-equipment">Medical Equipment (Sale & Rent)</a>
                                     </h4>
                                     <p class="service-text">
                                         Access to beds, monitors, oxygen cylinders, and more delivered to your home.
