@@ -196,11 +196,11 @@ export default function ICUSetupatHome() {
                                             <i><img className="brandiconw" src="/assets/img/icon/brandicon.png" alt="" /></i>X-Ray</h6> */}
 
                                         <h1 className="hero-title wow fadeInRight" data-delay=".50s">
-                                            X-Ray at Home
+                                            Sleep Study at Home 
                                         </h1>
 
                                         <div className="hero-btn wow fadeInUp" data-delay="1s">
-                                            <a href="tel:+91-7891-444-333" className="theme-btn btnc">Call for X-Ray<i
+                                            <a href="tel:+91-7891-444-333" className="theme-btn btnc">Call for Sleep Study<i
                                                 className="fas fa-arrow-right"></i></a>
                                         </div>
                                     </div>
@@ -291,19 +291,16 @@ export default function ICUSetupatHome() {
                         <div class="col-lg-6">
                             <div class="video-info wow fadeInUp" data-wow-delay=".25s">
                                 <div class="site-heading mb-0">
-                                    <h2 class="site-title">Convenient & Safe <span>X-Ray at</span> Home Services</h2>
+                                    <h2 class="site-title">Comfortable Overnight <span>Sleep Monitoring</span> at Your Doorstep</h2>
                                     <p className="text-justify">
-                                        Getting diagnostic imaging has never been easier with CareTAB.ai. Our X-ray at home service brings professional radiology support directly to your doorstep, eliminating the need for hospital visits, long waiting times, and transportation challenges. Using advanced portable imaging technology, our trained technicians perform high-quality X-ray procedures safely and efficiently in the comfort of your home. 
+                                        A sleep study at home allows patients to undergo advanced sleep diagnostics in their natural sleeping environment, helping healthcare professionals identify sleep-related disorders accurately. CareTAB.ai provides expert-guided testing using portable monitoring devices, ensuring convenience, comfort, and reliable results without requiring an overnight hospital stay. 
                                     </p>
 
                                     <p className="text-justify">
-                                        This service is especially beneficial for elderly patients, bedridden individuals, post-surgical cases, patients recovering from injuries, and those with limited mobility. Whether your doctor has recommended a chest, knee, shoulder, spine, or limb X-ray, CareTAB.ai ensures a smooth and hassle-free experience from appointment booking to report delivery. 
-                                    </p>
-                                    <p className="text-justify">
-                                        Our Portable X-ray at home solution combines convenience with accuracy. The scans are reviewed by qualified radiologists, and detailed reports are typically delivered within 24 hours, enabling timely medical consultation and treatment planning. With a strong focus on patient safety, hygiene, and diagnostic excellence, CareTAB.ai makes quality imaging services more accessible across Delhi and Gurgaon.
-                                    </p>                                   
+                                        This service is ideal for individuals experiencing loud snoring, daytime fatigue, interrupted sleep, breathing difficulties during sleep, or suspected sleep disorders. Our specialists guide patients through the setup process and ensure seamless overnight monitoring for accurate diagnosis and treatment planning. 
+                                    </p>                                                                 
                                 </div>
-                                <a href="tel:+91-7891-444-333" class="theme-btn mt-30">Call for Care <i class="fas fa-arrow-right"></i></a>
+                                <a href="tel:+91-7891-444-333" class="theme-btn mt-30">Call for Sleep Study <i class="fas fa-arrow-right"></i></a>
                             </div>
                         </div>
                         <div class="col-lg-6 xray">
@@ -319,8 +316,8 @@ export default function ICUSetupatHome() {
                         <div class="col-lg-10 mx-auto">
                             <div class="site-heading text-center">
                                 {/* <span class="site-title-tagline"><i class="far fa-house-chimney-heart"></i> Living Options</span> */}
-                                <h2 class="site-title">Get Professional <span>X-Ray Services</span> at Your Doorstep</h2>
-                                <p>Ideal for elderly patients, bedridden individuals, post-surgical recovery, accident cases, and patients with limited mobility. Our portable diagnostic equipment enables safe and accurate imaging in the comfort of your home. </p>
+                                <h2 class="site-title">Common <span>Sleep</span> Disorders We Assess</h2>
+                               
                             </div>
                         </div>
                     </div>
@@ -333,11 +330,11 @@ export default function ICUSetupatHome() {
                                 <div class="blog-item-info">
                                     <div class="blog-item-meta">
                                         <h4 class="blog-title">
-                                            <a href="#">Chest X-Ray</a>
+                                            <a href="#">Sleep Apnea Assessment</a>
                                         </h4>
                                     </div>
                                     <p>
-                                         For respiratory infections, pneumonia screening, and lung health assessment. 
+                                         A comprehensive sleep apnea test at home helps detect breathing interruptions and oxygen fluctuations during sleep.
                                     </p>
                                 </div>
                             </div>
@@ -348,11 +345,11 @@ export default function ICUSetupatHome() {
                                 <div class="blog-item-info">
                                     <div class="blog-item-meta">
                                         <h4 class="blog-title">
-                                            <a href="#">Knee & Joint X-Ray</a>
+                                            <a href="#">Snoring & Breathing Disorders</a>
                                         </h4>
                                     </div>
                                     <p>
-                                        Helps evaluate arthritis, joint pain, injuries, and degeneration.
+                                        Identifies respiratory disturbances that may affect sleep quality and overall health.
                                     </p>
                                 </div>
                             </div>
@@ -363,11 +360,11 @@ export default function ICUSetupatHome() {
                                 <div class="blog-item-info">
                                     <div class="blog-item-meta">
                                         <h4 class="blog-title">
-                                            <a href="#">Shoulder X-Ray</a>
+                                            <a href="#">Sleep Pattern Monitoring</a>
                                         </h4>
                                     </div>
                                     <p>
-                                        Useful for fractures, dislocations, and mobility-related concerns.
+                                        A professional home sleep test evaluates sleep cycles, movement, and sleep efficiency.
                                     </p>
                                 </div>
                             </div>
@@ -378,11 +375,11 @@ export default function ICUSetupatHome() {
                                 <div class="blog-item-info">
                                     <div class="blog-item-meta">
                                         <h4 class="blog-title">
-                                            <a href="#">Spine X-Ray</a>
+                                            <a href="#">Restless Leg Syndrome Evaluation</a>
                                         </h4>
                                     </div>
                                     <p>
-                                        Supports diagnosis of back pain, spinal alignment, and injury assessment. 
+                                        A specialized restless leg syndrome test helps identify abnormal leg movements and discomfort affecting sleep.
                                     </p>
                                 </div>
                             </div>
@@ -393,11 +390,11 @@ export default function ICUSetupatHome() {
                                 <div class="blog-item-info">
                                     <div class="blog-item-meta">
                                         <h4 class="blog-title">
-                                            <a href="#">Hip & Pelvis X-Ray</a>
+                                            <a href="#">Chronic Fatigue Investigation</a>
                                         </h4>
                                     </div>
                                     <p>
-                                        Recommended for trauma, fractures, and post-operative evaluations. 
+                                        Supports diagnosis when poor sleep quality contributes to daytime tiredness and reduced productivity.
                                     </p>
                                 </div>
                             </div>
@@ -408,11 +405,11 @@ export default function ICUSetupatHome() {
                                 <div class="blog-item-info">
                                     <div class="blog-item-meta">
                                         <h4 class="blog-title">
-                                            <a href="#">Hand, Wrist & Foot X-Ray</a>
+                                            <a href="#">Sleep Disorder Screening</a>
                                         </h4>
                                     </div>
                                     <p>
-                                        For sprains, fractures, sports injuries, and orthopedic conditions.
+                                        A detailed sleep study test provides valuable insights for diagnosing various sleep-related conditions.
                                     </p>
                                 </div>
                             </div>
@@ -437,49 +434,49 @@ export default function ICUSetupatHome() {
                         <div class="col-lg-6 whycaretb pt-50 pb-50">
                             <div class="video-info wow fadeInUp insidep" data-wow-delay=".25s">
                                 <div class="site-heading mb-0">
-                                    <h2 class="site-title">Why Choose CareTAB.ai Services? </h2>                                  
+                                    <h2 class="site-title">Why Choose CareTAB.ai Services?</h2>                                  
                                 </div>
                                 <div class="feature-content">                                        
                                         <ul class="listicon">
                                             <li>
                                                 <img src="/assets/img/icon/listicon.png" />
-                                                <p>Doorstep diagnostic services with professional healthcare support </p>
+                                                <p>Convenient overnight testing from the comfort of your home. </p>
                                             </li>
                                             <li>
                                                 <img src="/assets/img/icon/listicon.png" />
-                                                <p>Advanced portable imaging equipment for accurate results </p>
+                                                <p>Expert support for device setup and monitoring. </p>
                                             </li>
                                             <li>
                                                 <img src="/assets/img/icon/listicon.png" />
-                                                <p>Experienced and trained technicians for safe procedures </p>
+                                                <p>Accurate diagnostics reviewed by qualified sleep specialists. </p>
                                             </li>
                                             <li>
                                                 <img src="/assets/img/icon/listicon.png" />
-                                                <p>Radiologist-reviewed reports delivered within 24 hours </p>
+                                                <p>No hospital admission or overnight stay required. </p>
                                             </li>
                                             <li>
                                                 <img src="/assets/img/icon/listicon.png" />
-                                                <p>Ideal for senior citizens, bedridden patients, and post-operative care </p>
+                                                <p>Comfortable testing in your natural sleep environment. </p>
                                             </li>
                                             <li>
                                                 <img src="/assets/img/icon/listicon.png" />
-                                                <p>Convenient scheduling with minimal waiting time </p>
+                                                <p>Suitable for adults, seniors, and patients with mobility challenges. </p>
                                             </li>
                                             <li>
                                                 <img src="/assets/img/icon/listicon.png" />
-                                                <p>Strict hygiene and patient safety protocols</p>
+                                                <p>Transparent guidance regarding sleep study test cost in Delhi. </p>
                                             </li>
                                             <li>
                                                 <img src="/assets/img/icon/listicon.png" />
-                                                <p>Affordable and transparent pricing with no hidden charges </p>
+                                                <p>Fast report generation and consultation support. </p>
                                             </li>
                                             <li>
                                                 <img src="/assets/img/icon/listicon.png" />
-                                                <p>Quick report access for faster medical decision-making </p>
+                                                <p>Advanced portable sleep monitoring technology. </p>
                                             </li>
                                             <li>
                                                 <img src="/assets/img/icon/listicon.png" />
-                                                <p>Trusted home healthcare solutions across Delhi NCR </p>
+                                                <p>Trusted home healthcare services across Delhi NCR. </p>
                                             </li>
                                                                                                                           
                                         </ul>
@@ -495,11 +492,11 @@ export default function ICUSetupatHome() {
                 <div class="cta-wrap rounded-5 w-100">
                     <div class="col-lg-7 mx-auto">
                         <div class="cta-content">
-                            <h1>Need an X-Ray Without Visiting a Hospital?</h1>
+                            <h1>Struggling with Snoring, Fatigue, or Poor Sleep?  </h1>
                             <p>
-                                Call 7891444333 to schedule your home X-ray today. 
+                                Call 7891444333 to book your home sleep study.
                             </p>
-                            <a href="tel:+91-7891444333" class="theme-btn">Call us now to set up ICU care at home<i class="fas fa-arrow-right"></i></a>
+                            <a href="tel:+91-7891444333" class="theme-btn">Call us now<i class="fas fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -525,13 +522,13 @@ export default function ICUSetupatHome() {
                                 <h2 class="accordion-header" id="headingOne">
                                     <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                        <span><i class="far fa-question"></i></span> What is an X-ray at home service? 
+                                        <span><i class="far fa-question"></i></span> What is a sleep study at home?
                                     </button>
                                 </h2>
                                 <div id="collapseOne" class="accordion-collapse collapse show"
                                     aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                       An X-ray at home service allows trained technicians to perform diagnostic imaging at your home using portable digital X-ray equipment, eliminating the need to visit a hospital or diagnostic center.
+                                       A sleep study at home is an overnight diagnostic test that monitors breathing patterns, oxygen levels, heart rate, and sleep quality to identify sleep disorders. 
                                     </div>
                                 </div>
                             </div>
@@ -541,13 +538,13 @@ export default function ICUSetupatHome() {
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseThree" aria-expanded="false"
                                         aria-controls="collapseThree">
-                                        <span><i class="far fa-question"></i></span> Who can benefit from portable X-ray at home services?
+                                        <span><i class="far fa-question"></i></span> Who should undergo a home sleep test?
                                     </button>
                                 </h2>
                                 <div id="collapseThree" class="accordion-collapse collapse"
                                     aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        <p>Portable X-ray at home services are ideal for elderly patients, bedridden individuals, post-surgery patients, people with mobility limitations, and those recovering from injuries. </p>
+                                        <p>Individuals experiencing loud snoring, daytime fatigue, interrupted sleep, breathing pauses during sleep, or suspected sleep apnea may benefit from a home sleep test. </p>
                                     </div>
                                 </div>
                             </div>
@@ -556,14 +553,14 @@ export default function ICUSetupatHome() {
                                 <h2 class="accordion-header" id="headingTwo">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                        <span><i class="far fa-question"></i></span> What types of X-rays can be performed at home? 
+                                        <span><i class="far fa-question"></i></span> What does a sleep apnea test at home measure? 
                                     </button>
                                 </h2>
                                 <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                                     data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
                                         <p>
-                                            Home X-ray services commonly include chest, knee, shoulder, spine, pelvis, hip, hand, wrist, foot, and other physician-prescribed diagnostic X-rays.
+                                            A sleep apnea test at home measures airflow, breathing effort, oxygen saturation, heart rate, and sleep-related respiratory events. 
                                         </p>                                       
                                     </div>
                                 </div>
@@ -573,14 +570,14 @@ export default function ICUSetupatHome() {
                                 <h2 class="accordion-header" id="headingFour">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                        <span><i class="far fa-question"></i></span> How long does it take to receive X-ray reports? 
+                                        <span><i class="far fa-question"></i></span> What is the sleep study test cost in Delhi? 
                                     </button>
                                 </h2>
                                 <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
                                     data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
                                         <p>
-                                            Most X-ray reports are reviewed by qualified radiologists and delivered digitally within 24 hours of the procedure. 
+                                            The sleep study test cost in Delhi varies depending on the type of monitoring and reporting required. Contact CareTAB.ai for current pricing and package details. 
                                         </p>                                       
                                     </div>
                                 </div>
@@ -589,14 +586,14 @@ export default function ICUSetupatHome() {
                                 <h2 class="accordion-header" id="headingFive">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                        <span><i class="far fa-question"></i></span> Is X-ray at home safe and accurate? 
+                                        <span><i class="far fa-question"></i></span> Can a sleep study detect restless leg syndrome? 
                                     </button>
                                 </h2>
                                 <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
                                     data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
                                         <p>
-                                            Yes. Modern portable X-ray systems provide high-quality imaging while following strict safety protocols and radiation guidelines. 
+                                            Yes. Specialized sleep monitoring can help evaluate abnormal limb movements and assist in the diagnosis of restless leg syndrome and related sleep disorders. 
                                         </p>                                       
                                     </div>
                                 </div>
