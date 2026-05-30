@@ -244,13 +244,14 @@ export default function ICUSetupatHome() {
                                                     <div class="form-group">
                                                         <div class="form-icon servicesl">
                                                             <i class="far fa-pencil"></i>
-                                                            <select class="form-control" value={selectedService} onChange={(e) => setSelectedService(e.target.value)} name="service" id="service" className="service" required>
-                                                                <option value="">---Select Service---</option>
+                                                            <select class="form-control" name="service" id="service" className="service" required>
                                                                 <option value="Doctor Consultations">Doctor Consultations</option>
                                                                 <option value="Nursing Care">Nursing Care</option>
                                                                 <option value="ICU Setup at Home">ICU Setup at Home</option>
                                                                 <option value="Home Physiotherapy">Home Physiotherapy</option>
                                                                 <option value="Diagnostics">Diagnostics</option>
+                                                                <option value="Medical Equipment">Medical Equipment</option>
+                                                                <option value="X-Ray at Home" selected>X-Ray at Home</option>
                                                                 <option value="Medical Equipment">Medical Equipment</option>
                                                             </select>
                                                         </div>
@@ -290,10 +291,35 @@ export default function ICUSetupatHome() {
                         <div class="col-lg-6">
                             <div class="video-info wow fadeInUp" data-wow-delay=".25s">
                                 <div class="site-heading mb-0">
-                                    <h2 class="site-title">Critical Care, Beyond <span>the Hospital</span></h2>
+                                    <h2 class="site-title">Convenient & Safe <span>X-Ray at</span> Home Services</h2>
                                     <p className="text-justify">
-                                        When a loved one requires intensive monitoring and advanced medical support, hospital stays can be stressful and overwhelming. At Care(T.A.B), we provide ICU set-ups at home, designed to deliver hospital-quality critical care in a safe, familiar environment. With advanced technology, skilled nurses, and doctor supervision, we ensure safe, continuous, and compassionate care for critically ill patients.
+                                        Looking for a reliable X-ray at home service in Delhi or Gurgaon? CareTAB.ai
+brings advanced diagnostic care directly to your doorstep with portable digital
+imaging equipment and experienced technicians. Whether you need a chest Xray, knee X-ray, shoulder X-ray, spine X-ray, or post-surgery imaging, our homebased diagnostic solutions are designed for comfort, safety, and convenience.
                                     </p>
+
+                                    <p className="text-justify">
+                                        Our X-ray at home service is ideal for elderly patients, post-operative recovery,
+bedridden individuals, patients with mobility challenges, and anyone seeking
+hassle-free diagnostics without visiting a hospital or clinic. We follow strict
+hygiene and safety protocols while ensuring high-quality imaging and accurate
+results.
+                                    </p>
+                                    <p className="text-justify">
+                                        At CareTAB.ai, certified radiologists carefully review every scan to provide
+precise reports within 24 hours. Our team ensures a smooth experience from
+appointment booking to report delivery, helping patients receive timely medical
+attention without unnecessary travel or waiting times.
+                                    </p>
+                                    <p className="text-justify">
+                                        With fast scheduling, trusted professionals, and doorstep healthcare support,
+CareTAB.ai makes diagnostic imaging more accessible across Delhi and
+Gurgaon. Experience quick, comfortable, and professional X-ray at home
+services tailored to your healthcare needs. Book your home X-ray today and get expert diagnostic care at your
+convenience.
+                                    </p>
+
+
                                 </div>
                                 <a href="tel:+91-7891-444-333" class="theme-btn mt-30">Call for Care <i class="fas fa-arrow-right"></i></a>
                             </div>

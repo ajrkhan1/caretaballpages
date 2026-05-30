@@ -25,7 +25,7 @@ export default function Header() {
                         <div class="header-top-social">
                             <span>Follow </span>
                             <a target='_blank' href="https://www.facebook.com/CareTab"><i class="fab fa-facebook"></i></a>
-                            <a target='_blank' href="https://x.com/CaretabAi"><i class="fab fa-x-twitter"></i></a>
+                            {/* <a target='_blank' href="https://x.com/CaretabAi"><i class="fab fa-x-twitter"></i></a> */}
                             <a target='_blank' href="https://www.instagram.com/caretab.ai/"><i class="fab fa-instagram"></i></a>
                             <a target='_blank' href="https://www.linkedin.com/company/108111134"><i class="fab fa-linkedin"></i></a>
                         </div>
@@ -67,6 +67,16 @@ export default function Header() {
                                 <li class="nav-item">
                                     <a class="nav-link active" href="/">Home</a>                                    
                                 </li>
+
+                                {/* <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="/#our-services" data-bs-toggle="dropdown">Diagnostics</a>
+                                     <ul class="dropdown-menu fade-down">                                        
+                                        <li><a class="dropdown-item" href="/service/doctor-consultation-at-home">ECG at Home</a></li>
+                                        <li><a class="dropdown-item" href="/service/doctor-consultation-at-home">ECG at Home </a></li>
+                                        <li><a class="dropdown-item" href="/service/doctor-consultation-at-home">fffffffffff</a></li>
+                                        <li><a class="dropdown-item" href="/service/doctor-consultation-at-home">fffffffffff</a></li>
+                                    </ul>
+                                </li> */}
                                 
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="/#our-services" data-bs-toggle="dropdown">Services</a>
@@ -77,6 +87,8 @@ export default function Header() {
                                         <li><a class="dropdown-item" href="/service/icu-setup-at-home">ICU Setup at Home</a></li>
                                         <li><a class="dropdown-item" href="/service/diagnostics">Diagnostics at Home</a></li>
                                         <li><a class="dropdown-item" href="/service/medical-equipment">Medical Equipment</a></li>
+                                        <li><a class="dropdown-item" href="#">X-Ray at Home</a></li>
+                                        <li><a class="dropdown-item" href="#">Sleep Study at Home</a></li>
                                     </ul>
                                 </li>
 
@@ -84,11 +96,7 @@ export default function Header() {
                                 <li class="nav-item dropdown">
                                     <a class="nav-link" href="/#why-us">Why Us</a>                                
                                 </li>
-                                <li class="nav-item"><a class="nav-link" href="/#about-us">About</a></li>
-
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link" href="/#our-team">Our Team</a>                                
-                                </li>                               
+                                <li class="nav-item"><a class="nav-link" href="/#about-us">About</a></li>                                                       
                                 <li class="nav-item"><a class="nav-link" href="/contact-us">Contact Us</a></li>
                             </ul>
                     

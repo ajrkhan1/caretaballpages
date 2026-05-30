@@ -121,7 +121,7 @@ export default function Footer() {
                     <div class="col-md-5 align-self-center">
                         <ul class="footer-social">
                             <li><a target='_blank' href="https://www.facebook.com/CareTab"><i class="fab fa-facebook"></i></a></li>
-                            <li><a target='_blank' href="https://x.com/CaretabAi"><i class="fab fa-x-twitter"></i></a></li>
+                            {/* <li><a target='_blank' href="https://x.com/CaretabAi"><i class="fab fa-x-twitter"></i></a></li> */}
                             <li><a target='_blank' href="https://www.instagram.com/caretab.ai/"><i class="fab fa-instagram"></i></a></li>
                             <li><a target='_blank' href="https://www.linkedin.com/company/108111134"><i class="fab fa-linkedin"></i></a></li>
                         </ul>

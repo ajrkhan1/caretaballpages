@@ -176,8 +176,8 @@ export default function ICUSetupatHome() {
     return (
         <>
             <Head>
-                <title>Medical Equipment at Home - CareTAB </title>
-                <meta name="description" content="Medical Equipment at Home " />
+                <title>Medical Equipment on Rent & Sale | Home Medical Devices | CareTAB.ai</title>
+                <meta name="description" content="Rent or buy essential medical equipment from CareTAB.ai. Wheelchairs, oxygen concentrators, hospital beds, BP monitors, nebulizers & more delivered to your home across India. "/>
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="icon" href="/favicon.ico" />               
                 <link rel="stylesheet" href="/assets/css/medical-equipment.css" />
@@ -191,9 +191,9 @@ export default function ICUSetupatHome() {
                             <div className="row align-items-center">
                                 <div className="col-md-12 col-lg-5">
                                     <div className="hero-content">
-                                        <br></br>
+                                        {/* <br></br>
                                         <h6 className="hero-sub-title wow fadeInUp" data-delay=".25s">
-                                            <i><img className="brandiconw" src="/assets/img/icon/brandicon.png" alt="" /></i>Medical Equipment at Home</h6>
+                                            <i><img className="brandiconw" src="/assets/img/icon/brandicon.png" alt="" /></i>Medical Equipment at Home</h6> */}
 
                                         <h1 className="hero-title wow fadeInRight" data-delay=".50s">
                                             Buy/ Rent Medical Equipment Online
@@ -244,14 +244,13 @@ export default function ICUSetupatHome() {
                                                     <div class="form-group">
                                                         <div class="form-icon servicesl">
                                                             <i class="far fa-pencil"></i>
-                                                            <select class="form-control" value={selectedService} onChange={(e) => setSelectedService(e.target.value)} name="service" id="service" className="service" required>
-                                                                <option value="">---Select Service---</option>
+                                                            <select class="form-control" name="service" id="service" className="service" required>
                                                                 <option value="Doctor Consultations">Doctor Consultations</option>
                                                                 <option value="Nursing Care">Nursing Care</option>
                                                                 <option value="ICU Setup at Home">ICU Setup at Home</option>
                                                                 <option value="Home Physiotherapy">Home Physiotherapy</option>
                                                                 <option value="Diagnostics">Diagnostics</option>
-                                                                <option value="Medical Equipment">Medical Equipment</option>
+                                                                <option value="Medical Equipment" selected>Medical Equipment</option>
                                                             </select>
                                                         </div>
                                                     </div>
