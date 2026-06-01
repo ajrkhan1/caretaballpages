@@ -180,13 +180,13 @@ export default function ICUSetupatHome() {
                 <meta name="description" content="Book ECG (Electrocardiogram) test at home in Delhi & Gurgaon with CareTAB.ai. 12-lead ECG, accurate cardiac reports in 24 hrs. Affordable, non-invasive. Call 7891444333. " />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="icon" href="/favicon.ico" />               
-                <link rel="stylesheet" href="/assets/css/x-ray-home.css" />
+                <link rel="stylesheet" href="/assets/css/ecg-at-home.css" />
             </Head>
 
 
             <div className="hero-section" id="inquirenow">
                 <div className="">
-                    <div className="hero-single icusetupbanner bannerpad">
+                    <div className="hero-single ecg-at-home bannerpad">
                         <div className="container">
                             <div className="row align-items-center">
                                 <div className="col-md-12 col-lg-5">
@@ -244,15 +244,11 @@ export default function ICUSetupatHome() {
                                                     <div class="form-group">
                                                         <div class="form-icon servicesl">
                                                             <i class="far fa-pencil"></i>
-                                                            <select class="form-control" name="service" id="service" className="service" required>
-                                                                <option value="Doctor Consultations">Doctor Consultations</option>
-                                                                <option value="Nursing Care">Nursing Care</option>
-                                                                <option value="ICU Setup at Home">ICU Setup at Home</option>
-                                                                <option value="Home Physiotherapy">Home Physiotherapy</option>
-                                                                <option value="Diagnostics">Diagnostics</option>
-                                                                <option value="Medical Equipment">Medical Equipment</option>
-                                                                <option value="X-Ray at Home" selected>X-Ray at Home</option>
-                                                                <option value="Medical Equipment">Medical Equipment</option>
+                                                            <select class="form-control" name="service" id="service" className="service" required>                                                                
+                                                                <option value="Diagnostics at Home">Diagnostics at Home</option>
+                                                                <option value="X-Ray at Home">X-Ray at Home</option>                                                                
+                                                                <option value="Sleep Study at Home">Sleep Study at Home</option>
+                                                                <option value="ECG at Home" selected>ECG at Home</option>
                                                             </select>
                                                         </div>
                                                     </div>
@@ -306,7 +302,7 @@ export default function ICUSetupatHome() {
                                 <a href="tel:+91-7891-444-333" class="theme-btn mt-30">Call for ECG <i class="fas fa-arrow-right"></i></a>
                             </div>
                         </div>
-                        <div class="col-lg-6 xray">
+                        <div class="col-lg-6 professional-Heart-Monitoring ">
                             
                         </div>
                     </div>
@@ -327,7 +323,7 @@ export default function ICUSetupatHome() {
                         <Slider {...settings}>
                             <div class="blog-item wow fadeInUp" data-wow-delay=".25s">
                                 <div class="blog-item-img">
-                                    <img src="/assets/img/physiotherapy-at-home/Care in the Comfort of Home.jpg" alt="Care in the Comfort of Home" />
+                                    <img src="/assets/img/ecg/ecg1.webp" alt="Care in the Comfort of Home" />
                                 </div>
                                 <div class="blog-item-info">
                                     <div class="blog-item-meta">
@@ -342,7 +338,7 @@ export default function ICUSetupatHome() {
                             </div>
                             <div class="blog-item wow fadeInUp" data-wow-delay=".25s">
                                 <div class="blog-item-img">
-                                    <img src="/assets/img/physiotherapy-at-home/Personalized Attention.jpg" alt="Personalized Attention" />
+                                    <img src="/assets/img/ecg/ecg2.webp" alt="Personalized Attention" />
                                 </div>
                                 <div class="blog-item-info">
                                     <div class="blog-item-meta">
@@ -357,7 +353,7 @@ export default function ICUSetupatHome() {
                             </div>
                             <div class="blog-item wow fadeInUp" data-wow-delay=".25s">
                                 <div class="blog-item-img">
-                                    <img src="/assets/img/physiotherapy-at-home/Faster Recovery.jpg" alt="" />
+                                    <img src="/assets/img/ecg/ecg3.webp" alt="" />
                                 </div>
                                 <div class="blog-item-info">
                                     <div class="blog-item-meta">
@@ -372,7 +368,7 @@ export default function ICUSetupatHome() {
                             </div>
                             <div class="blog-item wow fadeInUp" data-wow-delay=".25s">
                                 <div class="blog-item-img">
-                                    <img src="/assets/img/physiotherapy-at-home/Pain & Mobility Management.jpg" alt="Pain & Mobility Management" />
+                                    <img src="/assets/img/ecg/ecg4.webp" alt="Pain & Mobility Management" />
                                 </div>
                                 <div class="blog-item-info">
                                     <div class="blog-item-meta">
@@ -387,7 +383,7 @@ export default function ICUSetupatHome() {
                             </div>
                             <div class="blog-item wow fadeInUp" data-wow-delay=".25s">
                                 <div class="blog-item-img">
-                                    <img src="/assets/img/physiotherapy-at-home/holistic support.jpg" alt="holistic support" />
+                                    <img src="/assets/img/ecg/ecg5.webp" alt="holistic support" />
                                 </div>
                                 <div class="blog-item-info">
                                     <div class="blog-item-meta">
@@ -402,7 +398,7 @@ export default function ICUSetupatHome() {
                             </div>
                             <div class="blog-item wow fadeInUp" data-wow-delay=".25s">
                                 <div class="blog-item-img">
-                                    <img src="/assets/img/physiotherapy-at-home/Prevents Complications.jpg" alt="Prevents Complications" />
+                                    <img src="/assets/img/ecg/ecg6.webp" alt="Prevents Complications" />
                                 </div>
                                 <div class="blog-item-info">
                                     <div class="blog-item-meta">
@@ -430,7 +426,7 @@ export default function ICUSetupatHome() {
                     <div class="row">
                         
                         <div class="col-lg-6">
-                           <img className="imgborderwi" src="/assets/img/icu-setup-at-home/Why Choose Care Tab.webp" alt="ICU Nurses" />
+                           <img className="imgborderwi" src="/assets/img/ecg/why.webp" alt="ICU Nurses" />
                         </div>
 
                         <div class="col-lg-6 whycaretb pt-50 pb-50">

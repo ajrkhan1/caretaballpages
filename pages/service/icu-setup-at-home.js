@@ -245,12 +245,13 @@ export default function ICUSetupatHome() {
                                                         <div class="form-icon servicesl">
                                                             <i class="far fa-pencil"></i>
                                                             <select class="form-control" name="service" id="service" className="service" required>                                                                
-                                                                <option value="Doctor Consultations">Doctor Consultations</option>
-                                                                <option value="Nursing Care">Nursing Care</option>
+                                                                <option value="Nursing Care At Home">Nursing Care At Home</option>
+                                                                <option value="Doctor Consultation at Home">Doctor Consultation at Home</option>
+                                                                <option value="Physiotherapy at Home">Physiotherapy at Home</option>
                                                                 <option value="ICU Setup at Home" selected>ICU Setup at Home</option>
-                                                                <option value="Home Physiotherapy">Home Physiotherapy</option>
-                                                                <option value="Diagnostics">Diagnostics</option>
-                                                                <option value="Medical Equipment">Medical Equipment</option>
+                                                                <option value="Medical Equipment at Home">Medical Equipment at Home</option>
+                                                                <option value="CGM at Home">CGM at Home</option>
+                                                                <option value="PFT or LFT at Home">PFT / LFT at Home</option>
                                                             </select>
                                                         </div>
                                                     </div>

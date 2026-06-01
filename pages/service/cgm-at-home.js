@@ -180,13 +180,13 @@ export default function ICUSetupatHome() {
                 <meta name="description" content="Monitor blood sugar levels easily with CGM at Home services by CareTAB.ai. Get continuous glucose monitoring for diabetes management with expert support, sensor setup, and accurate tracking across Delhi NCR." />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="icon" href="/favicon.ico" />               
-                <link rel="stylesheet" href="/assets/css/x-ray-home.css" />
+                <link rel="stylesheet" href="/assets/css/cgm-at-home.css" />
             </Head>
 
 
             <div className="hero-section" id="inquirenow">
                 <div className="">
-                    <div className="hero-single icusetupbanner bannerpad">
+                    <div className="hero-single cgmathome bannerpad">
                         <div className="container">
                             <div className="row align-items-center">
                                 <div className="col-md-12 col-lg-5">
@@ -245,14 +245,13 @@ export default function ICUSetupatHome() {
                                                         <div class="form-icon servicesl">
                                                             <i class="far fa-pencil"></i>
                                                             <select class="form-control" name="service" id="service" className="service" required>
-                                                                <option value="Doctor Consultations">Doctor Consultations</option>
-                                                                <option value="Nursing Care">Nursing Care</option>
+                                                                <option value="Nursing Care At Home">Nursing Care At Home</option>
+                                                                <option value="Doctor Consultation at Home">Doctor Consultation at Home</option>
+                                                                <option value="Physiotherapy at Home">Physiotherapy at Home</option>
                                                                 <option value="ICU Setup at Home">ICU Setup at Home</option>
-                                                                <option value="Home Physiotherapy">Home Physiotherapy</option>
-                                                                <option value="Diagnostics">Diagnostics</option>
-                                                                <option value="Medical Equipment">Medical Equipment</option>
-                                                                <option value="X-Ray at Home" selected>X-Ray at Home</option>
-                                                                <option value="Medical Equipment">Medical Equipment</option>
+                                                                <option value="Medical Equipment at Home">Medical Equipment at Home</option>
+                                                                <option value="CGM at Home" selected>CGM at Home</option>
+                                                                <option value="PFT or LFT at Home">PFT / LFT at Home</option>
                                                             </select>
                                                         </div>
                                                     </div>
@@ -306,7 +305,7 @@ export default function ICUSetupatHome() {
                                 <a href="tel:+91-7891-444-333" class="theme-btn mt-30">Call for CGM <i class="fas fa-arrow-right"></i></a>
                             </div>
                         </div>
-                        <div class="col-lg-6 xray">
+                        <div class="col-lg-6 SmarterCGM">
                             
                         </div>
                     </div>
@@ -319,7 +318,7 @@ export default function ICUSetupatHome() {
                     <div class="row align-items-center">
                         
                         <div class="col-lg-6">
-                           <img className="imgborderwi" src="/assets/img/icu-setup-at-home/Why Choose Care Tab.webp" alt="ICU Nurses" />
+                           <img className="imgborderwi" src="/assets/img/cgm/commencgm.webp" alt="ICU Nurses" />
                         </div>
 
                         <div class="col-lg-6 pt-50 pb-50">
@@ -383,7 +382,7 @@ export default function ICUSetupatHome() {
                     <div class="row">
                         
                         <div class="col-lg-6">
-                           <img className="imgborderwi" src="/assets/img/icu-setup-at-home/Why Choose Care Tab.webp" alt="ICU Nurses" />
+                           <img className="imgborderwi" src="/assets/img/cgm/Why.webp" alt="ICU Nurses" />
                         </div>
 
                         <div class="col-lg-6 whycaretb pt-50 pb-50">

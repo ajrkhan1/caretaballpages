@@ -168,12 +168,10 @@ export default function Diagnostics() {
                                                         <div class="form-icon servicesl">
                                                             <i class="far fa-pencil"></i>
                                                             <select class="form-control" name="service" id="service" className="service" required>                                                                
-                                                                <option value="Doctor Consultations">Doctor Consultations</option>
-                                                                <option value="Nursing Care">Nursing Care</option>
-                                                                <option value="ICU Setup at Home">ICU Setup at Home</option>
-                                                                <option value="Home Physiotherapy">Home Physiotherapy</option>
-                                                                <option value="Diagnostics" selected>Diagnostics</option>
-                                                                <option value="Medical Equipment">Medical Equipment</option>
+                                                                <option value="Diagnostics at Home" selected>Diagnostics at Home</option>
+                                                                <option value="X-Ray at Home">X-Ray at Home</option>                                                                
+                                                                <option value="Sleep Study at Home">Sleep Study at Home</option>
+                                                                <option value="ECG at Home">ECG at Home</option>
                                                             </select>
                                                         </div>
                                                     </div>

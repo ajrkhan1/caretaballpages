@@ -2,8 +2,8 @@
     z-index: 1000;
 }
 
-.xrayhome{
-  background-image: url(/assets/img/xray/xrayhome.webp);
+.cgmathome{
+  background-image: url(/assets/img/cgm/cgmathome.webp);
   background-position: center top !important;
   background-size: cover;
 }
@@ -12,8 +12,8 @@
     background: linear-gradient(to bottom right, rgb(0 141 210 / 44%) 5%, rgb(67 74 74 / 51%) 70%) !important;
 }
 
-.xray{
-    background-image: url(/assets/img/xray/banner2.webp);
+.SmarterCGM{
+    background-image: url(/assets/img/cgm/SmarterCGM.webp);
     background-size: cover;
 }
 
