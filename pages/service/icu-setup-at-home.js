@@ -181,6 +181,90 @@ export default function ICUSetupatHome() {
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="icon" href="/favicon.ico" />               
                 <link rel="stylesheet" href="/assets/css/icu-setup-at-home.css" />
+                <script type="application/ld+json"
+            dangerouslySetInnerHTML={{
+              __html: `
+              {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": "https://caretab.ai/service/icu-setup-at-home/#service",
+      "name": "ICU Setup at Home",
+      "serviceType": "Home ICU Setup Service",
+      "url": "https://caretab.ai/service/icu-setup-at-home",
+      "description": "Professional ICU setup at home including ICU equipment, critical care support, patient monitoring systems, oxygen support, ventilator support, and skilled nursing care.",
+      "provider": {
+        "@type": "MedicalBusiness",
+        "@id": "https://caretab.ai/#medicalbusiness",
+        "name": "CareTAB.ai",
+        "url": "https://caretab.ai/"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "India"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://caretab.ai/service/icu-setup-at-home/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is ICU setup at home?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "ICU setup at home provides hospital-grade critical care equipment, monitoring systems, and professional medical support in the comfort of a patient's home."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What equipment is included in a home ICU setup?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A home ICU setup may include oxygen concentrators, ventilators, patient monitors, suction machines, hospital beds, infusion pumps, and other critical care equipment based on patient needs."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you provide nursing support with ICU setup at home?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, skilled nurses and trained caregivers can be arranged along with ICU setup services to ensure continuous patient care and monitoring."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://caretab.ai/service/icu-setup-at-home/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://caretab.ai/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Services",
+          "item": "https://caretab.ai/services"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "ICU Setup at Home",
+          "item": "https://caretab.ai/service/icu-setup-at-home"
+        }
+      ]
+    }
+  ]
+}
+
+          `,
+            }}
+          />
             </Head>
 
 

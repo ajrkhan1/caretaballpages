@@ -213,6 +213,93 @@ export default function Home() {
         <link href="https://db.onlinewebfonts.com/c/2cd5263ca3ce6bc9dca6a336c613a5aa?family=Cambria+W01+Regular" rel="stylesheet"/>
         <link rel="stylesheet" type="text/css" charset="UTF-8" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"/>
         <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css"/>
+        <script type="application/ld+json"
+            dangerouslySetInnerHTML={{
+              __html: `
+              {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://caretab.ai/#organization",
+      "name": "CareTAB.ai",
+      "url": "https://caretab.ai/",
+      "email": "connect@caretab.ai",
+      "telephone": "+91-7891-444-333",
+ "logo": "https://caretab.ai/assets/img/logo/logo.png",
+      "description": "CareTAB.ai provides expert home healthcare services across India. Certified professionals, affordable plans & 24/7 support – bringing quality healthcare right to your doorstep. Book now!",
+      "sameAs": [
+        "https://www.linkedin.com/company/caretab-ai"
+      ]
+    },
+
+    {
+      "@type": "MedicalBusiness",
+      "@id": "https://caretab.ai/#medicalbusiness",
+      "name": "CareTAB.ai",
+      "url": "https://caretab.ai/",
+      "telephone": "+91-7891-444-333",
+      "email": "connect@caretab.ai",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Plot No. 1, Basement Karuna Kunj, Sector-3, Dwarka",
+        "addressLocality": "New Delhi",
+        "addressRegion": "Delhi",
+        "addressCountry": "IN"
+      },
+      "parentOrganization": {
+        "@id": "https://caretab.ai/#organization"
+      }
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://caretab.ai/#localbusiness",
+      "name": "CareTAB.ai",
+      "url": "https://caretab.ai/",
+      "telephone": "+91-7891-444-333",
+      "email": "connect@caretab.ai",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Plot No. 1, Basement Karuna Kunj, Sector-3, Dwarka",
+        "addressLocality": "New Delhi",
+        "addressRegion": "Delhi",
+        "addressCountry": "IN"
+      },
+      "openingHours": "Mo-Sa",
+      "areaServed": {
+        "@type": "Country",
+        "name": "India"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://caretab.ai/#website",
+      "url": "https://caretab.ai/",
+      "name": "CareTAB.ai",
+      "publisher": {
+        "@id": "https://caretab.ai/#organization"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://caretab.ai/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://caretab.ai/"
+        }
+      ]
+    }
+  ]
+}
+
+          `,
+            }}
+          />
+
+          
       </Head>
 
        <div className="ajrm">

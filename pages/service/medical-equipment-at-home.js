@@ -181,6 +181,90 @@ export default function ICUSetupatHome() {
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="icon" href="/favicon.ico" />               
                 <link rel="stylesheet" href="/assets/css/medical-equipment.css" />
+                <script type="application/ld+json"
+            dangerouslySetInnerHTML={{
+              __html: `
+              {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": "https://caretab.ai/service/medical-equipment-at-home/#service",
+      "name": "Medical Equipment at Home",
+      "serviceType": "Home Medical Equipment Service",
+      "url": "https://caretab.ai/service/medical-equipment-at-home",
+      "description": "Medical equipment rental and supply services at home including hospital beds, oxygen concentrators, wheelchairs, BiPAP machines, CPAP machines, patient monitors, and other healthcare equipment.",
+      "provider": {
+        "@type": "MedicalBusiness",
+        "@id": "https://caretab.ai/#medicalbusiness",
+        "name": "CareTAB.ai",
+        "url": "https://caretab.ai/"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "India"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://caretab.ai/service/medical-equipment-at-home/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What types of medical equipment do you provide at home?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We provide a wide range of home healthcare equipment including hospital beds, oxygen concentrators, wheelchairs, BiPAP and CPAP machines, suction machines, patient monitors, and other medical devices."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can medical equipment be rented for short-term use?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, medical equipment can be rented for short-term or long-term use depending on the patient's requirements."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you provide installation and support for medical equipment?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, our team provides delivery, installation, setup assistance, and support to ensure safe and effective use of the equipment."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://caretab.ai/service/medical-equipment-at-home/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://caretab.ai/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Services",
+          "item": "https://caretab.ai/services"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Medical Equipment at Home",
+          "item": "https://caretab.ai/service/medical-equipment-at-home"
+        }
+      ]
+    }
+  ]
+}
+
+          `,
+            }}
+          />
             </Head>
 
 

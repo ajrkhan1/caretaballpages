@@ -181,6 +181,90 @@ export default function ICUSetupatHome() {
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="icon" href="/favicon.ico" />               
                 <link rel="stylesheet" href="/assets/css/x-ray-home.css" />
+                <script type="application/ld+json"
+            dangerouslySetInnerHTML={{
+              __html: `
+              {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": "https://caretab.ai/diagnostics/x-ray-at-home/#service",
+      "name": "X-Ray at Home",
+      "serviceType": "Home X-Ray Service",
+      "url": "https://caretab.ai/diagnostics/x-ray-at-home",
+      "description": "Professional X-Ray services at home with portable digital X-Ray equipment for convenient and accurate diagnostic imaging without visiting a hospital or diagnostic center.",
+      "provider": {
+        "@type": "MedicalBusiness",
+        "@id": "https://caretab.ai/#medicalbusiness",
+        "name": "CareTAB.ai",
+        "url": "https://caretab.ai/"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "India"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://caretab.ai/diagnostics/x-ray-at-home/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Can an X-Ray be performed at home?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, portable digital X-Ray equipment allows qualified technicians to perform X-Ray imaging safely and conveniently at home."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who should consider an X-Ray at home service?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Home X-Ray services are ideal for elderly patients, bedridden individuals, post-surgical patients, and people with limited mobility."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How soon can I receive my X-Ray reports?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Report delivery timelines may vary, but digital X-Ray reports are typically shared after review by a qualified radiologist."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://caretab.ai/diagnostics/x-ray-at-home/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://caretab.ai/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Diagnostics",
+          "item": "https://caretab.ai/diagnostics"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "X-Ray at Home",
+          "item": "https://caretab.ai/diagnostics/x-ray-at-home"
+        }
+      ]
+    }
+  ]
+}
+
+          `,
+            }}
+          />
             </Head>
 
 

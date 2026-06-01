@@ -103,6 +103,84 @@ export default function Diagnostics() {
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="icon" href="/favicon.ico" />
                 <link rel="stylesheet" href="/assets/css/diagnostics.css" />
+                <script type="application/ld+json"
+            dangerouslySetInnerHTML={{
+              __html: `
+              {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": "https://caretab.ai/diagnostics/#service",
+      "name": "Diagnostics at Home",
+      "serviceType": "Home Diagnostic Services",
+      "url": "https://caretab.ai/diagnostics",
+      "description": "Comprehensive diagnostic services at home including ECG, X-Ray, Sleep Study, PFT, LFT, CGM, and other healthcare tests performed by trained professionals.",
+      "provider": {
+        "@type": "MedicalBusiness",
+        "@id": "https://caretab.ai/#medicalbusiness",
+        "name": "CareTAB.ai",
+        "url": "https://caretab.ai/"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "India"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://caretab.ai/diagnostics/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What diagnostic services are available at home?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Home diagnostic services include ECG, X-Ray, Sleep Study, PFT, LFT, CGM, and other diagnostic tests performed at the patient's location."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are home diagnostic tests accurate?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, home diagnostic services use professional equipment and trained healthcare personnel to ensure reliable and accurate results."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who can benefit from home diagnostics?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Elderly individuals, bedridden patients, post-surgical patients, and people with mobility challenges can benefit from diagnostic services at home."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://caretab.ai/diagnostics/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://caretab.ai/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Diagnostics",
+          "item": "https://caretab.ai/diagnostics"
+        }
+      ]
+    }
+  ]
+}
+
+          `,
+            }}
+          />
             </Head>
 
 

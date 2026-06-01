@@ -205,6 +205,221 @@ export default function Physiotherapy() {
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="icon" href="/favicon.ico" />       
                 <link rel="stylesheet" href="/assets/css/physiotherapy-at-home.css" />
+                <script type="application/ld+json"
+            dangerouslySetInnerHTML={{
+              __html: `
+              {
+  "@context": "https://schema.org",
+  "@type": "MedicalBusiness",
+  "name": "CareTab.ai",
+  "alternateName": "Care(T.A.B).ai",
+  "url": "https://caretab.ai",
+  "logo": "https://caretab.ai/assets/img/logo/logo.png",
+  "telephone": "+91-7891-444-333",
+  "email": "connect@caretab.ai",
+  "description": "CareTab.ai is built and managed by a team of experienced doctors and nurses. Using all-round healthcare technology, we deliver reliable, efficient and high-quality medical care right where you are.",
+  "address": [
+    {
+      "@type": "PostalAddress",
+      "name": "Delhi Office",
+      "streetAddress": "Plot No. 1, Basement Karuna Kunj, Sector-3, Dwarka",
+      "addressLocality": "New Delhi",
+      "addressRegion": "Delhi",
+      "postalCode": "110075",
+      "addressCountry": "IN"
+    },
+    {
+      "@type": "PostalAddress",
+      "name": "Gurugram Office",
+      "streetAddress": "Plot No. 231, Phase IV, Udyog Vihar, Sector 18",
+      "addressLocality": "Gurugram",
+      "addressRegion": "Haryana",
+      "postalCode": "122001",
+      "addressCountry": "IN"
+    }
+  ],
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": [
+      "Monday", "Tuesday", "Wednesday",
+      "Thursday", "Friday", "Saturday"
+    ],
+    "opens": "00:00",
+    "closes": "23:59"
+  },
+  "sameAs": [
+    "https://www.facebook.com/CareTab",
+    "https://www.instagram.com/caretab.ai/",
+    "https://www.linkedin.com/company/108111134",
+    "https://x.com/CaretabAi"
+  ],
+  "areaServed": ["Dwarka", "New Delhi", "Gurugram", "Delhi NCR"],
+  "medicalSpecialty": [
+  ]
+}
+</script>
+
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Physiotherapy at Home",
+  "serviceType": "Home Physiotherapy",
+  "url": "https://caretab.ai/service/physiotherapy-at-home",
+  "description": "Certified physiotherapists provide personalised physiotherapy at home using evidence-based techniques and advanced equipment. Services include Post Surgical Rehabilitation, Neurological Rehabilitation, Cardiac Rehabilitation, Pain Management, TKR and THR Recovery — with supervised doctor guidance in Delhi NCR.",
+  "provider": {
+    "@type": "MedicalBusiness",
+    "name": "CareTab.ai",
+    "url": "https://caretab.ai",
+    "telephone": "+91-7891-444-333",
+    "email": "connect@caretab.ai"
+  },
+  "areaServed": [
+    "Dwarka",
+    "New Delhi",
+    "Gurugram",
+    "Delhi NCR"
+  ],
+  "availableChannel": {
+    "@type": "ServiceChannel",
+    "servicePhone": {
+      "@type": "ContactPoint",
+      "telephone": "+91-7891-444-333",
+      "contactType": "booking",
+      "availableLanguage": ["English", "Hindi"]
+    }
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Physiotherapy Services at Home",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Post Surgical Rehabilitation at Home"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Neurological Rehabilitation at Home"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Cardiac Rehabilitation at Home"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Pain Management Physiotherapy at Home"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Total Knee Replacement (TKR) Recovery Physiotherapy"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Total Hip Replacement (THR) Recovery Physiotherapy"
+        }
+      }
+    ]
+  }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do I book physiotherapy at home with CareTab.ai?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You can call our helpline +91-7891-444-333 or book directly through our website. Our care coordinator will guide you in choosing the right physiotherapy service and schedule a certified physiotherapist at your home."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who are the physiotherapists at CareTab.ai?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Our team includes clinically-certified physiotherapists who have undergone rigorous training, background verification, and are supervised by senior specialist doctors. They use evidence-based techniques and advanced equipment."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What conditions can physiotherapy at home help with?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "CareTab.ai physiotherapists specialise in Post Surgical Rehabilitation, Neurological Rehabilitation (stroke, paralysis), Cardiac Rehabilitation, Orthopedic Rehabilitation (TKR, THR), Pain Management, and mobility and strengthening training."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can CareTab.ai coordinate with my hospital or doctor?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. CareTab.ai works alongside your hospital doctors to provide continuity of physiotherapy care at home, ensuring smooth communication and better recovery outcomes."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the benefits of home physiotherapy?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Home physiotherapy offers: care in the comfort of home without travel stress, personalised one-on-one attention, faster recovery through consistent sessions, pain and mobility management, holistic support, and reduced chances of stiffness or re-injury."
+      }
+    }
+  ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://caretab.ai"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Services",
+      "item": "https://caretab.ai/#our-services"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Physiotherapy at Home",
+      "item": "https://caretab.ai/service/physiotherapy-at-home"
+    }
+  ]
+}
+
+          `,
+            }}
+          />
             </Head>
 
 

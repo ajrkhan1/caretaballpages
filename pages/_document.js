@@ -8,20 +8,6 @@ export default function Document() {
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="description" content=""/>
-   
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-G768Y0VF2F"></script>
-
-<script
-            dangerouslySetInnerHTML={{
-              __html: `
-              window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-G768Y0VF2F');
-          `,
-            }}
-          />
 
 <meta name="google-site-verification" content="ixATtSIQfTx5tz4p94pKoukNK5y480ak4wmsRJzAkiA" />
     <link rel="icon" type="image/x-icon" href="/assets/img/logo/favicon.png"/>

@@ -181,6 +181,90 @@ export default function ICUSetupatHome() {
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="icon" href="/favicon.ico" />               
                 <link rel="stylesheet" href="/assets/css/lft.css" />
+                <script type="application/ld+json"
+            dangerouslySetInnerHTML={{
+              __html: `
+              {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": "https://caretab.ai/service/pft-lft-at-home/#service",
+      "name": "PFT / LFT at Home",
+      "serviceType": "Pulmonary Function Test and Liver Function Test at Home",
+      "url": "https://caretab.ai/service/pft-lft-at-home",
+      "description": "Professional Pulmonary Function Test (PFT) and Liver Function Test (LFT) services at home for convenient respiratory and liver health assessment.",
+      "provider": {
+        "@type": "MedicalBusiness",
+        "@id": "https://caretab.ai/#medicalbusiness",
+        "name": "CareTAB.ai",
+        "url": "https://caretab.ai/"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "India"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://caretab.ai/service/pft-lft-at-home/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is a Pulmonary Function Test (PFT)?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A Pulmonary Function Test measures how well the lungs work by assessing lung capacity, airflow, and oxygen exchange."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is a Liver Function Test (LFT)?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A Liver Function Test is a blood test used to evaluate liver health and detect liver-related conditions by measuring enzymes, proteins, and bilirubin levels."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can PFT and LFT be performed at home?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, trained healthcare professionals can perform PFT and collect samples for LFT at home, ensuring comfort and convenience for patients."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://caretab.ai/service/pft-lft-at-home/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://caretab.ai/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Services",
+          "item": "https://caretab.ai/services"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "PFT / LFT at Home",
+          "item": "https://caretab.ai/service/pft-lft-at-home"
+        }
+      ]
+    }
+  ]
+}
+
+          `,
+            }}
+          />
             </Head>
 
 

@@ -181,6 +181,90 @@ export default function ICUSetupatHome() {
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="icon" href="/favicon.ico" />               
                 <link rel="stylesheet" href="/assets/css/cgm-at-home.css" />
+                <script type="application/ld+json"
+            dangerouslySetInnerHTML={{
+              __html: `
+              {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": "https://caretab.ai/service/cgm-at-home/#service",
+      "name": "CGM at Home",
+      "serviceType": "Continuous Glucose Monitoring at Home",
+      "url": "https://caretab.ai/service/cgm-at-home",
+      "description": "Continuous Glucose Monitoring (CGM) at home service for real-time blood sugar tracking, diabetes management, and personalized health monitoring.",
+      "provider": {
+        "@type": "MedicalBusiness",
+        "@id": "https://caretab.ai/#medicalbusiness",
+        "name": "CareTAB.ai",
+        "url": "https://caretab.ai/"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "India"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://caretab.ai/service/cgm-at-home/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is Continuous Glucose Monitoring (CGM)?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Continuous Glucose Monitoring (CGM) is a method of tracking glucose levels throughout the day and night using a wearable sensor that provides real-time readings."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who can benefit from CGM at home?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "CGM is beneficial for people with diabetes, individuals at risk of blood sugar fluctuations, and those who want detailed glucose insights for better health management."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does a CGM device work?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A small sensor is placed under the skin to measure glucose levels continuously and send data to a receiver or smartphone application for monitoring."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://caretab.ai/service/cgm-at-home/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://caretab.ai/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Services",
+          "item": "https://caretab.ai/services"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "CGM at Home",
+          "item": "https://caretab.ai/service/cgm-at-home"
+        }
+      ]
+    }
+  ]
+}
+
+          `,
+            }}
+          />
             </Head>
 
 

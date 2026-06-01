@@ -181,6 +181,90 @@ export default function ICUSetupatHome() {
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="icon" href="/favicon.ico" />               
                 <link rel="stylesheet" href="/assets/css/sleep-study-at-home.css" />
+                <script type="application/ld+json"
+            dangerouslySetInnerHTML={{
+              __html: `
+              {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": "https://caretab.ai/diagnostics/sleep-study-at-home/#service",
+      "name": "Sleep Study at Home",
+      "serviceType": "Home Sleep Study Service",
+      "url": "https://caretab.ai/diagnostics/sleep-study-at-home",
+      "description": "Professional sleep study testing at home to monitor sleep patterns, diagnose sleep disorders, and support effective treatment planning in a comfortable home environment.",
+      "provider": {
+        "@type": "MedicalBusiness",
+        "@id": "https://caretab.ai/#medicalbusiness",
+        "name": "CareTAB.ai",
+        "url": "https://caretab.ai/"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "India"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://caretab.ai/diagnostics/sleep-study-at-home/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is a sleep study at home?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A sleep study at home is a diagnostic test that monitors breathing, oxygen levels, heart rate, and sleep patterns to identify sleep-related disorders."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who should undergo a sleep study?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Individuals experiencing snoring, excessive daytime sleepiness, insomnia, suspected sleep apnea, or other sleep-related symptoms may benefit from a sleep study."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is a home sleep study accurate?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, home sleep studies can provide reliable data for diagnosing common sleep disorders, especially obstructive sleep apnea, when conducted using approved monitoring devices."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://caretab.ai/diagnostics/sleep-study-at-home/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://caretab.ai/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Diagnostics",
+          "item": "https://caretab.ai/diagnostics"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Sleep Study at Home",
+          "item": "https://caretab.ai/diagnostics/sleep-study-at-home"
+        }
+      ]
+    }
+  ]
+}
+
+          `,
+            }}
+          />
             </Head>
 
 

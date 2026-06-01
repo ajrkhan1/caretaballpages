@@ -181,6 +181,90 @@ export default function ICUSetupatHome() {
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="icon" href="/favicon.ico" />               
                 <link rel="stylesheet" href="/assets/css/ecg-at-home.css" />
+                <script type="application/ld+json"
+            dangerouslySetInnerHTML={{
+              __html: `
+              {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": "https://caretab.ai/diagnostics/ecg-at-home/#service",
+      "name": "ECG at Home",
+      "serviceType": "Electrocardiogram (ECG) Test at Home",
+      "url": "https://caretab.ai/diagnostics/ecg-at-home",
+      "description": "Professional ECG testing at home for heart health assessment, cardiac monitoring, and early detection of heart-related conditions using portable ECG equipment.",
+      "provider": {
+        "@type": "MedicalBusiness",
+        "@id": "https://caretab.ai/#medicalbusiness",
+        "name": "CareTAB.ai",
+        "url": "https://caretab.ai/"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "India"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://caretab.ai/diagnostics/ecg-at-home/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is an ECG test?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "An ECG (Electrocardiogram) is a diagnostic test that records the electrical activity of the heart to help detect heart rhythm abnormalities and other cardiac conditions."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who should get an ECG test at home?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Individuals experiencing chest pain, palpitations, dizziness, shortness of breath, or those requiring routine cardiac monitoring may benefit from an ECG test at home."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does an ECG test take?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A standard ECG test usually takes only a few minutes to complete, and the results can then be reviewed by a qualified healthcare professional."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://caretab.ai/diagnostics/ecg-at-home/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://caretab.ai/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Diagnostics",
+          "item": "https://caretab.ai/diagnostics"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "ECG at Home",
+          "item": "https://caretab.ai/diagnostics/ecg-at-home"
+        }
+      ]
+    }
+  ]
+}
+
+          `,
+            }}
+          />
             </Head>
 
 

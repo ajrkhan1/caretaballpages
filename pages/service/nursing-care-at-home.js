@@ -206,6 +206,104 @@ export default function Home() {
                 <link rel="stylesheet" type="text/css" charset="UTF-8" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" />
                 <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" />
                 <link rel="stylesheet" href="/assets/css/nursing-care.css" />
+                <script type="application/ld+json"
+            dangerouslySetInnerHTML={{
+              __html: `
+              {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "MedicalBusiness",
+      "@id": "https://caretab.ai/#medicalbusiness",
+      "name": "CareTAB.ai",
+      "url": "https://caretab.ai/",
+      "logo": "https://caretab.ai/assets/img/logo/logo.png",
+      "telephone": "+91-7891-444-333",
+      "email": "connect@caretab.ai",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Plot No. 1, Basement Karuna Kunj, Sector-3, Dwarka",
+        "addressLocality": "New Delhi",
+        "addressRegion": "Delhi",
+        "postalCode": "110078",
+        "addressCountry": "IN"
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://caretab.ai/service/nursing-care-at-home/#service",
+      "name": "Nursing Care at Home",
+      "description": "Professional nursing care services at home including elderly care, post-operative care, critical care, palliative care, injection administration, wound dressing, and patient monitoring.",
+      "serviceType": "Home Nursing Care",
+      "provider": {
+        "@id": "https://caretab.ai/#medicalbusiness"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "India"
+      },
+      "url": "https://caretab.ai/service/nursing-care-at-home/"
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://caretab.ai/service/nursing-care-at-home/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is nursing care at home?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nursing care at home provides professional medical support, patient monitoring, medication management, wound care, and recovery assistance at the patient's residence."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you provide 24-hour nursing care services?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, CareTAB.ai provides both short-term and 24-hour nursing care services based on patient requirements."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who can benefit from home nursing care?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Elderly patients, post-surgical patients, critically ill individuals, and people requiring long-term medical assistance can benefit from home nursing care."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://caretab.ai/service/nursing-care-at-home/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://caretab.ai/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Services",
+          "item": "https://caretab.ai/services"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Nursing Care at Home",
+          "item": "https://caretab.ai/service/nursing-care-at-home"
+        }
+      ]
+    }
+  ]
+}
+
+          `,
+            }}
+          />
             </Head>
 
 

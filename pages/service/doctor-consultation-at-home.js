@@ -183,6 +183,104 @@ export default function DoctorConsultationatHome() {
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="icon" href="/favicon.ico" />              
                 <link rel="stylesheet" href="/assets/css/doctor-consultation-at-home.css" />
+                <script type="application/ld+json"
+            dangerouslySetInnerHTML={{
+              __html: `
+              {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "MedicalBusiness",
+      "@id": "https://caretab.ai/#medicalbusiness",
+      "name": "CareTAB.ai",
+      "url": "https://caretab.ai/",
+      "logo": "https://caretab.ai/assets/img/logo/logo.png",
+      "telephone": "+91-7891-444-333",
+      "email": "connect@caretab.ai",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Plot No. 1, Basement Karuna Kunj, Sector-3, Dwarka",
+        "addressLocality": "New Delhi",
+        "addressRegion": "Delhi",
+        "postalCode": "110078",
+        "addressCountry": "IN"
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://caretab.ai/service/doctor-consultation-at-home/#service",
+      "name": "Doctor Consultation at Home",
+      "description": "Professional doctor consultation services at home for routine checkups, chronic disease management, elderly care, post-hospitalization follow-ups, and personalized medical guidance.",
+      "serviceType": "Doctor Consultation at Home",
+      "provider": {
+        "@id": "https://caretab.ai/#medicalbusiness"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "India"
+      },
+      "url": "https://caretab.ai/service/doctor-consultation-at-home"
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://caretab.ai/service/doctor-consultation-at-home/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is a doctor consultation at home?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Doctor consultation at home allows qualified medical professionals to visit patients at their residence for diagnosis, treatment recommendations, and routine health assessments."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who can benefit from home doctor visits?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Elderly individuals, patients with limited mobility, post-surgical patients, and people requiring regular medical monitoring can benefit from home doctor consultations."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can doctors prescribe medications during a home visit?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, licensed doctors can evaluate patients and provide prescriptions or treatment recommendations as medically appropriate."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://caretab.ai/service/doctor-consultation-at-home/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://caretab.ai/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Services",
+          "item": "https://caretab.ai/services"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Doctor Consultation at Home",
+          "item": "https://caretab.ai/service/doctor-consultation-at-home"
+        }
+      ]
+    }
+  ]
+}
+
+          `,
+            }}
+          />
             </Head>
 
 
