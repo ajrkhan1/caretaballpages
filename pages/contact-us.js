@@ -436,7 +436,7 @@ export default function Home() {
                                                         <option value="Diagnostics">Diagnostics</option>
                                                         <option value="X-Ray at Home">X-Ray at Home</option>
                                                         <option value="Sleep Study at Home">Sleep Study at Home</option>
-                                                        <option value="ECG at Home">ECG at Home</option>
+                                                        <option value="ECG at Home">ECG at Home</option> 
                                                     </select>
                                                 </div>
                                             </div>
