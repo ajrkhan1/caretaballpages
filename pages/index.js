@@ -765,7 +765,7 @@ export default function Home() {
                         <div class="service-item wow fadeInUp" data-wow-delay=".50s">
                             <span class="count">05</span>
                             <div class="service-img">
-                                <a href="/service/diagnostics"><img src="/assets/img/service/wellness-programs.png" alt=""/></a>
+                                <a href="/diagnostics"><img src="/assets/img/service/wellness-programs.png" alt=""/></a>
                             </div>
                             <div class="service-info">
                                 <div class="service-icon">
@@ -773,7 +773,7 @@ export default function Home() {
                                 </div>
                                 <div class="service-content">
                                     <h4 class="service-title">
-                                        <a href="/service/diagnostics">Diagnostics @ Home</a>
+                                        <a href="/diagnostics">Diagnostics @ Home</a>
                                     </h4>
                                     <p class="service-text">                                        
                                         Sample collection to ECG, EEG, & sleep studies at home, get priority booking for Xray, CT, & MRI
