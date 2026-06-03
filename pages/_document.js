@@ -20,6 +20,7 @@ export default function Document() {
     <link rel="stylesheet" href="/assets/css/style.css"/>
     <link rel="stylesheet" href="/assets/css/slick.min.css"/>
     <link rel="stylesheet" href="/assets/css/slick-theme.min.css"/>
+    <meta name="google-site-verification" content="3ra-ExtQiLG8pttcH1skQWb7FJ5Mgj1cGFnTSIUJdXc" />
 
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-VFM4GQKH3N"></script>
     <script
