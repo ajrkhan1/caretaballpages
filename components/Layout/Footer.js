@@ -16,7 +16,7 @@ export default function Footer() {
                                     <img src="/assets/img/logo/footerlogo1.png" alt=""/>
                                 </a>
                                 <p class="mb-4">
-                                    Care[T.A.B.].ai is built and managed by a team of experienced doctors and nurses. Using all-round healthcare technology, we deliver reliable, efficient & high-quality medical care, right where you are.
+                                    CareTAB.ai is built and managed by a team of experienced doctors and nurses. Using all-round healthcare technology, we deliver reliable, efficient & high-quality medical care, right where you are.
                                 </p>
                                 <div class="footer-newsletter">
                                     <h6>Subscribe Our Newsletter</h6>
@@ -115,7 +115,7 @@ export default function Footer() {
                 <div class="row">
                     <div class="col-md-6 align-self-center">
                         <p class="copyright-text textww">
-                             © 2026 CareTAB. All rights reserved.
+                             © 2026 <a className='footname' href='https://caretab.ai/'>CareTAB</a>. All rights reserved.
                         </p>
                     </div>
                     <div class="col-md-5 align-self-center">

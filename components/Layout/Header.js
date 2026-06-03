@@ -11,23 +11,16 @@ export default function Header() {
             <div class="container">
                 <div class="header-top-wrap">
                     <div class="header-top-left">
-                        <div class="header-top-list">
+                        
+                    </div>
+                    <div class="header-top-right">                       
+                       <div class="header-top-list">
                             <ul>
                                 <li><a href="mailto:connect@caretab.ai"><i class="far fa-envelopes"></i>
                                         connect@caretab.ai</a></li>
                                 <li><a href="tel:+91-7891-444-333"><i class="far fa-phone-volume"></i> +91-7891-444-333</a>
-                                </li>
-                                <li><a href="#"><i class="far fa-alarm-clock"></i> Mon - Sat</a></li>
+                                </li>                                
                             </ul>
-                        </div>
-                    </div>
-                    <div class="header-top-right">                       
-                        <div class="header-top-social">
-                            <span>Follow </span>
-                            <a target='_blank' href="https://www.facebook.com/CareTab"><i class="fab fa-facebook"></i></a>
-                            {/* <a target='_blank' href="https://x.com/CaretabAi"><i class="fab fa-x-twitter"></i></a> */}
-                            <a target='_blank' href="https://www.instagram.com/caretab.ai/"><i class="fab fa-instagram"></i></a>
-                            <a target='_blank' href="https://www.linkedin.com/company/108111134"><i class="fab fa-linkedin"></i></a>
                         </div>
                     </div>
                 </div>
@@ -166,8 +159,7 @@ export default function Header() {
                 </div>
                 <div class="sidebar-popup-social">
                     <h4>Follow Us</h4>
-                    <a target='_blank' href="https://www.facebook.com/CareTab"><i class="fab fa-facebook"></i></a>
-                    <a target='_blank' href="https://x.com/CaretabAi"><i class="fab fa-x-twitter"></i></a>
+                    <a target='_blank' href="https://www.facebook.com/CareTab"><i class="fab fa-facebook"></i></a>                    
                     <a target='_blank' href="https://www.instagram.com/caretab.ai/"><i class="fab fa-instagram"></i></a>
                     <a target='_blank' href="https://www.linkedin.com/company/108111134"><i class="fab fa-linkedin"></i></a>
                 </div>

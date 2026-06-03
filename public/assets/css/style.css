@@ -1098,8 +1098,8 @@ label {
 
 .navbar {
   background: #fff;
-  padding-top: 0px;
-  padding-bottom: 0px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   z-index: 4;
 }
 
@@ -6793,4 +6793,8 @@ position: relative;
     .box5inmo .col{ flex: auto;}
 }
 .img100{width: 100%;}
+
+.footname{color: #fff;}
+.footname:hover{color: #e31e24;}
+
 
