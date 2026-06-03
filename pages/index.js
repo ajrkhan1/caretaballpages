@@ -391,10 +391,10 @@ export default function Home() {
                         <div className="row">
                             <div className="col-md-12 col-lg-5">
                                 <div className="hero-content ajcx hideinmobile">
-                                    <br></br>
+                                    {/* <br></br>
                                      <h6 className="hero-sub-title wow fadeInUp" data-delay=".25s">
                                         <i><img className="brandiconw" src="/assets/img/icon/brandicon.png" alt=""/></i> Your health partner for life
-                                    </h6>
+                                    </h6> */}
                                     <div className="fxit">
                                        
                                     
