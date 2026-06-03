@@ -426,12 +426,17 @@ export default function Home() {
                                                     <i class="far fa-pencil"></i>
                                                     <select class="form-control" value={selectedService} onChange={(e) => setSelectedService(e.target.value)} name="service" id="service" className="service" required>
                                                         <option value="">---Select Service---</option>
-                                                        <option value="Doctor Consultations">Doctor Consultations</option>
                                                         <option value="Nursing Care">Nursing Care</option>
-                                                        <option value="ICU Setup at Home">ICU Setup at Home</option>
+                                                        <option value="Doctor Consultations">Doctor Consultations</option>
                                                         <option value="Home Physiotherapy">Home Physiotherapy</option>
-                                                        <option value="Diagnostics">Diagnostics</option>
+                                                        <option value="ICU Setup at Home">ICU Setup at Home</option>                                                        
                                                         <option value="Medical Equipment">Medical Equipment</option>
+                                                        <option value="CGM at Home">CGM at Home</option>
+                                                        <option value="PFT LFT at Home">PFT / LFT at Home</option>
+                                                        <option value="Diagnostics">Diagnostics</option>
+                                                        <option value="X-Ray at Home">X-Ray at Home</option>
+                                                        <option value="Sleep Study at Home">Sleep Study at Home</option>
+                                                        <option value="ECG at Home">ECG at Home</option>
                                                     </select>
                                                 </div>
                                             </div>
