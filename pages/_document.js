@@ -20,6 +20,19 @@ export default function Document() {
     <link rel="stylesheet" href="/assets/css/style.css"/>
     <link rel="stylesheet" href="/assets/css/slick.min.css"/>
     <link rel="stylesheet" href="/assets/css/slick-theme.min.css"/>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-VFM4GQKH3N"></script>
+    <script
+            dangerouslySetInnerHTML={{
+              __html: `
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-VFM4GQKH3N');
+   `,
+            }}
+          />
     </Head>
       <body>
         <Main />
