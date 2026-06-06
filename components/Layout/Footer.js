@@ -4,6 +4,57 @@ import { FloatingWhatsApp } from 'react-floating-whatsapp'
 export default function Footer() { 
   return (
     <>
+
+    <div class="sidebar-popup offcanvas offcanvas-end" tabindex="-1" id="sidebarPopup">
+        <div class="offcanvas-header">
+            <a href="index-2.html" class="sidebar-popup-logo">
+                <img src="/assets/img/logo/logo.png" alt=""/>
+            </a>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close">
+                <i class="far fa-xmark"></i>
+            </button>
+        </div>
+        <div class="sidebar-popup-wrap offcanvas-body">
+            <div class="sidebar-popup-content">
+                <div class="sidebar-popup-about">
+                    <h4>About Us</h4>
+                    <p>There are many variations of passages available sure there majority have suffered alteration in
+                        some form by inject humour or randomised words which don't look even slightly believable.</p>
+                </div>
+                <div class="sidebar-popup-contact">
+                    <h4>Contact Info</h4>
+                    <ul>
+                        <li>
+                            <div class="icon">
+                                <i class="far fa-envelope"></i>
+                            </div>
+                            <div class="content">
+                                <h6>Email</h6>
+                                <a href="mailto:info@caretab.ai">info@caretab.ai</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="icon">
+                                <i class="far fa-phone"></i>
+                            </div>
+                            <div class="content">
+                                <h6>Phone</h6>
+                                <a href="tel:+91-7891-444-333">+91-7891-444-333</a>
+                            </div>
+                        </li>
+                       
+                    </ul>
+                </div>
+                <div class="sidebar-popup-social">
+                    <h4>Follow Us</h4>
+                    <a target='_blank' href="https://www.facebook.com/CareTab"><i class="fab fa-facebook"></i></a>                    
+                    <a target='_blank' href="https://www.instagram.com/caretab.ai/"><i class="fab fa-instagram"></i></a>
+                    <a target='_blank' href="https://www.linkedin.com/company/108111134"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
     <footer class="footer-area">
         <div class="footer-shape"></div>
         <div class="footer-widget">

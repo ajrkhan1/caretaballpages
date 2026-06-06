@@ -2524,7 +2524,7 @@ label {
   color: var(--color-dark);
 }
 
-.service-content h4 a:hover{
+.service-content h3 a:hover{
   color: var(--theme-color);
 }
 
@@ -4526,7 +4526,7 @@ label {
   flex: 1;
 }
 
-.choose-item-info h4{
+.choose-item-info h3{
   color: var(--color-dark);
   margin-bottom: 8px;
   font-size: 20px;
@@ -6682,7 +6682,7 @@ padding-left: 40px;
 
 .brandiconw{width: 22px;}
 
-.servicetitle h4{
+.servicetitle h3{
       color: #fff;
     font-size: 15px;
     font-weight: 500;
@@ -6771,7 +6771,7 @@ position: relative;
     height: 50px !important;
     line-height: 50px !important;
 }
-.servicebg .service-content h4 a {
+.servicebg .service-content h3 a {
     font-weight: 500;
     font-size: 20px;
 }

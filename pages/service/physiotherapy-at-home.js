@@ -212,7 +212,7 @@ export default function Physiotherapy() {
   "@context": "https://schema.org",
   "@type": "MedicalBusiness",
   "name": "CareTab.ai",
-  "alternateName": "Care(T.A.B).ai",
+  "alternateName": "CareTAB.ai",
   "url": "https://caretab.ai",
   "logo": "https://caretab.ai/assets/img/logo/logo.png",
   "telephone": "+91-7891-444-333",
@@ -432,13 +432,13 @@ export default function Physiotherapy() {
                                     <div className="hero-content">
                                         {/* <br></br>
                                         <h6 className="hero-sub-title wow fadeInUp" data-delay=".25s">
-                                            <i><img className="brandiconw" src="/assets/img/icon/brandicon.png" alt="" /></i> Physiotherapy at Home | Care(T.A.B) 
+                                            <i><img className="brandiconw" src="/assets/img/icon/brandicon.png" alt="" /></i> Physiotherapy at Home | CareTAB.ai 
                                         </h6> */}
 
                                         <h1 className="hero-title wow fadeInRight" data-delay=".50s">
                                             Regain Strength, <br></br>Mobility & Confidence
                                         </h1>
-                                        {/* <p className="text-justify">Physiotherapy plays a vital role in recovery, pain management, and improving quality of life. At Care(T.A.B), our certified physiotherapists provide personalized physiotherapy treatment at home, using evidence-based techniques to help you recover faster and move better.</p> */}
+                                        {/* <p className="text-justify">Physiotherapy plays a vital role in recovery, pain management, and improving quality of life. At CareTAB.ai, our certified physiotherapists provide personalized physiotherapy treatment at home, using evidence-based techniques to help you recover faster and move better.</p> */}
                                         <div className="hero-btn wow fadeInUp" data-delay="1s">
                                             <a href="tel:+91-7891-444-333" className="theme-btn btnc">Call for Physiotherapy <i
                                                 className="fas fa-arrow-right"></i></a>
@@ -866,7 +866,7 @@ export default function Physiotherapy() {
                         <div class="col-lg-6">
                             <div class="video-info wow fadeInUp insidep" data-wow-delay=".25s">
                                 <div class="site-heading mb-0">
-                                    <h2 class="site-title">Why Choose <span>Care(T.A.B)</span> <br></br>Physiotherapy?</h2>
+                                    <h2 class="site-title">Why Choose <span>CareTAB.ai</span> <br></br>Physiotherapy?</h2>
                                     <br></br>
                                 </div>
                                 <div class="feature-content">
@@ -907,7 +907,7 @@ export default function Physiotherapy() {
                             <div class="cta-content">
                                 <h1>Rebuild strength with expert guidance</h1>
                                 <p>
-                                    Take the first step toward recovery and better mobility. With Care(T.A.B), best physiotherapy at home services, care is just a call away.
+                                    Take the first step toward recovery and better mobility. With CareTAB.ai, best physiotherapy at home services, care is just a call away.
                                 </p>
                                 <a href="#" class="theme-btn">Book Your Rehabilitation Session Now<i class="fas fa-arrow-right"></i></a>
                             </div>
@@ -935,7 +935,7 @@ export default function Physiotherapy() {
                                     <h2 class="accordion-header" id="headingOne">
                                         <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                             data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                            <span><i class="far fa-question"></i></span> How do I book a Care(T.A.B) physiotherapy at home? 
+                                            <span><i class="far fa-question"></i></span> How do I book a CareTAB.ai physiotherapy at home? 
                                         </button>
                                     </h2>
                                     <div id="collapseOne" class="accordion-collapse collapse show"
@@ -949,7 +949,7 @@ export default function Physiotherapy() {
                                     <h2 class="accordion-header" id="headingTwo">
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                             data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                            <span><i class="far fa-question"></i></span> Who are the doctors and nurses at Care(T.A.B)?
+                                            <span><i class="far fa-question"></i></span> Who are the doctors and nurses at CareTAB.ai?
                                         </button>
                                     </h2>
                                     <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
@@ -980,7 +980,7 @@ export default function Physiotherapy() {
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                             data-bs-target="#collapseFour" aria-expanded="false"
                                             aria-controls="collapseFour">
-                                            <span><i class="far fa-question"></i></span> Can Care(T.A.B) coordinate with my hospital/doctor? 
+                                            <span><i class="far fa-question"></i></span> Can CareTAB.ai coordinate with my hospital/doctor? 
                                         </button>
                                     </h2>
                                     <div id="collapseFour" class="accordion-collapse collapse"

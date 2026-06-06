@@ -299,91 +299,10 @@ export default function Home() {
             }}
           />
 
-          
+
       </Head>
 
-       <div className="ajrm">
-<Modal toggle={() => setModalOpen(!modalOpen)} isOpen={modalOpen} backdrop="static" keyboard={false}>
-      <button
-            aria-label="Close"
-            className="close popcl"
-            type="button"
-            onClick={() => setModalOpen(!modalOpen)}
-          >
-            <span aria-hidden={true}>×</span>
-          </button>
-          
-        <ModalBody>
-            <div class="">
-                                <div class="quote-header">
-                                    {/* <h4>Book an appointment with our expert</h4> */}
-                                    <h4>Book Your Services!</h4>                            
-                                </div>  
-           <form id="contactForm" onSubmit={registerUser}>
-                                    <div class="row">
-                                        <div class="col-md-12">
-                                            <div class="form-group">
-                                                <div class="form-icon">
-                                                    <i class="far fa-user-tie"></i>
-                                                    <input type="text" name="name" id="name" class="form-control" placeholder="Name" required/>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-12">
-                                            <div class="form-group">
-                                                <div class="form-icon">
-                                                    <i class="far fa-envelope"></i>
-                                                    <input type="email" name="email" id="email" class="form-control" placeholder="Email" required/>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-12">
-                                            <div class="form-group">
-                                                <div class="form-icon">
-                                                    <i class="far fa-pencil"></i>
-                                                    <input type="text" name="phone" id="phone" class="form-control" maxlength="13" minlength="10" pattern="[0-9]*" placeholder="Phone No." required/>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-12">
-                                            <div class="form-group">
-                                                <div class="form-icon servicesl">
-                                                    <i class="far fa-pencil"></i>
-                                                    <select class="form-control" value={selectedService} onChange={(e) => setSelectedService(e.target.value)} name="service" id="service" className="service" required>
-                                                        <option value="">---Select Service---</option>
-                                                        <option value="Doctor Consultations">Doctor Consultations</option>
-                                                        <option value="Nursing Care">Nursing Care</option>
-                                                        <option value="ICU Setup at Home">ICU Setup at Home</option>
-                                                        <option value="Home Physiotherapy">Home Physiotherapy</option>
-                                                        <option value="Diagnostics">Diagnostics</option>
-                                                        <option value="Medical Equipment">Medical Equipment</option>
-                                                    </select>
-                                                </div>
-                                            </div>
-                                        </div>
 
-                                        <div class="col-md-12">
-                                            <div class="form-group">
-                                                <div class="form-icon">
-                                                    <i class="far fa-comment-lines"></i>
-                                                    <textarea name="message" id="message" cols="30" rows="3" class="form-control"
-                                                        placeholder="Write Your Message"></textarea>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-12 mt-2">
-                                            <div className="clearfix"></div>
-                                        <p id="showlabel" style={{ display: "none" }}></p>
-                                        <input id="submitbuttonform" type="submit" className="theme-btn btnwidth" value="Get a Call!"/>                       
-                                        </div>
-                                    </div>
-                                </form>
-                                </div>
-        </ModalBody>
-      
-      </Modal>
-
-       </div>
       <div className="hero-section" id="inquirenow">
             <div className="">
                 <div className="hero-single careslide1 bannerpad">
@@ -396,11 +315,11 @@ export default function Home() {
                                         <i><img className="brandiconw" src="/assets/img/icon/brandicon.png" alt=""/></i> Your health partner for life
                                     </h6> */}
                                     <div className="fxit">
-                                       
-                                    
+
+
                                     <h1 className="hero-title wow fadeInRight" data-delay=".50s">
                                          Better Care <br></br>Better Outcomes <br></br>Comfort of Home                                    </h1>
-                                    
+
                                     <div className="hero-btn wow fadeInUp" data-delay="1s">
                                         <a href="tel:+91-7891-444-333" className="theme-btn btnc">Call for Care<i
                                                 className="fas fa-arrow-right"></i></a>
@@ -413,45 +332,45 @@ export default function Home() {
 
 
                              <div className="hero-content hideindestop">
-                                     <h6 className="hero-sub-title wow fadeInUp" data-delay=".25s">
+                                     {/* <h6 className="hero-sub-title wow fadeInUp" data-delay=".25s">
                                         <i><img className="brandiconw" src="/assets/img/icon/brandicon.png" alt=""/></i> Your health partner for life
-                                    </h6>
+                                    </h6> */}
 
                                      <div className="hero-btn wow fadeInUp" data-delay="1s">
                                         <a href="tel:+91-7891-444-333" className="theme-btn btnc">Call for Care<i
                                                 className="fas fa-arrow-right"></i></a>
                                     </div>
-                                   
+
                                     <h1 className="hero-title wow fadeInRight" data-delay=".50s">
                                          Better Care <br></br>Better Outcomes <br></br>Comfort of Home </h1>
-                                    
-                                   
-                              
+
+
+
                              </div>
 
                             </div>
 
-                            
+
                             <div class="col-lg-4 header-top-right"></div>
                             <div class="col-lg-3 header-top-right">
                             <div class="bannerform align-items-center">
                                 <div class="quote-header">
                                     {/* <h4>Book an appointment with our expert</h4> */}
-                                    <h4>Book Your Services!</h4>
-                            
-                                </div>                                
+                                    <h2 style={{ fontSize: "20px" }}>Book Your Services!</h2>
+
+                                </div>
                                 <div class="row">
                                     <div class="col-md-6 col-lg-6">
                                         <div class="wow fadeInUp" data-wow-delay=".25s">
-                                            <div class="sbox" onClick={() => {  setModalOpen(!modalOpen); setSelectedService('Doctor Consultations'); }}>                                        
-                                            
+                                            <div class="sbox" onClick={() => {  setModalOpen(!modalOpen); setSelectedService('Doctor Consultations'); }}>
+
                                                 <div class="sicon" >
                                                     <img src="/assets/img/icon/doctor-consultation.png" alt=""/>
                                                 </div>
                                                 <div class="servicetitle">
-                                                    <h4>
+                                                    <h3>
                                                         Doctor <br></br>Consultations
-                                                    </h4>
+                                                    </h3>
                                                 </div>
                                             </div>
                                         </div>
@@ -464,9 +383,9 @@ export default function Home() {
                                                     <img src="/assets/img/icon/medical-teamx.png" alt=""/>
                                                 </div>
                                                 <div class="servicetitle">
-                                                    <h4>
+                                                    <h3>
                                                         Nursing <br></br>Care
-                                                    </h4>
+                                                    </h3>
                                                 </div>
                                             </div>
                                         </div>
@@ -479,9 +398,9 @@ export default function Home() {
                                                     <img src="/assets/img/icon/icu.png" alt=""/>
                                                 </div>
                                                 <div class="servicetitle">
-                                                    <h4>
+                                                    <h3>
                                                         ICU Setup <br></br>at Home
-                                                    </h4>
+                                                    </h3>
                                                 </div>
                                             </div>
                                         </div>
@@ -494,9 +413,9 @@ export default function Home() {
                                                     <img src="/assets/img/icon/people.png" alt=""/>
                                                 </div>
                                                 <div class="servicetitle">
-                                                    <h4>
+                                                    <h3>
                                                         Home <br></br>Physiotherapy
-                                                    </h4>
+                                                    </h3>
                                                 </div>
                                             </div>
                                         </div>
@@ -509,9 +428,9 @@ export default function Home() {
                                                     <img src="/assets/img/icon/wellness.png" alt=""/>
                                                 </div>
                                                 <div class="servicetitle">
-                                                    <h4>
+                                                    <h3>
                                                         Diagnostics <br></br>@ Home
-                                                    </h4>
+                                                    </h3>
                                                 </div>
                                             </div>
                                         </div>
@@ -524,26 +443,26 @@ export default function Home() {
                                                     <img src="/assets/img/icon/ventilation.png" alt=""/>
                                                 </div>
                                                 <div class="servicetitle">
-                                                    <h4>
+                                                    <h3>
                                                         Medical <br></br>Equipment
-                                                    </h4>
+                                                    </h3>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
 
-                        
+
                                 </div>
                             </div>
                         </div>
 
                         </div>
                     </div>
-                </div>                
+                </div>
             </div>
         </div>
 
-        
+
 
         <div className="hero-section hideindestop">
             <div className="">
@@ -552,20 +471,20 @@ export default function Home() {
                         <div className="row align-items-center">
                             <div class="col-lg-4">
                             <div class="">
-                                                               
+
                                 <div class="row">
-                               
+
                                     <div class="col-md-6 col-lg-4 col-4">
                                         <div class="wow fadeInUp" data-wow-delay=".25s">
-                                            <div class="sbox" onClick={() => {  setModalOpen(!modalOpen); setSelectedService('Doctor Consultations'); }}>                                        
-                                            
+                                            <div class="sbox" onClick={() => {  setModalOpen(!modalOpen); setSelectedService('Doctor Consultations'); }}>
+
                                                 <div class="sicon" >
                                                     <img src="/assets/img/icon/doctor-consultation.png" alt=""/>
                                                 </div>
                                                 <div class="servicetitle">
-                                                    <h4>
+                                                    <h3>
                                                         Doctor Consultations
-                                                    </h4>
+                                                    </h3>
                                                 </div>
                                             </div>
                                         </div>
@@ -578,9 +497,9 @@ export default function Home() {
                                                     <img src="/assets/img/icon/medical-teamx.png" alt=""/>
                                                 </div>
                                                 <div class="servicetitle">
-                                                    <h4>
+                                                    <h3>
                                                         Nursing Care
-                                                    </h4>
+                                                    </h3>
                                                 </div>
                                             </div>
                                         </div>
@@ -593,9 +512,9 @@ export default function Home() {
                                                     <img src="/assets/img/icon/icu.png" alt=""/>
                                                 </div>
                                                 <div class="servicetitle">
-                                                    <h4>
+                                                    <h3>
                                                         ICU Setup <br></br>at Home
-                                                    </h4>
+                                                    </h3>
                                                 </div>
                                             </div>
                                         </div>
@@ -608,9 +527,9 @@ export default function Home() {
                                                     <img src="/assets/img/icon/people.png" alt=""/>
                                                 </div>
                                                 <div class="servicetitle">
-                                                    <h4>
+                                                    <h3>
                                                         Home Physiotherapy
-                                                    </h4>
+                                                    </h3>
                                                 </div>
                                             </div>
                                         </div>
@@ -623,9 +542,9 @@ export default function Home() {
                                                     <img src="/assets/img/icon/wellness.png" alt=""/>
                                                 </div>
                                                 <div class="servicetitle">
-                                                    <h4>
+                                                    <h3>
                                                         Diagnostics <br></br>@ Home
-                                                    </h4>
+                                                    </h3>
                                                 </div>
                                             </div>
                                         </div>
@@ -638,15 +557,15 @@ export default function Home() {
                                                     <img src="/assets/img/icon/ventilation.png" alt=""/>
                                                 </div>
                                                 <div class="servicetitle">
-                                                    <h4>
+                                                    <h3>
                                                         Medical<br></br>Equipment
-                                                    </h4>
+                                                    </h3>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
 
-               
+
                                 </div>
                             </div>
                         </div>
@@ -659,7 +578,7 @@ export default function Home() {
         </div>
 
 
-      
+
 
         {/* <!-- service area --> */}
         <div id="our-services" class="service-area2 pt-30 pb-60 lightdarkbgx helooaj servicebg">
@@ -684,9 +603,9 @@ export default function Home() {
                                     <img src="/assets/img/icon/doctor-consultation.png" alt=""/>
                                 </div>
                                 <div class="service-content">
-                                    <h4 class="service-title">
+                                    <h3 class="service-title">
                                         <a href="/service/doctor-consultation-at-home">Doctor Consultations</a>
-                                    </h4>
+                                    </h3>
                                     <p class="service-text">
                                         From tele-consultations to emergency visits, expert care is just one call away.
                                     </p>
@@ -706,9 +625,9 @@ export default function Home() {
                                     <img src="/assets/img/icon/nurse.svg" alt=""/>
                                 </div>
                                 <div class="service-content">
-                                    <h4 class="service-title">
+                                    <h3 class="service-title">
                                         <a href="/service/nursing-care-at-home">Nursing Care</a>
-                                    </h4>
+                                    </h3>
                                     <p class="service-text">
                                         Short & long-term nursing care including <br className="dnmob"></br>post-op, palliative & respiratory care.
                                     </p>
@@ -728,9 +647,9 @@ export default function Home() {
                                     <img src="/assets/img/icon/icu.png" alt=""/>
                                 </div>
                                 <div class="service-content">
-                                    <h4 class="service-title">
+                                    <h3 class="service-title">
                                         <a href="/service/icu-setup-at-home">ICU Setup at Home</a>
-                                    </h4>
+                                    </h3>
                                     <p class="service-text">
                                         Complete intensive care environment setup with ventilators, monitors, & skilled staff.
                                     </p>
@@ -750,9 +669,9 @@ export default function Home() {
                                     <img src="/assets/img/icon/people.png" alt=""/>
                                 </div>
                                 <div class="service-content">
-                                    <h4 class="service-title">
+                                    <h3 class="service-title">
                                         <a href="/service/physiotherapy-at-home">Home Physiotherapy</a>
-                                    </h4>
+                                    </h3>
                                     <p class="service-text">
                                         Rehabilitation & recovery-focused sessions tailored to neuro, cardiac, & orthopedic needs.
                                     </p>
@@ -772,10 +691,10 @@ export default function Home() {
                                     <img src="/assets/img/icon/wellness.png" alt=""/>
                                 </div>
                                 <div class="service-content">
-                                    <h4 class="service-title">
+                                    <h3 class="service-title">
                                         <a href="/diagnostics">Diagnostics @ Home</a>
-                                    </h4>
-                                    <p class="service-text">                                        
+                                    </h3>
+                                    <p class="service-text">
                                         Sample collection to ECG, EEG, & sleep studies at home, get priority booking for Xray, CT, & MRI
                                     </p>
                                     <a onClick={() => {  setModalOpen(!modalOpen); setSelectedService('Diagnostics'); }} class="theme-btn">Inquire now<i class="fas fa-arrow-right"></i></a>
@@ -794,9 +713,9 @@ export default function Home() {
                                     <img src="/assets/img/icon/ventilation.png" alt=""/>
                                 </div>
                                 <div class="service-content">
-                                    <h4 class="service-title">
+                                    <h3 class="service-title">
                                         <a href="/service/medical-equipment-at-home">Medical Equipment (Sale & Rent)</a>
-                                    </h4>
+                                    </h3>
                                     <p class="service-text">
                                         Access to beds, monitors, oxygen cylinders, and more delivered to your home.
                                     </p>
@@ -816,7 +735,7 @@ export default function Home() {
                 <div class="row g-4 align-items-center justify-content-between wow fadeInDown" data-wow-delay=".25s">
                     <div class="col-lg-6">
                         <div class="site-heading mb-0">
-                            <span class="site-title-tagline"><i class="far"><img className="brandiconw" src="/assets/img/icon/brandicon.png" alt=""/></i> Why Care(T.A.B)?</span>
+                            <span class="site-title-tagline"><i class="far"><img className="brandiconw" src="/assets/img/icon/brandicon.png" alt=""/></i> Why CareTAB.ai?</span>
                             <h2 class="site-title colorwhite">Because healing is more than <br className="dnmob"></br><span className="colororange">just medicine</span></h2>
                             <br></br>
                         </div>
@@ -836,7 +755,7 @@ export default function Home() {
                                                 <img src="/assets/img/icon/citizen.png" alt=""/>
                                             </div>
                                             <div class="choose-item-info">
-                                                <h4 className="margobb0">Endorsed by Leading Hospitals & Clinicians</h4>
+                                                <h3 className="margobb0">Endorsed by Leading Hospitals & Clinicians</h3>
                                                 {/* <p>Trusted hospital backing. Reliable care at home.</p> */}
                                             </div>
                                         </div>
@@ -847,7 +766,7 @@ export default function Home() {
                                                 <img src="/assets/img/icon/help.png" alt=""/>
                                             </div>
                                             <div class="choose-item-info">
-                                                <h4 className="margobb0">Managed & Run by Expert Doctors</h4>
+                                                <h3 className="margobb0">Managed & Run by Expert Doctors</h3>
                                                 {/* <p>Doctors lead your care, not just approve it.</p> */}
                                             </div>
                                         </div>
@@ -909,9 +828,9 @@ export default function Home() {
                         </div>
                            <span id="about-us"></span>
                     </div>
-                 
+
                 </div>
-            </div>            
+            </div>
         </div>
         {/* <!-- choose area end --> */}
 
@@ -925,7 +844,7 @@ export default function Home() {
                             <div class="about-img">
                                 <div class="row">
                                     <div class="col-6">
-                                        <img class="img-1" src="/assets/img/about/01.jpg" alt=""/>                                        
+                                        <img class="img-1" src="/assets/img/about/01.jpg" alt=""/>
                                     </div>
                                     <div class="col-6">
                                         <div class="img-2">
@@ -945,7 +864,7 @@ export default function Home() {
                                 <span class="site-title-tagline"><i class="far"><img className="brandiconw" src="/assets/img/icon/brandicon.png" alt=""/></i> About Us</span>
                                 <h2 class="site-title">Hospital-quality care <br></br><span >to your home</span> </h2>
                             </div>
-                            <p class="about-text">Care(T.A.B).ai envisions building a quality-driven, outcome-focused, and tech-enabled ecosystem for healthcare delivery beyond hospital walls. 
+                            <p class="about-text">CareTAB.ai envisions building a quality-driven, outcome-focused, and tech-enabled ecosystem for healthcare delivery beyond hospital walls.
                                 We aim to be India’s leading home-based care provider, combining clinical excellence with AI-powered decision support, thereby improving accessibility, convenience, and patient satisfaction.</p>
                             <br></br>
                             <div class="counter-wrap">
@@ -975,7 +894,7 @@ export default function Home() {
                                         </div>
                                     </div>
 
-                                    
+
 
                                     <div class="col-lg-6 col-sm-6">
                                         <div class="counter-box">
@@ -1000,10 +919,10 @@ export default function Home() {
                                             </div>
                                         </div>
                                     </div>
-                                    
+
                                 </div>
                             </div>
-                           
+
                         </div>
                     </div>
                 </div>
@@ -1028,8 +947,8 @@ export default function Home() {
                     </div>
                 </div>
                 <div class="row g-4">
-                   
-                   <div class="col-md-2 col-lg-2"></div>            
+
+                   <div class="col-md-2 col-lg-2"></div>
                     <div class="col-md-6 col-lg-4">
                         <div class="team-item wow fadeInUp" data-wow-delay=".75s">
                             <div class="team-img">
@@ -1038,7 +957,7 @@ export default function Home() {
                                     <div class="team-social-btn">
                                         <a href="#"><button type="button"><i class="fab fa-linkedin-in"></i></button></a>
                                     </div>
-                                    
+
                                 </div>
                             </div>
                             <div class="team-content">
@@ -1055,7 +974,7 @@ export default function Home() {
                                     <div class="team-social-btn">
                                         <a href="#"><button type="button"><i class="fab fa-linkedin-in"></i></button></a>
                                     </div>
-                                    
+
                                 </div>
                             </div>
                             <div class="team-content">
@@ -1078,7 +997,7 @@ export default function Home() {
                             <div class="quote-form">
                                 <div class="quote-header">
                                     <h4>Book Your Consultation & Request a Quote!</h4>
-                               
+
                                 </div>
                                 <form id="contactForm3" onSubmit={registerUser3}>
                                     <div class="row">
@@ -1106,7 +1025,7 @@ export default function Home() {
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-md-6">                                           
+                                        <div class="col-md-6">
                                             <div class="form-group">
                                                 <div class="form-icon servicesl">
                                                     <i class="far fa-pencil"></i>
@@ -1134,8 +1053,8 @@ export default function Home() {
                                         <div class="col-md-12 mt-2">
                                             <div className="clearfix"></div>
                                             <p id="showlabel3" style={{ display: "none" }}></p>
-                                            <input id="submitbuttonform3" type="submit" className="theme-btn btnwidth" value="Get a Call!"/> 
-                                
+                                            <input id="submitbuttonform3" type="submit" className="theme-btn btnwidth" value="Get a Call!"/>
+
                                         </div>
                                     </div>
                                 </form>
@@ -1160,7 +1079,7 @@ export default function Home() {
                             <span class="site-title-tagline"><i class="far"><img className="brandiconw" src="/assets/img/icon/brandicon.png" alt=""/></i> Testimonials</span>
                             <h2 class="site-title text-white">Voices of Care</h2>
                             <p class="text-white text-whitex">
-                                Every family we serve has a story of trust, healing, and comfort. These real experiences reflect how Care(T.A.B).ai brings
+                                Every family we serve has a story of trust, healing, and comfort. These real experiences reflect how CareTAB.ai brings
                                  professional medical care home, making recovery safe and personal.
                             </p>
                             {/* <a href="contact.html" class="theme-btn mt-30">Know More <i class="fas fa-arrow-right"></i></a> */}
@@ -1204,7 +1123,7 @@ export default function Home() {
                                         <img src="/assets/img/icon/quote.svg" alt=""/>
                                     </div>
                                     <p>
-                                        Care(T.A.B).ai Team responded promptly when I needed urgent help at home. Their expert treatment restored my mobility and comfort in just few sessions. Care(T.A.B).ai has shown how healthcare can be both professional and deeply caring"
+                                        CareTAB.ai Team responded promptly when I needed urgent help at home. Their expert treatment restored my mobility and comfort in just few sessions. CareTAB.ai has shown how healthcare can be both professional and deeply caring"
                                     </p>
                                     <div class="testimonial-rate">
                                         <i class="fas fa-star"></i>
@@ -1264,7 +1183,7 @@ export default function Home() {
                                         <img src="/assets/img/icon/quote.svg" alt=""/>
                                     </div>
                                     <p>
-                                        Care(T.A.B).ai Team responded promptly when I needed urgent help at home. Their expert treatment restored my mobility and comfort in just few sessions. Care(T.A.B).ai has shown how healthcare can be both professional and deeply caring"
+                                        CareTAB.ai Team responded promptly when I needed urgent help at home. Their expert treatment restored my mobility and comfort in just few sessions. CareTAB.ai has shown how healthcare can be both professional and deeply caring"
                                     </p>
                                     <div class="testimonial-rate">
                                         <i class="fas fa-star"></i>
@@ -1292,6 +1211,91 @@ export default function Home() {
         </div>
         {/* <!-- testimonial-area end --> */}
         {/* <!-- quote area end --> */}
+
+
+
+        <div className="ajrm">
+<Modal toggle={() => setModalOpen(!modalOpen)} isOpen={modalOpen} backdrop="static" keyboard={false}>
+      <button
+            aria-label="Close"
+            className="close popcl"
+            type="button"
+            onClick={() => setModalOpen(!modalOpen)}
+          >
+            <span aria-hidden={true}>×</span>
+          </button>
+
+        <ModalBody>
+            <div class="">
+                                <div class="quote-header">
+                                    {/* <h4>Book an appointment with our expert</h4> */}
+                                    <h4>Book Your Services!</h4>
+                                </div>
+           <form id="contactForm" onSubmit={registerUser}>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <div class="form-icon">
+                                                    <i class="far fa-user-tie"></i>
+                                                    <input type="text" name="name" id="name" class="form-control" placeholder="Name" required/>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <div class="form-icon">
+                                                    <i class="far fa-envelope"></i>
+                                                    <input type="email" name="email" id="email" class="form-control" placeholder="Email" required/>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <div class="form-icon">
+                                                    <i class="far fa-pencil"></i>
+                                                    <input type="text" name="phone" id="phone" class="form-control" maxlength="13" minlength="10" pattern="[0-9]*" placeholder="Phone No." required/>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <div class="form-icon servicesl">
+                                                    <i class="far fa-pencil"></i>
+                                                    <select class="form-control" value={selectedService} onChange={(e) => setSelectedService(e.target.value)} name="service" id="service" className="service" required>
+                                                        <option value="">---Select Service---</option>
+                                                        <option value="Doctor Consultations">Doctor Consultations</option>
+                                                        <option value="Nursing Care">Nursing Care</option>
+                                                        <option value="ICU Setup at Home">ICU Setup at Home</option>
+                                                        <option value="Home Physiotherapy">Home Physiotherapy</option>
+                                                        <option value="Diagnostics">Diagnostics</option>
+                                                        <option value="Medical Equipment">Medical Equipment</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <div class="form-icon">
+                                                    <i class="far fa-comment-lines"></i>
+                                                    <textarea name="message" id="message" cols="30" rows="3" class="form-control"
+                                                        placeholder="Write Your Message"></textarea>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12 mt-2">
+                                            <div className="clearfix"></div>
+                                        <p id="showlabel" style={{ display: "none" }}></p>
+                                        <input id="submitbuttonform" type="submit" className="theme-btn btnwidth" value="Get a Call!"/>
+                                        </div>
+                                    </div>
+                                </form>
+                                </div>
+        </ModalBody>
+
+      </Modal>
+
+       </div>
 
 
     </>

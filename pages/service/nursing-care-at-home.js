@@ -316,7 +316,7 @@ export default function Home() {
                                     <div className="hero-content">
                                         {/* <br></br>
                                         <h6 className="hero-sub-title wow fadeInUp" data-delay=".25s">
-                                            <i><img className="brandiconw" src="/assets/img/icon/brandicon.png" alt="" /></i> Nursing Care at Home | Care(T.A.B)
+                                            <i><img className="brandiconw" src="/assets/img/icon/brandicon.png" alt="" /></i> Nursing Care at Home | CareTAB.ai
                                         </h6> */}
 
                                         <h1 className="hero-title wow fadeInRight" data-delay=".50s">
@@ -413,7 +413,7 @@ export default function Home() {
                             <div class="video-info wow fadeInUp" data-wow-delay=".25s">
                                 <div class="site-heading mb-0">
                                     <h2 class="site-title">Heal Better at Home with <span>Skilled Nursing</span> Support</h2>                                    <p className="text-justify">
-                                        Why spend hours in the hospital when expert nursing care can come to you at home? At Care(T.A.B), our certified and compassionate nurses deliver hospital-quality support in the comfort of your home, helping you to heal faster, manage conditions better, and live with dignity. 
+                                        Why spend hours in the hospital when expert nursing care can come to you at home? At CareTAB.ai, our certified and compassionate nurses deliver hospital-quality support in the comfort of your home, helping you to heal faster, manage conditions better, and live with dignity. 
                                     </p>
                                 </div>
                                 <a href="tel:+91-7891-444-333" class="theme-btn mt-30">Call for Care <i class="fas fa-arrow-right"></i></a>
@@ -830,9 +830,9 @@ export default function Home() {
                         <div class="col-lg-6 whycaretb">
                             <div class="video-info wow fadeInUp insidep" data-wow-delay=".25s">
                                 <div class="site-heading mb-0">
-                                    <h2 class="site-title">Why Choose <span>Care(T.A.B)</span> Nursing Services?</h2>
+                                    <h2 class="site-title">Why Choose <span>CareTAB.ai</span> Nursing Services?</h2>
                                     <p className="text-justify">
-                                        At Care(T.A.B), our nurses and Caregivers are more than healthcare providers—they are trusted companions in your recovery journey. Each nurse undergoes:
+                                        At CareTAB.ai, our nurses and Caregivers are more than healthcare providers—they are trusted companions in your recovery journey. Each nurse undergoes:
                                     </p>
                                 </div>
                                 <div class="feature-content">                                        
@@ -890,7 +890,7 @@ export default function Home() {
                             <p>
                                 Get the right care, at the right time, in the right place, your home.
                             </p>
-                            <a href="#" class="theme-btn">Book online to schedule a Care(T.A.B)<i class="fas fa-arrow-right"></i></a>
+                            <a href="#" class="theme-btn">Book online to schedule a CareTAB.ai<i class="fas fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -922,7 +922,7 @@ export default function Home() {
                                 <div id="collapseOne" class="accordion-collapse collapse show"
                                     aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                       All home nursing care services at Care(T.A.B) are provided by qualified, registered nurses and experienced GDAs who have undergone rigorous training, skill assessment, and background verification. They work under the supervision of senior doctors, ensuring hospital-quality care at home.
+                                       All home nursing care services at CareTAB.ai are provided by qualified, registered nurses and experienced GDAs who have undergone rigorous training, skill assessment, and background verification. They work under the supervision of senior doctors, ensuring hospital-quality care at home.
                                     </div>
                                 </div>
                             </div>
@@ -981,7 +981,7 @@ export default function Home() {
                                 <div id="collapseThree" class="accordion-collapse collapse"
                                     aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        <p>Care(T.A.B) offers flexible plans:</p>
+                                        <p>CareTAB.ai offers flexible plans:</p>
                                         <ul class="listicon">
                                             <li>
                                                 <img src="/assets/img/icon/listicon.png" />

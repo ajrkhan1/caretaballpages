@@ -391,7 +391,7 @@ export default function DoctorConsultationatHome() {
                                 <div class="site-heading mb-0">
                                     <h2 class="site-title">Get Quality <span>Medical Care,</span> Without the Hospital Visit </h2>
                                     <p className="text-justify">
-                                        At Care(T.A.B), we believe healthcare doesn’t always need a hospital visit. With our team of experienced doctors and nurses, supported by advanced technology, we bring quality medical care to your doorstep.
+                                        At CareTAB.ai, we believe healthcare doesn’t always need a hospital visit. With our team of experienced doctors and nurses, supported by advanced technology, we bring quality medical care to your doorstep.
                                     </p>
                                 </div>
                                 <a href="tel:+91-7891-444-333" class="theme-btn mt-30">Call for Care <i class="fas fa-arrow-right"></i></a>
@@ -584,7 +584,7 @@ export default function DoctorConsultationatHome() {
                         <div class="col-lg-6">
                             <div class="video-info wow fadeInUp insidep" data-wow-delay=".25s">
                                 <div class="site-heading mb-0">
-                                    <h2 class="site-title">Why Choose <span>Care(T.A.B)?</span></h2>
+                                    <h2 class="site-title">Why Choose <span>CareTAB.ai?</span></h2>
                                     <br></br>
                                 </div>
                                 <div class="feature-content">                                        
@@ -624,7 +624,7 @@ export default function DoctorConsultationatHome() {
                         <div class="cta-content">
                             <h1>Your Doctor is Just One Call Away!</h1>
                             <p>
-                                Getting medical help is now as simple as making a call. With Care(T.A.B), expert care is always within reach, whether it’s online or at your doorstep.
+                                Getting medical help is now as simple as making a call. With CareTAB.ai, expert care is always within reach, whether it’s online or at your doorstep.
                             </p>
                             <a href="#" class="theme-btn">Call us now for a consultation<i class="fas fa-arrow-right"></i></a>
                         </div>
