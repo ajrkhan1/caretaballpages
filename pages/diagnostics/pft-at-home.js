@@ -284,7 +284,7 @@ export default function ICUSetupatHome() {
                                         </h1>
 
                                         <div className="hero-btn wow fadeInUp" data-delay="1s">
-                                            <a href="tel:+91-7891-444-333" className="theme-btn btnc">Call for PFT / LFT<i
+                                            <a href="tel:+91-7891-444-333" className="theme-btn btnc">Call for PFT<i
                                                 className="fas fa-arrow-right"></i></a>
                                         </div>
                                     </div>
