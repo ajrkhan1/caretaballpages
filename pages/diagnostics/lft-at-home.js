@@ -176,8 +176,8 @@ export default function ICUSetupatHome() {
     return (
         <>
             <Head>
-                <title>PFT Test at Home | Lung Function & Spirometry Test | CareTAB.ai</title>
-                <meta name="description" content="Book PFT Test at Home with CareTAB.ai for accurate lung function and respiratory health assessment. Get spirometry and pulmonary function testing at home for asthma, COPD, and breathing disorders in Delhi NCR. " />
+                <title>LFT Test at Home | Lung Function & Spirometry Test | CareTAB.ai</title>
+                <meta name="description" content="Book LFT Test at Home with CareTAB.ai for accurate lung function and respiratory health assessment. Get spirometry and pulmonary function testing at home for asthma, COPD, and breathing disorders in Delhi NCR. " />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="icon" href="/favicon.ico" />               
                 <link rel="stylesheet" href="/assets/css/lft.css" />
@@ -189,11 +189,11 @@ export default function ICUSetupatHome() {
   "@graph": [
     {
       "@type": "Service",
-      "@id": "https://caretab.ai/service/pft-lft-at-home/#service",
-      "name": "PFT / LFT at Home",
+      "@id": "https://caretab.ai/service/lft-at-home/#service",
+      "name": "LFT at Home",
       "serviceType": "Pulmonary Function Test and Liver Function Test at Home",
-      "url": "https://caretab.ai/service/pft-lft-at-home",
-      "description": "Professional Pulmonary Function Test (PFT) and Liver Function Test (LFT) services at home for convenient respiratory and liver health assessment.",
+      "url": "https://caretab.ai/service/lft-at-home",
+      "description": "Professional Pulmonary Function Test (LFT) and Liver Function Test (LFT) services at home for convenient respiratory and liver health assessment.",
       "provider": {
         "@type": "MedicalBusiness",
         "@id": "https://caretab.ai/#medicalbusiness",
@@ -207,11 +207,11 @@ export default function ICUSetupatHome() {
     },
     {
       "@type": "FAQPage",
-      "@id": "https://caretab.ai/service/pft-lft-at-home/#faq",
+      "@id": "https://caretab.ai/service/lft-at-home/#faq",
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "What is a Pulmonary Function Test (PFT)?",
+          "name": "What is a Pulmonary Function Test (LFT)?",
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "A Pulmonary Function Test measures how well the lungs work by assessing lung capacity, airflow, and oxygen exchange."
@@ -227,17 +227,17 @@ export default function ICUSetupatHome() {
         },
         {
           "@type": "Question",
-          "name": "Can PFT and LFT be performed at home?",
+          "name": "Can LFT and LFT be performed at home?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes, trained healthcare professionals can perform PFT and collect samples for LFT at home, ensuring comfort and convenience for patients."
+            "text": "Yes, trained healthcare professionals can perform LFT and collect samples for LFT at home, ensuring comfort and convenience for patients."
           }
         }
       ]
     },
     {
       "@type": "BreadcrumbList",
-      "@id": "https://caretab.ai/service/pft-lft-at-home/#breadcrumb",
+      "@id": "https://caretab.ai/service/lft-at-home/#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -254,8 +254,8 @@ export default function ICUSetupatHome() {
         {
           "@type": "ListItem",
           "position": 3,
-          "name": "PFT / LFT at Home",
-          "item": "https://caretab.ai/service/pft-lft-at-home"
+          "name": "LFT at Home",
+          "item": "https://caretab.ai/service/lft-at-home"
         }
       ]
     }
@@ -280,11 +280,11 @@ export default function ICUSetupatHome() {
                                             <i><img className="brandiconw" src="/assets/img/icon/brandicon.png" alt="" /></i>X-Ray</h6> */}
 
                                         <h1 className="hero-title wow fadeInRight" data-delay=".50s">
-                                             PFT / LFT At Home
+                                             LFT At Home
                                         </h1>
 
                                         <div className="hero-btn wow fadeInUp" data-delay="1s">
-                                            <a href="tel:+91-7891-444-333" className="theme-btn btnc">Call for PFT / LFT<i
+                                            <a href="tel:+91-7891-444-333" className="theme-btn btnc">Call for LFT<i
                                                 className="fas fa-arrow-right"></i></a>
                                         </div>
                                     </div>
@@ -335,7 +335,7 @@ export default function ICUSetupatHome() {
                                                                 <option value="ICU Setup at Home">ICU Setup at Home</option>
                                                                 <option value="Medical Equipment at Home">Medical Equipment at Home</option>
                                                                 <option value="CGM at Home">CGM at Home</option>
-                                                                <option value="PFT or LFT at Home" selected>PFT / LFT at Home</option>
+                                                                <option value="LFT at Home" selected>LFT at Home</option>
                                                             </select>
                                                         </div>
                                                     </div>
@@ -376,7 +376,7 @@ export default function ICUSetupatHome() {
                                 <div class="site-heading mb-0">
                                     <h2 class="site-title">Comprehensive Respiratory <span>Health Testing </span> at Your Doorstep </h2>
                                     <p className="text-justify">
-                                        CareTAB.ai offers reliable PFT tests at home services that help evaluate lung health and breathing performance without the need to visit a hospital or diagnostic center. Using advanced portable equipment, our trained healthcare professionals conduct respiratory assessments in the comfort of your home, ensuring convenience, accuracy, and patient comfort. 
+                                        CareTAB.ai offers reliable LFT tests at home services that help evaluate lung health and breathing performance without the need to visit a hospital or diagnostic center. Using advanced portable equipment, our trained healthcare professionals conduct respiratory assessments in the comfort of your home, ensuring convenience, accuracy, and patient comfort. 
                                     </p>
 
                                     <p className="text-justify">
@@ -386,7 +386,7 @@ export default function ICUSetupatHome() {
                                         Our comprehensive Lung function test services support the evaluation of conditions such as asthma, COPD, bronchitis, pulmonary fibrosis, and other respiratory diseases. The results help doctors develop appropriate treatment plans and track disease progression over time. 
                                     </p>                                   
                                 </div>
-                                <a href="tel:+91-7891-444-333" class="theme-btn mt-30">Call for PFT / LFT <i class="fas fa-arrow-right"></i></a>
+                                <a href="tel:+91-7891-444-333" class="theme-btn mt-30">Call for LFT <i class="fas fa-arrow-right"></i></a>
                             </div>
                         </div>
                         <div class="col-lg-6 lftred">
@@ -466,7 +466,7 @@ export default function ICUSetupatHome() {
                     <div class="row">
                         
                         <div class="col-lg-6">
-                           <img className="imgborderwi" src="/assets/img/lft/Why.webp" alt="ICU Nurses" />
+                           <img className="imgborderwi" src="/assets/img/lft/why.webp" alt="ICU Nurses" />
                         </div>
 
                         <div class="col-lg-6 whycaretb pt-50 pb-50">
@@ -549,7 +549,7 @@ export default function ICUSetupatHome() {
                                 <div id="collapseOne" class="accordion-collapse collapse show"
                                     aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                       A PFT test at home evaluates lung performance and breathing capacity using portable respiratory diagnostic equipment. 
+                                       A LFT test at home evaluates lung performance and breathing capacity using portable respiratory diagnostic equipment. 
                                     </div>
                                 </div>
                             </div>
@@ -620,9 +620,7 @@ export default function ICUSetupatHome() {
                                         </p>                                       
                                     </div>
                                 </div>
-                            </div>
-
-                            
+                            </div>                           
                     
                         </div>
                     </div>
