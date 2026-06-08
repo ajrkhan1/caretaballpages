@@ -421,7 +421,7 @@ export default function Home() {
                                         </div>
                                     </div>
 
-                                    {/* <div class="col-md-6 col-lg-6">
+                                    <div class="col-md-6 col-lg-6">
                                         <div class="wow fadeInUp" data-wow-delay=".25s">
                                             <div class="sbox" onClick={() => {  setModalOpen(!modalOpen); setSelectedService('Diagnostics'); }}>
                                                 <div class="sicon">
@@ -434,7 +434,7 @@ export default function Home() {
                                                 </div>
                                             </div>
                                         </div>
-                                    </div> */}
+                                    </div>
 
                                     <div class="col-md-6 col-lg-6">
                                         <div class="wow fadeInUp" data-wow-delay=".25s">
@@ -680,7 +680,7 @@ export default function Home() {
                             </div>
                         </div>
                     </div>
-                    {/* <div class="col-md-6 col-lg-4">
+                    <div class="col-md-6 col-lg-4">
                         <div class="service-item wow fadeInUp" data-wow-delay=".50s">
                             <span class="count">05</span>
                             <div class="service-img">
@@ -701,7 +701,7 @@ export default function Home() {
                                 </div>
                             </div>
                         </div>
-                    </div> */}
+                    </div>
                     <div class="col-md-6 col-lg-4">
                         <div class="service-item wow fadeInUp" data-wow-delay=".75s">
                             <span class="count">06</span>
