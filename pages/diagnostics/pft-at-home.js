@@ -466,7 +466,7 @@ export default function ICUSetupatHome() {
                     <div class="row">
                         
                         <div class="col-lg-6">
-                           <img className="imgborderwi" src="/assets/img/lft/Why.webp" alt="ICU Nurses" />
+                           <img className="imgborderwi" src="/assets/img/lft/why.webp" alt="ICU Nurses" />
                         </div>
 
                         <div class="col-lg-6 whycaretb pt-50 pb-50">
