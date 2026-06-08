@@ -421,7 +421,7 @@ export default function Home() {
                                         </div>
                                     </div>
 
-                                    <div class="col-md-6 col-lg-6">
+                                    {/* <div class="col-md-6 col-lg-6">
                                         <div class="wow fadeInUp" data-wow-delay=".25s">
                                             <div class="sbox" onClick={() => {  setModalOpen(!modalOpen); setSelectedService('Diagnostics'); }}>
                                                 <div class="sicon">
@@ -434,7 +434,7 @@ export default function Home() {
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> */}
 
                                     <div class="col-md-6 col-lg-6">
                                         <div class="wow fadeInUp" data-wow-delay=".25s">
