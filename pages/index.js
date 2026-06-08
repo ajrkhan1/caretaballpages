@@ -206,8 +206,8 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>CareTAB.ai – Trusted Home Healthcare Services in India | Book Your Care Today</title>
-        <meta name="description" content="CareTAB.ai provides expert home healthcare services across India. Certified professionals, affordable plans & 24/7 support – bringing quality healthcare right to your doorstep. Book now! "/>
+        <title>Trusted Healthcare Services for Better Care & Better Outcomes</title>
+        <meta name="description" content="Delivering trusted healthcare services focused on better care and better outcomes. We provide compassionate, professional, and patient-centered healthcare solutions for improved well-being and quality care."/>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
         <link href="https://db.onlinewebfonts.com/c/2cd5263ca3ce6bc9dca6a336c613a5aa?family=Cambria+W01+Regular" rel="stylesheet"/>
@@ -318,7 +318,7 @@ export default function Home() {
 
 
                                     <h1 className="hero-title wow fadeInRight" data-delay=".50s">
-                                         Better Care <br></br>Better Outcomes <br></br>Comfort of Home                                    </h1>
+                                         Better Care <br></br>Better Outcomes <br></br>Trusted Healthcare</h1>
 
                                     <div className="hero-btn wow fadeInUp" data-delay="1s">
                                         <a href="tel:+91-7891-444-333" className="theme-btn btnc">Call for Care<i
@@ -341,8 +341,8 @@ export default function Home() {
                                                 className="fas fa-arrow-right"></i></a>
                                     </div>
 
-                                    <h1 className="hero-title wow fadeInRight" data-delay=".50s">
-                                         Better Care <br></br>Better Outcomes <br></br>Comfort of Home </h1>
+                                    <h2 className="hero-title wow fadeInRight" data-delay=".50s">
+                                         Better Care <br></br>Better Outcomes <br></br>Comfort of Home </h2>
 
 
 
@@ -877,7 +877,7 @@ export default function Home() {
                                             </div>
                                             <div>
                                                 <span class="counterx" data-count="+" data-to="7320" data-speed="3000">5000+</span>
-                                                <h6 class="title">Home Visits Completed</h6>
+                                                <h3 class="title">Home Visits Completed</h3>
                                             </div>
                                         </div>
                                     </div>
@@ -889,7 +889,7 @@ export default function Home() {
                                             </div>
                                             <div>
                                                 <span class="counterx" data-count="+" data-to="6560" data-speed="3000">100%</span>
-                                                <h6 class="title">Patient Satisfaction</h6>
+                                                <h3 class="title">Patient Satisfaction</h3>
                                             </div>
                                         </div>
                                     </div>
@@ -903,7 +903,7 @@ export default function Home() {
                                             </div>
                                             <div>
                                                 <span class="counterx" data-count="+" data-to="1500" data-speed="3000">100+</span>
-                                                <h6 class="title"> ICU Setups at Home</h6>
+                                                <h3 class="title"> ICU Setups at Home</h3>
                                             </div>
                                         </div>
                                     </div>
@@ -915,7 +915,7 @@ export default function Home() {
                                             </div>
                                             <div>
                                                 <span class="counterx" data-count="+" data-to="50" data-speed="3000">25+</span>
-                                                <h6 class="title">Specialist Doctors on Panel</h6>
+                                                <h3 class="title">Specialist Doctors on Panel</h3>
                                             </div>
                                         </div>
                                     </div>

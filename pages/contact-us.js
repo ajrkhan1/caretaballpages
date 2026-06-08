@@ -315,7 +315,7 @@ export default function Home() {
   
         <div class="site-breadcrumb contactbgx">
             <div class="container">
-                <h2 class="breadcrumb-title">Contact Us</h2>
+                <h1 class="breadcrumb-title">Contact Us</h1>
                 <ul class="breadcrumb-menu">
                     <li><a href="/">Home</a></li>
                     <li class="active">Contact Us</li>

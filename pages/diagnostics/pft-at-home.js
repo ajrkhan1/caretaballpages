@@ -176,11 +176,11 @@ export default function ICUSetupatHome() {
     return (
         <>
             <Head>
-                <title>Sleep Study at Home | Sleep Apnea & PSG Test Service | CareTAB.ai</title>
-                <meta name="description" content="Get accurate Sleep Study at Home services with CareTAB.ai. Book Sleep Apnea & PSG Test at home for snoring, breathing issues, and sleep disorders. Expert monitoring, hassle-free diagnosis, and comfortable overnight testing across Delhi NCR." />
+                <title>PFT Test at Home | Lung Function & Spirometry Test | CareTAB.ai</title>
+                <meta name="description" content="Book PFT Test at Home with CareTAB.ai for accurate lung function and respiratory health assessment. Get spirometry and pulmonary function testing at home for asthma, COPD, and breathing disorders in Delhi NCR. " />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="icon" href="/favicon.ico" />               
-                <link rel="stylesheet" href="/assets/css/sleep-study-at-home.css" />
+                <link rel="stylesheet" href="/assets/css/lft.css" />
                 <script type="application/ld+json"
             dangerouslySetInnerHTML={{
               __html: `
@@ -189,11 +189,11 @@ export default function ICUSetupatHome() {
   "@graph": [
     {
       "@type": "Service",
-      "@id": "https://caretab.ai/diagnostics/sleep-study-at-home/#service",
-      "name": "Sleep Study at Home",
-      "serviceType": "Home Sleep Study Service",
-      "url": "https://caretab.ai/diagnostics/sleep-study-at-home",
-      "description": "Professional sleep study testing at home to monitor sleep patterns, diagnose sleep disorders, and support effective treatment planning in a comfortable home environment.",
+      "@id": "https://caretab.ai/service/pft-lft-at-home/#service",
+      "name": "PFT at Home",
+      "serviceType": "Pulmonary Function Test and Liver Function Test at Home",
+      "url": "https://caretab.ai/service/pft-lft-at-home",
+      "description": "Professional Pulmonary Function Test (PFT) and Liver Function Test (LFT) services at home for convenient respiratory and liver health assessment.",
       "provider": {
         "@type": "MedicalBusiness",
         "@id": "https://caretab.ai/#medicalbusiness",
@@ -207,37 +207,37 @@ export default function ICUSetupatHome() {
     },
     {
       "@type": "FAQPage",
-      "@id": "https://caretab.ai/diagnostics/sleep-study-at-home/#faq",
+      "@id": "https://caretab.ai/service/pft-lft-at-home/#faq",
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "What is a sleep study at home?",
+          "name": "What is a Pulmonary Function Test (PFT)?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "A sleep study at home is a diagnostic test that monitors breathing, oxygen levels, heart rate, and sleep patterns to identify sleep-related disorders."
+            "text": "A Pulmonary Function Test measures how well the lungs work by assessing lung capacity, airflow, and oxygen exchange."
           }
         },
         {
           "@type": "Question",
-          "name": "Who should undergo a sleep study?",
+          "name": "What is a Liver Function Test (LFT)?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Individuals experiencing snoring, excessive daytime sleepiness, insomnia, suspected sleep apnea, or other sleep-related symptoms may benefit from a sleep study."
+            "text": "A Liver Function Test is a blood test used to evaluate liver health and detect liver-related conditions by measuring enzymes, proteins, and bilirubin levels."
           }
         },
         {
           "@type": "Question",
-          "name": "Is a home sleep study accurate?",
+          "name": "Can PFT be performed at home?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes, home sleep studies can provide reliable data for diagnosing common sleep disorders, especially obstructive sleep apnea, when conducted using approved monitoring devices."
+            "text": "Yes, trained healthcare professionals can perform PFT and collect samples for PFT at home, ensuring comfort and convenience for patients."
           }
         }
       ]
     },
     {
       "@type": "BreadcrumbList",
-      "@id": "https://caretab.ai/diagnostics/sleep-study-at-home/#breadcrumb",
+      "@id": "https://caretab.ai/service/pft-lft-at-home/#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -248,14 +248,14 @@ export default function ICUSetupatHome() {
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "Diagnostics",
-          "item": "https://caretab.ai/diagnostics"
+          "name": "Services",
+          "item": "https://caretab.ai/services"
         },
         {
           "@type": "ListItem",
           "position": 3,
-          "name": "Sleep Study at Home",
-          "item": "https://caretab.ai/diagnostics/sleep-study-at-home"
+          "name": "PFT at Home",
+          "item": "https://caretab.ai/service/pft-lft-at-home"
         }
       ]
     }
@@ -270,7 +270,7 @@ export default function ICUSetupatHome() {
 
             <div className="hero-section" id="inquirenow">
                 <div className="">
-                    <div className="hero-single sleepstudyathome bannerpad">
+                    <div className="hero-single lfthome bannerpad">
                         <div className="container">
                             <div className="row align-items-center">
                                 <div className="col-md-12 col-lg-5">
@@ -280,11 +280,11 @@ export default function ICUSetupatHome() {
                                             <i><img className="brandiconw" src="/assets/img/icon/brandicon.png" alt="" /></i>X-Ray</h6> */}
 
                                         <h1 className="hero-title wow fadeInRight" data-delay=".50s">
-                                            Sleep Study at Home 
+                                             PFT At Home
                                         </h1>
 
                                         <div className="hero-btn wow fadeInUp" data-delay="1s">
-                                            <a href="tel:+91-7891-444-333" className="theme-btn btnc">Call for Sleep Study<i
+                                            <a href="tel:+91-7891-444-333" className="theme-btn btnc">Call for PFT / LFT<i
                                                 className="fas fa-arrow-right"></i></a>
                                         </div>
                                     </div>
@@ -329,10 +329,13 @@ export default function ICUSetupatHome() {
                                                         <div class="form-icon servicesl">
                                                             <i class="far fa-pencil"></i>
                                                             <select class="form-control" name="service" id="service" className="service" required>                                                                
-                                                                <option value="Diagnostics at Home">Diagnostics at Home</option>
-                                                                <option value="X-Ray at Home">X-Ray at Home</option>                                                                
-                                                                <option value="Sleep Study at Home" selected>Sleep Study at Home</option>
-                                                                <option value="ECG at Home">ECG at Home</option>
+                                                                <option value="Nursing Care At Home">Nursing Care At Home</option>
+                                                                <option value="Doctor Consultation at Home">Doctor Consultation at Home</option>
+                                                                <option value="Physiotherapy at Home">Physiotherapy at Home</option>
+                                                                <option value="ICU Setup at Home">ICU Setup at Home</option>
+                                                                <option value="Medical Equipment at Home">Medical Equipment at Home</option>
+                                                                <option value="CGM at Home">CGM at Home</option>
+                                                                <option value="PFT at Home" selected>PFT at Home</option>
                                                             </select>
                                                         </div>
                                                     </div>
@@ -371,194 +374,68 @@ export default function ICUSetupatHome() {
                         <div class="col-lg-6">
                             <div class="video-info wow fadeInUp" data-wow-delay=".25s">
                                 <div class="site-heading mb-0">
-                                    <h2 class="site-title">Comfortable Overnight <span>Sleep Monitoring</span> at Your Doorstep</h2>
+                                    <h2 class="site-title">Comprehensive Respiratory <span>Health Testing </span> at Your Doorstep </h2>
                                     <p className="text-justify">
-                                        A sleep study at home allows patients to undergo advanced sleep diagnostics in their natural sleeping environment, helping healthcare professionals identify sleep-related disorders accurately. CareTAB.ai provides expert-guided testing using portable monitoring devices, ensuring convenience, comfort, and reliable results without requiring an overnight hospital stay. 
+                                        CareTAB.ai offers reliable PFT tests at home services that help evaluate lung health and breathing performance without the need to visit a hospital or diagnostic center. Using advanced portable equipment, our trained healthcare professionals conduct respiratory assessments in the comfort of your home, ensuring convenience, accuracy, and patient comfort. 
                                     </p>
 
                                     <p className="text-justify">
-                                        This service is ideal for individuals experiencing loud snoring, daytime fatigue, interrupted sleep, breathing difficulties during sleep, or suspected sleep disorders. Our specialists guide patients through the setup process and ensure seamless overnight monitoring for accurate diagnosis and treatment planning. 
-                                    </p>                                                                 
+                                        A Pulmonary function test is commonly recommended for individuals experiencing shortness of breath, chronic cough, wheezing, asthma symptoms, or other respiratory concerns. These tests provide valuable insights into how effectively the lungs are working and help healthcare providers diagnose, monitor, and manage various breathing disorders. 
+                                    </p>
+                                    <p className="text-justify">
+                                        Our comprehensive Lung function test services support the evaluation of conditions such as asthma, COPD, bronchitis, pulmonary fibrosis, and other respiratory diseases. The results help doctors develop appropriate treatment plans and track disease progression over time. 
+                                    </p>                                   
                                 </div>
-                                <a href="tel:+91-7891-444-333" class="theme-btn mt-30">Call for Sleep Study <i class="fas fa-arrow-right"></i></a>
+                                <a href="tel:+91-7891-444-333" class="theme-btn mt-30">Call for PFT <i class="fas fa-arrow-right"></i></a>
                             </div>
                         </div>
-                        <div class="col-lg-6 compsleep">
+                        <div class="col-lg-6 lftred">
                             
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="living-option pt-60 pb-60 lightdarkbg">
+
+            <div class="pb-70 pt-50 lightdarkbg">
                 <div class="container">
-                    <div class="row">
-                        <div class="col-lg-10 mx-auto">
-                            <div class="site-heading text-center">
-                                {/* <span class="site-title-tagline"><i class="far fa-house-chimney-heart"></i> Living Options</span> */}
-                                <h2 class="site-title">Common <span>Sleep</span> Disorders We Assess</h2>
-                               
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row g-4 slpadding">
-                        <Slider {...settings}>
-                            <div class="blog-item wow fadeInUp" data-wow-delay=".25s">
-                                <div class="blog-item-img">
-                                    <img src="/assets/img/sleep/s1.webp" alt="Care in the Comfort of Home" />
-                                </div>
-                                <div class="blog-item-info">
-                                    <div class="blog-item-meta">
-                                        <h3 class="blog-title">
-                                            <a href="#">Sleep Apnea Assessment</a>
-                                        </h3>
-                                    </div>
-                                    <p>
-                                         A comprehensive sleep apnea test at home helps detect breathing interruptions and oxygen fluctuations during sleep.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="blog-item wow fadeInUp" data-wow-delay=".25s">
-                                <div class="blog-item-img">
-                                    <img src="/assets/img/sleep/s2.webp" alt="Personalized Attention" />
-                                </div>
-                                <div class="blog-item-info">
-                                    <div class="blog-item-meta">
-                                        <h3 class="blog-title">
-                                            <a href="#">Snoring & Breathing Disorders</a>
-                                        </h3>
-                                    </div>
-                                    <p>
-                                        Identifies respiratory disturbances that may affect sleep quality and overall health.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="blog-item wow fadeInUp" data-wow-delay=".25s">
-                                <div class="blog-item-img">
-                                    <img src="/assets/img/sleep/s3.webp" alt="" />
-                                </div>
-                                <div class="blog-item-info">
-                                    <div class="blog-item-meta">
-                                        <h3 class="blog-title">
-                                            <a href="#">Sleep Pattern Monitoring</a>
-                                        </h3>
-                                    </div>
-                                    <p>
-                                        A professional home sleep test evaluates sleep cycles, movement, and sleep efficiency.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="blog-item wow fadeInUp" data-wow-delay=".25s">
-                                <div class="blog-item-img">
-                                    <img src="/assets/img/sleep/s4.webp" alt="Pain & Mobility Management" />
-                                </div>
-                                <div class="blog-item-info">
-                                    <div class="blog-item-meta">
-                                        <h3 class="blog-title">
-                                            <a href="#">Restless Leg Syndrome Evaluation</a>
-                                        </h3>
-                                    </div>
-                                    <p>
-                                        A specialized restless leg syndrome test helps identify abnormal leg movements and discomfort affecting sleep.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="blog-item wow fadeInUp" data-wow-delay=".25s">
-                                <div class="blog-item-img">
-                                    <img src="/assets/img/sleep/s5.webp" alt="holistic support" />
-                                </div>
-                                <div class="blog-item-info">
-                                    <div class="blog-item-meta">
-                                        <h3 class="blog-title">
-                                            <a href="#">Chronic Fatigue Investigation</a>
-                                        </h3>
-                                    </div>
-                                    <p>
-                                        Supports diagnosis when poor sleep quality contributes to daytime tiredness and reduced productivity.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="blog-item wow fadeInUp" data-wow-delay=".25s">
-                                <div class="blog-item-img">
-                                    <img src="/assets/img/sleep/s6.webp" alt="Prevents Complications" />
-                                </div>
-                                <div class="blog-item-info">
-                                    <div class="blog-item-meta">
-                                        <h3 class="blog-title">
-                                            <a href="#">Sleep Disorder Screening</a>
-                                        </h3>
-                                    </div>
-                                    <p>
-                                        A detailed sleep study test provides valuable insights for diagnosing various sleep-related conditions.
-                                    </p>
-                                </div>
-                            </div>
-                        </Slider>
-                    </div>
-                </div>
-            </div>
- 
-
-
-          
-
-
-            <div class="pb-100 pt-50">
-                <div class="container">
-                    <div class="row">
+                    <div class="row align-items-center">
                         
                         <div class="col-lg-6">
-                           <img className="imgborderwi" src="/assets/img/sleep/why.webp" alt="ICU Nurses" />
+                           <img className="imgborderwi" src="/assets/img/lft/comm.webp" alt="ICU Nurses" />
                         </div>
 
-                        <div class="col-lg-6 whycaretb pt-50 pb-50">
+                        <div class="col-lg-6 pt-50 pb-50">
                             <div class="video-info wow fadeInUp insidep" data-wow-delay=".25s">
                                 <div class="site-heading mb-0">
-                                    <h2 class="site-title">Why Choose CareTAB.ai Services?</h2>                                  
+                                    <h2 class="site-title">Common Uses of Home Pulmonary Testing </h2>                                  
                                 </div>
                                 <div class="feature-content">                                        
                                         <ul class="listicon">
                                             <li>
                                                 <img src="/assets/img/icon/listicon.png" />
-                                                <p>Convenient overnight testing from the comfort of your home. </p>
+                                                <p>Asthma diagnosis and monitoring </p>
                                             </li>
                                             <li>
                                                 <img src="/assets/img/icon/listicon.png" />
-                                                <p>Expert support for device setup and monitoring. </p>
+                                                <p>COPD assessment and management </p>
                                             </li>
                                             <li>
                                                 <img src="/assets/img/icon/listicon.png" />
-                                                <p>Accurate diagnostics reviewed by qualified sleep specialists. </p>
+                                                <p>Evaluation of chronic cough and breathing difficulties </p>
                                             </li>
                                             <li>
                                                 <img src="/assets/img/icon/listicon.png" />
-                                                <p>No hospital admission or overnight stay required. </p>
+                                                <p>Pre-operative respiratory assessment </p>
                                             </li>
                                             <li>
                                                 <img src="/assets/img/icon/listicon.png" />
-                                                <p>Comfortable testing in your natural sleep environment. </p>
+                                                <p>Post-COVID lung health evaluation</p>
                                             </li>
                                             <li>
                                                 <img src="/assets/img/icon/listicon.png" />
-                                                <p>Suitable for adults, seniors, and patients with mobility challenges. </p>
-                                            </li>
-                                            <li>
-                                                <img src="/assets/img/icon/listicon.png" />
-                                                <p>Transparent guidance regarding sleep study test cost in Delhi. </p>
-                                            </li>
-                                            <li>
-                                                <img src="/assets/img/icon/listicon.png" />
-                                                <p>Fast report generation and consultation support. </p>
-                                            </li>
-                                            <li>
-                                                <img src="/assets/img/icon/listicon.png" />
-                                                <p>Advanced portable sleep monitoring technology. </p>
-                                            </li>
-                                            <li>
-                                                <img src="/assets/img/icon/listicon.png" />
-                                                <p>Trusted home healthcare services across Delhi NCR. </p>
-                                            </li>
-                                                                                                                          
+                                                <p>Routine pulmonary health screening </p>
+                                            </li>                                                                                                                  
                                         </ul>
                                     </div>
                             </div>
@@ -566,15 +443,16 @@ export default function ICUSetupatHome() {
                     </div>
                 </div>
             </div>
-
+<br></br>
+<br></br>
             <div class="cta-area">
             <div class="container">
                 <div class="cta-wrap rounded-5 w-100">
-                    <div class="col-lg-7 mx-auto">
+                    <div class="col-lg-9 mx-auto">
                         <div class="cta-content">
-                            <h2>Struggling with Snoring, Fatigue, or Poor Sleep?  </h2>
+                            <h2>Breathe Easier With Professional Lung Health Testing </h2>
                             <p>
-                                Call 7891444333 to book your home sleep study.
+                                Call 7891444333 to schedule your lung function test today. 
                             </p>
                             <a href="tel:+91-7891444333" class="theme-btn">Call us now<i class="fas fa-arrow-right"></i></a>
                         </div>
@@ -582,6 +460,69 @@ export default function ICUSetupatHome() {
                 </div>
             </div>
         </div>
+<br></br><br></br>
+         <div class="pb-70 pt-50 lightdarkbg">
+                <div class="container">
+                    <div class="row">
+                        
+                        <div class="col-lg-6">
+                           <img className="imgborderwi" src="/assets/img/lft/Why.webp" alt="ICU Nurses" />
+                        </div>
+
+                        <div class="col-lg-6 whycaretb pt-50 pb-50">
+                            <div class="video-info wow fadeInUp insidep" data-wow-delay=".25s">
+                                <div class="site-heading mb-0">
+                                    <h3 class="site-title">Why Choose CareTAB.ai Services?</h3>                                  
+                                </div>
+                                <div class="feature-content">                                        
+                                        <ul class="listicon">
+                                            <li>
+                                                <img src="/assets/img/icon/listicon.png" />
+                                                <p>Convenient doorstep respiratory diagnostics.</p>
+                                            </li>
+                                            <li>
+                                                <img src="/assets/img/icon/listicon.png" />
+                                                <p>Advanced portable equipment for accurate testing.</p>
+                                            </li>
+                                            <li>
+                                                <img src="/assets/img/icon/listicon.png" />
+                                                <p>Experienced healthcare professionals and trained technicians.</p>
+                                            </li>
+                                            <li>
+                                                <img src="/assets/img/icon/listicon.png" />
+                                                <p>Comfortable testing in a familiar home environment.</p>
+                                            </li>
+                                            <li>
+                                                <img src="/assets/img/icon/listicon.png" />
+                                                <p>Accurate reports reviewed by qualified experts.</p>
+                                            </li>
+                                            <li>
+                                                <img src="/assets/img/icon/listicon.png" />
+                                                <p>Suitable for elderly patients and individuals with mobility limitations.</p>
+                                            </li>
+                                            <li>
+                                                <img src="/assets/img/icon/listicon.png" />
+                                                <p>Reduced hospital visits and waiting times.</p>
+                                            </li>
+                                            <li>
+                                                <img src="/assets/img/icon/listicon.png" />
+                                                <p>Timely appointment scheduling across Delhi NCR.</p>
+                                            </li>
+                                            <li>
+                                                <img src="/assets/img/icon/listicon.png" />
+                                                <p>Hygienic procedures with patient-first care.</p>
+                                            </li>
+                                            <li>
+                                                <img src="/assets/img/icon/listicon.png" />
+                                                <p>Trusted home healthcare solutions for comprehensive respiratory assessment.</p>
+                                            </li>                                                                                                                                                        
+                                        </ul>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
         {/* <!-- faq area --> */}
         <div class="faq-area pt-100 pb-80">
@@ -602,13 +543,13 @@ export default function ICUSetupatHome() {
                                 <h2 class="accordion-header" id="headingOne">
                                     <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                        <span><i class="far fa-question"></i></span> What is a sleep study at home?
+                                        <span><i class="far fa-question"></i></span> What is a PFT test at home?
                                     </button>
                                 </h2>
                                 <div id="collapseOne" class="accordion-collapse collapse show"
                                     aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                       A sleep study at home is an overnight diagnostic test that monitors breathing patterns, oxygen levels, heart rate, and sleep quality to identify sleep disorders. 
+                                       A PFT test at home evaluates lung performance and breathing capacity using portable respiratory diagnostic equipment. 
                                     </div>
                                 </div>
                             </div>
@@ -618,13 +559,15 @@ export default function ICUSetupatHome() {
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseThree" aria-expanded="false"
                                         aria-controls="collapseThree">
-                                        <span><i class="far fa-question"></i></span> Who should undergo a home sleep test?
+                                        <span><i class="far fa-question"></i></span> What conditions can a pulmonary function test help diagnose? 
                                     </button>
                                 </h2>
                                 <div id="collapseThree" class="accordion-collapse collapse"
                                     aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        <p>Individuals experiencing loud snoring, daytime fatigue, interrupted sleep, breathing pauses during sleep, or suspected sleep apnea may benefit from a home sleep test. </p>
+                                        <p>
+                                            A pulmonary function test helps assess asthma, COPD, chronic bronchitis, pulmonary fibrosis, and other respiratory disorders. 
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -633,14 +576,14 @@ export default function ICUSetupatHome() {
                                 <h2 class="accordion-header" id="headingTwo">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                        <span><i class="far fa-question"></i></span> What does a sleep apnea test at home measure? 
+                                        <span><i class="far fa-question"></i></span> What is included in a spirometry test at home?
                                     </button>
                                 </h2>
                                 <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                                     data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
                                         <p>
-                                            A sleep apnea test at home measures airflow, breathing effort, oxygen saturation, heart rate, and sleep-related respiratory events. 
+                                            A spirometry test at home measures airflow, breathing strength, and lung capacity to evaluate respiratory health. 
                                         </p>                                       
                                     </div>
                                 </div>
@@ -650,14 +593,14 @@ export default function ICUSetupatHome() {
                                 <h2 class="accordion-header" id="headingFour">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                        <span><i class="far fa-question"></i></span> What is the sleep study test cost in Delhi? 
+                                        <span><i class="far fa-question"></i></span> Why is a lung capacity test at home recommended?
                                     </button>
                                 </h2>
                                 <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
                                     data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
                                         <p>
-                                            The sleep study test cost in Delhi varies depending on the type of monitoring and reporting required. Contact CareTAB.ai for current pricing and package details. 
+                                            A lung capacity test at home helps doctors assess breathing efficiency and monitor chronic respiratory conditions. 
                                         </p>                                       
                                     </div>
                                 </div>
@@ -666,14 +609,14 @@ export default function ICUSetupatHome() {
                                 <h2 class="accordion-header" id="headingFive">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                        <span><i class="far fa-question"></i></span> Can a sleep study detect restless leg syndrome? 
+                                        <span><i class="far fa-question"></i></span> How should I prepare for a lung function test?
                                     </button>
                                 </h2>
                                 <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
                                     data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
                                         <p>
-                                            Yes. Specialized sleep monitoring can help evaluate abnormal limb movements and assist in the diagnosis of restless leg syndrome and related sleep disorders. 
+                                            Patients may be advised to avoid smoking, heavy meals, or certain medications before testing, depending on physician recommendations.
                                         </p>                                       
                                     </div>
                                 </div>

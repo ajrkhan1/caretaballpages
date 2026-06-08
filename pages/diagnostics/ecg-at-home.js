@@ -296,7 +296,7 @@ export default function ICUSetupatHome() {
                                     <div class="bannerform align-items-center">
                                         <div class="quote-header">
                                             {/* <h4>Book an appointment with our expert</h4> */}
-                                            <h4>Book Your Services!</h4>
+                                            <h2 style={{ fontSize: "20px" }}>Book Your Services!</h2>
                                         </div>
                                         <form id="contactForm" onSubmit={registerUser}>
                                             <div class="row">
@@ -411,9 +411,9 @@ export default function ICUSetupatHome() {
                                 </div>
                                 <div class="blog-item-info">
                                     <div class="blog-item-meta">
-                                        <h4 class="blog-title">
+                                        <h3 class="blog-title">
                                             <a href="#">Chest Pain Evaluation</a>
-                                        </h4>
+                                        </h3>
                                     </div>
                                     <p>
                                          Helps assess potential cardiac abnormalities and heart-related symptoms. 
@@ -426,9 +426,9 @@ export default function ICUSetupatHome() {
                                 </div>
                                 <div class="blog-item-info">
                                     <div class="blog-item-meta">
-                                        <h4 class="blog-title">
+                                        <h3 class="blog-title">
                                             <a href="#">Irregular Heartbeat Monitoring</a>
-                                        </h4>
+                                        </h3>
                                     </div>
                                     <p>
                                         Detects rhythm disturbances and supports early diagnosis. 
@@ -441,9 +441,9 @@ export default function ICUSetupatHome() {
                                 </div>
                                 <div class="blog-item-info">
                                     <div class="blog-item-meta">
-                                        <h4 class="blog-title">
+                                        <h3 class="blog-title">
                                             <a href="#">Routine Cardiac Screening</a>
-                                        </h4>
+                                        </h3>
                                     </div>
                                     <p>
                                         A convenient heart test at home for preventive health monitoring.
@@ -456,9 +456,9 @@ export default function ICUSetupatHome() {
                                 </div>
                                 <div class="blog-item-info">
                                     <div class="blog-item-meta">
-                                        <h4 class="blog-title">
+                                        <h3 class="blog-title">
                                             <a href="#">Senior Citizen Care</a>
-                                        </h4>
+                                        </h3>
                                     </div>
                                     <p>
                                         Regular cardiac assessments without the stress of travel.
@@ -471,9 +471,9 @@ export default function ICUSetupatHome() {
                                 </div>
                                 <div class="blog-item-info">
                                     <div class="blog-item-meta">
-                                        <h4 class="blog-title">
+                                        <h3 class="blog-title">
                                             <a href="#">Post-Surgery Monitoring</a>
-                                        </h4>
+                                        </h3>
                                     </div>
                                     <p>
                                         Supports recovery and ongoing heart health evaluation.
@@ -486,9 +486,9 @@ export default function ICUSetupatHome() {
                                 </div>
                                 <div class="blog-item-info">
                                     <div class="blog-item-meta">
-                                        <h4 class="blog-title">
+                                        <h3 class="blog-title">
                                             <a href="#">Emergency Cardiac Assessment</a>
-                                        </h4>
+                                        </h3>
                                     </div>
                                     <p>
                                         Quick access to professional testing when immediate evaluation is needed. 
@@ -573,7 +573,7 @@ export default function ICUSetupatHome() {
                 <div class="cta-wrap rounded-5 w-100">
                     <div class="col-lg-7 mx-auto">
                         <div class="cta-content">
-                            <h1>Prioritize Your Heart Health From Home</h1>
+                            <h2>Prioritize Your Heart Health From Home</h2>
                             <p>
                                 Call 7891444333 to book your ECG at home today. 
                             </p>

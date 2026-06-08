@@ -336,7 +336,7 @@ export default function Home() {
                                     <div class="bannerform align-items-center">
                                         <div class="quote-header">
                                             {/* <h4>Book an appointment with our expert</h4> */}
-                                            <h4>Book Your Services!</h4>
+                                            <h2 style={{ fontSize: "20px" }}>Book Your Services!</h2>
                                         </div>
                                         <form id="contactForm" onSubmit={registerUser}>
                                             <div class="row">
@@ -451,7 +451,7 @@ export default function Home() {
                                                     <img src="/assets/img/nursingcare/icon/IVIM injection.svg" alt="" />
                                                 </div>
                                                 <div class="choose-item-info">
-                                                    <h4>IV/IM <br></br>injection</h4>
+                                                    <h3>IV/IM <br></br>injection</h3>
                                                 </div>
                                             </div>
                                         </div>
@@ -461,7 +461,7 @@ export default function Home() {
                                                     <img src="/assets/img/nursingcare/icon/Routine vital monitoring.svg" alt="" />
                                                 </div>
                                                 <div class="choose-item-info">
-                                                    <h4>Routine vital  <br></br>monitoring</h4>
+                                                    <h3>Routine vital  <br></br>monitoring</h3>
                                                 </div>
                                             </div>
                                         </div>
@@ -471,7 +471,7 @@ export default function Home() {
                                                     <img src="/assets/img/nursingcare/icon/Blood sugar check-up.svg" alt="Blood sugar check-up" />
                                                 </div>
                                                 <div class="choose-item-info">
-                                                    <h4>Blood sugar <br></br>check-up </h4>
+                                                    <h3>Blood sugar <br></br>check-up </h3>
                                                 </div>
                                             </div>
                                         </div>
@@ -481,7 +481,7 @@ export default function Home() {
                                                     <img src="/assets/img/nursingcare/icon/Wound dressing & suture removal.svg" alt="Wound dressing & suture removal" />
                                                 </div>
                                                 <div class="choose-item-info">
-                                                    <h4>Wound dressing & <br></br>suture removal </h4>
+                                                    <h3>Wound dressing & <br></br>suture removal </h3>
                                                 </div>
                                             </div>
                                         </div>
@@ -528,7 +528,7 @@ export default function Home() {
                                                                 <img src="/assets/img/icon/citizen.png" alt="" />
                                                             </div>
                                                             <div class="choose-item-info">
-                                                                <h4 className="margobb0">Post-Surgical & Discharge Nursing Care </h4>
+                                                                <h3 className="margobb0">Post-Surgical & Discharge Nursing Care </h3>
                                                                 {/* <p>Trusted hospital backing. Reliable care at home.</p> */}
                                                             </div>
                                                         </div>
@@ -541,7 +541,7 @@ export default function Home() {
                                                                 <img src="/assets/img/icon/help.png" alt="" />
                                                             </div>
                                                             <div class="choose-item-info">
-                                                                <h4 className="margobb0">Chronic & Long-Term Illness Nursing Care</h4>
+                                                                <h3 className="margobb0">Chronic & Long-Term Illness Nursing Care</h3>
                                                                 {/* <p>Doctors lead your care, not just approve it.</p> */}
                                                             </div>
                                                         </div>
@@ -554,7 +554,7 @@ export default function Home() {
                                                                 <img src="/assets/img/icon/protocol.png" alt="" />
                                                             </div>
                                                             <div class="choose-item-info">
-                                                                <h4 className="margobb0">Palliative and End of Life Nursing Care</h4>
+                                                                <h3 className="margobb0">Palliative and End of Life Nursing Care</h3>
                                                                 {/* <p>We follow the same standards as hospitals.</p> */}
                                                             </div>
                                                         </div>
@@ -567,7 +567,7 @@ export default function Home() {
                                                                 <img src="/assets/img/icon/medical-team.png" alt="" />
                                                             </div>
                                                             <div class="choose-item-info">
-                                                                <h4 className="margobb0">Specialised Nursing Care Plan</h4>
+                                                                <h3 className="margobb0">Specialised Nursing Care Plan</h3>
                                                                 {/* <p>Trained, certified nurses and caregivers.</p> */}
                                                             </div>
                                                         </div>
@@ -589,7 +589,7 @@ export default function Home() {
                                                             <img src="/assets/img/nursingcare/icon/Post-Surgical & Discharge Nursing Care.svg" alt="" />
                                                         </div>
                                                         <div class="choose-item-info">
-                                                            <h4>Post-Surgical & Discharge <br></br>Nursing Care </h4>
+                                                            <h3>Post-Surgical & Discharge <br></br>Nursing Care </h3>
                                                         </div>
                                                     </div>
                                                 </div>                                                
@@ -608,7 +608,7 @@ export default function Home() {
                                                             <img src="/assets/img/nursingcare/icon/Chronic & Long-Term Illness Nursing Care.svg" alt="" />
                                                         </div>
                                                         <div class="choose-item-info">
-                                                            <h4>Chronic & Long-Term Illness Nursing Care </h4>
+                                                            <h3>Chronic & Long-Term Illness Nursing Care </h3>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -628,7 +628,7 @@ export default function Home() {
                                                             <img src="/assets/img/nursingcare/icon/Comfort-focused support.svg" alt="" />
                                                         </div>
                                                         <div class="choose-item-info">
-                                                            <h4>Comfort-focused support </h4>
+                                                            <h3>Comfort-focused support </h3>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -638,7 +638,7 @@ export default function Home() {
                                                             <img src="/assets/img/nursingcare/icon/Symptomatic relief.svg" alt="" />
                                                         </div>
                                                         <div class="choose-item-info">
-                                                            <h4>Symptomatic relief</h4>
+                                                            <h3>Symptomatic relief</h3>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -648,7 +648,7 @@ export default function Home() {
                                                             <img src="/assets/img/nursingcare/icon/Dignity and emotional care for patients and families.svg" alt="" />
                                                         </div>
                                                         <div class="choose-item-info">
-                                                            <h4>Dignity and emotional care for patients and families. </h4>
+                                                            <h3>Dignity and emotional care for patients and families. </h3>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -667,7 +667,7 @@ export default function Home() {
                                                             <img src="/assets/img/nursingcare/icon/Rehabilitation nursing.svg" alt="" />
                                                         </div>
                                                         <div class="choose-item-info">
-                                                            <h4>Rehabilitation nursing (stroke, trauma, spinal injury) </h4>
+                                                            <h3>Rehabilitation nursing (stroke, trauma, spinal injury) </h3>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -677,7 +677,7 @@ export default function Home() {
                                                             <img src="/assets/img/nursingcare/icon/Psychiatric home nursing care.svg" alt="Psychiatric home nursing care" />
                                                         </div>
                                                         <div class="choose-item-info">
-                                                            <h4>Psychiatric home nursing care </h4>
+                                                            <h3>Psychiatric home nursing care </h3>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -886,7 +886,7 @@ export default function Home() {
                 <div class="cta-wrap rounded-5 w-100">
                     <div class="col-lg-7 mx-auto">
                         <div class="cta-content">
-                            <h1>Professional Nursing Care, Anytime, <br></br>Right at Your Home!</h1>
+                            <h2>Professional Nursing Care, Anytime, <br></br>Right at Your Home!</h2>
                             <p>
                                 Get the right care, at the right time, in the right place, your home.
                             </p>

@@ -29,7 +29,7 @@ export default function Footer() {
                                 <i class="far fa-envelope"></i>
                             </div>
                             <div class="content">
-                                <h6>Email</h6>
+                                <h4 style={{ fontSize: "16px", marginBottom: "0px" }}>Email</h4>
                                 <a href="mailto:info@caretab.ai">info@caretab.ai</a>
                             </div>
                         </li>
@@ -38,7 +38,7 @@ export default function Footer() {
                                 <i class="far fa-phone"></i>
                             </div>
                             <div class="content">
-                                <h6>Phone</h6>
+                                <h4 style={{ fontSize: "16px", marginBottom: "0px" }}>Phone</h4>
                                 <a href="tel:+91-7891-444-333">+91-7891-444-333</a>
                             </div>
                         </li>
@@ -70,7 +70,7 @@ export default function Footer() {
                                     CareTAB.ai is built and managed by a team of experienced doctors and nurses. Using all-round healthcare technology, we deliver reliable, efficient & high-quality medical care, right where you are.
                                 </p>
                                 <div class="footer-newsletter">
-                                    <h6>Subscribe Our Newsletter</h6>
+                                    <h5>Subscribe Our Newsletter</h5>
                                     <div class="newsletter-form">
                                         <form action="#">
                                             <div class="form-group">
@@ -123,7 +123,7 @@ export default function Footer() {
                                             <i class="far fa-location-dot"></i>
                                         </div>
                                         <div class="content">
-                                            <h6>Delhi Office:</h6>
+                                            <h5>Delhi Office:</h5>
                                             <p>Plot No. 1, Basement Karuna Kunj, Sector-3, Dwarka, New Delhi</p>
                                         </div>
                                     </li>
@@ -132,7 +132,7 @@ export default function Footer() {
                                             <i class="far fa-location-dot"></i>
                                         </div>
                                         <div class="content">
-                                            <h6>Gurugram Office:</h6>
+                                            <h5>Gurugram Office:</h5>
                                             <p>Plot No. 231, Phase IV, Udyog Vihar, Sector 18, Gurugram, Haryana 122001</p>
                                         </div>
                                     </li>
@@ -141,7 +141,7 @@ export default function Footer() {
                                             <i class="far fa-phone"></i>
                                         </div>
                                         <div class="content">
-                                            <h6>Call Us</h6>
+                                            <h5>Call Us</h5>
                                             <a href="tel:+91-7891-444-333">+91-7891-444-333</a>
                                         </div>
                                     </li>
@@ -150,7 +150,7 @@ export default function Footer() {
                                             <i class="far fa-envelope"></i>
                                         </div>
                                         <div class="content">
-                                            <h6>Mail Us</h6>
+                                            <h5>Mail Us</h5>
                                             <a href="mailto:connect@caretab.ai">connect@caretab.ai</a>
                                         </div>
                                     </li>

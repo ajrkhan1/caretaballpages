@@ -296,7 +296,7 @@ export default function ICUSetupatHome() {
                                     <div class="bannerform align-items-center">
                                         <div class="quote-header">
                                             {/* <h4>Book an appointment with our expert</h4> */}
-                                            <h4>Book Your Services!</h4>
+                                            <h2 style={{ fontSize: "20px" }}>Book Your Services!</h2>
                                         </div>
                                         <form id="contactForm" onSubmit={registerUser}>
                                             <div class="row">
@@ -421,7 +421,7 @@ export default function ICUSetupatHome() {
                                                                             <img src="/assets/img/icon/citizen.png" alt="" />
                                                                         </div>
                                                                         <div class="choose-item-info">
-                                                                            <h4 className="margobb0">Complete Critical Care Medical Equipment,</h4>
+                                                                            <h3 className="margobb0">Complete Critical Care Medical Equipment,</h3>
                                                                             {/* <p>Trusted hospital backing. Reliable care at home.</p> */}
                                                                         </div>
                                                                     </div>
@@ -434,7 +434,7 @@ export default function ICUSetupatHome() {
                                                                             <img src="/assets/img/icon/help.png" alt="" />
                                                                         </div>
                                                                         <div class="choose-item-info">
-                                                                            <h4 className="margobb0">ICU Nurses</h4>
+                                                                            <h3 className="margobb0">ICU Nurses</h3>
                                                                             {/* <p>Doctors lead your care, not just approve it.</p> */}
                                                                         </div>
                                                                     </div>
@@ -447,7 +447,7 @@ export default function ICUSetupatHome() {
                                                                             <img src="/assets/img/icon/protocol.png" alt="" />
                                                                         </div>
                                                                         <div class="choose-item-info">
-                                                                            <h4 className="margobb0">Specialist Doctor Supervision</h4>
+                                                                            <h3 className="margobb0">Specialist Doctor Supervision</h3>
                                                                             {/* <p>We follow the same standards as hospitals.</p> */}
                                                                         </div>
                                                                     </div>
@@ -460,7 +460,7 @@ export default function ICUSetupatHome() {
                                                                             <img src="/assets/img/icon/medical-team.png" alt="" />
                                                                         </div>
                                                                         <div class="choose-item-info">
-                                                                            <h4 className="margobb0">Home Health Care Attendant</h4>
+                                                                            <h3 className="margobb0">Home Health Care Attendant</h3>
                                                                             {/* <p>Trained, certified nurses and caregivers.</p> */}
                                                                         </div>
                                                                     </div>
@@ -473,7 +473,7 @@ export default function ICUSetupatHome() {
                                                                             <img src="/assets/img/icon/medical-team.png" alt="" />
                                                                         </div>
                                                                         <div class="choose-item-info">
-                                                                            <h4 className="margobb0">Physiotherapy Visit</h4>
+                                                                            <h3 className="margobb0">Physiotherapy Visit</h3>
                                                                             {/* <p>Trained, certified nurses and caregivers.</p> */}
                                                                         </div>
                                                                     </div>
@@ -486,7 +486,7 @@ export default function ICUSetupatHome() {
                                                                             <img src="/assets/img/icon/medical-team.png" alt="" />
                                                                         </div>
                                                                         <div class="choose-item-info">
-                                                                            <h4 className="margobb0">Medical Investigations, etc.</h4>
+                                                                            <h3 className="margobb0">Medical Investigations, etc.</h3>
                                                                             {/* <p>Trained, certified nurses and caregivers.</p> */}
                                                                         </div>
                                                                     </div>
@@ -509,7 +509,7 @@ export default function ICUSetupatHome() {
                                                                         <img src="/assets/img/nursingcare/icon/Multipara monitors.svg" alt="Multipara monitors" />
                                                                     </div>
                                                                     <div class="choose-item-info">
-                                                                        <h4>Multipara monitors </h4>
+                                                                        <h3>Multipara monitors </h3>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -520,7 +520,7 @@ export default function ICUSetupatHome() {
                                                                         <img src="/assets/img/nursingcare/icon/Oxygen concentratorscylinders.svg" alt="Oxygen concentratorscylinders" />
                                                                     </div>
                                                                     <div class="choose-item-info">
-                                                                        <h4>Oxygen concentrators/cylinders</h4>
+                                                                        <h3>Oxygen concentrators/cylinders</h3>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -531,7 +531,7 @@ export default function ICUSetupatHome() {
                                                                         <img src="/assets/img/nursingcare/icon/Suction machines.svg" alt="Suction machines" />
                                                                     </div>
                                                                     <div class="choose-item-info">
-                                                                        <h4>Suction machines </h4>
+                                                                        <h3>Suction machines </h3>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -542,7 +542,7 @@ export default function ICUSetupatHome() {
                                                                         <img src="/assets/img/nursingcare/icon/BiPAP.svg" alt="BiPAP" />
                                                                     </div>
                                                                     <div class="choose-item-info">
-                                                                        <h4>BiPAP</h4>
+                                                                        <h3>BiPAP</h3>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -553,7 +553,7 @@ export default function ICUSetupatHome() {
                                                                         <img src="/assets/img/nursingcare/icon/CPAP.svg" alt="CPAP" />
                                                                     </div>
                                                                     <div class="choose-item-info">
-                                                                        <h4>CPAP</h4>
+                                                                        <h3>CPAP</h3>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -564,7 +564,7 @@ export default function ICUSetupatHome() {
                                                                         <img src="/assets/img/nursingcare/icon/Ventilators.svg" alt="Ventilators" />
                                                                     </div>
                                                                     <div class="choose-item-info">
-                                                                        <h4>Ventilators</h4>
+                                                                        <h3>Ventilators</h3>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -575,7 +575,7 @@ export default function ICUSetupatHome() {
                                                                         <img src="/assets/img/nursingcare/icon/Syringe & infusion pumps.svg" alt="Syringe & infusion pumps" />
                                                                     </div>
                                                                     <div class="choose-item-info">
-                                                                        <h4>Syringe & infusion pumps</h4>
+                                                                        <h3>Syringe & infusion pumps</h3>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -586,7 +586,7 @@ export default function ICUSetupatHome() {
                                                                         <img src="/assets/img/nursingcare/icon/Nebulizers.svg" alt="Nebulizers" />
                                                                     </div>
                                                                     <div class="choose-item-info">
-                                                                        <h4>Nebulizers</h4>
+                                                                        <h3>Nebulizers</h3>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -597,7 +597,7 @@ export default function ICUSetupatHome() {
                                                                         <img src="/assets/img/nursingcare/icon/Hospital beds with air mattress.svg" alt="Hospital beds with air mattress" />
                                                                     </div>
                                                                     <div class="choose-item-info">
-                                                                        <h4>Hospital beds with air mattress</h4>
+                                                                        <h3>Hospital beds with air mattress</h3>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -1155,7 +1155,7 @@ export default function ICUSetupatHome() {
            {/* <!-- Benefits --> */}
         <div class="feature-area pt-100 ajboxx">
             <div class="container">
-                <div class="feature-wrapper">
+                <div class="feature-wrapper benifitsh3">
                     <div class="row g-4 slpadding">
                         <div className="col-sm-12">
                             <div class="site-heading mb-0">
@@ -1171,7 +1171,7 @@ export default function ICUSetupatHome() {
                                     <img src="/assets/img/icon/nurse.svg" alt=""/>
                                 </div>
                                 <div class="feature-content">
-                                    <h4>Comfort & Familiarity</h4>
+                                    <h3>Comfort & Familiarity</h3>
                                     <p>Healing in a home environment surrounded by loved ones </p>
                                 </div>
                             </div>
@@ -1183,7 +1183,7 @@ export default function ICUSetupatHome() {
                                     <img src="/assets/img/icon/institute.svg" alt=""/>
                                 </div>
                                 <div class="feature-content">
-                                    <h4>Dedicated Critical Care Team</h4>
+                                    <h3>Dedicated Critical Care Team</h3>
                                     <p>Skilled ICU nurses and doctors</p>
                                 </div>
                             </div>
@@ -1195,7 +1195,7 @@ export default function ICUSetupatHome() {
                                     <img src="/assets/img/icon/money.svg" alt=""/>
                                 </div>
                                 <div class="feature-content">
-                                    <h4>Personalized Attention</h4>
+                                    <h3>Personalized Attention</h3>
                                     <p>One-on-one monitoring and care</p>
                                 </div>
                             </div>
@@ -1207,7 +1207,7 @@ export default function ICUSetupatHome() {
                                     <img src="/assets/img/icon/support.svg" alt=""/>
                                 </div>
                                 <div class="feature-content">
-                                    <h4>Continuity of Care</h4>
+                                    <h3>Continuity of Care</h3>
                                     <p>Smooth transition from hospital ICU to home ICU setup</p>
                                 </div>
                             </div>
@@ -1219,7 +1219,7 @@ export default function ICUSetupatHome() {
                                     <img src="/assets/img/icon/support.svg" alt=""/>
                                 </div>
                                 <div class="feature-content">
-                                    <h4>Reduce infection exposure</h4>
+                                    <h3>Reduce infection exposure</h3>
                                     <p>Professional-grade medical equipment and strict hygiene protocols</p>
                                 </div>
                             </div>
@@ -1295,7 +1295,7 @@ export default function ICUSetupatHome() {
                 <div class="cta-wrap rounded-5 w-100">
                     <div class="col-lg-7 mx-auto">
                         <div class="cta-content">
-                            <h1>Because comfort matters, even in crisis…</h1>
+                            <h2>Because comfort matters, even in crisis…</h2>
                             <p>
                                 When critical care is needed, you shouldn’t have to choose between a hospital stay and home comfort. With CareTAB.ai, you can have both.
                             </p>

@@ -296,7 +296,7 @@ export default function ICUSetupatHome() {
                                     <div class="bannerform align-items-center">
                                         <div class="quote-header">
                                             {/* <h4>Book an appointment with our expert</h4> */}
-                                            <h4>Book Your Services!</h4>
+                                            <h2 style={{ fontSize: "20px" }}>Book Your Services!</h2>
                                         </div>
                                         <form id="contactForm" onSubmit={registerUser}>
                                             <div class="row">
@@ -450,7 +450,7 @@ export default function ICUSetupatHome() {
                 <div class="cta-wrap rounded-5 w-100">
                     <div class="col-lg-9 mx-auto">
                         <div class="cta-content">
-                            <h1>Breathe Easier With Professional Lung Health Testing </h1>
+                            <h2>Breathe Easier With Professional Lung Health Testing </h2>
                             <p>
                                 Call 7891444333 to schedule your lung function test today. 
                             </p>
@@ -472,7 +472,7 @@ export default function ICUSetupatHome() {
                         <div class="col-lg-6 whycaretb pt-50 pb-50">
                             <div class="video-info wow fadeInUp insidep" data-wow-delay=".25s">
                                 <div class="site-heading mb-0">
-                                    <h2 class="site-title">Why Choose CareTAB.ai Services?</h2>                                  
+                                    <h3 class="site-title">Why Choose CareTAB.ai Services?</h3>                                  
                                 </div>
                                 <div class="feature-content">                                        
                                         <ul class="listicon">

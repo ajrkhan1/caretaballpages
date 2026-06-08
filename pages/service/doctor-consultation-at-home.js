@@ -313,7 +313,7 @@ export default function DoctorConsultationatHome() {
                                     <div class="bannerform align-items-center">
                                         <div class="quote-header">
                                             {/* <h4>Book an appointment with our expert</h4> */}
-                                            <h4>Book Your Services!</h4>
+                                            <h2 style={{ fontSize: "20px" }}>Book Your Services!</h2>
                                         </div>
                                         <form id="contactForm" onSubmit={registerUser}>
                                             <div class="row">
@@ -427,9 +427,9 @@ export default function DoctorConsultationatHome() {
                                 </div>
                                 <div class="blog-item-info">
                                     <div class="blog-item-meta">
-                                        <h4 class="blog-title">
+                                        <h3 class="blog-title">
                                             <a href="#">Appointment-Based Online Doctor Consultation</a>
-                                        </h4>
+                                        </h3>
                                     </div>
                                     <p>
                                        Schedule an appointment-based online doctor consultation to discuss symptoms, review reports, and get prescriptions without stepping out. 
@@ -459,9 +459,9 @@ export default function DoctorConsultationatHome() {
                                 </div>
                                 <div class="blog-item-info">
                                     <div class="blog-item-meta">
-                                        <h4 class="blog-title">
+                                        <h3 class="blog-title">
                                             <a href="#">Home Visit by Doctors (On-Demand)</a>
-                                        </h4>
+                                        </h3>
                                     </div>
                                     <p>
                                         Whether it’s routine check-ups, follow-ups, or personal medical attention, our doctors can come directly to your home, on your schedule.
@@ -543,7 +543,7 @@ export default function DoctorConsultationatHome() {
                                                     <img src="/assets/img/nursingcare/icon/General Medicine.svg" alt="" />
                                                 </div>
                                                 <div class="choose-item-info">
-                                                    <h4>General Medicine</h4>                                                    
+                                                    <h3>General Medicine</h3>                                                    
                                                 </div>
                                             </div>
                                         </div>
@@ -553,7 +553,7 @@ export default function DoctorConsultationatHome() {
                                                     <img src="/assets/img/nursingcare/icon/Critical Care.svg" alt="" />
                                                 </div>
                                                 <div class="choose-item-info">
-                                                    <h4>Critical Care </h4>
+                                                    <h3>Critical Care </h3>
                                                 </div>
                                             </div>
                                         </div>
@@ -622,7 +622,7 @@ export default function DoctorConsultationatHome() {
                 <div class="cta-wrap rounded-5 w-100">
                     <div class="col-lg-7 mx-auto">
                         <div class="cta-content">
-                            <h1>Your Doctor is Just One Call Away!</h1>
+                            <h2>Your Doctor is Just One Call Away!</h2>
                             <p>
                                 Getting medical help is now as simple as making a call. With CareTAB.ai, expert care is always within reach, whether it’s online or at your doorstep.
                             </p>

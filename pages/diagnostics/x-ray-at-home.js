@@ -296,7 +296,7 @@ export default function ICUSetupatHome() {
                                     <div class="bannerform align-items-center">
                                         <div class="quote-header">
                                             {/* <h4>Book an appointment with our expert</h4> */}
-                                            <h4>Book Your Services!</h4>
+                                            <h2 style={{ fontSize: "20px" }}>Book Your Services!</h2>
                                         </div>
                                         <form id="contactForm" onSubmit={registerUser}>
                                             <div class="row">
@@ -412,9 +412,9 @@ export default function ICUSetupatHome() {
                                 </div>
                                 <div class="blog-item-info">
                                     <div class="blog-item-meta">
-                                        <h4 class="blog-title">
+                                        <h3 class="blog-title">
                                             <a href="#">Chest X-Ray</a>
-                                        </h4>
+                                        </h3>
                                     </div>
                                     <p>
                                          For respiratory infections, pneumonia screening, and lung health assessment. 
@@ -427,9 +427,9 @@ export default function ICUSetupatHome() {
                                 </div>
                                 <div class="blog-item-info">
                                     <div class="blog-item-meta">
-                                        <h4 class="blog-title">
+                                        <h3 class="blog-title">
                                             <a href="#">Knee & Joint X-Ray</a>
-                                        </h4>
+                                        </h3>
                                     </div>
                                     <p>
                                         Helps evaluate arthritis, joint pain, injuries, and degeneration.
@@ -442,9 +442,9 @@ export default function ICUSetupatHome() {
                                 </div>
                                 <div class="blog-item-info">
                                     <div class="blog-item-meta">
-                                        <h4 class="blog-title">
+                                        <h3 class="blog-title">
                                             <a href="#">Shoulder X-Ray</a>
-                                        </h4>
+                                        </h3>
                                     </div>
                                     <p>
                                         Useful for fractures, dislocations, and mobility-related concerns.
@@ -457,9 +457,9 @@ export default function ICUSetupatHome() {
                                 </div>
                                 <div class="blog-item-info">
                                     <div class="blog-item-meta">
-                                        <h4 class="blog-title">
+                                        <h3 class="blog-title">
                                             <a href="#">Spine X-Ray</a>
-                                        </h4>
+                                        </h3>
                                     </div>
                                     <p>
                                         Supports diagnosis of back pain, spinal alignment, and injury assessment. 
@@ -472,9 +472,9 @@ export default function ICUSetupatHome() {
                                 </div>
                                 <div class="blog-item-info">
                                     <div class="blog-item-meta">
-                                        <h4 class="blog-title">
+                                        <h3 class="blog-title">
                                             <a href="#">Hip & Pelvis X-Ray</a>
-                                        </h4>
+                                        </h3>
                                     </div>
                                     <p>
                                         Recommended for trauma, fractures, and post-operative evaluations. 
@@ -487,9 +487,9 @@ export default function ICUSetupatHome() {
                                 </div>
                                 <div class="blog-item-info">
                                     <div class="blog-item-meta">
-                                        <h4 class="blog-title">
+                                        <h3 class="blog-title">
                                             <a href="#">Hand, Wrist & Foot X-Ray</a>
-                                        </h4>
+                                        </h3>
                                     </div>
                                     <p>
                                         For sprains, fractures, sports injuries, and orthopedic conditions.
@@ -575,7 +575,7 @@ export default function ICUSetupatHome() {
                 <div class="cta-wrap rounded-5 w-100">
                     <div class="col-lg-7 mx-auto">
                         <div class="cta-content">
-                            <h1>Need an X-Ray Without Visiting a Hospital?</h1>
+                            <h2>Need an X-Ray Without Visiting a Hospital?</h2>
                             <p>
                                 Call 7891444333 to schedule your home X-ray today. 
                             </p>

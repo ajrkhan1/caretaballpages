@@ -452,7 +452,7 @@ export default function Physiotherapy() {
                                     <div class="bannerform align-items-center">
                                         <div class="quote-header">
                                             {/* <h4>Book an appointment with our expert</h4> */}
-                                            <h4>Book Your Services!</h4>
+                                            <h2 style={{ fontSize: "20px" }}>Book Your Services!</h2>
                                         </div>
                                         <form id="contactForm" onSubmit={registerUser}>
                                             <div class="row">
@@ -540,9 +540,9 @@ export default function Physiotherapy() {
                                 </div>
                                 <div class="blog-item-info">
                                     <div class="blog-item-meta">
-                                        <h4 class="blog-title">
+                                        <h3 class="blog-title">
                                             <a href="#">Care in the Comfort of Home</a>
-                                        </h4>
+                                        </h3>
                                     </div>
                                     <p>
                                         Receive expert therapy without the stress of travel.
@@ -555,9 +555,9 @@ export default function Physiotherapy() {
                                 </div>
                                 <div class="blog-item-info">
                                     <div class="blog-item-meta">
-                                        <h4 class="blog-title">
+                                        <h3 class="blog-title">
                                             <a href="#">Personalized Attention</a>
-                                        </h4>
+                                        </h3>
                                     </div>
                                     <p>
                                         One-on-one care designed around your condition and lifestyle.
@@ -570,9 +570,9 @@ export default function Physiotherapy() {
                                 </div>
                                 <div class="blog-item-info">
                                     <div class="blog-item-meta">
-                                        <h4 class="blog-title">
+                                        <h3 class="blog-title">
                                             <a href="#">Faster Recovery</a>
-                                        </h4>
+                                        </h3>
                                     </div>
                                     <p>
                                         Regular, consistent sessions speed up healing and improve outcomes.
@@ -585,9 +585,9 @@ export default function Physiotherapy() {
                                 </div>
                                 <div class="blog-item-info">
                                     <div class="blog-item-meta">
-                                        <h4 class="blog-title">
+                                        <h3 class="blog-title">
                                             <a href="#">Pain & Mobility Management</a>
-                                        </h4>
+                                        </h3>
                                     </div>
                                     <p>
                                         Helps reduce pain, improve flexibility, and restore strength.
@@ -600,9 +600,9 @@ export default function Physiotherapy() {
                                 </div>
                                 <div class="blog-item-info">
                                     <div class="blog-item-meta">
-                                        <h4 class="blog-title">
+                                        <h3 class="blog-title">
                                             <a href="#">Holistic Support</a>
-                                        </h4>
+                                        </h3>
                                     </div>
                                     <p>
                                         Focuses on physical, emotional, and functional well-being.
@@ -615,9 +615,9 @@ export default function Physiotherapy() {
                                 </div>
                                 <div class="blog-item-info">
                                     <div class="blog-item-meta">
-                                        <h4 class="blog-title">
+                                        <h3 class="blog-title">
                                             <a href="#">Prevents Complications</a>
-                                        </h4>
+                                        </h3>
                                     </div>
                                     <p>
                                         Reduces chances of stiffness, contractures, or re-injury.
@@ -656,7 +656,7 @@ export default function Physiotherapy() {
                                                                 <img src="/assets/img/icon/medical-team.png" alt="" />
                                                             </div>
                                                             <div class="choose-item-info">
-                                                                <h4 className="margobb0">Post Surgical Rehabilitation</h4>
+                                                                <h3 className="margobb0">Post Surgical Rehabilitation</h3>
 
                                                             </div>
                                                         </div>
@@ -670,7 +670,7 @@ export default function Physiotherapy() {
                                                                 <img src="/assets/img/icon/help.png" alt="" />
                                                             </div>
                                                             <div class="choose-item-info">
-                                                                <h4 className="margobb0">Neurological Rehabilitation</h4>
+                                                                <h3 className="margobb0">Neurological Rehabilitation</h3>
 
                                                             </div>
                                                         </div>
@@ -684,7 +684,7 @@ export default function Physiotherapy() {
                                                                 <img src="/assets/img/icon/protocol.png" alt="" />
                                                             </div>
                                                             <div class="choose-item-info">
-                                                                <h4 className="margobb0">Cardiac Rehabilitation </h4>
+                                                                <h3 className="margobb0">Cardiac Rehabilitation </h3>
 
                                                             </div>
                                                         </div>
@@ -697,7 +697,7 @@ export default function Physiotherapy() {
                                                                 <img src="/assets/img/icon/medical-team.png" alt="" />
                                                             </div>
                                                             <div class="choose-item-info">
-                                                                <h4 className="margobb0">Pain management</h4>
+                                                                <h3 className="margobb0">Pain management</h3>
 
                                                             </div>
                                                         </div>
@@ -905,7 +905,7 @@ export default function Physiotherapy() {
                     <div class="cta-wrap rounded-5 w-100">
                         <div class="col-lg-7 mx-auto">
                             <div class="cta-content">
-                                <h1>Rebuild strength with expert guidance</h1>
+                                <h2>Rebuild strength with expert guidance</h2>
                                 <p>
                                     Take the first step toward recovery and better mobility. With CareTAB.ai, best physiotherapy at home services, care is just a call away.
                                 </p>

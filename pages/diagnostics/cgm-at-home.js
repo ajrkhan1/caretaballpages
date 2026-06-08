@@ -296,7 +296,7 @@ export default function ICUSetupatHome() {
                                     <div class="bannerform align-items-center">
                                         <div class="quote-header">
                                             {/* <h4>Book an appointment with our expert</h4> */}
-                                            <h4>Book Your Services!</h4>
+                                            <h2 style={{ fontSize: "20px" }}>Book Your Services!</h2>
                                         </div>
                                         <form id="contactForm" onSubmit={registerUser}>
                                             <div class="row">
@@ -450,7 +450,7 @@ export default function ICUSetupatHome() {
                 <div class="cta-wrap rounded-5 w-100">
                     <div class="col-lg-7 mx-auto">
                         <div class="cta-content">
-                            <h1>Take Control of Your Blood Sugar Levels </h1>
+                            <h2>Take Control of Your Blood Sugar Levels </h2>
                             <p>
                                 Call 7891444333 to book your CGM consultation today.
                             </p>
@@ -472,7 +472,7 @@ export default function ICUSetupatHome() {
                         <div class="col-lg-6 whycaretb pt-50 pb-50">
                             <div class="video-info wow fadeInUp insidep" data-wow-delay=".25s">
                                 <div class="site-heading mb-0">
-                                    <h2 class="site-title">Why Choose CareTAB.ai Services?</h2>                                  
+                                    <h3 class="site-title">Why Choose CareTAB.ai Services?</h3>                                  
                                 </div>
                                 <div class="feature-content">                                        
                                         <ul class="listicon">
@@ -609,7 +609,7 @@ export default function ICUSetupatHome() {
                                 <h2 class="accordion-header" id="headingFive">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                        <span><i class="far fa-question"></i></span> IHow long can a CGM sensor be worn?
+                                        <span><i class="far fa-question"></i></span> How long can a CGM sensor be worn?
                                     </button>
                                 </h2>
                                 <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"

@@ -296,7 +296,7 @@ export default function ICUSetupatHome() {
                                     <div class="bannerform align-items-center">
                                         <div class="quote-header">
                                             {/* <h4>Book an appointment with our expert</h4> */}
-                                            <h4>Book Your Services!</h4>
+                                            <h2 style={{ fontSize: "20px" }}>Book Your Services!</h2>
                                         </div>
                                         <form id="contactForm" onSubmit={registerUser}>
                                             <div class="row">
@@ -410,9 +410,9 @@ export default function ICUSetupatHome() {
                                 </div>
                                 <div class="blog-item-info">
                                     <div class="blog-item-meta">
-                                        <h4 class="blog-title">
+                                        <h3 class="blog-title">
                                             <a href="#">Medical Equipment & Furniture</a>
-                                        </h4>
+                                        </h3>
                                     </div>
                                     
                                 </div>
@@ -426,9 +426,9 @@ export default function ICUSetupatHome() {
                                 </div>
                                 <div class="blog-item-info">
                                     <div class="blog-item-meta">
-                                        <h4 class="blog-title">
+                                        <h3 class="blog-title">
                                             <a href="#">Medical Aids</a>
-                                        </h4>
+                                        </h3>
                                     </div>
                                     
                                 </div>
@@ -442,9 +442,9 @@ export default function ICUSetupatHome() {
                                 </div>
                                 <div class="blog-item-info">
                                     <div class="blog-item-meta">
-                                        <h4 class="blog-title">
+                                        <h3 class="blog-title">
                                             <a href="#">Medical Consumables</a>
-                                        </h4>
+                                        </h3>
                                     </div>
                                 </div>
                             </div>
@@ -458,7 +458,7 @@ export default function ICUSetupatHome() {
            
         <div class="feature-area pt-100 box5inmo">
             <div class="container">
-                <div class="feature-wrapper">
+                <div class="feature-wrapper benifitsh3">
                     <div class="row g-4 slpadding">
                         <div className="col-sm-12">
                             <div class="site-heading mb-0">
@@ -472,7 +472,7 @@ export default function ICUSetupatHome() {
                                     <img src="/assets/img/icon/nurse.svg" alt=""/>
                                 </div>
                                 <div class="feature-content">
-                                    <h4>Request Equipment</h4>
+                                    <h3>Request Equipment</h3>
                                     <p>Call us or book online with your requirement.</p>
                                 </div>
                             </div>
@@ -485,7 +485,7 @@ export default function ICUSetupatHome() {
                                     <img src="/assets/img/icon/institute.svg" alt=""/>
                                 </div>
                                 <div class="feature-content">
-                                    <h4>Get Recommendation</h4>
+                                    <h3>Get Recommendation</h3>
                                     <p>Our doctors suggest the right equipment</p>
                                 </div>
                             </div>
@@ -497,7 +497,7 @@ export default function ICUSetupatHome() {
                                     <img src="/assets/img/icon/money.svg" alt=""/>
                                 </div>
                                 <div class="feature-content">
-                                    <h4>Delivery & Setup</h4>
+                                    <h3>Delivery & Setup</h3>
                                     <p>Devices are delivered, installed, and explained.</p>
                                 </div>
                             </div>
@@ -509,7 +509,7 @@ export default function ICUSetupatHome() {
                                     <img src="/assets/img/icon/support.svg" alt=""/>
                                 </div>
                                 <div class="feature-content">
-                                    <h4>Use With Confidence</h4>
+                                    <h3>Use With Confidence</h3>
                                     <p>24/7 support available throughout usage.</p>
                                 </div>
                             </div>
@@ -521,7 +521,7 @@ export default function ICUSetupatHome() {
                                     <img src="/assets/img/icon/support.svg" alt=""/>
                                 </div>
                                 <div class="feature-content">
-                                    <h4>Return or Purchase</h4>
+                                    <h3>Return or Purchase</h3>
                                     <p>Rent short-term or buy for permanent use.</p>
                                 </div>
                             </div>
@@ -587,7 +587,7 @@ export default function ICUSetupatHome() {
                 <div class="cta-wrap rounded-5 w-100">
                     <div class="col-lg-7 mx-auto">
                         <div class="cta-content">
-                            <h1>Make Recovery Comfortable & Stress-free</h1>
+                            <h2>Make Recovery Comfortable & Stress-free</h2>
                             <p>
                                 Whether you need to rent for a few weeks or buy for long-term use, CareTAB.ai ensures you get the right equipment without hassle.
                             </p>
