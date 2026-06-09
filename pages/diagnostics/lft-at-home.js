@@ -374,17 +374,14 @@ export default function ICUSetupatHome() {
                         <div class="col-lg-6">
                             <div class="video-info wow fadeInUp" data-wow-delay=".25s">
                                 <div class="site-heading mb-0">
-                                    <h2 class="site-title">Comprehensive Respiratory <span>Health Testing </span> at Your Doorstep </h2>
+                                    <h2 class="site-title">Convenient <span> Liver Health </span> Testing at Your Doorstep </h2>
                                     <p className="text-justify">
-                                        CareTAB.ai offers reliable LFT tests at home services that help evaluate lung health and breathing performance without the need to visit a hospital or diagnostic center. Using advanced portable equipment, our trained healthcare professionals conduct respiratory assessments in the comfort of your home, ensuring convenience, accuracy, and patient comfort. 
-                                    </p>
+                                        CareTAB.ai offers reliable LFT at home services, making it easier than ever to assess your liver health without visiting a diagnostic center. Our trained phlebotomists collect samples from the comfort of your home, ensuring a safe, hygienic, and hassle-free experience. The collected samples are processed by certified laboratories, and reports are delivered promptly for timely medical consultation. </p>
 
                                     <p className="text-justify">
-                                        A Pulmonary function test is commonly recommended for individuals experiencing shortness of breath, chronic cough, wheezing, asthma symptoms, or other respiratory concerns. These tests provide valuable insights into how effectively the lungs are working and help healthcare providers diagnose, monitor, and manage various breathing disorders. 
-                                    </p>
+                                        A liver function test at home helps evaluate the health and performance of your liver by measuring important enzymes, proteins, and bilirubin levels in the blood. Doctors commonly recommend this test to diagnose liver disorders, monitor existing liver conditions, assess medication effects, or investigate symptoms such as fatigue, jaundice, abdominal pain, and unexplained weight loss.</p>
                                     <p className="text-justify">
-                                        Our comprehensive Lung function test services support the evaluation of conditions such as asthma, COPD, bronchitis, pulmonary fibrosis, and other respiratory diseases. The results help doctors develop appropriate treatment plans and track disease progression over time. 
-                                    </p>                                   
+                                        Patients looking for an at home liver test benefit from professional sample collection, accurate laboratory analysis, and complete convenience. Whether you require a routine health screening or a physician-recommended liver test at home, CareTAB.ai ensures dependable diagnostic support with minimal disruption to your daily routine.</p>                                   
                                 </div>
                                 <a href="tel:+91-7891-444-333" class="theme-btn mt-30">Call for LFT <i class="fas fa-arrow-right"></i></a>
                             </div>
@@ -408,33 +405,33 @@ export default function ICUSetupatHome() {
                         <div class="col-lg-6 pt-50 pb-50">
                             <div class="video-info wow fadeInUp insidep" data-wow-delay=".25s">
                                 <div class="site-heading mb-0">
-                                    <h2 class="site-title">Common Uses of Home Pulmonary Testing </h2>                                  
+                                    <h2 class="site-title">Common Reasons for Liver Function Testing</h2>                                  
                                 </div>
                                 <div class="feature-content">                                        
                                         <ul class="listicon">
                                             <li>
                                                 <img src="/assets/img/icon/listicon.png" />
-                                                <p>Asthma diagnosis and monitoring </p>
+                                                <p>Routine preventive health check-ups</p>
                                             </li>
                                             <li>
                                                 <img src="/assets/img/icon/listicon.png" />
-                                                <p>COPD assessment and management </p>
+                                                <p>Evaluation of liver disease symptoms</p>
                                             </li>
                                             <li>
                                                 <img src="/assets/img/icon/listicon.png" />
-                                                <p>Evaluation of chronic cough and breathing difficulties </p>
+                                                <p>Monitoring fatty liver and hepatitis </p>
                                             </li>
                                             <li>
                                                 <img src="/assets/img/icon/listicon.png" />
-                                                <p>Pre-operative respiratory assessment </p>
+                                                <p>Assessing medication-related liver effects</p>
                                             </li>
                                             <li>
                                                 <img src="/assets/img/icon/listicon.png" />
-                                                <p>Post-COVID lung health evaluation</p>
+                                                <p>Alcohol-related liver health assessment</p>
                                             </li>
                                             <li>
                                                 <img src="/assets/img/icon/listicon.png" />
-                                                <p>Routine pulmonary health screening </p>
+                                                <p>Ongoing liver condition management</p>
                                             </li>                                                                                                                  
                                         </ul>
                                     </div>
@@ -450,9 +447,9 @@ export default function ICUSetupatHome() {
                 <div class="cta-wrap rounded-5 w-100">
                     <div class="col-lg-9 mx-auto">
                         <div class="cta-content">
-                            <h2>Breathe Easier With Professional Lung Health Testing </h2>
+                            <h2>Monitor Your Liver Health Without Leaving Home</h2>
                             <p>
-                                Call 7891444333 to schedule your lung function test today. 
+                                Call 7891444333 to schedule your liver function test today.
                             </p>
                             <a href="tel:+91-7891444333" class="theme-btn">Call us now<i class="fas fa-arrow-right"></i></a>
                         </div>
@@ -478,43 +475,43 @@ export default function ICUSetupatHome() {
                                         <ul class="listicon">
                                             <li>
                                                 <img src="/assets/img/icon/listicon.png" />
-                                                <p>Convenient doorstep respiratory diagnostics.</p>
+                                                <p>Convenient LFT test at home with doorstep sample collection. </p>
                                             </li>
                                             <li>
                                                 <img src="/assets/img/icon/listicon.png" />
-                                                <p>Advanced portable equipment for accurate testing.</p>
+                                                <p>Certified laboratories and accurate diagnostic testing.</p>
                                             </li>
                                             <li>
                                                 <img src="/assets/img/icon/listicon.png" />
-                                                <p>Experienced healthcare professionals and trained technicians.</p>
+                                                <p>Experienced and trained sample collection professionals.</p>
                                             </li>
                                             <li>
                                                 <img src="/assets/img/icon/listicon.png" />
-                                                <p>Comfortable testing in a familiar home environment.</p>
+                                                <p>Safe, hygienic, and patient-friendly procedures.</p>
                                             </li>
                                             <li>
                                                 <img src="/assets/img/icon/listicon.png" />
-                                                <p>Accurate reports reviewed by qualified experts.</p>
+                                                <p>Fast report delivery for timely medical decisions.</p>
                                             </li>
                                             <li>
                                                 <img src="/assets/img/icon/listicon.png" />
-                                                <p>Suitable for elderly patients and individuals with mobility limitations.</p>
+                                                <p>No travel, waiting rooms, or clinic visits required.</p>
                                             </li>
                                             <li>
                                                 <img src="/assets/img/icon/listicon.png" />
-                                                <p>Reduced hospital visits and waiting times.</p>
+                                                <p>Suitable for seniors, working professionals, and homebound patients.</p>
                                             </li>
                                             <li>
                                                 <img src="/assets/img/icon/listicon.png" />
-                                                <p>Timely appointment scheduling across Delhi NCR.</p>
+                                                <p>Easy appointment scheduling across Delhi NCR.</p>
                                             </li>
                                             <li>
                                                 <img src="/assets/img/icon/listicon.png" />
-                                                <p>Hygienic procedures with patient-first care.</p>
+                                                <p>Transparent pricing with no hidden charges.</p>
                                             </li>
                                             <li>
                                                 <img src="/assets/img/icon/listicon.png" />
-                                                <p>Trusted home healthcare solutions for comprehensive respiratory assessment.</p>
+                                                <p>Trusted home healthcare and diagnostic services.</p>
                                             </li>                                                                                                                                                        
                                         </ul>
                                     </div>
@@ -543,13 +540,13 @@ export default function ICUSetupatHome() {
                                 <h2 class="accordion-header" id="headingOne">
                                     <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                        <span><i class="far fa-question"></i></span> What is a PFT test at home?
+                                        <span><i class="far fa-question"></i></span> What is an LFT at home service? 
                                     </button>
                                 </h2>
                                 <div id="collapseOne" class="accordion-collapse collapse show"
                                     aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                       A LFT test at home evaluates lung performance and breathing capacity using portable respiratory diagnostic equipment. 
+                                       LFT at home is a diagnostic service where blood samples are collected from your residence and tested to evaluate liver health and function. 
                                     </div>
                                 </div>
                             </div>
@@ -559,14 +556,14 @@ export default function ICUSetupatHome() {
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseThree" aria-expanded="false"
                                         aria-controls="collapseThree">
-                                        <span><i class="far fa-question"></i></span> What conditions can a pulmonary function test help diagnose? 
+                                        <span><i class="far fa-question"></i></span> What does a liver function test at home measure?
                                     </button>
                                 </h2>
                                 <div id="collapseThree" class="accordion-collapse collapse"
                                     aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
                                         <p>
-                                            A pulmonary function test helps assess asthma, COPD, chronic bronchitis, pulmonary fibrosis, and other respiratory disorders. 
+                                            The test measures liver enzymes, proteins, bilirubin, and other markers that help assess liver performance and detect abnormalities. 
                                         </p>
                                     </div>
                                 </div>
@@ -576,14 +573,14 @@ export default function ICUSetupatHome() {
                                 <h2 class="accordion-header" id="headingTwo">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                        <span><i class="far fa-question"></i></span> What is included in a spirometry test at home?
+                                        <span><i class="far fa-question"></i></span> Who should undergo an at-home liver test? 
                                     </button>
                                 </h2>
                                 <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                                     data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
                                         <p>
-                                            A spirometry test at home measures airflow, breathing strength, and lung capacity to evaluate respiratory health. 
+                                            Individuals with liver disease symptoms, fatty liver, hepatitis, alcohol-related liver concerns, or those undergoing routine health screenings may benefit from testing.
                                         </p>                                       
                                     </div>
                                 </div>
@@ -593,14 +590,14 @@ export default function ICUSetupatHome() {
                                 <h2 class="accordion-header" id="headingFour">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                        <span><i class="far fa-question"></i></span> Why is a lung capacity test at home recommended?
+                                        <span><i class="far fa-question"></i></span> How should I prepare for a liver test at home?
                                     </button>
                                 </h2>
                                 <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
                                     data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
                                         <p>
-                                            A lung capacity test at home helps doctors assess breathing efficiency and monitor chronic respiratory conditions. 
+                                            Your doctor may recommend fasting before the test depending on your medical condition and the specific investigations ordered. 
                                         </p>                                       
                                     </div>
                                 </div>
@@ -609,14 +606,14 @@ export default function ICUSetupatHome() {
                                 <h2 class="accordion-header" id="headingFive">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                        <span><i class="far fa-question"></i></span> How should I prepare for a lung function test?
+                                        <span><i class="far fa-question"></i></span> How soon will I receive my LFT test at home reports?
                                     </button>
                                 </h2>
                                 <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
                                     data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
                                         <p>
-                                            Patients may be advised to avoid smoking, heavy meals, or certain medications before testing, depending on physician recommendations.
+                                            Most reports are delivered digitally within the laboratory's standard reporting timeline, allowing quick access to results. 
                                         </p>                                       
                                     </div>
                                 </div>
