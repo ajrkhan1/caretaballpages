@@ -7,6 +7,12 @@
   background-position: center top !important;
   background-size: cover;
 }
+
+.lfthome2{
+  background-image: url(/assets/img/lft/lft-at-home.webp);
+  background-position: center top !important;
+  background-size: cover;
+}
 .text-justify{text-align: justify;}
 .nursingcarebanner::before {
     background: linear-gradient(to bottom right, rgb(0 141 210 / 44%) 5%, rgb(67 74 74 / 51%) 70%) !important;
@@ -15,6 +21,12 @@
 .lftred{
     background-image: url(/assets/img/lft/lftred.webp);
     background-size: cover;
+    border-radius: 10px;
+}
+.lftred2{
+    background-image: url(/assets/img/lft/liver-health.webp);
+    background-size: cover;
+    border-radius: 10px;
 }
 
 .ddbb{

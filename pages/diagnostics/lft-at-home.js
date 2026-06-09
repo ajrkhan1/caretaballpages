@@ -270,7 +270,7 @@ export default function ICUSetupatHome() {
 
             <div className="hero-section" id="inquirenow">
                 <div className="">
-                    <div className="hero-single lfthome bannerpad">
+                    <div className="hero-single lfthome2 bannerpad">
                         <div className="container">
                             <div className="row align-items-center">
                                 <div className="col-md-12 col-lg-5">
@@ -386,7 +386,7 @@ export default function ICUSetupatHome() {
                                 <a href="tel:+91-7891-444-333" class="theme-btn mt-30">Call for LFT <i class="fas fa-arrow-right"></i></a>
                             </div>
                         </div>
-                        <div class="col-lg-6 lftred">
+                        <div class="col-lg-6 lftred2">
                             
                         </div>
                     </div>
@@ -399,7 +399,7 @@ export default function ICUSetupatHome() {
                     <div class="row align-items-center">
                         
                         <div class="col-lg-6">
-                           <img className="imgborderwi" src="/assets/img/lft/comm.webp" alt="ICU Nurses" />
+                           <img className="imgborderwi" src="/assets/img/lft/common.webp" alt="ICU Nurses" />
                         </div>
 
                         <div class="col-lg-6 pt-50 pb-50">
@@ -463,7 +463,7 @@ export default function ICUSetupatHome() {
                     <div class="row">
                         
                         <div class="col-lg-6">
-                           <img className="imgborderwi" src="/assets/img/lft/why.webp" alt="ICU Nurses" />
+                           <img className="imgborderwi" src="/assets/img/lft/whychoo.webp" alt="ICU Nurses" />
                         </div>
 
                         <div class="col-lg-6 whycaretb pt-50 pb-50">

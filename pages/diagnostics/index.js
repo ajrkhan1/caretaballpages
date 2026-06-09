@@ -717,7 +717,7 @@ export default function Diagnostics() {
                     <div class="cta-wrap rounded-5 w-100">
                         <div class="col-lg-7 mx-auto">
                             <div class="cta-content">
-                                <h1>Skip the lab, not the test</h1>
+                                <h2>Skip the lab, not the test</h2>
                                 <p>
                                     Don’t delay important health checks. With CareTAB.ai, trusted diagnostics come home to you.
                                 </p>
