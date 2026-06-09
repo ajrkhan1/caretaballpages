@@ -90,7 +90,8 @@ export default function Header() {
                                 <li class="nav-item dropdown">
                                     <a class="nav-link" href="/#why-us">Why Us</a>                                
                                 </li>
-                                <li class="nav-item"><a class="nav-link" href="/#about-us">About</a></li>                                                       
+                                <li class="nav-item"><a class="nav-link" href="/#about-us">About</a></li>
+                                <li class="nav-item"><a class="nav-link" href="/blogs">Blogs</a></li>
                                 <li class="nav-item"><a class="nav-link" href="/contact-us">Contact Us</a></li>
                             </ul>
                     

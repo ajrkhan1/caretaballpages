@@ -6789,6 +6789,13 @@ position: relative;
 .ajboxx .feature-item{min-height: 235px;}
 
 .textww{color: #fff;}
+
+.blogbanner{
+  background-image: url(/assets/img/breadcrumb/01.jpg);
+  background-position: center top !important;
+  background-size: cover;
+}
+
 @media (max-width:767px) {
     .box5inmo .col{ flex: auto;}
 }
