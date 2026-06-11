@@ -288,7 +288,7 @@ export default function Index({
                                     <a href={`/blogs/${post.slug}`}>{post.title.rendered}</a>
                                 </h4>
                                 <div dangerouslySetInnerHTML={{__html:post.excerpt?.rendered?.replace(/<[^>]+>/g, "").split(" ").slice(0, 14).join(" ") || "",}}></div>
-                                <a class="theme-btn" href="blog-single.html">Read More<i class="fas fa-arrow-right"></i></a>
+                                <a class="theme-btn" href={`/blogs/${post.slug}`}>Read More<i class="fas fa-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>

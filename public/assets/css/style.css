@@ -384,7 +384,7 @@ label {
 }
 
 .py-120 {
-  padding: 120px 0;
+  padding: 50px 0;
 }
 
 .mt-0 {
@@ -6795,6 +6795,17 @@ position: relative;
   background-position: center top !important;
   background-size: cover;
 }
+.blog-details p{margin-bottom: 15px; line-height: 28px; color: #444444; text-align: justify;}
+div{color: #444444;}
+.blog-details p a{color: #e31e24;}
+.blog-details p a:hover{color: #259dd8;}
+.blog-item-info .blog-title a{
+    color: #2da0d9;
+    font-weight: 500;
+}
+.blog-item-info .blog-title a:hover{
+    color: #e31e24;
+}
 
 @media (max-width:767px) {
     .box5inmo .col{ flex: auto;}
@@ -6803,5 +6814,6 @@ position: relative;
 
 .footname{color: #fff;}
 .footname:hover{color: #e31e24;}
+
 
 

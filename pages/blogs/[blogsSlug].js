@@ -128,17 +128,10 @@ const SingleBlog = ({ posts, posts5, cat }) => {
                               posts?.content?.rendered || "",
                           }}></div>
 
-                                        <div class="row">
-                                            <div class="col-md-6 mb-20">
-                                                <img src="assets/img/blog/01.jpg" alt=""/>
-                                            </div>
-                                            <div class="col-md-6 mb-20">
-                                                <img src="assets/img/blog/02.jpg" alt=""/>
-                                            </div>
-                                        </div>
+                                     
                                         <hr/>								
                                     </div>
-                                    <div class="blog-author">
+                                    {/* <div class="blog-author">
                                         <div class="blog-author-img">
                                             <img src="/assets/img/blog/author.jpg" alt=""/>
                                         </div>
@@ -152,7 +145,7 @@ const SingleBlog = ({ posts, posts5, cat }) => {
                                                 <a href="https://www.linkedin.com/company/108111134"><i class="fab fa-linkedin-in"></i></a>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> */}
                                 </div>
                           
                             </div>
