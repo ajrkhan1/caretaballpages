@@ -88,7 +88,7 @@ const SingleBlog = ({ posts, posts5, cat }) => {
                         <div class="blog-single-wrap">
                             <div class="blog-single-content">
                                 <div class="blog-thumb-img">
-                                    <Image
+                                    <img
                             src={
                               posts?.yoast_head_json?.og_image?.[0]
                                 ?.url || "/placeholder.jpg"
@@ -97,8 +97,7 @@ const SingleBlog = ({ posts, posts5, cat }) => {
                               posts?.title?.rendered ||
                               "Blog Image"
                             }
-                            width={1000}
-                            height={500}
+                             
                             className="ajimgfull"
                             priority
                           />
