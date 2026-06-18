@@ -17,7 +17,7 @@ const geistMono = Geist_Mono({
 export async function getServerSideProps() {
   try {
     const res = await fetch(
-      "https://admin.caretab.ai/wp-json/wp/v2/posts?_embed&categories_exclude=8&per_page=6&page=1",
+      "https://admin.caretab.ai/wp-json/wp/v2/posts?_embed&categories_exclude=52505&per_page=6&page=1",
       {
         headers: {
           Accept: "application/json",
@@ -72,7 +72,7 @@ export default function Index({
       const nextPage = page + 1
 
       const res = await fetch(
-        `https://admin.caretab.ai/wp-json/wp/v2/posts?_embed&categories_exclude=8&per_page=6&page=${nextPage}`
+        `https://admin.caretab.ai/wp-json/wp/v2/posts?_embed&categories_exclude=52505&per_page=6&page=${nextPage}`
       )
 
       const newPosts = await res.json()
