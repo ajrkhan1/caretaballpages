@@ -1,7 +1,9 @@
+"use client";
 import Head from "next/head"
 import Image from "next/image"
 import Link from "next/link"
 import React from "react"
+import { useEffect } from "react";
 import moment from "moment"
 
 /* =========================
@@ -53,6 +55,15 @@ export async function getServerSideProps(context) {
    COMPONENT
 ========================= */
 const SingleBlog = ({ posts, posts5, cat }) => {
+
+        useEffect(() => {
+          document.body.classList.add("headerbodyc");
+
+          return () => {
+            document.body.classList.remove("headerbodyc");
+          };
+        }, []);
+
   return (
     <>
       <Head>
@@ -71,7 +82,7 @@ const SingleBlog = ({ posts, posts5, cat }) => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 <main class="main">
-      <div class="site-breadcrumb blogbanner">
+      {/* <div class="site-breadcrumb blogbanner">
             <div class="container">
                 <h2 class="breadcrumb-title">Our Blog</h2>
                 <ul class="breadcrumb-menu">
@@ -79,7 +90,7 @@ const SingleBlog = ({ posts, posts5, cat }) => {
                     <li class="active">Our Blog</li>
                 </ul>
             </div>
-        </div>
+        </div> */}
 
         <div class="blog-single py-120">
             <div class="container">
@@ -97,7 +108,7 @@ const SingleBlog = ({ posts, posts5, cat }) => {
                               posts?.title?.rendered ||
                               "Blog Image"
                             }
-                             
+
                             className="ajimgfull"
                             priority
                           />
@@ -121,18 +132,18 @@ const SingleBlog = ({ posts, posts5, cat }) => {
                                         </div> */}
                                     </div>
                                     <div class="blog-details">
-                                        <h3 class="blog-details-title mb-20">{posts?.title?.rendered}</h3>
+                                        <h1 class="blog-details-title mb-20">{posts?.title?.rendered}</h1>
                                       <div dangerouslySetInnerHTML={{
                             __html:
                               posts?.content?.rendered || "",
                           }}></div>
 
-                                     
-                                        <hr/>								
+
+                                        <hr/>
                                     </div>
                                     {/* <div class="blog-author">
                                         <div class="blog-author-img">
-                                            <img src="/assets/img/blog/author.jpg" alt=""/>
+                                            <img src="/assets/img/blogs/author.jpg" alt=""/>
                                         </div>
                                         <div class="author-info">
                                             <h6>Author</h6>
@@ -146,24 +157,24 @@ const SingleBlog = ({ posts, posts5, cat }) => {
                                         </div>
                                     </div> */}
                                 </div>
-                          
+
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <aside class="blog-sidebar">
                             <div class="widget category">
-                                <h5 class="widget-title">Category</h5>
+                                <h2 class="widget-title">Category</h2>
                                 <div class="category-list">
                                   {cat?.map((cats) => (
-                                    <a href="#"><i class="far fa-arrow-right"></i>{cats.name}<span></span></a>                          
+                                    <a href="#"><i class="far fa-arrow-right"></i>{cats.name}<span></span></a>
                                     ))}
                                 </div>
                             </div>
 
-                      
+
                             <div class="widget recent-post">
-                                <h5 class="widget-title">Recent Post</h5>
+                                <h3 class="widget-title">Recent Post</h3>
                               {posts5?.map((post) => (
                                 <div class="recent-post-item">
                                     <div class="recent-post-img">
@@ -183,8 +194,8 @@ const SingleBlog = ({ posts, posts5, cat }) => {
                             />
                                     </div>
                                     <div class="recent-post-info">
-                                        <h6><a href={`/blog/${post.slug}`} >
-                                        {post?.title?.rendered}</a></h6>
+                                        <h4><a href={`/blogs/${post.slug}`} >
+                                        {post?.title?.rendered}</a></h4>
                                         <span><i class="far fa-clock"></i> {moment(post?.date).format(
                                 "MMMM DD YYYY"
                               )}</span>
@@ -193,7 +204,7 @@ const SingleBlog = ({ posts, posts5, cat }) => {
                                ))}
                             </div>
 
-                        
+
                             <div class="widget social">
                                 <h5 class="widget-title">Follow Us</h5>
                                 <div class="social-link">

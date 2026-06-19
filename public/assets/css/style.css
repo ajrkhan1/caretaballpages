@@ -5315,7 +5315,7 @@ label {
   flex: 1;
 }
 
-.blog-sidebar .widget .recent-post-info h6 {
+.blog-sidebar .widget .recent-post-info h4 {
   font-size: 18px;
   font-weight: 600;
   margin-bottom: 4px;
@@ -5331,7 +5331,7 @@ label {
   margin-right: 5px;
 }
 
-.blog-sidebar .widget .recent-post-info h6 a:hover {
+.blog-sidebar .widget .recent-post-info h4 a:hover {
   color: var(--theme-color);
 }
 
@@ -6814,6 +6814,10 @@ div{color: #444444;}
 
 .footname{color: #fff;}
 .footname:hover{color: #e31e24;}
+
+.headerbodyc .navbar{
+  box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+}
 
 
 
