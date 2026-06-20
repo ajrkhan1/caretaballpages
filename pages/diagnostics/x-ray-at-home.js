@@ -184,9 +184,49 @@ export default function ICUSetupatHome() {
                 <script type="application/ld+json"
             dangerouslySetInnerHTML={{
               __html: `
-              {
+             {
   "@context": "https://schema.org",
   "@graph": [
+    {
+      "@type": "MedicalBusiness",
+      "@id": "https://caretab.ai/#medicalbusiness",
+      "name": "CareTAB.ai",
+      "url": "https://caretab.ai/",
+      "email": "connect@caretab.ai",
+      "telephone": "+91-7891-444-333",
+      "address": [
+        {
+          "@type": "PostalAddress",
+          "streetAddress": "Plot No. 1, Basement Karuna Kunj, Sector-3",
+          "addressLocality": "Dwarka",
+          "addressRegion": "New Delhi",
+          "postalCode": "110078",
+          "addressCountry": "IN"
+        },
+        {
+          "@type": "PostalAddress",
+          "streetAddress": "Plot No. 231, Phase IV, Udyog Vihar, Sector 18",
+          "addressLocality": "Gurugram",
+          "addressRegion": "Haryana",
+          "postalCode": "122001",
+          "addressCountry": "IN"
+        }
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+91-7891-444-333",
+        "contactType": "customer support",
+        "areaServed": "IN",
+        "availableLanguage": [
+          "English",
+          "Hindi"
+        ]
+      },
+      "sameAs": [
+        "https://www.linkedin.com/company/caretab-ai",
+        "https://www.facebook.com/CareTab/"
+      ]
+    },
     {
       "@type": "Service",
       "@id": "https://caretab.ai/diagnostics/x-ray-at-home/#service",
@@ -195,10 +235,7 @@ export default function ICUSetupatHome() {
       "url": "https://caretab.ai/diagnostics/x-ray-at-home",
       "description": "Professional X-Ray services at home with portable digital X-Ray equipment for convenient and accurate diagnostic imaging without visiting a hospital or diagnostic center.",
       "provider": {
-        "@type": "MedicalBusiness",
-        "@id": "https://caretab.ai/#medicalbusiness",
-        "name": "CareTAB.ai",
-        "url": "https://caretab.ai/"
+        "@id": "https://caretab.ai/#medicalbusiness"
       },
       "areaServed": {
         "@type": "Country",
@@ -230,7 +267,7 @@ export default function ICUSetupatHome() {
           "name": "How soon can I receive my X-Ray reports?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Report delivery timelines may vary, but digital X-Ray reports are typically shared after review by a qualified radiologist."
+            "text": "Digital X-Ray reports are typically shared after review by a qualified radiologist."
           }
         }
       ]
