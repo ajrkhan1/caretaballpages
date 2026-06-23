@@ -68,9 +68,9 @@ export default function Header() {
                                         <li><a class="dropdown-item" href="/diagnostics/x-ray-at-home">X-Ray at Home</a></li>
                                         <li><a class="dropdown-item" href="/diagnostics/sleep-study-at-home">Sleep Study at Home</a></li>
                                         <li><a class="dropdown-item" href="/diagnostics/ecg-at-home">ECG at Home</a></li>
-                                        <li><a class="dropdown-item" href="/diagnostics/cgm-at-home">CGM at Home</a></li>
+                                        {/* <li><a class="dropdown-item" href="/diagnostics/cgm-at-home">CGM at Home</a></li> */}
                                         <li><a class="dropdown-item" href="/diagnostics/pft-at-home">PFT at Home</a></li>
-                                        <li><a class="dropdown-item" href="/diagnostics/lft-at-home">LFT at Home</a></li>
+                                        {/* <li><a class="dropdown-item" href="/diagnostics/lft-at-home">LFT at Home</a></li> */}
                                     </ul>
                                 </li>
                                 
