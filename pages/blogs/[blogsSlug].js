@@ -177,7 +177,7 @@ const SingleBlog = ({ posts, posts5, cat }) => {
                                         </div> */}
                                     </div>
                                     <div class="blog-details">
-                                        <h1 class="blog-details-title mb-20">{posts?.title?.rendered}</h1>
+                                        <h1 class="blog-details-title mb-20"><div dangerouslySetInnerHTML={{ __html: posts.title.rendered }} /></h1>
                                       <div dangerouslySetInnerHTML={{
                             __html:
                               posts?.content?.rendered || "",
@@ -239,8 +239,7 @@ const SingleBlog = ({ posts, posts5, cat }) => {
                             />
                                     </div>
                                     <div class="recent-post-info">
-                                        <h4><a href={`/blogs/${post.slug}`} >
-                                        {post?.title?.rendered}</a></h4>
+                                        <h4><a href={`/blogs/${post.slug}`} > <div dangerouslySetInnerHTML={{ __html: post.title.rendered }} /> </a></h4>
                                         <span><i class="far fa-clock"></i> {moment(post?.date).format(
                                 "MMMM DD YYYY"
                               )}</span>
@@ -266,6 +265,8 @@ const SingleBlog = ({ posts, posts5, cat }) => {
         </div>
 
       </main>
+
+      
     </>
   )
 }
