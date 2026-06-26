@@ -18,7 +18,7 @@ export async function getServerSideProps(context) {
         `https://admin.caretab.ai/wp-json/wp/v2/posts?slug=${posturl}&_embed`
       ),
       fetch(
-        "https://admin.caretab.ai/wp-json/wp/v2/posts?_embed&categories_exclude=845454545454545&per_page=10"
+        "https://admin.caretab.ai/wp-json/wp/v2/posts?_embed&categories_exclude=845454545454545&per_page=6"
       ),
       fetch(
         "https://admin.caretab.ai/wp-json/wp/v2/categories"
@@ -208,14 +208,14 @@ const SingleBlog = ({ posts, posts5, cat }) => {
                     </div>
                     <div class="col-lg-4">
                         <aside class="blog-sidebar">
-                            <div class="widget category">
+                            {/* <div class="widget category">
                                 <h2 class="widget-title">Category</h2>
                                 <div class="category-list">
                                   {cat?.map((cats) => (
                                     <a href="#"><i class="far fa-arrow-right"></i>{cats.name}<span></span></a>
                                     ))}
                                 </div>
-                            </div>
+                            </div> */}
 
 
                             <div class="widget recent-post">
