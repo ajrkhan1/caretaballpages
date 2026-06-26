@@ -18,7 +18,7 @@ export async function getServerSideProps(context) {
         `https://admin.caretab.ai/wp-json/wp/v2/posts?slug=${posturl}&_embed`
       ),
       fetch(
-        "https://admin.caretab.ai/wp-json/wp/v2/posts?_embed&categories_exclude=8&per_page=10"
+        "https://admin.caretab.ai/wp-json/wp/v2/posts?_embed&categories_exclude=845454545454545&per_page=10"
       ),
       fetch(
         "https://admin.caretab.ai/wp-json/wp/v2/categories"
