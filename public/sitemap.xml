@@ -1,69 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
- 
-<url>
-<loc>https://caretab.ai/</loc>
-<lastmod>2026-06-02T04:10:27+00:00</lastmod>
-<priority>1.00</priority>
-</url>
-<url>
-<loc>https://caretab.ai/diagnostics</loc>
-<lastmod>2026-06-02T04:10:28+00:00</lastmod>
-<priority>0.80</priority>
-</url>
-<url>
-<loc>https://caretab.ai/diagnostics/x-ray-at-home</loc>
-<lastmod>2026-06-02T04:10:28+00:00</lastmod>
-<priority>0.80</priority>
-</url>
-<url>
-<loc>https://caretab.ai/diagnostics/sleep-study-at-home</loc>
-<lastmod>2026-06-02T04:10:29+00:00</lastmod>
-<priority>0.80</priority>
-</url>
-<url>
-<loc>https://caretab.ai/diagnostics/ecg-at-home</loc>
-<lastmod>2026-06-02T04:10:29+00:00</lastmod>
-<priority>0.80</priority>
-</url>
-<url>
-<loc>https://caretab.ai/service/nursing-care-at-home</loc>
-<lastmod>2026-06-02T04:10:29+00:00</lastmod>
-<priority>0.80</priority>
-</url>
-<url>
-<loc>https://caretab.ai/service/doctor-consultation-at-home</loc>
-<lastmod>2026-06-02T04:10:30+00:00</lastmod>
-<priority>0.80</priority>
-</url>
-<url>
-<loc>https://caretab.ai/service/physiotherapy-at-home</loc>
-<lastmod>2026-06-02T04:10:30+00:00</lastmod>
-<priority>0.80</priority>
-</url>
-<url>
-<loc>https://caretab.ai/service/icu-setup-at-home</loc>
-<lastmod>2026-06-02T04:10:30+00:00</lastmod>
-<priority>0.80</priority>
-</url>
-<url>
-<loc>https://caretab.ai/service/medical-equipment-at-home</loc>
-<lastmod>2026-06-02T04:10:31+00:00</lastmod>
-<priority>0.80</priority>
-</url>
-<url>
-<loc>https://caretab.ai/service/cgm-at-home</loc>
-<lastmod>2026-06-02T04:10:31+00:00</lastmod>
-<priority>0.80</priority>
-</url>
-<url>
-<loc>https://caretab.ai/service/pft-lft-at-home</loc>
-<lastmod>2026-06-02T04:10:31+00:00</lastmod>
-<priority>0.80</priority>
-</url>
-<url>
-<loc>https://caretab.ai/contact-us</loc>
-<lastmod>2026-06-02T04:10:32+00:00</lastmod>
-<priority>0.80</priority>
-</url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <url><loc>https://caretab.ai/</loc></url>
+
+  <url><loc>https://caretab.ai/diagnostics</loc></url>
+  <url><loc>https://caretab.ai/diagnostics/x-ray-at-home</loc></url>
+  <url><loc>https://caretab.ai/diagnostics/sleep-study-at-home</loc></url>
+  <url><loc>https://caretab.ai/diagnostics/ecg-at-home</loc></url>
+  <url><loc>https://caretab.ai/diagnostics/cgm-at-home</loc></url>
+  <url><loc>https://caretab.ai/diagnostics/pft-at-home</loc></url>
+  <url><loc>https://caretab.ai/diagnostics/lft-at-home</loc></url>
+
+  <url><loc>https://caretab.ai/service/nursing-care-at-home</loc></url>
+  <url><loc>https://caretab.ai/service/doctor-consultation-at-home</loc></url>
+  <url><loc>https://caretab.ai/service/physiotherapy-at-home</loc></url>
+  <url><loc>https://caretab.ai/service/icu-setup-at-home</loc></url>
+  <url><loc>https://caretab.ai/service/medical-equipment-at-home</loc></url>
+
+  <url><loc>https://caretab.ai/contact-us</loc></url>
+
+  <url><loc>https://caretab.ai/blogs</loc></url>
+  <url><loc>https://caretab.ai/blogs/what-is-nursing-care-at-home-and-who-needs-it</loc></url>
+  <url><loc>https://caretab.ai/blogs/what-is-physiotherapy-at-home-and-how-does-it-work</loc></url>
+  <url><loc>https://caretab.ai/blogs/x-ray-at-home</loc></url>
+  <url><loc>https://caretab.ai/blogs/what-is-a-sleep-study-at-home</loc></url>
+  <url><loc>https://caretab.ai/blogs/what-is-continuous-glucose-monitoring-cgm</loc></url>
+  <url><loc>https://caretab.ai/blogs/ecg-at-home-benefits-process-cost</loc></url>
+  <url><loc>https://caretab.ai/blogs/why-medical-equipment-at-home-is-transforming-healthcare</loc></url>
+  <url><loc>https://caretab.ai/blogs/what-is-a-pft-test-and-why-is-it-important</loc></url>
+  <url><loc>https://caretab.ai/blogs/complete-guide-to-icu-setup-at-home</loc></url>
+  <url><loc>https://caretab.ai/blogs/nursing-care-at-home-services</loc></url>
+  <url><loc>https://caretab.ai/blogs/top-benefits-of-physiotherapy-at-home-for-seniors</loc></url>
+  <url><loc>https://caretab.ai/blogs/7-benefits-of-choosing-x-ray-at-home-for-patients-and-families</loc></url>
+  <url><loc>https://caretab.ai/blogs/7-warning-signs-you-may-need-a-sleep-study-at-home</loc></url>
+  <url><loc>https://caretab.ai/blogs/ecg-at-home-warning-signs</loc></url>
+  <url><loc>https://caretab.ai/blogs/medical-equipment-at-home</loc></url>
+  <url><loc>https://caretab.ai/blogs/signs-you-may-need-a-pft-test</loc></url>
+  <url><loc>https://caretab.ai/blogs/icu-setup-at-home-guide</loc></url>
+  <url><loc>https://caretab.ai/blogs/7-signs-need-nursing-care-at-home</loc></url>
+  <url><loc>https://caretab.ai/blogs/physiotherapy-at-home-recovery</loc></url>
+  <url><loc>https://caretab.ai/blogs/7-benefits-x-ray-at-home-for-patients</loc></url>
+  <url><loc>https://caretab.ai/blogs/sleep-study-at-home-warning-signs</loc></url>
+
 </urlset>
