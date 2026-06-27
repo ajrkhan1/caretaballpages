@@ -72,7 +72,7 @@ const SingleBlog = ({ posts, posts5, cat }) => {
               {
                 "@type": "BlogPosting",
                 headline: posts.title.rendered,
-                "description": posts.excerpt.rendered.replace(/<[^>]+>/g, ""),
+                "description": posts.yoast_head_json.description,
                 "image": posts?.yoast_head_json?.og_image?.[0]?.url,
                 "author": { "@type": "Person", "name": "Nishu Negi" },
                 "publisher": {
