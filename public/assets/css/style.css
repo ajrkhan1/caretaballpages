@@ -6142,6 +6142,7 @@ label {
   background: var(--theme-color);
   border-radius: 50px;
   text-align: center;
+  color: #fff;
 }
 
 .footer-contact .content{
