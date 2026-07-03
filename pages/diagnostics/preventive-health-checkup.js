@@ -432,7 +432,7 @@ export default function ICUSetupatHome() {
                             </div>
                         </div>
                     </div>
-                    <div class="row g-4 slpadding">
+                    <div class="row g-4 slpadding sldd">
                         <Slider {...settings}>
                             <div class="blog-item wow fadeInUp" data-wow-delay=".25s">
                                 <div class="blog-item-img">

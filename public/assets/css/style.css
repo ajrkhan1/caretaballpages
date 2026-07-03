@@ -6820,5 +6820,10 @@ div{color: #444444;}
   box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
 }
 
+.sldd .blog-item p{font-size: 15px;}
+
+@media (min-width:767px) {
+  .sldd .blog-item-info{min-height: 205px;}
+}
 
 
