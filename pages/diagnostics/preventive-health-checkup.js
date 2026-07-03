@@ -399,7 +399,7 @@ export default function ICUSetupatHome() {
                            <img className="imgborderwi" src="/assets/img/ecg/why-preventive-health-checks-matter.webp" alt="ICU Nurses" />
                         </div>
 
-                        <div class="col-lg-6 whycaretb pt-50 pb-50">
+                        <div class="col-lg-6 whycaretb pt-10 pb-10">
                             <div class="video-info wow fadeInUp insidep" data-wow-delay=".25s">
                                 <div class="site-heading mb-0">
                                     <h2 class="site-title">Why Preventive Health Checks Matter </h2>
@@ -539,7 +539,7 @@ export default function ICUSetupatHome() {
                            <img className="imgborderwi" src="/assets/img/ecg/WhyChoosCareTABPreventiveHealthCheckupPackages.webp" alt="ICU Nurses" />
                         </div>
 
-                        <div class="col-lg-6 whycaretb pt-50 pb-50">
+                        <div class="col-lg-6 whycaretb pt-10 pb-0">
                             <div class="video-info wow fadeInUp insidep" data-wow-delay=".25s">
                                 <div class="site-heading mb-0">
                                     <h3 class="site-title">Why Choose CareTAB.ai’s Preventive Health Checkup Packages? </h3>                                  
