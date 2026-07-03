@@ -7,6 +7,11 @@
   background-position: center top !important;
   background-size: cover;
 }
+.phc{
+  background-image: url(/assets/img/ecg/preventive-health-checkup.webp);
+  background-position: center top !important;
+  background-size: cover;
+}
 .text-justify{text-align: justify;}
 .nursingcarebanner::before {
     background: linear-gradient(to bottom right, rgb(0 141 210 / 44%) 5%, rgb(67 74 74 / 51%) 70%) !important;
@@ -15,6 +20,14 @@
 .professional-Heart-Monitoring{
     background-image: url(/assets/img/ecg/professional-Heart-Monitoring.webp);
     background-size: cover;
+    background-position: center;
+}
+
+.preventive-health-checkup-p{
+    background-image: url(/assets/img/ecg/preventive-health-checkup-p.webp);
+    background-size: cover;
+        background-position: center;
+        border-radius: 10px;
 }
 
 .ddbb{
